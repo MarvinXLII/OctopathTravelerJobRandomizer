@@ -48,7 +48,7 @@ class JOBS:
 
     def skillCheck(self, weapon):
         if weapon == '': return True
-        if weapon == 'All': return sum(self.weapons) == 6
+        if weapon == 'All': return True
         return self.weapons[self.weaponDict[weapon]]
 
     def skillSlotAvailable(self, maxNum=8):
@@ -80,8 +80,6 @@ def shuffleSkills(jobs, skillsJSON, skillNameToValue):
     # Setup
     for job in jobs.values(): job.skills = []
     for skill in skillsJSON.values(): skill['Given'] = False
-    skillsJSON['Winnehilds Battle Cry']['Given'] = True
-    jobs['Warmaster'].skills.append(skillNameToValue['Winnehilds Battle Cry'])
 
     def skillSlotRemaining(maxCount):
         check = []
@@ -116,10 +114,6 @@ def shuffleSkills(jobs, skillsJSON, skillNameToValue):
     # Assert all skills have been placed
     check = [skill['Given'] for skill in skillsJSON.values()]
     if not all(check): return False
-
-    # Ensure this skill is last, not first!
-    skill = jobs['Warmaster'].skills.pop(0)
-    jobs['Warmaster'].skills.append(skill)
     return True
 
 
