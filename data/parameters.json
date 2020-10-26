@@ -19,6 +19,12 @@
 	type: checkbutton
 	help: Shuffle support skills among jobs.
       }
+      {
+	name: stats
+	label: Shuffle stats bonuses
+	type: checkbutton
+	help: "Shuffles bonuses for each stats among jobs."
+      }
     ]
   }
 }

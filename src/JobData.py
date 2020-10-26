@@ -3,7 +3,6 @@ import random
 import ROM
 import hjson
 import os
-import sys
 from Utilities import get_filename
 
 
@@ -17,6 +16,7 @@ offsets = {
     'skills': 0x3dd,
     'support': 0x663,
     'costs': 0x787,
+    'stats': 0x1e1,
 }
 
 stride = {
@@ -25,6 +25,7 @@ stride = {
     'skills': 0x46,
     'support': 0x46,
     'costs': 4,
+    'stats': 0x1d,
 }
 
 size = {
@@ -33,6 +34,7 @@ size = {
     'skills': 2,
     'support': 8, # vary at different locations for some reason, just 2 for Merchant and Thief, then offset of 5 for the rest!?
     'costs': 2,
+    'stats': 1,
 }
 
 class JOBS:
@@ -40,11 +42,13 @@ class JOBS:
         self.base = base
         self.data = data
         self.weapons = self.read(offsets['weapons'], stride['weapons'], size['weapons'], 6)
+        self.weaponDict = {'Sword':0, 'Spear':1, 'Dagger':2, 'Axe':3, 'Bow':4, 'Staff':5}
         # self.unknown = self.read(offsets['unknown'], stride['unknown'], size['unknown'], 9)
         self.support = self.read(offsets['support'], stride['support'], size['support'], 4)
         self.skills = self.read(offsets['skills'], stride['skills'], size['skills'], 8)
         self.costs = self.read(offsets['costs'], stride['costs'], size['costs'], 8)
-        self.weaponDict = {'Sword':0, 'Spear':1, 'Dagger':2, 'Axe':3, 'Bow':4, 'Staff':5}
+        self.stats = self.read(offsets['stats'], stride['stats'], size['stats'], 12)
+        # HP, MP, BP, SP, ATK, DEF, MATK, MDEF, ACC, EVA, CON, AGI
 
     def skillCheck(self, weapon):
         if weapon == '': return True
@@ -74,6 +78,7 @@ class JOBS:
         self.write(self.skills, offsets['skills'], stride['skills'], size['skills'])
         self.costs = sorted(self.costs) # Ensure sorted before written
         self.write(self.costs, offsets['costs'], stride['costs'], size['costs'])
+        self.write(self.stats, offsets['stats'], stride['stats'], size['stats'])
 
 
 def shuffleSkills(jobs, skillsJSON, skillNameToValue):
@@ -115,6 +120,24 @@ def shuffleSkills(jobs, skillsJSON, skillNameToValue):
     check = [skill['Given'] for skill in skillsJSON.values()]
     if not all(check): return False
     return True
+
+
+def shuffleStats(jobs):
+    # Make lists to shuffle
+    stats = [[] for _ in range(12)]
+    for job in jobs.values():
+        for i in range(12):
+            s = job.stats.pop(0)
+            stats[i].append(s)
+
+    # Shuffle each list of stats
+    list(map(lambda x: random.shuffle(x), stats))
+
+    # Overwrite job stats
+    for job in jobs.values():
+        for i in range(12):
+            s = stats[i].pop()
+            job.stats.append(s)
 
 
 def shuffleData(filename, settings):
@@ -217,6 +240,11 @@ def shuffleData(filename, settings):
         for i, job in enumerate(jobs.values()):
             job.support = support[i*4:(i+1)*4]
 
+    # Shuffle stats
+    if settings['stats']:
+        random.seed(seed)
+        shuffleStats(jobs)
+
     ##################
     # PATCH AND DUMP #
     ##################
@@ -245,7 +273,7 @@ def shuffleData(filename, settings):
             for s in job.support:
                 file.write(' '*8+supportValueToName[s]+'\n')
             file.write('\n')
-        file.write('\n\n\n')
+        file.write('\n\n')
 
         file.write('========\n')
         file.write(' Skills \n')
@@ -259,7 +287,7 @@ def shuffleData(filename, settings):
                 name = skillValueToName[s]
                 file.write(' '*8+name.ljust(26, ' ')+skillsJSON[name]['Weapon']+'\n')
             file.write('\n')
-
+        file.write('\n\n')
 
         file.write('=======\n')
         file.write(' Costs \n')
@@ -269,5 +297,24 @@ def shuffleData(filename, settings):
         for key, job in jobs.items():
             string = key.ljust(14, ' ')
             string += ''.join(map(lambda x: str(x).ljust(5, ' '), job.costs))
+            file.write(string+'\n')
+        file.write('\n\n')
+
+        file.write('==================\n')
+        file.write(' Stat Bonuses (%) \n')
+        file.write('==================\n')
+        file.write('\n\n')
+
+        # stats = ['HP', 'MP', 'BP', 'SP', 'ATK', 'DEF', 'MATK', 'MDEF', 'ACC', 'EVA', 'CON', 'AGI']
+        stats = ['HP', 'SP', 'ATK', 'DEF', 'MATK', 'MDEF', 'ACC', 'EVA', 'CON', 'AGI']
+        stats = list(map(lambda x: x.ljust(6, ' '), stats))
+        stats = ''.join(stats)
+
+        file.write(' '*14 + stats + '\n') 
+        for key, job in jobs.items():
+            stats = list(job.stats)
+            stats = stats[0:2] + stats[4:]
+            string = key.ljust(12, ' ')
+            string += ''.join(map(lambda x: (str(x-100)).rjust(6, ' '), stats))
             file.write(string+'\n')
         file.write('\n\n')
