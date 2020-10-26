@@ -54,7 +54,7 @@ class CreateToolTip(object):
 class GuiApplication:
     def __init__(self, settingsFile=''):
         self.master = tk.Tk()
-        self.master.geometry('400x300')
+        self.master.geometry('250x280')
         self.master.title(MAIN_TITLE)
         self.initialize_gui(settingsFile)
         self.initialize_settings()

@@ -4,3 +4,4 @@
 *.xlsx
 build
 dist
+excel2json.py

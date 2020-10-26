@@ -124,16 +124,13 @@ def shuffleSkills(jobs, skillsJSON, skillNameToValue):
 
 
 def shuffleData(filename, settings):
-    printcounter = 0
-    print(f"here {printcounter}"); printcounter += 1
     
-    seed = 42
+    seed = settings['seed']
     random.seed(seed)
 
     with open(get_filename(filename), 'rb') as file:
         data = bytearray(file.read())
 
-    print(f"here {printcounter}"); printcounter += 1
     jobs = {
         'Merchant': JOBS(0x26, data),
         'Thief': JOBS(0x7ce, data),
@@ -187,7 +184,6 @@ def shuffleData(filename, settings):
             skillNameToValue[name] = value
             skillValueToName[value] = name
 
-    print('Done with vanilla setups!')
     ###################
     # RANODMIZE STUFF #
     ###################
@@ -211,10 +207,10 @@ def shuffleData(filename, settings):
         random.seed(seed)
         costs = []
         for job in jobs.values():
-            costs += job.costs
+            costs += job.costs[2:]
         random.shuffle(costs)
         for i, job in enumerate(jobs.values()):
-            job.costs = costs[i*8:(i+1)*8]
+            job.costs[2:] = costs[i*6:(i+1)*6]
 
     # Shuffle support
     if settings['support']:
@@ -269,3 +265,15 @@ def shuffleData(filename, settings):
                 name = skillValueToName[s]
                 file.write(' '*8+name.ljust(26, ' ')+skillsJSON[name]['Weapon']+'\n')
             file.write('\n')
+
+
+        file.write('=======\n')
+        file.write(' Costs \n')
+        file.write('=======\n')
+        file.write('\n\n')
+
+        for key, job in jobs.items():
+            string = key.ljust(14, ' ')
+            string += ''.join(map(lambda x: str(x).ljust(5, ' '), job.costs))
+            file.write(string+'\n')
+        file.write('\n\n')
