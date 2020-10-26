@@ -16,7 +16,7 @@ Several options are available:
 
 The "Skills" shuffler is a bit risky for Chapter 1, as neighther enemy
 nor boss weaknesses are considered at this point.  With this option,
-you MIGHT be better off starting from a saved game after beating all
+you MIGHT be better off starting from a saved game after beating some
 of the first chapters.
 
 Both "Support Skills" and "Costs" should be safe options for a full
@@ -42,4 +42,4 @@ boss randomizer! They should be compatible!
 **Usage**
 
 Run the executable from the Releases section. When finished, copy the
-"JobData_P.pak" into the "PAKS" folder in you game. 
+"JobData_P.pak" into the "Paks" folder in you game. 
