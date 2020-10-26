@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import ttk
-from tkinter import filedialog
 import hjson
 import random
 import os
@@ -10,9 +9,6 @@ import sys
 sys.path.append('src')
 from Utilities import get_filename
 import JobData
-
-# from Rom import LocalRom
-# import zlib
 
 
 MAIN_TITLE = "Octopath Traveler Randomizer v 0.0.1a"
@@ -78,7 +74,7 @@ class GuiApplication:
         tk.Label(lf, text='Seed:').grid(row=0, column=0, sticky='w', padx=40)
         box = tk.Spinbox(lf, from_=0, to=1e8, width=9, textvariable=self.settings['seed'])
         box.grid(row=0, column=0, sticky='e', padx=40)
-        
+
         seedBtn = tk.Button(lf, text='Random Seed', command=self.randomSeed)
         seedBtn.grid(row=1, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
 
