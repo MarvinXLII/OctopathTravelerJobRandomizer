@@ -1,0 +1,24 @@
+{
+  "Jobs": {
+    Jobs: [
+      {
+	name: skills
+	label: Shuffle skills
+	type: checkbutton
+	help: Shuffles skills among jobs.
+      }
+      {
+	name: costs
+	label: Shuffle skill costs
+	type: checkbutton
+	help: "Shuffles JP costs of skills. Costs will always increase\nor stay the same, never decrease."
+      }
+      {
+	name: support
+	label: Shuffle support skills
+	type: checkbutton
+	help: Shuffle support skills among jobs.
+      }
+    ]
+  }
+}

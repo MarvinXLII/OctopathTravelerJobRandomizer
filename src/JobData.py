@@ -122,7 +122,7 @@ def shuffleSkills(jobs, skillsJSON, skillNameToValue):
     return True
 
 
-def shuffleData(filename):
+def shuffleData(filename, settings):
     seed = 42
     random.seed(seed)
 
@@ -193,27 +193,33 @@ def shuffleData(filename):
     ####################################
     
     # Shuffle skils
-    random.seed(seed)
-    while not shuffleSkills(jobs, skillsJSON, skillNameToValue):
-        pass
+    if settings['skills']:
+        print('Shuffling skills')
+        random.seed(seed)
+        while not shuffleSkills(jobs, skillsJSON, skillNameToValue):
+            pass
     
-    # Shuffle support
-    random.seed(seed)
-    support = []
-    for job in jobs.values():
-        support += job.support
-    random.shuffle(support)
-    for i, job in enumerate(jobs.values()):
-        job.support = support[i*4:(i+1)*4]
-
     # Shuffle costs
-    random.seed(seed)
-    costs = []
-    for job in jobs.values():
-        costs += job.costs
-    random.shuffle(costs)
-    for i, job in enumerate(jobs.values()):
-        job.costs = costs[i*8:(i+1)*8]
+    if settings['costs']:
+        print('Shuffling costs')
+        random.seed(seed)
+        costs = []
+        for job in jobs.values():
+            costs += job.costs
+        random.shuffle(costs)
+        for i, job in enumerate(jobs.values()):
+            job.costs = costs[i*8:(i+1)*8]
+
+    # Shuffle support
+    if settings['support']:
+        print('Shuffling support skills')
+        random.seed(seed)
+        support = []
+        for job in jobs.values():
+            support += job.support
+        random.shuffle(support)
+        for i, job in enumerate(jobs.values()):
+            job.support = support[i*4:(i+1)*4]
 
     ##################
     # PATCH AND DUMP #

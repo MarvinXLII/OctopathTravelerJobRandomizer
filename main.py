@@ -4,6 +4,14 @@ import shutil
 import sys
 sys.path.append('src')
 import JobData
+from gui import randomize
+
+def main():
+    settings['seed'] = random.randint(0, 1e8)
+    settings['skills'] = True
+    settings['cost'] = True
+    settings['support'] = True
+    randomize(settings)
 
 # Build paths for generating patch
 def setup():
