@@ -46,7 +46,7 @@ class JOBS:
         lst = []
         address = self.base + offset
         for i in range(num):
-            b = data[address:address+size]
+            b = self.data[address:address+size]
             lst.append(int.from_bytes(b, byteorder='little', signed=False))
             address += stride
         return lst
@@ -55,7 +55,7 @@ class JOBS:
         address = self.base + offset
         for i, b in enumerate(lst):
             d = b.to_bytes(size, byteorder='little', signed=False)
-            data[address:address+size] = d
+            self.data[address:address+size] = d
             address += stride
 
     def patch(self):
@@ -70,77 +70,75 @@ class JOBS:
         self.write(self.costs, offsets['costs'], stride['costs'], size['costs'])
 
 
+def shuffleData(filename):
+
+    with open(filename, 'rb') as file:
+        data = bytearray(file.read())
+
+    jobs = {
+        'Merchant': JOBS(0x26, data),
+        'Thief': JOBS(0x7ce, data),
+        'Warrior': JOBS(0xf76, data),
+        'Hunter': JOBS(0x171e, data),
+        'Cleric': JOBS(0x1ec6, data),
+        'Dancer': JOBS(0x266e, data),
+        'Scholar': JOBS(0x2e16, data),
+        'Apothecary': JOBS(0x35be, data),
+        'Warmaster': JOBS(0x3d66, data),
+        'Sorcerer': JOBS(0x450e, data),
+        'Starseer': JOBS(0x4cb6, data),
+        'Runelord': JOBS(0x545e, data),
+    }
+
+    print('VANILLA')
+    for name, job in jobs.items():
+        print('')
+        print(name)
+        print(list(map(hex, job.weapons)))
+        print(list(map(hex, job.support)))
+        print(list(map(hex, job.skills)))
+        print(list(map(hex, job.costs)))
 
 
-filename = 'JobData.uexp'
-with open(filename, 'rb') as file:
-    data = bytearray(file.read())
+    # Shuffle weapons
+    for job in jobs.values():
+        random.shuffle(job.weapons)
 
-jobs = {
-    'Merchant': JOBS(0x26, data),
-    'Thief': JOBS(0x7ce, data),
-    'Warrior': JOBS(0xf76, data),
-    'Hunter': JOBS(0x171e, data),
-    'Cleric': JOBS(0x1ec6, data),
-    'Dancer': JOBS(0x266e, data),
-    'Scholar': JOBS(0x2e16, data),
-    'Apothecary': JOBS(0x35be, data),
-    'Warmaster': JOBS(0x3d66, data),
-    'Sorcerer': JOBS(0x450e, data),
-    'Starseer': JOBS(0x4cb6, data),
-    'Runelord': JOBS(0x545e, data),
-}
+    # Shuffle support
+    support = []
+    for job in jobs.values():
+        support += job.support
+    random.shuffle(support)
+    for i, job in enumerate(jobs.values()):
+        job.support = support[i*4:(i+1)*4]
 
-print('VANILLA')
-for name, job in jobs.items():
-    print('')
-    print(name)
-    print(list(map(hex, job.weapons)))
-    print(list(map(hex, job.support)))
-    print(list(map(hex, job.skills)))
-    print(list(map(hex, job.costs)))
+    # Shuffle skills
+    skills = []
+    for job in jobs.values():
+        skills += job.skills
+    random.shuffle(skills)
+    for i, job in enumerate(jobs.values()):
+        job.skills = skills[i*8:(i+1)*8]
 
+    # Shuffle costs
+    # costs = []
+    # for job in jobs.values():
+    #     costs += job.costs
+    # random.shuffle(costs)
+    # for i, job in enumerate(jobs.values()):
+    #     job.costs = costs[i*8:(i+1)*8]
 
-# Shuffle weapons
-for job in jobs.values():
-    random.shuffle(job.weapons)
+    for job in jobs.values():
+        job.patch()
 
-# Shuffle support
-support = []
-for job in jobs.values():
-    support += job.support
-random.shuffle(support)
-for i, job in enumerate(jobs.values()):
-    job.support = support[i*4:(i+1)*4]
+    with open(filename, 'wb') as file:
+        file.write(data)
 
-# Shuffle skills
-skills = []
-for job in jobs.values():
-    skills += job.skills
-random.shuffle(skills)
-for i, job in enumerate(jobs.values()):
-    job.skills = skills[i*8:(i+1)*8]
-
-# Shuffle costs
-# costs = []
-# for job in jobs.values():
-#     costs += job.costs
-# random.shuffle(costs)
-# for i, job in enumerate(jobs.values()):
-#     job.costs = costs[i*8:(i+1)*8]
-
-for job in jobs.values():
-    job.patch()
-
-filename = 'JobData.uexp'
-with open(filename, 'wb') as file:
-    file.write(data)
-
-print('Randomized')
-for name, job in jobs.items():
-    print('')
-    print(name)
-    print(list(map(hex, job.weapons)))
-    print(list(map(hex, job.support)))
-    print(list(map(hex, job.skills)))
-    print(list(map(hex, job.costs)))
+    print('Randomized')
+    for name, job in jobs.items():
+        print('')
+        print(name)
+        print(list(map(hex, job.weapons)))
+        print(list(map(hex, job.support)))
+        print(list(map(hex, job.skills)))
+        print(list(map(hex, job.costs)))

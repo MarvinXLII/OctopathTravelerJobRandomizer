@@ -1,34 +1,47 @@
 import subprocess
 import os
 import shutil
+import sys
+sys.path.append('src')
+import JobData
 
-def randomize():
-    # Setup
+# Build paths for generating patch
+def setup():
+    shutil.rmtree("./Octopath_Traveler")
+    shutil.copytree("./data/Octopath_Traveler", "Octopath_Traveler")
+
+def generatePatch():
+    cwd = os.getcwd()
+
     database = "./Octopath_Traveler/Content/Character/Database/"
-    paks = "./Octopath_Traveler/Content/Paks/"
     datafile = "JobData.uexp"
-    exefile = "UnrealPak.exe"
-    os.makedirs(database)
-    os.makedirs(paks)
-    shutil.copy2("data/{}".format(datafile), database+'/{}'.format(datafile))
-    shutil.copy2("bin/{}".format(exefile), paks+'/{}'.format(exefile))
-    os.chdir(paks)
 
+    paks = './Octopath_Traveler/Content/Paks/'
     unrealPak = "./UnrealPak.exe"
     target = "../../../Octopath_Traveler/Content/Character/Database/"
     patch = "JobData_P.pak"
-    outputDir = "../../.."
-    
+
+    # Generate the patch
+    os.chdir(paks)
     command = [unrealPak, patch, "-Create={}".format(target), "-compress"]
     subprocess.call(command)
+    shutil.copy2(patch, cwd)
+    os.chdir(cwd)
 
-    shutil.copy2(patch, outputDir)
-    os.chdir(outputDir)
+def cleanup():
     shutil.rmtree("./Engine")
     shutil.rmtree("./Octopath_Traveler")
 
-    # Cleanup -- remove temporary directories
+
+def randomize():
+
+    # Setup
+    file = "./Octopath_Traveler/Content/Character/Database/JobData.uexp"
+    JobData.shuffleData(file)
 
     
 if __name__ == '__main__':
+    setup()
     randomize()
+    generatePatch()
+    cleanup()
