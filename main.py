@@ -1,17 +1,23 @@
 import subprocess
 import os
 import shutil
+import random
 import sys
 sys.path.append('src')
 import JobData
 from gui import randomize
 
 def main():
-    settings['seed'] = random.randint(0, 1e8)
-    settings['skills'] = True
-    settings['cost'] = True
-    settings['support'] = True
+    settings = {
+        'seed': random.randint(0, 1e8),
+        'skills': True,
+        'costs': True,
+        'support': True,
+    }
+
+    setup()
     randomize(settings)
+    cleanup()
 
 # Build paths for generating patch
 def setup():
@@ -21,38 +27,10 @@ def setup():
         pass
     shutil.copytree("./data/Octopath_Traveler", "Octopath_Traveler")
 
-def generatePatch():
-    cwd = os.getcwd()
-
-    database = "./Octopath_Traveler/Content/Character/Database/"
-    datafile = "JobData.uexp"
-
-    paks = './Octopath_Traveler/Content/Paks/'
-    unrealPak = "./UnrealPak.exe"
-    target = "../../../Octopath_Traveler/Content/Character/Database/"
-    patch = "JobData_P.pak"
-
-    # Generate the patch
-    os.chdir(paks)
-    command = [unrealPak, patch, "-Create={}".format(target), "-compress"]
-    subprocess.call(command)
-    shutil.copy2(patch, cwd)
-    os.chdir(cwd)
-
 def cleanup():
     shutil.rmtree("./Engine")
     shutil.rmtree("./Octopath_Traveler")
 
 
-def randomize():
-
-    # Setup
-    file = "./Octopath_Traveler/Content/Character/Database/JobData.uexp"
-    JobData.shuffleData(file)
-
-    
 if __name__ == '__main__':
-    setup()
-    randomize()
-    generatePatch()
-    cleanup()
+    main()

@@ -4,6 +4,7 @@ import ROM
 import hjson
 import os
 import sys
+from Utilities import get_filename
 
 
 #############################
@@ -123,12 +124,16 @@ def shuffleSkills(jobs, skillsJSON, skillNameToValue):
 
 
 def shuffleData(filename, settings):
+    printcounter = 0
+    print(f"here {printcounter}"); printcounter += 1
+    
     seed = 42
     random.seed(seed)
 
-    with open(filename, 'rb') as file:
+    with open(get_filename(filename), 'rb') as file:
         data = bytearray(file.read())
 
+    print(f"here {printcounter}"); printcounter += 1
     jobs = {
         'Merchant': JOBS(0x26, data),
         'Thief': JOBS(0x7ce, data),
@@ -148,7 +153,7 @@ def shuffleData(filename, settings):
     # SETUP VANILLA SUPPORT SKILLS #
     ################################
     
-    with open('data/support.json', 'r') as file:
+    with open(get_filename('data/support.json'), 'r') as file:
         support = hjson.load(file)
 
     # Map job to support skill list
@@ -165,7 +170,7 @@ def shuffleData(filename, settings):
     # SETUP VANILLA SKILLS #
     ########################
     
-    with open('data/skills.json', 'r') as file:
+    with open(get_filename('data/skills.json'), 'r') as file:
         skillsJSON = hjson.load(file)
 
     # Map job to support skill list
@@ -182,6 +187,7 @@ def shuffleData(filename, settings):
             skillNameToValue[name] = value
             skillValueToName[value] = name
 
+    print('Done with vanilla setups!')
     ###################
     # RANODMIZE STUFF #
     ###################
@@ -228,7 +234,7 @@ def shuffleData(filename, settings):
     for job in jobs.values():
         job.patch()
 
-    with open(filename, 'wb') as file:
+    with open(get_filename(filename), 'wb') as file:
         file.write(data)
 
     #############

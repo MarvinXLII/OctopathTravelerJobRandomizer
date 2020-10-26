@@ -192,7 +192,6 @@ class GuiApplication:
         if settings is None:
             settings = { key: value.get() for key, value in self.settings.items() }
 
-        # Don't allow for door shuffler without items!
         self.clearBottomLabels()
         self.bottomLabel('Randomizing....', 'blue', 0)
 
@@ -207,16 +206,6 @@ class GuiApplication:
 
 def randomize(settings):
 
-    #########
-    # SETUP #
-    #########
-
-    try:
-        shutil.rmtree("./Octopath_Traveler")
-    except:
-        pass
-    shutil.copytree("./data/Octopath_Traveler", "Octopath_Traveler")
-
     #############
     # Randomize #
     #############
@@ -228,31 +217,17 @@ def randomize(settings):
     # Generate Patch #
     ##################
 
-    cwd = os.getcwd()
-
-    database = "./Octopath_Traveler/Content/Character/Database/"
-    datafile = "JobData.uexp"
-
     paks = './Octopath_Traveler/Content/Paks/'
     unrealPak = "./UnrealPak.exe"
-    target = "../../../Octopath_Traveler/Content/Character/Database/"
     patch = "JobData_P.pak"
+    target = "../../../Octopath_Traveler/Content/Character/Database/"
 
-    # Generate the patch
-    os.chdir(paks)
-    command = [unrealPak, patch, "-Create={}".format(target), "-compress"]
+    cwd = os.getcwd()
+    os.chdir(get_filename(paks))
+    command = [unrealPak, patch, f"-Create={target}", "-compress"]
     subprocess.call(command)
     shutil.copy2(patch, cwd)
     os.chdir(cwd)
-
-    ###########
-    # Cleanup #
-    ###########
-
-    shutil.rmtree("./Engine")
-    shutil.rmtree("./Octopath_Traveler")
-    
-    return
 
 
 if __name__ == '__main__':
