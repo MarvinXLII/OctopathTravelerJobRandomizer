@@ -78,8 +78,8 @@ class GuiApplication:
         seedBtn = tk.Button(lf, text='Random Seed', command=self.randomSeed)
         seedBtn.grid(row=1, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
 
-        randomizeBtn = tk.Button(lf, text='Randomize', command=self.randomize)
-        randomizeBtn.grid(row=2, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
+        self.randomizeBtn = tk.Button(lf, text='Randomize', command=self.randomize)
+        self.randomizeBtn.grid(row=2, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
 
         # Tabs setup
         tabControl = ttk.Notebook(self.master)
@@ -190,6 +190,7 @@ class GuiApplication:
 
         self.clearBottomLabels()
         self.bottomLabel('Randomizing....', 'blue', 0)
+        self.randomizeBtn["state"] = "disabled"
 
         try:
             randomize(settings)
