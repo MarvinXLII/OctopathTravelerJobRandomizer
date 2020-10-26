@@ -7,7 +7,10 @@ import JobData
 
 # Build paths for generating patch
 def setup():
-    shutil.rmtree("./Octopath_Traveler")
+    try:
+        shutil.rmtree("./Octopath_Traveler")
+    except:
+        pass
     shutil.copytree("./data/Octopath_Traveler", "Octopath_Traveler")
 
 def generatePatch():

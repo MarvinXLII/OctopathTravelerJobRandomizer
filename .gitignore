@@ -1,2 +1,4 @@
 *.pak
 **/__pycache__
+*.log
+*.xlsx

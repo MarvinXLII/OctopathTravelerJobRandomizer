@@ -1,11 +1,14 @@
 # run on /PATH/TO/STEAM/GAMES/OCTOPATH TRAVELER/Octopath_Traveler/Content/Character/Database
 import random
+import ROM
+import hjson
+import os
+import sys
 
-## MUST TEST!!!
-# What skills does a PC know if their first skill cost is nonzero but another is zero?
-# What skills does a PC know if all of their skills are nonzero?
 
-random.seed(42)
+#############################
+# DATA TABLE STUFF FOR JOBS #
+#############################
 
 offsets = {
     'weapons': 0x10f,
@@ -35,42 +38,93 @@ class JOBS:
     def __init__(self, base, data):
         self.base = base
         self.data = data
-
         self.weapons = self.read(offsets['weapons'], stride['weapons'], size['weapons'], 6)
-        self.unknown = self.read(offsets['unknown'], stride['unknown'], size['unknown'], 9)
+        # self.unknown = self.read(offsets['unknown'], stride['unknown'], size['unknown'], 9)
         self.support = self.read(offsets['support'], stride['support'], size['support'], 4)
         self.skills = self.read(offsets['skills'], stride['skills'], size['skills'], 8)
         self.costs = self.read(offsets['costs'], stride['costs'], size['costs'], 8)
+        self.weaponDict = {'Sword':0, 'Spear':1, 'Dagger':2, 'Axe':3, 'Bow':4, 'Staff':5}
 
-    def read(self, offset, stride, size, num):
+    def skillCheck(self, weapon):
+        if weapon == '': return True
+        if weapon == 'All': return sum(self.weapons) == 6
+        return self.weapons[self.weaponDict[weapon]]
+
+    def skillSlotAvailable(self, maxNum=8):
+        return len(self.skills) < maxNum
+    
+    def listWeapons(self):
         lst = []
-        address = self.base + offset
-        for i in range(num):
-            b = self.data[address:address+size]
-            lst.append(int.from_bytes(b, byteorder='little', signed=False))
-            address += stride
+        for weapon in ['Sword', 'Spear', 'Dagger', 'Axe', 'Bow', 'Staff']:
+            if self.skillCheck(weapon):
+                lst.append(weapon)
         return lst
+    
+    def read(self, offset, stride, size, num):
+        return ROM.read(self.data, self.base, offset, stride, size, num)
 
     def write(self, lst, offset, stride, size):
-        address = self.base + offset
-        for i, b in enumerate(lst):
-            d = b.to_bytes(size, byteorder='little', signed=False)
-            self.data[address:address+size] = d
-            address += stride
+        ROM.write(self.data, lst, self.base, offset, stride, size)
 
     def patch(self):
-        self.weapons = [1]*len(self.weapons)
         self.write(self.weapons, offsets['weapons'], stride['weapons'], size['weapons'])
-        self.write(self.unknown, offsets['unknown'], stride['unknown'], size['unknown'])
+        # self.write(self.unknown, offsets['unknown'], stride['unknown'], size['unknown'])
         self.write(self.support, offsets['support'], stride['support'], size['support'])
         self.write(self.skills, offsets['skills'], stride['skills'], size['skills'])
-        # Sort costs before writing
-        # self.costs = sorted(self.costs)
-        self.costs = [0]*len(self.costs)
+        self.costs = sorted(self.costs) # Ensure sorted before written
         self.write(self.costs, offsets['costs'], stride['costs'], size['costs'])
 
 
+def shuffleSkills(jobs, skillsJSON, skillNameToValue):
+    # Setup
+    for job in jobs.values(): job.skills = []
+    for skill in skillsJSON.values(): skill['Given'] = False
+    skillsJSON['Winnehilds Battle Cry']['Given'] = True
+    jobs['Warmaster'].skills.append(skillNameToValue['Winnehilds Battle Cry'])
+
+    def skillSlotRemaining(maxCount):
+        check = []
+        for job in jobs.values():
+            check.append(job.skillSlotAvailable(maxCount))
+        return any(check)
+
+    priority = 1
+    jobNames = list(jobs.keys())
+    maxSkills = {1: 3, 2: 8, 3: 8, 4: 8}
+    while priority < 5:
+        # Generate list of unplaced skills
+        lst = [name for name, skill in skillsJSON.items() if skill['Priority'] <= priority and not skill['Given']]
+        random.shuffle(lst)
+
+        while lst:
+            skill = lst.pop()
+            skillReq = skillsJSON[skill]['Weapon']
+            random.shuffle(jobNames)
+            for key in jobNames:
+                if jobs[key].skillSlotAvailable(maxSkills[priority]) and jobs[key].skillCheck(skillReq):
+                    jobs[key].skills.append(skillNameToValue[skill])
+                    skillsJSON[skill]['Given'] = True
+                    break
+
+            # Break if no slots are left
+            if not skillSlotRemaining(maxSkills[priority]):
+                break
+
+        priority += 1
+
+    # Assert all skills have been placed
+    check = [skill['Given'] for skill in skillsJSON.values()]
+    if not all(check): return False
+
+    # Ensure this skill is last, not first!
+    skill = jobs['Warmaster'].skills.pop(0)
+    jobs['Warmaster'].skills.append(skill)
+    return True
+
+
 def shuffleData(filename):
+    seed = 42
+    random.seed(seed)
 
     with open(filename, 'rb') as file:
         data = bytearray(file.read())
@@ -90,21 +144,61 @@ def shuffleData(filename):
         'Runelord': JOBS(0x545e, data),
     }
 
-    print('VANILLA')
-    for name, job in jobs.items():
-        print('')
-        print(name)
-        print(list(map(hex, job.weapons)))
-        print(list(map(hex, job.support)))
-        print(list(map(hex, job.skills)))
-        print(list(map(hex, job.costs)))
+    ################################
+    # SETUP VANILLA SUPPORT SKILLS #
+    ################################
+    
+    with open('data/support.json', 'r') as file:
+        support = hjson.load(file)
 
+    # Map job to support skill list
+    j2supp = {j:[] for j in jobs.keys()}
+    for ki, si in support.items():
+        j2supp[si['Job']].append(ki)
+    # Map value to support skill
+    supportValueToName = {}
+    for key, job in jobs.items():
+        for name, value in zip(j2supp[key], job.support):
+            supportValueToName[value] = name
 
+    ########################
+    # SETUP VANILLA SKILLS #
+    ########################
+    
+    with open('data/skills.json', 'r') as file:
+        skillsJSON = hjson.load(file)
+
+    # Map job to support skill list
+    j2s = {j:[] for j in jobs.keys()}
+    wskls = {'': [], 'All': [], 'Sword': [], 'Axe': [], 'Spear': [], 'Dagger': [], 'Staff': [], 'Bow': []}
+    for ki, si in skillsJSON.items():
+        j2s[si['Job']].append(ki)
+        wskls[si['Weapon']].append(ki)
+    # Map value to support skill
+    skillNameToValue = {}
+    skillValueToName = {}
+    for key, job in jobs.items():
+        for name, value in zip(j2s[key], job.skills):
+            skillNameToValue[name] = value
+            skillValueToName[value] = name
+
+    ###################
+    # RANODMIZE STUFF #
+    ###################
+
+    ## KEEP FOR LATER ##################
     # Shuffle weapons
-    for job in jobs.values():
-        random.shuffle(job.weapons)
-
+    # for job in jobs.values():
+    #     random.shuffle(job.weapons)
+    ####################################
+    
+    # Shuffle skils
+    random.seed(seed)
+    while not shuffleSkills(jobs, skillsJSON, skillNameToValue):
+        pass
+    
     # Shuffle support
+    random.seed(seed)
     support = []
     for job in jobs.values():
         support += job.support
@@ -112,21 +206,18 @@ def shuffleData(filename):
     for i, job in enumerate(jobs.values()):
         job.support = support[i*4:(i+1)*4]
 
-    # Shuffle skills
-    skills = []
-    for job in jobs.values():
-        skills += job.skills
-    random.shuffle(skills)
-    for i, job in enumerate(jobs.values()):
-        job.skills = skills[i*8:(i+1)*8]
-
     # Shuffle costs
-    # costs = []
-    # for job in jobs.values():
-    #     costs += job.costs
-    # random.shuffle(costs)
-    # for i, job in enumerate(jobs.values()):
-    #     job.costs = costs[i*8:(i+1)*8]
+    random.seed(seed)
+    costs = []
+    for job in jobs.values():
+        costs += job.costs
+    random.shuffle(costs)
+    for i, job in enumerate(jobs.values()):
+        job.costs = costs[i*8:(i+1)*8]
+
+    ##################
+    # PATCH AND DUMP #
+    ##################
 
     for job in jobs.values():
         job.patch()
@@ -134,11 +225,35 @@ def shuffleData(filename):
     with open(filename, 'wb') as file:
         file.write(data)
 
-    print('Randomized')
-    for name, job in jobs.items():
-        print('')
-        print(name)
-        print(list(map(hex, job.weapons)))
-        print(list(map(hex, job.support)))
-        print(list(map(hex, job.skills)))
-        print(list(map(hex, job.costs)))
+    #############
+    # PRINT LOG #
+    #############
+
+    logfile = f'rando_{seed}.log'
+    if os.path.exists(logfile): os.remove(logfile)
+    with open(logfile, 'w') as file:
+        file.write('================\n')
+        file.write(' Support Skills \n')
+        file.write('================\n')
+        file.write('\n\n')
+
+        # Loop over jobs
+        for key, job in jobs.items():
+            file.write(key+'\n')
+            for s in job.support:
+                file.write(' '*8+supportValueToName[s]+'\n')
+            file.write('\n')
+        file.write('\n\n\n')
+
+        file.write('========\n')
+        file.write(' Skills \n')
+        file.write('========\n')
+        file.write('\n\n')
+
+        # Loop over jobs
+        for key, job in jobs.items():
+            file.write(key+'     ('+', '.join(job.listWeapons())+')'+'\n')
+            for s in job.skills:
+                name = skillValueToName[s]
+                file.write(' '*8+name.ljust(26, ' ')+skillsJSON[name]['Weapon']+'\n')
+            file.write('\n')
