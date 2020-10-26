@@ -36,7 +36,7 @@ Future releases will hopefully include:
 - Other random stuff!
 
 Don't forget to check out
-[mastermind1919's](https://github.com/mastermind1919/OctopathBossRandomizer)'s
+[mastermind1919's](https://github.com/mastermind1919/OctopathBossRandomizer)
 boss randomizer! They should be compatible!
 
 **Usage**
