@@ -9,9 +9,9 @@
       }
       {
 	name: costs
-	label: Shuffle skill costs
+	label: Randomize skill costs
 	type: checkbutton
-	help: "Shuffles JP costs of skills. Costs will always increase\nor stay the same, never decrease."
+	help: "Randomizer JP costs of skills. Costs will always increase with each skill learned."
       }
       {
 	name: support
