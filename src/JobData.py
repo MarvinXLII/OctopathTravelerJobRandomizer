@@ -140,6 +140,19 @@ def shuffleStats(jobs):
             job.stats.append(s)
 
 
+def randomCosts():
+    costs = [
+        0,
+        0,
+        random.randint(1, 5) * 10,     # 10 - 50     +/-   20
+        random.randint(6, 14) * 10,    # 60 - 140    +/-   40
+        random.randint(40, 60) * 10,   # 400 - 600   +/-  100
+        random.randint(80, 120) * 10,  # 800 - 1200  +/-  200
+        random.randint(240, 360) * 10, # 2400 - 3600 +/-  600
+        random.randint(400, 600) * 10, # 4000 - 6000 +/- 1000
+    ]
+    return costs
+
 def shuffleData(filename, settings):
     
     seed = settings['seed']
@@ -218,16 +231,12 @@ def shuffleData(filename, settings):
         while not shuffleSkills(jobs, skillsJSON, skillNameToValue):
             pass
     
-    # Shuffle costs
+    # Random costs
     if settings['costs']:
-        print('Shuffling costs')
+        print('Randomizing costs')
         random.seed(seed)
-        costs = []
         for job in jobs.values():
-            costs += job.costs[2:]
-        random.shuffle(costs)
-        for i, job in enumerate(jobs.values()):
-            job.costs[2:] = costs[i*6:(i+1)*6]
+            job.costs = randomCosts()
 
     # Shuffle support
     if settings['support']:
@@ -289,14 +298,14 @@ def shuffleData(filename, settings):
             file.write('\n')
         file.write('\n\n')
 
-        file.write('=======\n')
-        file.write(' Costs \n')
-        file.write('=======\n')
+        file.write('=============\n')
+        file.write(' Skill Costs \n')
+        file.write('=============\n')
         file.write('\n\n')
 
         for key, job in jobs.items():
             string = key.ljust(14, ' ')
-            string += ''.join(map(lambda x: str(x).ljust(5, ' '), job.costs))
+            string += ''.join(map(lambda x: str(x).rjust(6, ' '), job.costs))
             file.write(string+'\n')
         file.write('\n\n')
 
