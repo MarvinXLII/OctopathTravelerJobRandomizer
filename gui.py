@@ -52,7 +52,7 @@ class CreateToolTip(object):
 class GuiApplication:
     def __init__(self, settingsFile=''):
         self.master = tk.Tk()
-        self.master.geometry('250x280')
+        self.master.geometry('300x440')
         self.master.title(MAIN_TITLE)
         self.initialize_gui(settingsFile)
         self.initialize_settings()
@@ -73,14 +73,14 @@ class GuiApplication:
 
         self.settings['seed'] = tk.IntVar()
         self.randomSeed()
-        tk.Label(lf, text='Seed:').grid(row=0, column=0, sticky='w', padx=40)
+        tk.Label(lf, text='Seed:').grid(row=0, column=0, sticky='w', padx=60)
         box = tk.Spinbox(lf, from_=0, to=1e8, width=9, textvariable=self.settings['seed'])
-        box.grid(row=0, column=0, sticky='e', padx=40)
+        box.grid(row=0, column=0, sticky='e', padx=60)
 
-        seedBtn = tk.Button(lf, text='Random Seed', command=self.randomSeed)
+        seedBtn = tk.Button(lf, text='Random Seed', command=self.randomSeed, width=20, height=1)
         seedBtn.grid(row=1, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
 
-        self.randomizeBtn = tk.Button(lf, text='Randomize', command=self.randomize)
+        self.randomizeBtn = tk.Button(lf, text='Randomize', command=self.randomize, height=1)
         self.randomizeBtn.grid(row=2, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
 
         # Tabs setup
@@ -97,9 +97,11 @@ class GuiApplication:
         for name, tab in tabs.items():
             labelDict = fields[name]
             for i, (key, value) in enumerate(labelDict.items()):
+                row = i    # i//4
+                column = 0 # i%4
                 # Setup LabelFrame
                 lf = tk.LabelFrame(tab, text=key, font=labelfonts)
-                lf.grid(row=i//4, column=i%4, padx=10, pady=5, ipadx=30, ipady=5, sticky='news')
+                lf.grid(row=row, column=column, padx=10, pady=5, ipadx=30, ipady=5, sticky='news')
                 # Loop over buttons
                 # -- maybe do this in a separate function that returns the button?
                 # -- then apply its grid here
