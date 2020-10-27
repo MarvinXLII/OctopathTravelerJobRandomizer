@@ -38,33 +38,7 @@ class ITEMS:
         size = offsets[label]['size']
         return ROM.write(self.data, lst, self.base, offset, 1, size)
 
-    # Do some checks just in case
-    def _check(self):
-        if self.case == 'Hidden':
-            assert self.objType == 4, 'Hidden item has wrong type!'
-            if self.isMoney:
-                assert self.haveItemCnt > 1, "Hidden item has wrong count of money!"
-                assert self.haveItemLabel == 370, "Hidden item has wrong count of money!"
-            else:
-                assert self.haveItemCnt == 1, "Hidden item has wrong count of money!"
-                assert self.haveItemLabel != 370, "Hidden item has wrong count of money!"
-            # assert self.haveItemCnt == 1 if self.isMoney == 0, 'Hidden item has conflicting settings!'
-            # assert self.haveItemLabel == 370 if (self.isMoney == 1 and self.haveItemCnt > 1), 'Hidden item has conflicting settings!'
-            # assert self.haveItemLabel > 0 and self.isMoney == 0 and self.haveItemCnt == 1, 'Hidden item has conflicting settings!'
-            # assert self.haveItemLabel == 0 and self.isMoney == 1 and self.haveItemCnt > 1, 'Hidden item has conflicting settings!'
-        elif self.case == 'Orb':
-            assert self.objType == 0, 'Orb has wrong type!'
-            assert self.haveItemLabel == 370, 'Orb has wrong item label'
-            assert self.haveItemCnt == 0, 'Orb has wrong item count'
-            assert self.isMoney == 0, 'Orb is set as money!'
-        elif self.case == 'Treasure':
-            assert self.objType != 0, 'Treasure has wrong type!'
-            assert self.objType != 4, 'Treasure has wrong type!'
-            # assert self.haveItemLabel > 0 and self.isMoney == 0 and self.haveItemCnt == 1, 'Treasure has conflicting settings!'
-            # assert self.haveItemLabel == 0 and self.isMoney == 1 and self.haveItemCnt > 1, 'Treasure has conflicting settings!'
-
     def patch(self):
-        # self._check()
         self.write('ObjType', self.objType)
         self.write('ObjResLabels', self.objResLabels)
         self.write('IsMoney', self.isMoney)
@@ -72,23 +46,18 @@ class ITEMS:
         self.write('HaveItemLabel', self.haveItemLabel)
 
 
-# Reset "objType" of all chests
 def noThiefChests(items):
     for item in items:
         if item.case != 'Treasure': continue
+        if item.objType != 3: continue
         item.objType = 1
-        # item.objType = 2
-        # item.objType = 3 # Locked chest
 
 def shuffleAll(items):
-    # Generate lists
     candidates = []
     for item in items:
         if item.case == 'Orb': continue
         candidates.append([item.isMoney, item.haveItemCnt, item.haveItemLabel])
-    # Shuffle candidates
     random.shuffle(candidates)
-    # Place candidates
     slots = filter(lambda x: x.case != 'Orb', items)
     for candidate, slot in zip(candidates, slots):
         slot.isMoney = candidate[0]
@@ -101,7 +70,6 @@ def shuffleSubset(case):
         if item.case != case: continue
         candidates.append(list([item.isMoney, item.haveItemCnt, item.haveItemLabel]))
     random.shuffle(candidates)
-    # Place candidates
     slots = filter(lambda x: x.case == case, items)
     for candidate, slot in zip(candidates, slots):
         slot.isMoney = candidate[0]
