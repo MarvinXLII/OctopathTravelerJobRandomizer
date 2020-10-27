@@ -6,15 +6,13 @@ a = Analysis(
     [
         'gui.py',
         'src/Utilities.py',
-        'src/ROM.py',
         'src/JobData.py',
+        'src/ROM.py',
     ],
     pathex=[],
     binaries=[],
     datas=[
-        ('./data/parameters.json', 'data'),
-        ('data/support.json', 'data'),
-        ('data/skills.json', 'data'),
+        ('data/*.json', 'data'),
         ('data/Octopath_Traveler', 'Octopath_Traveler'),
     ],
     hiddenimports=[],
