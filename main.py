@@ -13,6 +13,14 @@ def main():
         'skills': True,
         'costs': True,
         'support': True,
+        'stats': True,
+
+        'items': '',
+        'items': 'items-all',
+        # 'items': 'items-separately',
+
+        'no-thief-chests': True,
+        'no-thief-chests': False,
     }
 
     setup()
