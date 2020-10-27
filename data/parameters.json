@@ -49,7 +49,7 @@
 	name: no-thief-chests
 	label: "No locked chests"
 	type: checkbutton
-	help: "Converts all chests requiring Therion to red chests."
+	help: "Converts all chests requiring Therion to brown chests."
       }
     ]
   }
