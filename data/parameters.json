@@ -1,5 +1,5 @@
 {
-  "Jobs": {
+  "Settings": {
     Jobs: [
       {
 	name: skills
@@ -24,6 +24,32 @@
 	label: Shuffle stats bonuses
 	type: checkbutton
 	help: "Shuffles bonuses for each stats among jobs."
+      }
+    ]
+    Items: [
+      {
+	name: items
+	label: Shuffle hidden items and chests
+	type: radiobutton
+	help: "Shuffles hidden items and contents of treasure chests."
+	radio: [
+	  {
+	    label: "Shuffle separately"
+	    value: items-separate
+	    help: "Shuffle hidden items and chests separately."
+	  }
+	  {
+	    label: "Shuffle all together"
+	    value: items-all
+	    help: "Shuffles both hidden items and chests together."
+	  }
+	]
+      }
+      {
+	name: no-thief-chests
+	label: "No locked chests"
+	type: checkbutton
+	help: "Converts all chests requiring Therion to red chests."
       }
     ]
   }

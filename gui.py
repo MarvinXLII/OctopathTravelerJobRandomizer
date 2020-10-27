@@ -9,6 +9,8 @@ import sys
 sys.path.append('src')
 from Utilities import get_filename
 import JobData
+import Items
+import ROM
 
 
 MAIN_TITLE = "Octopath Traveler Randomizer v 0.0.1a"
@@ -210,21 +212,21 @@ def randomize(settings):
     file = "./Octopath_Traveler/Content/Character/Database/JobData.uexp"
     JobData.shuffleData(file, settings)
 
+    file = "./Octopath_Traveler/Content/Object/Database/ObjectData.uexp"
+    Items.shuffleItems(file, settings)
+    
     ##################
     # Generate Patch #
     ##################
 
-    paks = './Octopath_Traveler/Content/Paks/'
-    unrealPak = "./UnrealPak.exe"
     patch = "JobData_P.pak"
     target = "../../../Octopath_Traveler/Content/Character/Database/"
+    ROM.patch(patch, target)
 
-    cwd = os.getcwd()
-    os.chdir(get_filename(paks))
-    command = [unrealPak, patch, f"-Create={target}", "-compress"]
-    subprocess.call(command)
-    shutil.copy2(patch, cwd)
-    os.chdir(cwd)
+    patch = "Items_P.pak"
+    target = "../../../Octopath_Traveler/Content/Object/Database/"
+    ROM.patch(patch, target)
+
 
 
 if __name__ == '__main__':

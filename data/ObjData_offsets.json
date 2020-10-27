@@ -1,0 +1,32 @@
+{
+  keys:
+  {
+    offset: 0
+    size: 8
+  }
+  ObjType:
+  {
+    offset: 41
+    size: 1
+  }
+  ObjResLabels:
+  {
+    offset: 67
+    size: 2
+  }
+  IsMoney:
+  {
+    offset: 151
+    size: 1
+  }
+  HaveItemLabel:
+  {
+    offset: 178
+    size: 8
+  }
+  HaveItemCnt:
+  {
+    offset: 211
+    size: 2
+  }
+}
