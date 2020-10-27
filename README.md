@@ -38,3 +38,8 @@ Run the executable from the Releases section. When finished, copy the
 typically located at "C:\Program Files
 (x86)\Steam\steamapps\common\OCTOPATH
 TRAVELER\Octopath_Traveler\Content\Paks".
+
+If you prefer to run the code, you'll have to install Python 3.6+ and `hjson`. 
+Settings can be set in the `main.py` file, and can be run with `python main.py`.
+If you would prefer to use the gui, you must build it yourself. Install `pyinstaller`
+ and run `pyinstaller gui.spec`.
