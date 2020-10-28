@@ -13,7 +13,7 @@ import Items
 import ROM
 
 
-MAIN_TITLE = "Octopath Traveler Randomizer v 0.0.1a"
+MAIN_TITLE = "Octopath Traveler Randomizer v 0.1.2a"
 
 # Source: https://www.daniweb.com/programming/software-development/code/484591/a-tooltip-class-for-tkinter
 class CreateToolTip(object):
@@ -52,7 +52,7 @@ class CreateToolTip(object):
 class GuiApplication:
     def __init__(self, settingsFile=''):
         self.master = tk.Tk()
-        self.master.geometry('300x440')
+        self.master.geometry('320x460')
         self.master.title(MAIN_TITLE)
         self.initialize_gui(settingsFile)
         self.initialize_settings()
@@ -77,7 +77,7 @@ class GuiApplication:
         box = tk.Spinbox(lf, from_=0, to=1e8, width=9, textvariable=self.settings['seed'])
         box.grid(row=0, column=0, sticky='e', padx=60)
 
-        seedBtn = tk.Button(lf, text='Random Seed', command=self.randomSeed, width=20, height=1)
+        seedBtn = tk.Button(lf, text='Random Seed', command=self.randomSeed, width=24, height=1)
         seedBtn.grid(row=1, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
 
         self.randomizeBtn = tk.Button(lf, text='Randomize', command=self.randomize, height=1)
@@ -111,10 +111,22 @@ class GuiApplication:
 
                     if vj['type'] == 'checkbutton':
                         self.settings[name] = tk.BooleanVar()
-                        button = ttk.Checkbutton(lf, text=vj['label'], variable=self.settings[name])
+                        buttons = []
+                        toggleFunction = self.toggler(buttons, name)
+                        button = ttk.Checkbutton(lf, text=vj['label'], variable=self.settings[name], command=toggleFunction)
                         button.grid(row=row, padx=10, sticky='we')
+                        self.togglers.append(toggleFunction)
                         self.buildToolTip(button, vj)
                         row += 1
+                        if 'indent' in vj:
+                            vj = vj['indent']
+                            self.settings[vj['name']] = tk.BooleanVar()
+                            button = ttk.Checkbutton(lf, text=vj['label'], variable=self.settings[vj['name']], state=tk.DISABLED)
+                            button.grid(row=row, padx=25, sticky='w')
+                            self.buildToolTip(button, vj)
+                            buttons.append(button)
+                            row += 1
+                            
 
                     elif vj['type'] == 'spinbox':
                         text = f"{vj['label']}:".ljust(20, ' ')
@@ -228,7 +240,6 @@ def randomize(settings):
     patch = "Items_P.pak"
     target = "../../../Octopath_Traveler/Content/Object/Database/"
     ROM.patch(patch, target)
-
 
 
 if __name__ == '__main__':

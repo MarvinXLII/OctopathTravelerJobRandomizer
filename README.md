@@ -12,21 +12,13 @@ Several options are available:
 
 - Support Skills: shuffles support skills among jobs.
 
-**WARNINGS**
+- Stat bonuses: shuffles each stat among the 8 PCs.
 
-The "Skills" shuffler is a bit risky for Chapter 1, as neighther enemy
-nor boss weaknesses are considered at this point.  With this option,
-you MIGHT be better off starting from a saved game after beating some
-of the first chapters.
-
-Both "Support Skills" and "Costs" should be safe options for a full
-playthrough.
+- Item shuffler: shuffles hidden items and treasure chests.
 
 **FUTURE WORK**
 
 Future releases will hopefully include:
-
-- Shuffling/modifying secondary job stats.
 
 - Shuffling/randomizing equippable weapons (currently leads to
   in-battle side-effects at the moment).
@@ -42,4 +34,7 @@ boss randomizer! They should be compatible!
 **Usage**
 
 Run the executable from the Releases section. When finished, copy the
-"JobData_P.pak" into the "Paks" folder in you game. 
+"JobData_P.pak" and "Items_P.pak" into the "Paks" folder in you game,
+typically located at "C:\Program Files
+(x86)\Steam\steamapps\common\OCTOPATH
+TRAVELER\Octopath_Traveler\Content\Paks".
