@@ -189,9 +189,11 @@ def shuffleData(filename, settings):
         j2supp[si['Job']].append(ki)
     # Map value to support skill
     supportValueToName = {}
+    supportNameToValue = {}
     for key, job in jobs.items():
         for name, value in zip(j2supp[key], job.support):
             supportValueToName[value] = name
+            supportNameToValue[name] = value
 
     ########################
     # SETUP VANILLA SKILLS #
@@ -246,6 +248,10 @@ def shuffleData(filename, settings):
         for job in jobs.values():
             support += job.support
         random.shuffle(support)
+        if settings['support-EM']:
+            i = support.index(supportNameToValue['Evasive Maneuvers'])
+            j = random.randint(0, 7) * 4
+            support[i], support[j] = support[j], support[i]
         for i, job in enumerate(jobs.values()):
             job.support = support[i*4:(i+1)*4]
 

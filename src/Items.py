@@ -64,7 +64,7 @@ def shuffleAll(items):
         slot.haveItemCnt = candidate[1]
         slot.haveItemLabel = candidate[2]
 
-def shuffleSubset(case):
+def shuffleSubset(items, case):
     candidates = []
     for item in items:
         if item.case != case: continue
@@ -106,12 +106,12 @@ def shuffleItems(filename, settings):
 
     # Shuffle items
     random.seed(seed)
-    if settings['items'] != '':
-        if settings['items'] == 'items-all':
+    if settings['items']:
+        if settings['items-option'] == 'items-all':
             shuffleAll(items)
-        elif settings['items'] == 'items-separate':
-            shuffleSubset('Hidden')
-            shuffleSubset('Treasures')
+        elif settings['items-option'] == 'items-separate':
+            shuffleSubset(items, 'Hidden')
+            shuffleSubset(items, 'Treasure')
 
     ##################
     # PATCH AND DUMP #

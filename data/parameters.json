@@ -18,6 +18,12 @@
 	label: Shuffle support skills
 	type: checkbutton
 	help: Shuffle support skills among jobs.
+        indent: {
+	  name: support-EM
+          label: Ensure early Evasive Maneuvers
+	  type: checkbutton
+	  help: Ensures Evasive Maneuvers will be the first support skill learned by a PC. 
+        }
       }
       {
 	name: stats
