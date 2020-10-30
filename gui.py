@@ -251,15 +251,20 @@ class GuiApplication:
 
 def randomize(settings):
 
+    outdir = f"seed_{settings['seed']}"
+    if os.path.isdir(outdir):
+        shutil.rmtree(outdir)
+    os.mkdir(outdir)
+
     #############
     # Randomize #
     #############
 
     file = "./Octopath_Traveler/Content/Character/Database/JobData.uexp"
-    JobData.shuffleData(file, settings)
+    JobData.shuffleData(file, settings, outdir)
 
     file = "./Octopath_Traveler/Content/Object/Database/ObjectData.uexp"
-    Items.shuffleItems(file, settings)
+    Items.shuffleItems(file, settings, outdir)
     
     ##################
     # Generate Patch #
@@ -267,11 +272,11 @@ def randomize(settings):
 
     patch = "JobData_P.pak"
     target = "../../../Octopath_Traveler/Content/Character/Database/"
-    ROM.patch(patch, target, settings['output'])
+    ROM.patch(patch, target, outdir)
 
     patch = "Items_P.pak"
     target = "../../../Octopath_Traveler/Content/Object/Database/"
-    ROM.patch(patch, target, settings['output'])
+    ROM.patch(patch, target, outdir)
 
 
 if __name__ == '__main__':

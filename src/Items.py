@@ -16,7 +16,7 @@ class ITEMS:
 
         # self.key = self.read('key')
         self.objType = self.read('ObjType')
-        self.objResLabels = self.read('ObjResLabels')    # NEEDED FOR FUTURE ORB SHUFFLE???
+        self.objResLabel = self.read('ObjResLabel')    # NEEDED FOR FUTURE ORB SHUFFLE???
         self.isMoney = self.read('IsMoney')
         self.haveItemCnt = self.read('HaveItemCnt')
         self.haveItemLabel = self.read('HaveItemLabel')
@@ -40,7 +40,7 @@ class ITEMS:
 
     def patch(self):
         self.write('ObjType', self.objType)
-        self.write('ObjResLabels', self.objResLabels)
+        self.write('ObjResLabel', self.objResLabel)
         self.write('IsMoney', self.isMoney)
         self.write('HaveItemCnt', self.haveItemCnt)
         self.write('HaveItemLabel', self.haveItemLabel)
@@ -76,7 +76,7 @@ def shuffleSubset(items, case):
         slot.haveItemCnt = candidate[1]
         slot.haveItemLabel = candidate[2]
 
-def shuffleItems(filename, settings):
+def shuffleItems(filename, settings, outdir):
 
     with open(get_filename(filename), 'rb') as file:
         data = bytearray(file.read())

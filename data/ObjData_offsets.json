@@ -9,7 +9,7 @@
     offset: 41
     size: 1
   }
-  ObjResLabels:
+  ObjResLabel:
   {
     offset: 67
     size: 2

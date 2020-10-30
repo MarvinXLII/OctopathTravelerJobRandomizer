@@ -1,674 +1,770 @@
 {
-    "Heal Wounds":
-    {
-        Job: Cleric
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Holy Light":
-    {
-        Job: Cleric
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Sheltering Veil":
-    {
-        Job: Cleric
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Luminescence:
-    {
-        Job: Cleric
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Heal More":
-    {
-        Job: Cleric
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Reflective Veil":
-    {
-        Job: Cleric
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    Revive:
-    {
-        Job: Cleric
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Aelfrics Auspices":
-    {
-        Job: Cleric
-        Weapon: ""
-        Priority: 4.0
-        Given: false
-    }
-    Fireball:
-    {
-        Job: Scholar
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Icewind:
-    {
-        Job: Scholar
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Lightning Bolt":
-    {
-        Job: Scholar
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Analyze:
-    {
-        Job: Scholar
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Fire Storm":
-    {
-        Job: Scholar
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    Blizzard:
-    {
-        Job: Scholar
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Lightning Blast":
-    {
-        Job: Scholar
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Alephans Enlightenment":
-    {
-        Job: Scholar
-        Weapon: ""
-        Priority: 4.0
-        Given: false
-    }
-    Collect:
-    {
-        Job: Merchant
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Tradewinds:
-    {
-        Job: Merchant
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Rest:
-    {
-        Job: Merchant
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Trade Tempest":
-    {
-        Job: Merchant
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Donate BP":
-    {
-        Job: Merchant
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    Sidestep:
-    {
-        Job: Merchant
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Hired Help":
-    {
-        Job: Merchant
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Bifelgans Bounty":
-    {
-        Job: Merchant
-        Weapon: ""
-        Priority: 4.0
-        Given: false
-    }
-    "Level Slash":
-    {
-        Job: Warrior
-        Weapon: Sword
-        Priority: 1.0
-        Given: false
-    }
-    Abide:
-    {
-        Job: Warrior
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Spearhead:
-    {
-        Job: Warrior
-        Weapon: Spear
-        Priority: 1.0
-        Given: false
-    }
-    Incide:
-    {
-        Job: Warrior
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Cross Strike":
-    {
-        Job: Warrior
-        Weapon: Sword
-        Priority: 1.0
-        Given: false
-    }
-    "Stout Wall":
-    {
-        Job: Warrior
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Thousand Spears":
-    {
-        Job: Warrior
-        Weapon: Spear
-        Priority: 2.0
-        Given: false
-    }
-    "Brands Thunder":
-    {
-        Job: Warrior
-        Weapon: Sword
-        Priority: 3.0
-        Given: false
-    }
-    "Lions Dance":
-    {
-        Job: Dancer
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Moonlight Waltz":
-    {
-        Job: Dancer
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Peacock Strut":
-    {
-        Job: Dancer
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Mole Dance":
-    {
-        Job: Dancer
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Night Ode":
-    {
-        Job: Dancer
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Panther Dance":
-    {
-        Job: Dancer
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Bewildering Grace":
-    {
-        Job: Dancer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Sealticges Seduction":
-    {
-        Job: Dancer
-        Weapon: ""
-        Priority: 4.0
-        Given: false
-    }
-    "First Aid":
-    {
-        Job: Apothecary
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Icicle:
-    {
-        Job: Apothecary
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Rehabilitate:
-    {
-        Job: Apothecary
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Amputation:
-    {
-        Job: Apothecary
-        Weapon: Axe
-        Priority: 1.0
-        Given: false
-    }
-    Empoison:
-    {
-        Job: Apothecary
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Vivify:
-    {
-        Job: Apothecary
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Last Stand":
-    {
-        Job: Apothecary
-        Weapon: Axe
-        Priority: 1.0
-        Given: false
-    }
-    "Dohters Charity":
-    {
-        Job: Apothecary
-        Weapon: ""
-        Priority: 4.0
-        Given: false
-    }
-    Steal:
-    {
-        Job: Thief
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    Wildfire:
-    {
-        Job: Thief
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "HP Thief":
-    {
-        Job: Thief
-        Weapon: Dagger
-        Priority: 1.0
-        Given: false
-    }
-    "Shackle Foe":
-    {
-        Job: Thief
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Armor Corrosive":
-    {
-        Job: Thief
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Steal SP":
-    {
-        Job: Thief
-        Weapon: Dagger
-        Priority: 1.0
-        Given: false
-    }
-    "Share SP":
-    {
-        Job: Thief
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Aebers Reckoning":
-    {
-        Job: Thief
-        Weapon: Dagger
-        Priority: 3.0
-        Given: false
-    }
-    "Rain of Arrows":
-    {
-        Job: Hunter
-        Weapon: Bow
-        Priority: 1.0
-        Given: false
-    }
-    "True Strike":
-    {
-        Job: Hunter
-        Weapon: Bow
-        Priority: 1.0
-        Given: false
-    }
-    Thunderbird:
-    {
-        Job: Hunter
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Leghold Trap":
-    {
-        Job: Hunter
-        Weapon: ""
-        Priority: 1.0
-        Given: false
-    }
-    "Mercy Strike":
-    {
-        Job: Hunter
-        Weapon: Bow
-        Priority: 1.0
-        Given: false
-    }
-    Arrowstorm:
-    {
-        Job: Hunter
-        Weapon: Bow
-        Priority: 2.0
-        Given: false
-    }
-    "Take Aim":
-    {
-        Job: Hunter
-        Weapon: ""
-        Priority: 2.0
-        Given: false
-    }
-    "Draefendis Rage":
-    {
-        Job: Hunter
-        Weapon: Bow
-        Priority: 3.0
-        Given: false
-    }
-    "Fire Rune":
-    {
-        Job: Runelord
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Ice Rune":
-    {
-        Job: Runelord
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Thunder Rune":
-    {
-        Job: Runelord
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Wind Rune":
-    {
-        Job: Runelord
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Dark Rune":
-    {
-        Job: Runelord
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Light Run":
-    {
-        Job: Runelord
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Transfer Rune":
-    {
-        Job: Runelord
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Balogars Blade":
-    {
-        Job: Runelord
-        Weapon: ""
-        Priority: 4.0
-        Given: false
-    }
-    "Shooting Stars":
-    {
-        Job: Starseer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "BP Boost":
-    {
-        Job: Starseer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    Divination:
-    {
-        Job: Starseer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    Starsong:
-    {
-        Job: Starseer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Celestial Intervention":
-    {
-        Job: Starseer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Etherial Healing":
-    {
-        Job: Starseer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Moon\u2019s Reflection":
-    {
-        Job: Starseer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Steorras Prophecy":
-    {
-        Job: Starseer
-        Weapon: ""
-        Priority: 4.0
-        Given: false
-    }
-    "Ignis Adere":
-    {
-        Job: Sorcerer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Glacies Claudere":
-    {
-        Job: Sorcerer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Tonitrus Canere":
-    {
-        Job: Sorcerer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Ventus Saltare":
-    {
-        Job: Sorcerer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Lux Congerere":
-    {
-        Job: Sorcerer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Tenbrae Operiere":
-    {
-        Job: Sorcerer
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Elemental Break":
-    {
-        Job: Sorcerer
-        Weapon: Staff
-        Priority: 2.0
-        Given: false
-    }
-    "Dreisangs Spell":
-    {
-        Job: Sorcerer
-        Weapon: ""
-        Priority: 4.0
-        Given: false
-    }
-    "Guardian Liondog":
-    {
-        Job: Warmaster
-        Weapon: Sword
-        Priority: 2.0
-        Given: false
-    }
-    "Tiger Rage":
-    {
-        Job: Warmaster
-        Weapon: Axe
-        Priority: 2.0
-        Given: false
-    }
-    "Qilins Horn":
-    {
-        Job: Warmaster
-        Weapon: Spear
-        Priority: 2.0
-        Given: false
-    }
-    Yatagarasu:
-    {
-        Job: Warmaster
-        Weapon: Dagger
-        Priority: 2.0
-        Given: false
-    }
-    "Fox Spirit":
-    {
-        Job: Warmaster
-        Weapon: Staff
-        Priority: 2.0
-        Given: false
-    }
-    "Phoenix Storm":
-    {
-        Job: Warmaster
-        Weapon: Bow
-        Priority: 2.0
-        Given: false
-    }
-    "Nightmare Chimera":
-    {
-        Job: Warmaster
-        Weapon: ""
-        Priority: 3.0
-        Given: false
-    }
-    "Winnehilds Battle Cry":
-    {
-        Job: Warmaster
-        Weapon: All
-        Priority: 4.0
-        Given: false
-    }
+  "Heal Wounds":
+  {
+    Job: Cleric
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Holy Light":
+  {
+    Job: Cleric
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Sheltering Veil":
+  {
+    Job: Cleric
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Luminescence:
+  {
+    Job: Cleric
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Heal More":
+  {
+    Job: Cleric
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  "Reflective Veil":
+  {
+    Job: Cleric
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  Revive:
+  {
+    Job: Cleric
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  "Aelfrics Auspices":
+  {
+    Job: Cleric
+    Weapon: ""
+    Priority: 4.0
+    Advanced: false
+    Divine: true
+  }
+  Fireball:
+  {
+    Job: Scholar
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Icewind:
+  {
+    Job: Scholar
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Lightning Bolt":
+  {
+    Job: Scholar
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Analyze:
+  {
+    Job: Scholar
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Fire Storm":
+  {
+    Job: Scholar
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  Blizzard:
+  {
+    Job: Scholar
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  "Lightning Blast":
+  {
+    Job: Scholar
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  "Alephans Enlightenment":
+  {
+    Job: Scholar
+    Weapon: ""
+    Priority: 4.0
+    Advanced: false
+    Divine: true
+  }
+  Collect:
+  {
+    Job: Merchant
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Tradewinds:
+  {
+    Job: Merchant
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Rest:
+  {
+    Job: Merchant
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Trade Tempest":
+  {
+    Job: Merchant
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Donate BP":
+  {
+    Job: Merchant
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  Sidestep:
+  {
+    Job: Merchant
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  "Hired Help":
+  {
+    Job: Merchant
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  "Bifelgans Bounty":
+  {
+    Job: Merchant
+    Weapon: ""
+    Priority: 4.0
+    Advanced: false
+    Divine: true
+  }
+  "Level Slash":
+  {
+    Job: Warrior
+    Weapon: Sword
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Abide:
+  {
+    Job: Warrior
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Spearhead:
+  {
+    Job: Warrior
+    Weapon: Spear
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Incide:
+  {
+    Job: Warrior
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Cross Strike":
+  {
+    Job: Warrior
+    Weapon: Sword
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Stout Wall":
+  {
+    Job: Warrior
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Thousand Spears":
+  {
+    Job: Warrior
+    Weapon: Spear
+    Priority: 2.0
+    Advanced: false
+    Divine: false
+  }
+  "Brands Thunder":
+  {
+    Job: Warrior
+    Weapon: Sword
+    Priority: 3.0
+    Advanced: false
+    Divine: true
+  }
+  "Lions Dance":
+  {
+    Job: Dancer
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Moonlight Waltz":
+  {
+    Job: Dancer
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Peacock Strut":
+  {
+    Job: Dancer
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Mole Dance":
+  {
+    Job: Dancer
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Night Ode":
+  {
+    Job: Dancer
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Panther Dance":
+  {
+    Job: Dancer
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Bewildering Grace":
+  {
+    Job: Dancer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  "Sealticges Seduction":
+  {
+    Job: Dancer
+    Weapon: ""
+    Priority: 4.0
+    Advanced: false
+    Divine: true
+  }
+  "First Aid":
+  {
+    Job: Apothecary
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Icicle:
+  {
+    Job: Apothecary
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Rehabilitate:
+  {
+    Job: Apothecary
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Amputation:
+  {
+    Job: Apothecary
+    Weapon: Axe
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Empoison:
+  {
+    Job: Apothecary
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Vivify:
+  {
+    Job: Apothecary
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  "Last Stand":
+  {
+    Job: Apothecary
+    Weapon: Axe
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Dohters Charity":
+  {
+    Job: Apothecary
+    Weapon: ""
+    Priority: 4.0
+    Advanced: false
+    Divine: true
+  }
+  Steal:
+  {
+    Job: Thief
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Wildfire:
+  {
+    Job: Thief
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "HP Thief":
+  {
+    Job: Thief
+    Weapon: Dagger
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Shackle Foe":
+  {
+    Job: Thief
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Armor Corrosive":
+  {
+    Job: Thief
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Steal SP":
+  {
+    Job: Thief
+    Weapon: Dagger
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Share SP":
+  {
+    Job: Thief
+    Weapon: ""
+    Priority: 3.0
+    Advanced: false
+    Divine: false
+  }
+  "Aebers Reckoning":
+  {
+    Job: Thief
+    Weapon: Dagger
+    Priority: 3.0
+    Advanced: false
+    Divine: true
+  }
+  "Rain of Arrows":
+  {
+    Job: Hunter
+    Weapon: Bow
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "True Strike":
+  {
+    Job: Hunter
+    Weapon: Bow
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Thunderbird:
+  {
+    Job: Hunter
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Leghold Trap":
+  {
+    Job: Hunter
+    Weapon: ""
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  "Mercy Strike":
+  {
+    Job: Hunter
+    Weapon: Bow
+    Priority: 1.0
+    Advanced: false
+    Divine: false
+  }
+  Arrowstorm:
+  {
+    Job: Hunter
+    Weapon: Bow
+    Priority: 2.0
+    Advanced: false
+    Divine: false
+  }
+  "Take Aim":
+  {
+    Job: Hunter
+    Weapon: ""
+    Priority: 2.0
+    Advanced: false
+    Divine: false
+  }
+  "Draefendis Rage":
+  {
+    Job: Hunter
+    Weapon: Bow
+    Priority: 3.0
+    Advanced: false
+    Divine: true
+  }
+  "Fire Rune":
+  {
+    Job: Runelord
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Ice Rune":
+  {
+    Job: Runelord
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Thunder Rune":
+  {
+    Job: Runelord
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Wind Rune":
+  {
+    Job: Runelord
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Dark Rune":
+  {
+    Job: Runelord
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Light Run":
+  {
+    Job: Runelord
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Transfer Rune":
+  {
+    Job: Runelord
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Balogars Blade":
+  {
+    Job: Runelord
+    Weapon: ""
+    Priority: 4.0
+    Advanced: true
+    Divine: true
+  }
+  "Shooting Stars":
+  {
+    Job: Starseer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "BP Boost":
+  {
+    Job: Starseer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  Divination:
+  {
+    Job: Starseer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  Starsong:
+  {
+    Job: Starseer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Celestial Intervention":
+  {
+    Job: Starseer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Etherial Healing":
+  {
+    Job: Starseer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Moon's Reflection":
+  {
+    Job: Starseer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Steorras Prophecy":
+  {
+    Job: Starseer
+    Weapon: ""
+    Priority: 4.0
+    Advanced: true
+    Divine: true
+  }
+  "Ignis Adere":
+  {
+    Job: Sorcerer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Glacies Claudere":
+  {
+    Job: Sorcerer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Tonitrus Canere":
+  {
+    Job: Sorcerer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Ventus Saltare":
+  {
+    Job: Sorcerer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Lux Congerere":
+  {
+    Job: Sorcerer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Tenbrae Operiere":
+  {
+    Job: Sorcerer
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Elemental Break":
+  {
+    Job: Sorcerer
+    Weapon: Staff
+    Priority: 2.0
+    Advanced: true
+    Divine: false
+  }
+  "Dreisangs Spell":
+  {
+    Job: Sorcerer
+    Weapon: ""
+    Priority: 4.0
+    Advanced: true
+    Divine: true
+  }
+  "Guardian Liondog":
+  {
+    Job: Warmaster
+    Weapon: Sword
+    Priority: 2.0
+    Advanced: true
+    Divine: false
+  }
+  "Tiger Rage":
+  {
+    Job: Warmaster
+    Weapon: Axe
+    Priority: 2.0
+    Advanced: true
+    Divine: false
+  }
+  "Qilins Horn":
+  {
+    Job: Warmaster
+    Weapon: Spear
+    Priority: 2.0
+    Advanced: true
+    Divine: false
+  }
+  Yatagarasu:
+  {
+    Job: Warmaster
+    Weapon: Dagger
+    Priority: 2.0
+    Advanced: true
+    Divine: false
+  }
+  "Fox Spirit":
+  {
+    Job: Warmaster
+    Weapon: Staff
+    Priority: 2.0
+    Advanced: true
+    Divine: false
+  }
+  "Phoenix Storm":
+  {
+    Job: Warmaster
+    Weapon: Bow
+    Priority: 2.0
+    Advanced: true
+    Divine: false
+  }
+  "Nightmare Chimera":
+  {
+    Job: Warmaster
+    Weapon: ""
+    Priority: 3.0
+    Advanced: true
+    Divine: false
+  }
+  "Winnehilds Battle Cry":
+  {
+    Job: Warmaster
+    Weapon: All
+    Priority: 4.0
+    Advanced: true
+    Divine: true
+  }
 }
