@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
+from tkinter import filedialog
 import hjson
 import random
 import os
@@ -13,7 +14,7 @@ import Items
 import ROM
 
 
-MAIN_TITLE = "Octopath Traveler Randomizer v 0.1.2a"
+MAIN_TITLE = "Octopath Traveler Randomizer v 0.1.3a"
 
 # Source: https://www.daniweb.com/programming/software-development/code/484591/a-tooltip-class-for-tkinter
 class CreateToolTip(object):
@@ -68,20 +69,45 @@ class GuiApplication:
         with open(get_filename('./data/parameters.json'), 'r') as file:
             fields = hjson.loads(file.read())
 
-        lf = tk.LabelFrame(self.master, text='')
+        labelfonts = ('Helvetica', 14, 'bold')
+        lf = tk.LabelFrame(self.master, text='Octopath Traveler Paks Folder', font=labelfonts)
         lf.grid(row=0, columnspan=2, sticky='nsew', padx=5, pady=5, ipadx=5, ipady=5)
 
+        # Specify output directory
+        self.settings['output'] = tk.StringVar()
+        self.settings['output'].set(os.getcwd())
+        # Find Paks directory
+        name = 'Octopath_Traveler-WindowsNoEditor.pak'
+        if os.name == 'nt': # Windows
+            try:
+                path = 'C:\\Program\\ Files\\ \(x86\)\\Steam\\steamapps'
+                for root, dirs, files in os.walk(path):
+                    if name in files:
+                        self.settings['output'].set(root)
+                        break
+            except:
+                pass
+
+        pathLabel = tk.Label(lf, text='Octopath Traveler Pak Folder:')
+        pathLabel.grid(row=0, column=0, sticky='e', padx=5, pady=2)
+        pathToPak = tk.Entry(lf, textvariable=self.settings['output'], width=10, state='readonly')
+        pathToPak.grid(row=1, column=0, columnspan=2, sticky='we', pady=3)
+        pathButton = tk.Button(lf, text='Browse ...', command=self.getPakPath, width=20) # needs command..
+        pathButton.grid(row=1, column=1, sticky='e', padx=5, pady=2)
+
+        lf = tk.LabelFrame(self.master, font=labelfonts)
+        lf.grid(row=0, column=2, columnspan=2, sticky='nsew', padx=5, pady=5, ipadx=5, ipady=5)
         self.settings['seed'] = tk.IntVar()
         self.randomSeed()
-        tk.Label(lf, text='Seed:').grid(row=0, column=0, sticky='w', padx=60)
+        tk.Label(lf, text='Seed:').grid(row=2, column=0, sticky='w', padx=60, pady=10)
         box = tk.Spinbox(lf, from_=0, to=1e8, width=9, textvariable=self.settings['seed'])
-        box.grid(row=0, column=0, sticky='e', padx=60)
+        box.grid(row=2, column=0, sticky='e', padx=60)
 
-        seedBtn = tk.Button(lf, text='Random Seed', command=self.randomSeed, width=24, height=1)
-        seedBtn.grid(row=1, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
+        seedBtn = tk.Button(lf, text='Random Seed', command=self.randomSeed, width=12, height=1)
+        seedBtn.grid(row=3, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
 
         self.randomizeBtn = tk.Button(lf, text='Randomize', command=self.randomize, height=1)
-        self.randomizeBtn.grid(row=2, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
+        self.randomizeBtn.grid(row=4, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
 
         # Tabs setup
         tabControl = ttk.Notebook(self.master)
@@ -89,16 +115,15 @@ class GuiApplication:
         tabs = {name: ttk.Frame(tabControl) for name in tabNames}
         for name, tab in tabs.items():
             tabControl.add(tab, text=name)
-        tabControl.grid(row=1, column=0, columnspan=20, sticky='news')
+        tabControl.grid(row=2, column=0, columnspan=20, sticky='news')
         # tabControl.pack(expand=1, fill='both')
 
         # Tab label
-        labelfonts = ('Helvetica', 14, 'bold')
         for name, tab in tabs.items():
             labelDict = fields[name]
             for i, (key, value) in enumerate(labelDict.items()):
-                row = i    # i//4
-                column = 0 # i%4
+                row = 0    # i//4
+                column = i # i%4
                 # Setup LabelFrame
                 lf = tk.LabelFrame(tab, text=key, font=labelfonts)
                 lf.grid(row=row, column=column, padx=10, pady=5, ipadx=30, ipady=5, sticky='news')
@@ -126,7 +151,6 @@ class GuiApplication:
                             self.buildToolTip(button, vj)
                             buttons.append(button)
                             row += 1
-                            
 
                     elif vj['type'] == 'spinbox':
                         text = f"{vj['label']}:".ljust(20, ' ')
@@ -162,6 +186,14 @@ class GuiApplication:
         self.canvas = tk.Canvas()
         self.canvas.grid(row=6, column=0, columnspan=20, pady=10)
 
+
+    def getPakPath(self):
+        path = filedialog.askdirectory()
+        if path.split('/')[-1] == 'Paks':
+            self.settings['output'].set(path)
+        else:
+            self.bottomLabel('Selected path must lead to the Paks folder.', 'red', 0)
+            self.bottomLabel('e.g. ....\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks', 'red', 1) 
 
     def toggler(self, lst, key):
         def f():
@@ -235,11 +267,11 @@ def randomize(settings):
 
     patch = "JobData_P.pak"
     target = "../../../Octopath_Traveler/Content/Character/Database/"
-    ROM.patch(patch, target)
+    ROM.patch(patch, target, settings['output'])
 
     patch = "Items_P.pak"
     target = "../../../Octopath_Traveler/Content/Object/Database/"
-    ROM.patch(patch, target)
+    ROM.patch(patch, target, settings['output'])
 
 
 if __name__ == '__main__':
