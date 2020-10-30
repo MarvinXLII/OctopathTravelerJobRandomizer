@@ -9,19 +9,21 @@ from gui import randomize
 
 def main():
     settings = {
-        # 'seed': 10436062, #random.randint(0, 1e8),
-        'seed': random.randint(0, 1e8),
-        'skills': True,                      # Shuffles skills
-        'skills-one-divine': True,           # - One Divine Skill per Job
-        'skills-separate': True,             # - Keeps skills of Base and Advanced jobs separate
-        'costs': True,                       # Random JP costs of skills
-        'support': True,                     # Shuffles support skills
-        'support-EM': True,                  # - Ensures Evasive Maneuvers is in the first slot
-        'stats': True,                       # Shuffles Job bonus stats
-        'items': True,                       # Shuffles hidden items and chests
-        'items-option': 'items-all',         # - shuffled together
-        # 'items-option': 'items-separate',  # - shuffled separately
-        'no-thief-chests': True,             # Purple chests turn to brown chests
+        # 'seed': random.randint(0, 1e8),
+        'seed': 74956134,
+        'skills': True,
+        'skills-one-divine': True,
+        'skills-separate': True,
+        'costs': True,
+        'support': True,
+        'support-EM': True,
+        'stats': True,
+        # 'stats-option': 'random',
+        'stats-option': 'fairly',
+        'items': True,
+        'items-option': 'items-all',
+        # 'items-option': 'items-separate',
+        'no-thief-chests': True,
         'output': os.getcwd(),
     }
 
