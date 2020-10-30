@@ -49,7 +49,7 @@ class JOBS:
         self.skills = self.read(offsets['skills'], stride['skills'], size['skills'], 8)
         self.costs = self.read(offsets['costs'], stride['costs'], size['costs'], 8)
         self.stats = self.read(offsets['stats'], stride['stats'], size['stats'], 12)
-        # HP, MP, BP, SP, ATK, DEF, MATK, MDEF, ACC, EVA, CON, AGI
+        # HP, MP, BP, SP, ATK, DEF, MATK, MDEF, ACC, EVA, CRIT, AGI
 
     def weaponCheck(self, weapon):
         if weapon == '': return True
@@ -200,7 +200,6 @@ class Skills:
                 break
 
 
-
 def shuffleStats(jobs):
     # Make lists to shuffle
     stats = [[] for _ in range(12)]
@@ -217,6 +216,39 @@ def shuffleStats(jobs):
         for i in range(12):
             s = stats[i].pop()
             job.stats.append(s)
+
+
+def shuffleStatsFairly(jobs):
+    # Make lists
+    stats = [job.stats for job in jobs.values()]
+    base = stats[:8]
+    advanced = stats[8:]
+
+    # Shuffle stats between jobs
+    random.shuffle(base)
+    random.shuffle(advanced)
+
+    # Shuffle values between stat
+    for bi in base+advanced:
+        set1 = [bi[j] for j in [0, 1]]        # HP, SP
+        set2 = [bi[j] for j in [4, 6, 9, 11]] # ATK, MATK, EVA, AGI
+        set3 = [bi[j] for j in [5, 7, 8, 10]] # DEF, MDEF, ACC, CRIT
+        random.shuffle(set1)
+        random.shuffle(set2)
+        random.shuffle(set3)
+        bi[0]  = set1[0]
+        bi[1]  = set1[1]
+        bi[4]  = set2[0]
+        bi[5]  = set3[0]
+        bi[6]  = set2[1]
+        bi[7]  = set3[1]
+        bi[8]  = set3[2]
+        bi[9]  = set2[2]
+        bi[10] = set3[3]
+        bi[11] = set2[3]
+
+    for stat, job in zip(base+advanced, jobs.values()):
+        job.stats = stat
 
 
 def randomCosts():
@@ -241,26 +273,24 @@ def shuffleData(filename, settings, outdir):
         data = bytearray(file.read())
 
     jobs = {
-        'Merchant': JOBS(0x26, data, 'Tressa'),
-        'Thief': JOBS(0x7ce, data, 'Therion'),
-        'Warrior': JOBS(0xf76, data, 'Olberic'),
-        'Hunter': JOBS(0x171e, data, "H'aanit"),
-        'Cleric': JOBS(0x1ec6, data, 'Ophilia'),
-        'Dancer': JOBS(0x266e, data, 'Primrose'),
-        'Scholar': JOBS(0x2e16, data, 'Cyrus'),
-        'Apothecary': JOBS(0x35be, data, 'Alfyn'),
-        'Warmaster': JOBS(0x3d66, data),
-        'Sorcerer': JOBS(0x450e, data),
-        'Starseer': JOBS(0x4cb6, data),
-        'Runelord': JOBS(0x545e, data),
+        'Merchant':   JOBS(  0x26, data,   'Tressa'),
+        'Thief':      JOBS( 0x7ce, data,  'Therion'),
+        'Warrior':    JOBS( 0xf76, data,  'Olberic'),
+        'Hunter':     JOBS(0x171e, data,  "H'aanit"),
+        'Cleric':     JOBS(0x1ec6, data,  'Ophilia'),
+        'Dancer':     JOBS(0x266e, data, 'Primrose'),
+        'Scholar':    JOBS(0x2e16, data,    'Cyrus'),
+        'Apothecary': JOBS(0x35be, data,    'Alfyn'),
+        'Warmaster':  JOBS(0x3d66, data),
+        'Sorcerer':   JOBS(0x450e, data),
+        'Starseer':   JOBS(0x4cb6, data),
+        'Runelord':   JOBS(0x545e, data),
     }
-    # for name, job in jobs.items():
-    #     job.name = name
 
     ################################
     # SETUP VANILLA SUPPORT SKILLS #
     ################################
-    
+
     with open(get_filename('data/support.json'), 'r') as file:
         support = hjson.load(file)
 
@@ -279,7 +309,7 @@ def shuffleData(filename, settings, outdir):
     ########################
     # SETUP VANILLA SKILLS #
     ########################
-    
+
     with open(get_filename('data/skills.json'), 'r') as file:
         skillsJSON = hjson.load(file)
 
@@ -313,9 +343,7 @@ def shuffleData(filename, settings, outdir):
         random.seed(seed)
         skills = Skills(jobs, skillsDict)
         skills.shuffleSkills(settings['skills-one-divine'], settings['skills-separate'])
-        # while not shuffleSkills(jobs, skillsJSON, skillNameToValue):
-        #     pass
-    
+
     # Random costs
     if settings['costs']:
         print('Randomizing costs')
@@ -350,7 +378,10 @@ def shuffleData(filename, settings, outdir):
     # Shuffle stats
     if settings['stats']:
         random.seed(seed)
-        shuffleStats(jobs)
+        if settings['stats-option'] == 'random':
+            shuffleStats(jobs)
+        elif settings['stats-option'] == 'fairly':
+            shuffleStatsFairly(jobs)
 
     ##################
     # PATCH AND DUMP #
@@ -366,7 +397,7 @@ def shuffleData(filename, settings, outdir):
     # PRINT LOG #
     #############
 
-    logfile = f'{outdir}/rando.log'
+    logfile = f'{outdir}/spoiler_jobs.log'
     if os.path.exists(logfile): os.remove(logfile)
     with open(logfile, 'w') as file:
         file.write('================\n')
@@ -412,8 +443,8 @@ def shuffleData(filename, settings, outdir):
         file.write('==================\n')
         file.write('\n\n')
 
-        # stats = ['HP', 'MP', 'BP', 'SP', 'ATK', 'DEF', 'MATK', 'MDEF', 'ACC', 'EVA', 'CON', 'AGI']
-        stats = ['HP', 'SP', 'ATK', 'DEF', 'MATK', 'MDEF', 'ACC', 'EVA', 'CON', 'AGI']
+        # stats = ['HP', 'MP', 'BP', 'SP', 'ATK', 'DEF', 'MATK', 'MDEF', 'ACC', 'EVA', 'CRIT', 'AGI']
+        stats = ['HP', 'SP', 'ATK', 'DEF', 'MATK', 'MDEF', 'ACC', 'EVA', 'CRIT', 'AGI']
         stats = list(map(lambda x: x.ljust(6, ' '), stats))
         stats = ''.join(stats)
 
