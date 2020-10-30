@@ -133,8 +133,8 @@ class Skills:
     def placeSkills(self, skills, jobs, minidx=0, maxidx=8):
         random.shuffle(skills)
         random.shuffle(jobs)
-        for job in jobs:
-            for i in range(minidx, maxidx):
+        for i in range(minidx, maxidx):
+            for job in jobs:
                 if job.skills[i] > 0:
                     continue
                 for skill in skills:
@@ -147,13 +147,8 @@ class Skills:
 
 
     def shuffleSkills(self, oneDivineSkillPerJob, keepAdvancedJobsSeparate):
-        # SETUP
-        jobs = [job for job in self.jobs.values()]
-        if oneDivineSkillPerJob:
-            maxidx = 7
-        else:
-            maxidx = 8
 
+        jobs = [job for job in self.jobs.values()]
         while True:
             # Reset
             for skill in self.skills:
@@ -161,8 +156,8 @@ class Skills:
             for job in self.jobs.values():
                 job.skills = [0]*8
 
-            # Do divine skills first, if needed
             if oneDivineSkillPerJob:
+                # Place 1 divine skill per job
                 divine = self.filterDivineSkills(self.skills)
                 if keepAdvancedJobsSeparate:
                     base = self.filterBaseJobSkill(divine)
@@ -175,52 +170,30 @@ class Skills:
                 if sum(self.placed.values()) < 12:
                     continue
 
-            # TRY DOING ADVANCED JOBS SEPARATELY HERE?
-            # THEN DO ALL THE REST
-                
-            # Place the remaining skills
             if keepAdvancedJobsSeparate:
-
-                skillset = self.filterPlaced(self.skills)
-                skillset = self.filterPriority(skillset, 1)
-                skillset = self.filterBaseJobSkill(skillset)
-                self.placeSkills(skillset, jobs[:8], maxidx=2)
-
-                skillset = self.filterPlaced(self.skills)
-                skillset = self.filterPriority(skillset, 2)
-                skillset = self.filterBaseJobSkill(skillset)
-                self.placeSkills(skillset, jobs[:8], maxidx=maxidx)
-
-                skillset = self.filterPlaced(self.skills)
-                skillset = self.filterPriority(skillset, 3)
-                skillset = self.filterBaseJobSkill(skillset)
-                self.placeSkills(skillset, jobs[:8], maxidx=maxidx)
-
-                skillset = self.filterPlaced(self.skills)
-                skillset = self.filterPriority(skillset, 4)
-                skillset = self.filterBaseJobSkill(skillset)
-                self.placeSkills(skillset, jobs[:8], maxidx=maxidx)
-
+                # Finish all advanced jobs
                 skillset = self.filterPlaced(self.skills)
                 skillset = self.filterAdvancedJobSkill(skillset)
-                self.placeSkills(skillset, jobs[8:], maxidx=maxidx)
+                self.placeSkills(skillset, jobs[8:])
+                totalPlaced = sum(self.placed.values()) - 8*oneDivineSkillPerJob
+                if totalPlaced != 32: continue
 
-            else:
-                skillset = self.filterPlaced(self.skills)
-                skillset = self.filterPriority(skillset, 1)
-                self.placeSkills(skillset, jobs, maxidx=2)
+            # All the rest...
+            skillset = self.filterPlaced(self.skills)
+            skillset = self.filterPriority(skillset, 1)
+            self.placeSkills(skillset, jobs, maxidx=2)
 
-                skillset = self.filterPlaced(self.skills)
-                skillset = self.filterPriority(skillset, 2)
-                self.placeSkills(skillset, jobs, maxidx=maxidx)
+            skillset = self.filterPlaced(self.skills)
+            skillset = self.filterPriority(skillset, 2)
+            self.placeSkills(skillset, jobs)
 
-                skillset = self.filterPlaced(self.skills)
-                skillset = self.filterPriority(skillset, 3)
-                self.placeSkills(skillset, jobs, maxidx=maxidx)
+            skillset = self.filterPlaced(self.skills)
+            skillset = self.filterPriority(skillset, 3)
+            self.placeSkills(skillset, jobs)
 
-                skillset = self.filterPlaced(self.skills)
-                skillset = self.filterPriority(skillset, 4)
-                self.placeSkills(skillset, jobs, maxidx=maxidx)
+            skillset = self.filterPlaced(self.skills)
+            skillset = self.filterPriority(skillset, 4)
+            self.placeSkills(skillset, jobs)
 
             # Assert all are placed
             if all(list(self.placed.values())):
@@ -339,7 +312,7 @@ def shuffleData(filename, settings, outdir):
         print('Shuffling skills')
         random.seed(seed)
         skills = Skills(jobs, skillsDict)
-        skills.shuffleSkills(settings['skills-one-divine'], settings['skills-advanced-separate'])
+        skills.shuffleSkills(settings['skills-one-divine'], settings['skills-separate'])
         # while not shuffleSkills(jobs, skillsJSON, skillNameToValue):
         #     pass
     
