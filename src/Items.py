@@ -14,7 +14,7 @@ class ITEMS:
         self.base = base
         self.data = data
 
-        # self.key = self.read('key')
+        self.key = self.read('keys')
         self.objType = self.read('ObjType')
         self.objResLabel = self.read('ObjResLabel')    # NEEDED FOR FUTURE ORB SHUFFLE???
         self.isMoney = self.read('IsMoney')
@@ -26,7 +26,7 @@ class ITEMS:
         elif self.objType == 4:
             self.case = 'Hidden'
         else:
-            self.case = 'Treasure'
+            self.case = 'Chest'
 
     def read(self, label):
         offset = offsets[label]['offset']
@@ -48,7 +48,7 @@ class ITEMS:
 
 def noThiefChests(items):
     for item in items:
-        if item.case != 'Treasure': continue
+        if item.case != 'Chest': continue
         if item.objType != 3: continue
         item.objType = 1
 
@@ -84,8 +84,6 @@ def shuffleItems(filename, settings, outdir):
     items = []
     size = 13*16+15
     address = 0x2d
-    i = 0
-    # while address < 0x30e6e:
     while address < 0x30e60:
         items.append( ITEMS(address, data) )
         address += size
@@ -102,16 +100,16 @@ def shuffleItems(filename, settings, outdir):
     # RANODMIZE STUFF #
     ###################
 
-    seed = settings['seed']
 
     # Shuffle items
-    random.seed(seed)
     if settings['items']:
+        seed = settings['seed']
+        random.seed(seed)
         if settings['items-option'] == 'items-all':
             shuffleAll(items)
         elif settings['items-option'] == 'items-separate':
             shuffleSubset(items, 'Hidden')
-            shuffleSubset(items, 'Treasure')
+            shuffleSubset(items, 'Chest')
 
     ##################
     # PATCH AND DUMP #
@@ -122,3 +120,81 @@ def shuffleItems(filename, settings, outdir):
 
     with open(get_filename(filename), 'wb') as file:
         file.write(data)
+
+    #############
+    # PRINT LOG #
+    #############
+
+    with open('data/ObjData.json','r') as file:
+        objdata = hjson.load(file)
+
+    with open('data/items.json','r') as file:
+        nameItems = hjson.load(file)
+        
+    hidden = objdata['hidden']
+    chests = objdata['chest']
+    
+    logfile = f'{outdir}/spoiler_items.log'
+    if os.path.exists(logfile): os.remove(logfile)
+    with open(logfile, 'w') as file:
+        file.write('==============\n')
+        file.write(' HIDDEN ITEMS \n')
+        file.write('==============\n')
+        file.write('\n\n')
+
+        hiddenItems = filter(lambda x: x.case == 'Hidden', items)
+        chestItems = filter(lambda x: x.case == 'Chest', items)
+        
+        region = ''
+        place = ''
+        for item in hiddenItems:
+            key = str(item.key)
+            if region != hidden[key]['region']:
+                file.write('\n\n')
+                region = hidden[key]['region']
+                file.write(region+'\n')
+                file.write('-'*len(region))
+                file.write('\n\n')
+
+            if place != hidden[key]['place']:
+                file.write('\n')
+                place = hidden[key]['place']
+            string = ' '*5 + hidden[key]['place'].ljust(30) + ' '*5
+            string += hidden[key]['item'].rjust(30)
+            string += ' <-- '
+            if item.isMoney:
+                string += f"{item.haveItemCnt} leaves".ljust(30)
+            else:
+                string += nameItems[str(item.haveItemLabel)]['item'].ljust(30)
+            string += ' '*5 + f"({hidden[key]['npc']})"
+            file.write(string+'\n')
+        
+        file.write('\n\n\n\n')
+        file.write('========\n')
+        file.write(' CHESTS \n')
+        file.write('========\n')
+        file.write('\n\n')
+
+
+        region = ''
+        area = ''
+        for item in chestItems:
+            key = str(item.key)
+            if region != chests[key]['region']:
+                file.write('\n\n')
+                region = chests[key]['region']
+                file.write(region+'\n')
+                file.write('-'*len(region))
+                file.write('\n\n')
+
+            if area != chests[key]['area']:
+                file.write('\n')
+                area = chests[key]['area']
+            string = ' '*5 + chests[key]['area'].ljust(35)
+            string += chests[key]['item'].rjust(30)
+            string += ' <-- '
+            if item.isMoney:
+                string += f"{item.haveItemCnt} leaves".ljust(30)
+            else:
+                string += nameItems[str(item.haveItemLabel)]['item'].ljust(30)
+            file.write(string+'\n')

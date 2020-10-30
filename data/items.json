@@ -1,0 +1,1752 @@
+{
+    180:
+    {
+        item: Small Cup
+        type: ""
+    }
+    181:
+    {
+        item: Silver Clock
+        type: ""
+    }
+    182:
+    {
+        item: Introduction to Adventuring
+        type: ""
+    }
+    183:
+    {
+        item: Rare Stone
+        type: ""
+    }
+    184:
+    {
+        item: Heavy Coin Pouch
+        type: ""
+    }
+    185:
+    {
+        item: Refreshing Jam
+        type: ""
+    }
+    186:
+    {
+        item: Commemorative Coin
+        type: ""
+    }
+    187:
+    {
+        item: Olive of Life
+        type: ""
+    }
+    188:
+    {
+        item: Olive of Life (M)
+        type: ""
+    }
+    189:
+    {
+        item: Herb of Healing
+        type: ""
+    }
+    190:
+    {
+        item: Herb of Clamor
+        type: ""
+    }
+    191:
+    {
+        item: Herb of Light
+        type: ""
+    }
+    192:
+    {
+        item: Herb of Clarity
+        type: ""
+    }
+    193:
+    {
+        item: Herb of Awakening
+        type: ""
+    }
+    194:
+    {
+        item: Herb of Valor
+        type: ""
+    }
+    195:
+    {
+        item: Olive of Life (L)
+        type: ""
+    }
+    196:
+    {
+        item: Revitalizing Jam
+        type: ""
+    }
+    197:
+    {
+        item: Silver-filled Pouch
+        type: ""
+    }
+    198:
+    {
+        item: Cat’s Eye
+        type: ""
+    }
+    199:
+    {
+        item: Fire Soulstone
+        type: Soulstone
+    }
+    200:
+    {
+        item: Fire Soulstone (M)
+        type: Soulstone
+    }
+    201:
+    {
+        item: Ice Soulstone
+        type: Soulstone
+    }
+    202:
+    {
+        item: Ice Soulstone (M)
+        type: Soulstone
+    }
+    203:
+    {
+        item: Thunder Soulstone
+        type: Soulstone
+    }
+    204:
+    {
+        item: Thunder Soulstone (M)
+        type: Soulstone
+    }
+    205:
+    {
+        item: Wind Soulstone
+        type: Soulstone
+    }
+    206:
+    {
+        item: Wind Soulstone (M)
+        type: Soulstone
+    }
+    207:
+    {
+        item: Light Soulstone
+        type: Soulstone
+    }
+    208:
+    {
+        item: Shadow Soulstone
+        type: Soulstone
+    }
+    209:
+    {
+        item: Bottle of Poison Dust
+        type: ""
+    }
+    210:
+    {
+        item: Bottle of Blinding Dust
+        type: ""
+    }
+    211:
+    {
+        item: Bottle of Befuddling Dust
+        type: ""
+    }
+    212:
+    {
+        item: Bottle of Sleeping Dust
+        type: ""
+    }
+    213:
+    {
+        item: Nourishing Nut
+        type: ""
+    }
+    214:
+    {
+        item: Invigorating Nut
+        type: ""
+    }
+    215:
+    {
+        item: Fortifying Nut
+        type: ""
+    }
+    216:
+    {
+        item: Tough Nut
+        type: ""
+    }
+    217:
+    {
+        item: Magic Nut
+        type: ""
+    }
+    218:
+    {
+        item: Resistant Nut
+        type: ""
+    }
+    219:
+    {
+        item: Sharp Nut
+        type: ""
+    }
+    220:
+    {
+        item: Slippery Nut
+        type: ""
+    }
+    221:
+    {
+        item: Critical Nut
+        type: ""
+    }
+    222:
+    {
+        item: Light Nut
+        type: ""
+    }
+    223:
+    {
+        item: Healing Grape
+        type: ""
+    }
+    224:
+    {
+        item: Healing Grape (M)
+        type: ""
+    }
+    225:
+    {
+        item: Healing Grape Bunch
+        type: ""
+    }
+    226:
+    {
+        item: Old Coin
+        type: ""
+    }
+    227:
+    {
+        item: Copper-filled Pouch
+        type: ""
+    }
+    228:
+    {
+        item: Curious Antique
+        type: ""
+    }
+    229:
+    {
+        item: Dazzling Artwork
+        type: ""
+    }
+    230:
+    {
+        item: Inspiriting Plum
+        type: ""
+    }
+    231:
+    {
+        item: Inspiriting Plum (M)
+        type: ""
+    }
+    232:
+    {
+        item: Inspiriting Plum Basket
+        type: ""
+    }
+    233:
+    {
+        item: Rusty Cup
+        type: ""
+    }
+    234:
+    {
+        item: Glossy Gold Coin
+        type: ""
+    }
+    235:
+    {
+        item: Cloth Map
+        type: ""
+    }
+    236:
+    {
+        item: Herb of Revival
+        type: ""
+    }
+    237:
+    {
+        item: Scrap of Rope
+        type: ""
+    }
+    238:
+    {
+        item: Candy
+        type: ""
+    }
+    239:
+    {
+        item: Bronze Vest
+        type: Armor
+    }
+    240:
+    {
+        item: Spiked Vest
+        type: Armor
+    }
+    241:
+    {
+        item: Spiked Armor
+        type: Armor
+    }
+    242:
+    {
+        item: Imperial Armor
+        type: Armor
+    }
+    243:
+    {
+        item: Falcon Garb
+        type: Armor
+    }
+    244:
+    {
+        item: Wind Attire
+        type: Armor
+    }
+    245:
+    {
+        item: High House's Armor
+        type: Armor
+    }
+    246:
+    {
+        item: Robe of the Dragon Princess
+        type: Armor
+    }
+    247:
+    {
+        item: Traditional Dancer Garb
+        type: Armor
+    }
+    248:
+    {
+        item: Ethereal Dancer Garb
+        type: Armor
+    }
+    249:
+    {
+        item: Fire Amulet
+        type: Accessory
+    }
+    250:
+    {
+        item: Inferno Amulet
+        type: Accessory
+    }
+    251:
+    {
+        item: Ice Amulet
+        type: Accessory
+    }
+    252:
+    {
+        item: Blizzard Amulet
+        type: Accessory
+    }
+    253:
+    {
+        item: Wind Amulet
+        type: Accessory
+    }
+    254:
+    {
+        item: Tempest Amulet
+        type: Accessory
+    }
+    255:
+    {
+        item: Lightning Amulet
+        type: Accessory
+    }
+    256:
+    {
+        item: Thunderstorm Amulet
+        type: Accessory
+    }
+    257:
+    {
+        item: Dark Amulet
+        type: Accessory
+    }
+    258:
+    {
+        item: Void Amulet
+        type: Accessory
+    }
+    259:
+    {
+        item: Light Amulet
+        type: Accessory
+    }
+    260:
+    {
+        item: Gleaming Amulet
+        type: Accessory
+    }
+    261:
+    {
+        item: Antidote Stone
+        type: Accessory
+    }
+    262:
+    {
+        item: Wakeful Stone
+        type: Accessory
+    }
+    263:
+    {
+        item: Articulate Stone
+        type: Accessory
+    }
+    264:
+    {
+        item: Bright Stone
+        type: Accessory
+    }
+    265:
+    {
+        item: Calming Stone
+        type: Accessory
+    }
+    266:
+    {
+        item: Clarity Stone
+        type: Accessory
+    }
+    267:
+    {
+        item: Conscious Stone
+        type: Accessory
+    }
+    268:
+    {
+        item: Vivifying Stone
+        type: Accessory
+    }
+    269:
+    {
+        item: Empowering Earring
+        type: Accessory
+    }
+    270:
+    {
+        item: Protective Bracelet
+        type: Accessory
+    }
+    271:
+    {
+        item: Unerring Bracelet
+        type: Accessory
+    }
+    272:
+    {
+        item: Enlightening Bracelet
+        type: Accessory
+    }
+    273:
+    {
+        item: Enlightening Necklace
+        type: Accessory
+    }
+    274:
+    {
+        item: Sprightly Ring
+        type: Accessory
+    }
+    275:
+    {
+        item: Iron Helm
+        type: Armor
+    }
+    276:
+    {
+        item: Grand Helm
+        type: Armor
+    }
+    277:
+    {
+        item: Imperial Helm
+        type: Armor
+    }
+    278:
+    {
+        item: Crystal Helm
+        type: Armor
+    }
+    279:
+    {
+        item: Silver Hairpiece
+        type: Armor
+    }
+    280:
+    {
+        item: Elemental Hat
+        type: Armor
+    }
+    281:
+    {
+        item: Enchanted Circlet
+        type: Armor
+    }
+    282:
+    {
+        item: Adamantine Hat
+        type: Armor
+    }
+    283:
+    {
+        item: Hypnos Crown
+        type: Armor
+    }
+    284:
+    {
+        item: Black Cap
+        type: Armor
+    }
+    285:
+    {
+        item: Silent Bandana
+        type: Armor
+    }
+    286:
+    {
+        item: Hasty Helm
+        type: Armor
+    }
+    287:
+    {
+        item: Buckler
+        type: Armor
+    }
+    288:
+    {
+        item: Kite Shield
+        type: Armor
+    }
+    289:
+    {
+        item: Knight's Shield
+        type: Armor
+    }
+    290:
+    {
+        item: Adamantine Shield
+        type: Armor
+    }
+    291:
+    {
+        item: Elusive Shield
+        type: Armor
+    }
+    292:
+    {
+        item: Force Shield
+        type: Armor
+    }
+    293:
+    {
+        item: Soothing Seed
+        type: ""
+    }
+    294:
+    {
+        item: Soothing Dust
+        type: ""
+    }
+    295:
+    {
+        item: Purifying Seed
+        type: ""
+    }
+    296:
+    {
+        item: Purifying Dust
+        type: ""
+    }
+    297:
+    {
+        item: Injurious Seed
+        type: ""
+    }
+    298:
+    {
+        item: Injurious Dust
+        type: ""
+    }
+    299:
+    {
+        item: Ruinous Seed
+        type: ""
+    }
+    300:
+    {
+        item: Ruinous Dust
+        type: ""
+    }
+    301:
+    {
+        item: Sleepweed
+        type: ""
+    }
+    302:
+    {
+        item: Addlewort
+        type: ""
+    }
+    303:
+    {
+        item: Essence of Grape
+        type: ""
+    }
+    304:
+    {
+        item: Essence of Plum
+        type: ""
+    }
+    305:
+    {
+        item: Essence of Pomegranate
+        type: ""
+    }
+    306:
+    {
+        item: Olive Bloom
+        type: ""
+    }
+    307:
+    {
+        item: Iron Axe
+        type: Weapon
+    }
+    308:
+    {
+        item: Silver Axe
+        type: Weapon
+    }
+    309:
+    {
+        item: Graviton Axe
+        type: Weapon
+    }
+    310:
+    {
+        item: Inferno Axe
+        type: Weapon
+    }
+    311:
+    {
+        item: Rock Cleaver
+        type: Weapon
+    }
+    312:
+    {
+        item: Hill Cleaver
+        type: Weapon
+    }
+    313:
+    {
+        item: Death Cleaver
+        type: Weapon
+    }
+    314:
+    {
+        item: Soul Hatchet
+        type: Weapon
+    }
+    315:
+    {
+        item: Rune Hatchet
+        type: Weapon
+    }
+    316:
+    {
+        item: Enchanted Axe
+        type: Weapon
+    }
+    317:
+    {
+        item: Steel Axe
+        type: Weapon
+    }
+    318:
+    {
+        item: Argent Axe
+        type: Weapon
+    }
+    319:
+    {
+        item: Stone Bow
+        type: Weapon
+    }
+    320:
+    {
+        item: Heavy Bow
+        type: Weapon
+    }
+    321:
+    {
+        item: Arcane Bow
+        type: Weapon
+    }
+    322:
+    {
+        item: Soul Bow
+        type: Weapon
+    }
+    323:
+    {
+        item: Spirit Bow
+        type: Weapon
+    }
+    324:
+    {
+        item: Rune Bow
+        type: Weapon
+    }
+    325:
+    {
+        item: Soldier's Longbow
+        type: Weapon
+    }
+    326:
+    {
+        item: Huntress's Longbow
+        type: Weapon
+    }
+    327:
+    {
+        item: Master's Longbow
+        type: Weapon
+    }
+    328:
+    {
+        item: Holy Longbow
+        type: Weapon
+    }
+    329:
+    {
+        item: Augmented Bow of the Falcon
+        type: Weapon
+    }
+    330:
+    {
+        item: Improved Bow of the Eagle
+        type: Weapon
+    }
+    331:
+    {
+        item: Stinging Dagger
+        type: Weapon
+    }
+    332:
+    {
+        item: Falcon Dagger
+        type: Weapon
+    }
+    333:
+    {
+        item: Legion Dagger
+        type: Weapon
+    }
+    334:
+    {
+        item: Swordbreaker
+        type: Weapon
+    }
+    335:
+    {
+        item: Gaolbreaker
+        type: Weapon
+    }
+    336:
+    {
+        item: Justice Breaker
+        type: Weapon
+    }
+    337:
+    {
+        item: Viper Dagger
+        type: Weapon
+    }
+    338:
+    {
+        item: Forbidden Dagger
+        type: Weapon
+    }
+    339:
+    {
+        item: War Spear
+        type: Weapon
+    }
+    340:
+    {
+        item: Hedgehog Spear
+        type: Weapon
+    }
+    341:
+    {
+        item: Arcane Glaive
+        type: Weapon
+    }
+    342:
+    {
+        item: War Lance
+        type: Weapon
+    }
+    343:
+    {
+        item: Imperial Lance
+        type: Weapon
+    }
+    344:
+    {
+        item: Scourge Lance
+        type: Weapon
+    }
+    345:
+    {
+        item: Elemental Glaive
+        type: Weapon
+    }
+    346:
+    {
+        item: Master's Spear
+        type: Weapon
+    }
+    347:
+    {
+        item: Pole Mace
+        type: Weapon
+    }
+    348:
+    {
+        item: Sledgehammer
+        type: Weapon
+    }
+    349:
+    {
+        item: Giant's Club
+        type: Weapon
+    }
+    350:
+    {
+        item: Sturdy Quartz Rod
+        type: Weapon
+    }
+    351:
+    {
+        item: Sturdy Sapphire Rod
+        type: Weapon
+    }
+    352:
+    {
+        item: Enchanted Rod
+        type: Weapon
+    }
+    353:
+    {
+        item: Psychic Staff
+        type: Weapon
+    }
+    354:
+    {
+        item: Wizard’s Rod
+        type: Weapon
+    }
+    355:
+    {
+        item: Knowledge Staff
+        type: Weapon
+    }
+    356:
+    {
+        item: Broadsword
+        type: Weapon
+    }
+    357:
+    {
+        item: Silver Sword
+        type: Weapon
+    }
+    358:
+    {
+        item: Bastard Sword
+        type: Weapon
+    }
+    359:
+    {
+        item: Heavy Blade
+        type: Weapon
+    }
+    360:
+    {
+        item: Moonblade
+        type: Weapon
+    }
+    361:
+    {
+        item: Snipe Saber
+        type: Weapon
+    }
+    362:
+    {
+        item: Angel Saber
+        type: Weapon
+    }
+    363:
+    {
+        item: Unseen Saber
+        type: Weapon
+    }
+    364:
+    {
+        item: Captain’s Sword
+        type: Weapon
+    }
+    365:
+    {
+        item: Enchanted Sword
+        type: Weapon
+    }
+    366:
+    {
+        item: Carnage Blade
+        type: Weapon
+    }
+    367:
+    {
+        item: Forbidden Blade
+        type: Weapon
+    }
+    429496729779:
+    {
+        item: ""
+        type: ""
+    }
+    433791697075:
+    {
+        item: Mysterious Ore
+        type: ""
+    }
+    438086664371:
+    {
+        item: Tree Nut
+        type: ""
+    }
+    442381631667:
+    {
+        item: Hairbrush
+        type: ""
+    }
+    446676598963:
+    {
+        item: Empty Coin Pouch
+        type: ""
+    }
+    450971566259:
+    {
+        item: Coin Pouch
+        type: ""
+    }
+    455266533555:
+    {
+        item: ""
+        type: ""
+    }
+    459561500851:
+    {
+        item: ""
+        type: ""
+    }
+    463856468147:
+    {
+        item: ""
+        type: ""
+    }
+    468151435443:
+    {
+        item: ""
+        type: ""
+    }
+    472446402739:
+    {
+        item: ""
+        type: ""
+    }
+    476741370035:
+    {
+        item: ""
+        type: ""
+    }
+    481036337331:
+    {
+        item: ""
+        type: ""
+    }
+    485331304627:
+    {
+        item: ""
+        type: ""
+    }
+    489626271923:
+    {
+        item: ""
+        type: ""
+    }
+    493921239219:
+    {
+        item: ""
+        type: ""
+    }
+    498216206515:
+    {
+        item: Light Soulstone (M)
+        type: Soulstone
+    }
+    502511173811:
+    {
+        item: Shadow Soulstone (M)
+        type: Soulstone
+    }
+    506806141107:
+    {
+        item: Odds and Ends
+        type: ""
+    }
+    511101108403:
+    {
+        item: Large Feather
+        type: ""
+    }
+    515396075699:
+    {
+        item: Glass Marble
+        type: ""
+    }
+    519691042995:
+    {
+        item: Dubious Gold Ore
+        type: ""
+    }
+    523986010291:
+    {
+        item: Pseudo Gold Ore
+        type: ""
+    }
+    528280977587:
+    {
+        item: Fool's Gold Ore
+        type: ""
+    }
+    532575944883:
+    {
+        item: Copper Lantern
+        type: ""
+    }
+    536870912179:
+    {
+        item: Bone
+        type: ""
+    }
+    541165879475:
+    {
+        item: Weathered Boots
+        type: ""
+    }
+    545460846771:
+    {
+        item: Dirty Ball of Cloth
+        type: ""
+    }
+    549755814067:
+    {
+        item: Rigid Wire
+        type: ""
+    }
+    554050781363:
+    {
+        item: Necklace
+        type: ""
+    }
+    558345748659:
+    {
+        item: Poysenberry
+        type: ""
+    }
+    562640715955:
+    {
+        item: Pseudo Cider
+        type: ""
+    }
+    566935683251:
+    {
+        item: Red Apple
+        type: ""
+    }
+    571230650547:
+    {
+        item: Bottled Breath
+        type: ""
+    }
+    575525617843:
+    {
+        item: ""
+        type: ""
+    }
+    579820585139:
+    {
+        item: Montser Perfume
+        type: ""
+    }
+    584115552435:
+    {
+        item: ""
+        type: ""
+    }
+    588410519731:
+    {
+        item: Stuffed Toy
+        type: ""
+    }
+    592705487027:
+    {
+        item: Fire Soulstone (L)
+        type: Soulstone
+    }
+    597000454323:
+    {
+        item: Ice Soulstone (L)
+        type: Soulstone
+    }
+    601295421619:
+    {
+        item: Thunder Soulstone (L)
+        type: Soulstone
+    }
+    605590388915:
+    {
+        item: Wind Soulstone (L)
+        type: Soulstone
+    }
+    609885356211:
+    {
+        item: Light Soulstone (L)
+        type: Soulstone
+    }
+    614180323507:
+    {
+        item: Shadow Soulstone (L)
+        type: Soulstone
+    }
+    618475290803:
+    {
+        item: Energizing Pomegranate
+        type: ""
+    }
+    622770258099:
+    {
+        item: Energizing Pomegranate (M)
+        type: ""
+    }
+    627065225395:
+    {
+        item: Energizing Pomegranate (L)
+        type: ""
+    }
+    631360192691:
+    {
+        item: ""
+        type: ""
+    }
+    635655159987:
+    {
+        item: ""
+        type: ""
+    }
+    639950127283:
+    {
+        item: ""
+        type: ""
+    }
+    644245094579:
+    {
+        item: ""
+        type: ""
+    }
+    1288490188979:
+    {
+        item: ""
+        type: ""
+    }
+    1292785156275:
+    {
+        item: ""
+        type: ""
+    }
+    1297080123571:
+    {
+        item: Church History
+        type: ""
+    }
+    1301375090867:
+    {
+        item: Translated Tome
+        type: ""
+    }
+    1305670058163:
+    {
+        item: Original Tome
+        type: ""
+    }
+    1309965025459:
+    {
+        item: Letter from Master
+        type: ""
+    }
+    1314259992755:
+    {
+        item: Herb-of-grace
+        type: ""
+    }
+    1318554960051:
+    {
+        item: ""
+        type: ""
+    }
+    1322849927347:
+    {
+        item: Blue Swordfish
+        type: ""
+    }
+    1327144894643:
+    {
+        item: Bottle of Wine
+        type: ""
+    }
+    1331439861939:
+    {
+        item: Sleepweed
+        type: ""
+    }
+    1335734829235:
+    {
+        item: Anonymous Diary
+        type: ""
+    }
+    1340029796531:
+    {
+        item: Nondescript Stone
+        type: ""
+    }
+    1344324763827:
+    {
+        item: Skystone
+        type: ""
+    }
+    1348619731123:
+    {
+        item: Edbart's Shield
+        type: ""
+    }
+    1352914698419:
+    {
+        item: Ancient Map
+        type: ""
+    }
+    1357209665715:
+    {
+        item: Eldrite
+        type: ""
+    }
+    1361504633011:
+    {
+        item: Letter from Baltazar
+        type: ""
+    }
+    1365799600307:
+    {
+        item: Aelfric's Lanthorn
+        type: ""
+    }
+    1370094567603:
+    {
+        item: Letter of Introduction
+        type: ""
+    }
+    1374389534899:
+    {
+        item: Fool's Bangle
+        type: ""
+    }
+    1378684502195:
+    {
+        item: Oasis Water
+        type: ""
+    }
+    1382979469491:
+    {
+        item: Wyvern Scale
+        type: ""
+    }
+    1387274436787:
+    {
+        item: Crystal Ore
+        type: ""
+    }
+    1391569404083:
+    {
+        item: Crystal Key
+        type: ""
+    }
+    1395864371379:
+    {
+        item: Ruby Dragonstone
+        type: ""
+    }
+    1400159338675:
+    {
+        item: Aristocrat's Mask
+        type: ""
+    }
+    1404454305971:
+    {
+        item: Attendant's Mask
+        type: ""
+    }
+    1408749273267:
+    {
+        item: Black Market Inventory
+        type: ""
+    }
+    1413044240563:
+    {
+        item: Brigand Leader's Garb
+        type: ""
+    }
+    1417339207859:
+    {
+        item: Brigand's Garb
+        type: ""
+    }
+    1421634175155:
+    {
+        item: Emerald Dragonstone
+        type: ""
+    }
+    1425929142451:
+    {
+        item: Gold Dragonstone
+        type: ""
+    }
+    1430224109747:
+    {
+        item: Alfyn's Scatchel
+        type: ""
+    }
+    1434519077043:
+    {
+        item: Viper Venom
+        type: ""
+    }
+    1438814044339:
+    {
+        item: Zeph's Satchel
+        type: ""
+    }
+    1443109011635:
+    {
+        item: Glowworm Moss
+        type: ""
+    }
+    1447403978931:
+    {
+        item: Ogre Eagle's Pinion
+        type: ""
+    }
+    1451698946227:
+    {
+        item: House Azelhart Dagger
+        type: ""
+    }
+    1455993913523:
+    {
+        item: Yusufa's Handkerchief
+        type: ""
+    }
+    1460288880819:
+    {
+        item: Left-hand Man's Map
+        type: ""
+    }
+    1464583848115:
+    {
+        item: Dungeon Key
+        type: ""
+    }
+    1468878815411:
+    {
+        item: ""
+        type: ""
+    }
+    1473173782707:
+    {
+        item: ""
+        type: ""
+    }
+    1477468750003:
+    {
+        item: ""
+        type: ""
+    }
+    1481763717299:
+    {
+        item: Ambrosial Milk
+        type: ""
+    }
+    1486058684595:
+    {
+        item: Emperor Crab
+        type: ""
+    }
+    1490353651891:
+    {
+        item: Roc Egg
+        type: ""
+    }
+    1494648619187:
+    {
+        item: ""
+        type: ""
+    }
+    1498943586483:
+    {
+        item: Final Masterpiece
+        type: ""
+    }
+    1503238553779:
+    {
+        item: Cow Droppings
+        type: ""
+    }
+    1507533521075:
+    {
+        item: Lorie's Diary
+        type: ""
+    }
+    1511828488371:
+    {
+        item: Diva's Dress
+        type: ""
+    }
+    1516123455667:
+    {
+        item: Saucy Prawns
+        type: ""
+    }
+    1520418422963:
+    {
+        item: ""
+        type: ""
+    }
+    1524713390259:
+    {
+        item: Rebel's Axe
+        type: ""
+    }
+    1529008357555:
+    {
+        item: Revolutionary Sword
+        type: ""
+    }
+    1533303324851:
+    {
+        item: Spear of Justice
+        type: ""
+    }
+    1537598292147:
+    {
+        item: Giant Tusk
+        type: ""
+    }
+    1541893259443:
+    {
+        item: Satisfactory Coal
+        type: ""
+    }
+    1546188226739:
+    {
+        item: Adequate Flax
+        type: ""
+    }
+    1550483194035:
+    {
+        item: Portable Pot
+        type: ""
+    }
+    1554778161331:
+    {
+        item: Codger-friendly Bow
+        type: ""
+    }
+    1559073128627:
+    {
+        item: ""
+        type: ""
+    }
+    1563368095923:
+    {
+        item: Leviathan Egg
+        type: ""
+    }
+    1567663063219:
+    {
+        item: ""
+        type: ""
+    }
+    1571958030515:
+    {
+        item: Beetroot
+        type: ""
+    }
+    1576252997811:
+    {
+        item: ""
+        type: ""
+    }
+    1580547965107:
+    {
+        item: ""
+        type: ""
+    }
+    1584842932403:
+    {
+        item: ""
+        type: ""
+    }
+    1589137899699:
+    {
+        item: Orewell Whetstone
+        type: ""
+    }
+    1593432866995:
+    {
+        item: Gendy's Footcloth
+        type: ""
+    }
+    1597727834291:
+    {
+        item: ""
+        type: ""
+    }
+    1602022801587:
+    {
+        item: ""
+        type: ""
+    }
+    1606317768883:
+    {
+        item: ""
+        type: ""
+    }
+    1610612736179:
+    {
+        item: ""
+        type: ""
+    }
+    1614907703475:
+    {
+        item: Byron's Ring
+        type: ""
+    }
+    1619202670771:
+    {
+        item: ""
+        type: ""
+    }
+    1623497638067:
+    {
+        item: ""
+        type: ""
+    }
+    1627792605363:
+    {
+        item: ""
+        type: ""
+    }
+    1632087572659:
+    {
+        item: Sword of Sokrath
+        type: ""
+    }
+    1636382539955:
+    {
+        item: Tales from a Faraway Land
+        type: ""
+    }
+    1640677507251:
+    {
+        item: House Landar Records
+        type: ""
+    }
+    1644972474547:
+    {
+        item: ""
+        type: ""
+    }
+    1649267441843:
+    {
+        item: ""
+        type: ""
+    }
+    1653562409139:
+    {
+        item: Memorial Sword
+        type: ""
+    }
+    1657857376435:
+    {
+        item: Tools of Learning
+        type: ""
+    }
+    1662152343731:
+    {
+        item: Adventurer's Attire
+        type: ""
+    }
+    1666447311027:
+    {
+        item: Timeworm Tapestry
+        type: ""
+    }
+    1670742278323:
+    {
+        item: Tightly Sealed Envelope
+        type: ""
+    }
+    1675037245619:
+    {
+        item: Snakesbane
+        type: ""
+    }
+    1679332212915:
+    {
+        item: Letter from Zeph
+        type: ""
+    }
+    1683627180211:
+    {
+        item: Letter from Mercedes
+        type: ""
+    }
+    1687922147507:
+    {
+        item: River Blossom
+        type: ""
+    }
+    1692217114803:
+    {
+        item: ""
+        type: ""
+    }
+    1696512082099:
+    {
+        item: Memorial Necklace
+        type: ""
+    }
+    1700807049395:
+    {
+        item: Jotunn Horn
+        type: ""
+    }
+    1705102016691:
+    {
+        item: Giant Egg
+        type: ""
+    }
+    1709396983987:
+    {
+        item: Mercenary Crest
+        type: ""
+    }
+    1713691951283:
+    {
+        item: Hugo's Journal
+        type: ""
+    }
+    1717986918579:
+    {
+        item: Mind-me-always
+        type: ""
+    }
+    1722281885875:
+    {
+        item: Astonishing Object
+        type: ""
+    }
+    1726576853171:
+    {
+        item: Incredible Item
+        type: ""
+    }
+    1730871820467:
+    {
+        item: Marvelous Memento
+        type: ""
+    }
+    1735166787763:
+    {
+        item: Quatrait Bloom
+        type: ""
+    }
+    1739461755059:
+    {
+        item: Dragon Egg
+        type: ""
+    }
+    1743756722355:
+    {
+        item: Direwolf Fang
+        type: ""
+    }
+    1748051689651:
+    {
+        item: Letter from Noa
+        type: ""
+    }
+    1752346656947:
+    {
+        item: Lapis Lazuli
+        type: ""
+    }
+    1756641624243:
+    {
+        item: High Hornburgian Dictionary
+        type: ""
+    }
+    1760936591539:
+    {
+        item: Red Apple
+        type: ""
+    }
+}
