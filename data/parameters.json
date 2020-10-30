@@ -22,7 +22,7 @@
 	  name: support-EM
           label: Ensure early Evasive Maneuvers
 	  type: checkbutton
-	  help: Ensures Evasive Maneuvers will be the first support skill learned by a PC. 
+	  help: Ensures Evasive Maneuvers will be the first support skill learned by one PC. 
         }
       }
       {
