@@ -38,9 +38,10 @@ size = {
 }
 
 class JOBS:
-    def __init__(self, base, data):
+    def __init__(self, base, data, pc=None):
         self.base = base
         self.data = data
+        self.pc = pc
         self.weapons = self.read(offsets['weapons'], stride['weapons'], size['weapons'], 6)
         self.weaponDict = {'Sword':0, 'Spear':1, 'Dagger':2, 'Axe':3, 'Bow':4, 'Staff':5}
         # self.unknown = self.read(offsets['unknown'], stride['unknown'], size['unknown'], 9)
@@ -50,7 +51,7 @@ class JOBS:
         self.stats = self.read(offsets['stats'], stride['stats'], size['stats'], 12)
         # HP, MP, BP, SP, ATK, DEF, MATK, MDEF, ACC, EVA, CON, AGI
 
-    def skillCheck(self, weapon):
+    def weaponCheck(self, weapon):
         if weapon == '': return True
         if weapon == 'All': return True
         return self.weapons[self.weaponDict[weapon]]
@@ -61,7 +62,7 @@ class JOBS:
     def listWeapons(self):
         lst = []
         for weapon in ['Sword', 'Spear', 'Dagger', 'Axe', 'Bow', 'Staff']:
-            if self.skillCheck(weapon):
+            if self.weaponCheck(weapon):
                 lst.append(weapon)
         return lst
     
@@ -81,45 +82,150 @@ class JOBS:
         self.write(self.stats, offsets['stats'], stride['stats'], size['stats'])
 
 
-def shuffleSkills(jobs, skillsJSON, skillNameToValue):
-    # Setup
-    for job in jobs.values(): job.skills = []
-    for skill in skillsJSON.values(): skill['Given'] = False
+class Skills:
+    def __init__(self, jobs, skillJSON):
+        self.jobs = jobs
+        self.skillJSON = skillJSON
 
-    def skillSlotRemaining(maxCount):
-        check = []
-        for job in jobs.values():
-            check.append(job.skillSlotAvailable(maxCount))
-        return any(check)
+        self.skills = []
+        for job in self.jobs.values():
+            self.skills += job.skills
 
-    priority = 1
-    jobNames = list(jobs.keys())
-    maxSkills = {1: 3, 2: 8, 3: 8, 4: 8}
-    while priority < 5:
-        # Generate list of unplaced skills
-        lst = [name for name, skill in skillsJSON.items() if skill['Priority'] <= priority and not skill['Given']]
-        random.shuffle(lst)
+        self.placed = {}
+        for skill in self.skills:
+            self.placed[skill] = False
 
-        while lst:
-            skill = lst.pop()
-            skillReq = skillsJSON[skill]['Weapon']
-            random.shuffle(jobNames)
-            for key in jobNames:
-                if jobs[key].skillSlotAvailable(maxSkills[priority]) and jobs[key].skillCheck(skillReq):
-                    jobs[key].skills.append(skillNameToValue[skill])
-                    skillsJSON[skill]['Given'] = True
-                    break
+    def filterPlaced(self, skills):
+        skillset = []
+        for skill in skills:
+            if not self.placed[skill]:
+                skillset.append(skill)
+        return skillset
 
-            # Break if no slots are left
-            if not skillSlotRemaining(maxSkills[priority]):
+    def filterPriority(self, skills, priority):
+        skillset = []
+        for skill in skills:
+            if self.skillJSON[skill]['Priority'] <= priority:
+                skillset.append(skill)
+        return skillset
+
+    def filterDivineSkills(self, skills):
+        skillset = []
+        for skill in skills:
+            if self.skillJSON[skill]['Divine']:
+                skillset.append(skill)
+        return skillset
+
+    def filterAdvancedJobSkill(self, skills):
+        skillset = []
+        for skill in skills:
+            if self.skillJSON[skill]['Advanced']:
+                skillset.append(skill)
+        return skillset
+
+    def filterBaseJobSkill(self, skills):
+        skillset = []
+        for skill in skills:
+            if not self.skillJSON[skill]['Advanced']:
+                skillset.append(skill)
+        return skillset
+
+    def placeSkills(self, skills, jobs, minidx=0, maxidx=8):
+        random.shuffle(skills)
+        random.shuffle(jobs)
+        for job in jobs:
+            for i in range(minidx, maxidx):
+                if job.skills[i] > 0:
+                    continue
+                for skill in skills:
+                    if self.placed[skill]: continue
+                    weapon = self.skillJSON[skill]['Weapon']
+                    if job.weaponCheck(weapon):
+                        job.skills[i] = skill
+                        self.placed[skill] = True
+                        break
+
+
+    def shuffleSkills(self, oneDivineSkillPerJob, keepAdvancedJobsSeparate):
+        # SETUP
+        jobs = [job for job in self.jobs.values()]
+        if oneDivineSkillPerJob:
+            maxidx = 7
+        else:
+            maxidx = 8
+
+        while True:
+            # Reset
+            for skill in self.skills:
+                self.placed[skill] = False
+            for job in self.jobs.values():
+                job.skills = [0]*8
+
+            # Do divine skills first, if needed
+            if oneDivineSkillPerJob:
+                divine = self.filterDivineSkills(self.skills)
+                if keepAdvancedJobsSeparate:
+                    base = self.filterBaseJobSkill(divine)
+                    advanced = self.filterAdvancedJobSkill(divine)
+                    self.placeSkills(base, jobs[:8], minidx=7)
+                    self.placeSkills(advanced, jobs[8:], minidx=7)
+                else:
+                    self.placeSkills(divine, jobs, minidx=7)
+                # Ensure all 12 were placed
+                if sum(self.placed.values()) < 12:
+                    continue
+
+            # TRY DOING ADVANCED JOBS SEPARATELY HERE?
+            # THEN DO ALL THE REST
+                
+            # Place the remaining skills
+            if keepAdvancedJobsSeparate:
+
+                skillset = self.filterPlaced(self.skills)
+                skillset = self.filterPriority(skillset, 1)
+                skillset = self.filterBaseJobSkill(skillset)
+                self.placeSkills(skillset, jobs[:8], maxidx=2)
+
+                skillset = self.filterPlaced(self.skills)
+                skillset = self.filterPriority(skillset, 2)
+                skillset = self.filterBaseJobSkill(skillset)
+                self.placeSkills(skillset, jobs[:8], maxidx=maxidx)
+
+                skillset = self.filterPlaced(self.skills)
+                skillset = self.filterPriority(skillset, 3)
+                skillset = self.filterBaseJobSkill(skillset)
+                self.placeSkills(skillset, jobs[:8], maxidx=maxidx)
+
+                skillset = self.filterPlaced(self.skills)
+                skillset = self.filterPriority(skillset, 4)
+                skillset = self.filterBaseJobSkill(skillset)
+                self.placeSkills(skillset, jobs[:8], maxidx=maxidx)
+
+                skillset = self.filterPlaced(self.skills)
+                skillset = self.filterAdvancedJobSkill(skillset)
+                self.placeSkills(skillset, jobs[8:], maxidx=maxidx)
+
+            else:
+                skillset = self.filterPlaced(self.skills)
+                skillset = self.filterPriority(skillset, 1)
+                self.placeSkills(skillset, jobs, maxidx=2)
+
+                skillset = self.filterPlaced(self.skills)
+                skillset = self.filterPriority(skillset, 2)
+                self.placeSkills(skillset, jobs, maxidx=maxidx)
+
+                skillset = self.filterPlaced(self.skills)
+                skillset = self.filterPriority(skillset, 3)
+                self.placeSkills(skillset, jobs, maxidx=maxidx)
+
+                skillset = self.filterPlaced(self.skills)
+                skillset = self.filterPriority(skillset, 4)
+                self.placeSkills(skillset, jobs, maxidx=maxidx)
+
+            # Assert all are placed
+            if all(list(self.placed.values())):
                 break
 
-        priority += 1
-
-    # Assert all skills have been placed
-    check = [skill['Given'] for skill in skillsJSON.values()]
-    if not all(check): return False
-    return True
 
 
 def shuffleStats(jobs):
@@ -144,16 +250,16 @@ def randomCosts():
     costs = [
         0,
         0,
-        random.randint(1, 5) * 10,     # 10 - 50     +/-   20
-        random.randint(6, 14) * 10,    # 60 - 140    +/-   40
-        random.randint(40, 60) * 10,   # 400 - 600   +/-  100
-        random.randint(80, 120) * 10,  # 800 - 1200  +/-  200
-        random.randint(240, 360) * 10, # 2400 - 3600 +/-  600
-        random.randint(400, 600) * 10, # 4000 - 6000 +/- 1000
+        random.randint(  1,   5) * 10, #   10 -   50
+        random.randint(  6,  14) * 10, #   60 -  140
+        random.randint( 40,  60) * 10, #  400 -  600
+        random.randint( 80, 120) * 10, #  800 - 1200
+        random.randint(240, 360) * 10, # 2400 - 3600
+        random.randint(400, 600) * 10, # 4000 - 6000
     ]
     return costs
 
-def shuffleData(filename, settings):
+def shuffleData(filename, settings, outdir):
     
     seed = settings['seed']
     random.seed(seed)
@@ -162,19 +268,21 @@ def shuffleData(filename, settings):
         data = bytearray(file.read())
 
     jobs = {
-        'Merchant': JOBS(0x26, data),
-        'Thief': JOBS(0x7ce, data),
-        'Warrior': JOBS(0xf76, data),
-        'Hunter': JOBS(0x171e, data),
-        'Cleric': JOBS(0x1ec6, data),
-        'Dancer': JOBS(0x266e, data),
-        'Scholar': JOBS(0x2e16, data),
-        'Apothecary': JOBS(0x35be, data),
+        'Merchant': JOBS(0x26, data, 'Tressa'),
+        'Thief': JOBS(0x7ce, data, 'Therion'),
+        'Warrior': JOBS(0xf76, data, 'Olberic'),
+        'Hunter': JOBS(0x171e, data, "H'aanit"),
+        'Cleric': JOBS(0x1ec6, data, 'Ophilia'),
+        'Dancer': JOBS(0x266e, data, 'Primrose'),
+        'Scholar': JOBS(0x2e16, data, 'Cyrus'),
+        'Apothecary': JOBS(0x35be, data, 'Alfyn'),
         'Warmaster': JOBS(0x3d66, data),
         'Sorcerer': JOBS(0x450e, data),
         'Starseer': JOBS(0x4cb6, data),
         'Runelord': JOBS(0x545e, data),
     }
+    # for name, job in jobs.items():
+    #     job.name = name
 
     ################################
     # SETUP VANILLA SUPPORT SKILLS #
@@ -204,17 +312,17 @@ def shuffleData(filename, settings):
 
     # Map job to support skill list
     j2s = {j:[] for j in jobs.keys()}
-    wskls = {'': [], 'All': [], 'Sword': [], 'Axe': [], 'Spear': [], 'Dagger': [], 'Staff': [], 'Bow': []}
     for ki, si in skillsJSON.items():
         j2s[si['Job']].append(ki)
-        wskls[si['Weapon']].append(ki)
     # Map value to support skill
     skillNameToValue = {}
     skillValueToName = {}
+    skillsDict = {}
     for key, job in jobs.items():
         for name, value in zip(j2s[key], job.skills):
             skillNameToValue[name] = value
             skillValueToName[value] = name
+            skillsDict[value] = skillsJSON[name]
 
     ###################
     # RANODMIZE STUFF #
@@ -230,8 +338,10 @@ def shuffleData(filename, settings):
     if settings['skills']:
         print('Shuffling skills')
         random.seed(seed)
-        while not shuffleSkills(jobs, skillsJSON, skillNameToValue):
-            pass
+        skills = Skills(jobs, skillsDict)
+        skills.shuffleSkills(settings['skills-one-divine'], settings['skills-advanced-separate'])
+        # while not shuffleSkills(jobs, skillsJSON, skillNameToValue):
+        #     pass
     
     # Random costs
     if settings['costs']:
@@ -249,9 +359,18 @@ def shuffleData(filename, settings):
             support += job.support
         random.shuffle(support)
         if settings['support-EM']:
+            # Make first support skill
             i = support.index(supportNameToValue['Evasive Maneuvers'])
-            j = random.randint(0, 7) * 4
+            jobID = random.randint(0, 7)
+            j = jobID * 4
             support[i], support[j] = support[j], support[i]
+            # Document PC with EM
+            name = list(jobs.values())[jobID].pc
+            logfile = f'{outdir}/PC_with_EM.log'
+            if os.path.exists(logfile): os.remove(logfile)
+            with open(logfile, 'w') as file:
+                file.write(f"{name} starts with Evasive Maneuvers")
+        # Assign supports
         for i, job in enumerate(jobs.values()):
             job.support = support[i*4:(i+1)*4]
 
@@ -274,7 +393,7 @@ def shuffleData(filename, settings):
     # PRINT LOG #
     #############
 
-    logfile = f'rando_{seed}.log'
+    logfile = f'{outdir}/rando.log'
     if os.path.exists(logfile): os.remove(logfile)
     with open(logfile, 'w') as file:
         file.write('================\n')
