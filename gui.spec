@@ -7,6 +7,7 @@ a = Analysis(
         'gui.py',
         'src/Utilities.py',
         'src/JobData.py',
+        'src/Items.py',
         'src/ROM.py',
     ],
     pathex=[],

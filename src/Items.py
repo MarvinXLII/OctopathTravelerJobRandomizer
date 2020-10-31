@@ -125,12 +125,12 @@ def shuffleItems(filename, settings, outdir):
     # PRINT LOG #
     #############
 
-    with open('data/ObjData.json','r') as file:
+    with open(get_filename('data/ObjData.json'),'r') as file:
         objdata = hjson.load(file)
 
-    with open('data/items.json','r') as file:
+    with open(get_filename('data/items.json'),'r') as file:
         nameItems = hjson.load(file)
-        
+
     hidden = objdata['hidden']
     chests = objdata['chest']
     
