@@ -1,6 +1,7 @@
 **ABOUT**
 
-This is the beginnings of a Job randomizer for Octopath Traveler (Steam version).
+This is the beginnings of a Job randomizer for Octopath Traveler (Steam version). Check out 
+[mastermind1919's](https://github.com/mastermind1919/OctopathBossRandomizer/releases) for a compatible boss randomizer!
 
 **OPTIONS**
 
@@ -27,17 +28,12 @@ Future releases will hopefully include:
 
 - Other random stuff!
 
-Don't forget to check out
-[mastermind1919's](https://github.com/mastermind1919/OctopathBossRandomizer)
-boss randomizer! They should be compatible!
-
 **Usage**
 
-Run the executable from the Releases section. When finished, copy the
-"JobData_P.pak" and "Items_P.pak" into the "Paks" folder in you game,
-typically located at "C:\Program Files
-(x86)\Steam\steamapps\common\OCTOPATH
-TRAVELER\Octopath_Traveler\Content\Paks".
+Run the executable from the [Releases](https://github.com/MarvinXLII/OctopathTravelerJobRandomizer/releases) page. 
+When finished, copy the "JobData_P.pak" and "Items_P.pak" from the new seed_### folder into the "Paks" folder in your game,
+typically located at "C:\Program Files (x86)\Steam\steamapps\common\OCTOPATH TRAVELER\Octopath_Traveler\Content\Paks".
+The executable also allow you to enter this folder manually, which will automatically copy the files to their destination.
 
 If you prefer to run the code, you'll have to install Python 3.6+ and `hjson`. 
 Settings can be set in the `main.py` file, and can be run with `python main.py`.
