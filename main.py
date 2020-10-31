@@ -24,7 +24,7 @@ def main():
         'items-option': 'items-all',
         # 'items-option': 'items-separate',
         'no-thief-chests': True,
-        'output': os.getcwd(),
+        'output': None
     }
 
     setup()

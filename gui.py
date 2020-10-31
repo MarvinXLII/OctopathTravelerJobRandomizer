@@ -295,7 +295,7 @@ def randomize(settings):
     #######################
 
     for patch in patches:
-        if settings['output'] != '':
+        if settings['output'] != None:
             shutil.copy2(patch, settings['output'])
         shutil.move(patch, outdir)
     
