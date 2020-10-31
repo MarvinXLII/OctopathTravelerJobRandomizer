@@ -53,7 +53,7 @@ class CreateToolTip(object):
 class GuiApplication:
     def __init__(self, settingsFile=''):
         self.master = tk.Tk()
-        self.master.geometry('320x460')
+        self.master.geometry('680x460')
         self.master.title(MAIN_TITLE)
         self.initialize_gui(settingsFile)
         self.initialize_settings()
@@ -70,36 +70,33 @@ class GuiApplication:
             fields = hjson.loads(file.read())
 
         labelfonts = ('Helvetica', 14, 'bold')
-        lf = tk.LabelFrame(self.master, text='Octopath Traveler Paks Folder', font=labelfonts)
+        lf = tk.LabelFrame(self.master, text='Output Folder', font=labelfonts)
         lf.grid(row=0, columnspan=2, sticky='nsew', padx=5, pady=5, ipadx=5, ipady=5)
 
         # Specify output directory
         self.settings['output'] = tk.StringVar()
-        self.settings['output'].set(os.getcwd())
         # Find Paks directory
-        name = 'Octopath_Traveler-WindowsNoEditor.pak'
         if os.name == 'nt': # Windows
             try:
-                path = 'C:\\Program\\ Files\\ \(x86\)\\Steam\\steamapps'
-                for root, dirs, files in os.walk(path):
-                    if name in files:
-                        self.settings['output'].set(root)
-                        break
+                path = "C:\Program Files (x86)\Steam\steamapps"
+                self.checkPath(path)
             except:
                 pass
 
-        pathLabel = tk.Label(lf, text='Octopath Traveler Pak Folder:')
-        pathLabel.grid(row=0, column=0, sticky='e', padx=5, pady=2)
-        pathToPak = tk.Entry(lf, textvariable=self.settings['output'], width=10, state='readonly')
-        pathToPak.grid(row=1, column=0, columnspan=2, sticky='we', pady=3)
+        pathLabel = tk.Label(lf, text='Path to "Paks" folder (optional)')
+        pathLabel.grid(row=1, column=0, sticky='w', padx=5, pady=2)
+
+        pathToPak = tk.Entry(lf, textvariable=self.settings['output'], width=65, state='readonly')
+        pathToPak.grid(row=0, column=0, columnspan=2, padx=(10,0), pady=3)
+
         pathButton = tk.Button(lf, text='Browse ...', command=self.getPakPath, width=20) # needs command..
         pathButton.grid(row=1, column=1, sticky='e', padx=5, pady=2)
 
-        lf = tk.LabelFrame(self.master, font=labelfonts)
+        lf = tk.LabelFrame(self.master, text="Seed", font=labelfonts)
         lf.grid(row=0, column=2, columnspan=2, sticky='nsew', padx=5, pady=5, ipadx=5, ipady=5)
         self.settings['seed'] = tk.IntVar()
         self.randomSeed()
-        tk.Label(lf, text='Seed:').grid(row=2, column=0, sticky='w', padx=60, pady=10)
+        # tk.Label(lf, text='Seed:').grid(row=2, column=0, sticky='w', padx=60, pady=10)
         box = tk.Spinbox(lf, from_=0, to=1e8, width=9, textvariable=self.settings['seed'])
         box.grid(row=2, column=0, sticky='e', padx=60)
 
@@ -144,13 +141,13 @@ class GuiApplication:
                         self.buildToolTip(button, vj)
                         row += 1
                         if 'indent' in vj:
-                            vj = vj['indent']
-                            self.settings[vj['name']] = tk.BooleanVar()
-                            button = ttk.Checkbutton(lf, text=vj['label'], variable=self.settings[vj['name']], state=tk.DISABLED)
-                            button.grid(row=row, padx=25, sticky='w')
-                            self.buildToolTip(button, vj)
-                            buttons.append(button)
-                            row += 1
+                            for vk in vj['indent']:
+                                self.settings[vk['name']] = tk.BooleanVar()
+                                button = ttk.Checkbutton(lf, text=vk['label'], variable=self.settings[vk['name']], state=tk.DISABLED)
+                                button.grid(row=row, padx=25, sticky='w')
+                                self.buildToolTip(button, vk)
+                                buttons.append(button)
+                                row += 1
 
                     elif vj['type'] == 'spinbox':
                         text = f"{vj['label']}:".ljust(20, ' ')
@@ -186,14 +183,25 @@ class GuiApplication:
         self.canvas = tk.Canvas()
         self.canvas.grid(row=6, column=0, columnspan=20, pady=10)
 
+    def checkPath(self, path):
+        name = 'Octopath_Traveler-WindowsNoEditor.pak'
+        self.settings['output'].set('')
+        for root, dirs, files in os.walk(path):
+            if name in files:
+                self.settings['output'].set(root)
+                break
 
     def getPakPath(self):
+        self.clearBottomLabels()
         path = filedialog.askdirectory()
+        if path == ():
+            return
         if path.split('/')[-1] == 'Paks':
-            self.settings['output'].set(path)
+            self.checkPath(path)
         else:
             self.bottomLabel('Selected path must lead to the Paks folder.', 'red', 0)
             self.bottomLabel('e.g. ....\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks', 'red', 1) 
+            self.bottomLabel('Otherwise, check the current folder for Pak outputs.', 'red', 2) 
 
     def toggler(self, lst, key):
         def f():
@@ -270,14 +278,26 @@ def randomize(settings):
     # Generate Patch #
     ##################
 
+    patches = []
+    
     patch = "JobData_P.pak"
     target = "../../../Octopath_Traveler/Content/Character/Database/"
-    ROM.patch(patch, target, outdir)
+    ROM.patch(patch, target)
+    patches.append(patch)
 
     patch = "Items_P.pak"
     target = "../../../Octopath_Traveler/Content/Object/Database/"
-    ROM.patch(patch, target, outdir)
+    ROM.patch(patch, target)
+    patches.append(patch)
 
+    #######################
+    # Copy to Output Path #
+    #######################
 
+    for patch in patches:
+        if settings['output'] != '':
+            shutil.copy2(patch, settings['output'])
+        shutil.move(patch, outdir)
+    
 if __name__ == '__main__':
     GuiApplication()

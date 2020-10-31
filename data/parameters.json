@@ -5,7 +5,21 @@
 	name: skills
 	label: Shuffle skills
 	type: checkbutton
-	help: Shuffles skills among jobs.
+	help: "Shuffles skills among jobs. By default, all skills among all jobs are shuffled."
+	indent: [
+	  {
+	      name: skills-one-divine
+              label: One Divine Skill per job
+	      type: checkbutton
+	      help: "This ensures each job will only get one Divine Skill."
+	  }
+	  {
+	      name: skills-separate
+              label: Separately shuffle base and advanced jobs
+	      type: checkbutton
+	      help: "Skills from the 4 advanced jobs will be kept separate from the 8 base jobs."
+	  }
+	]
       }
       {
 	name: costs
@@ -18,18 +32,32 @@
 	label: Shuffle support skills
 	type: checkbutton
 	help: Shuffle support skills among jobs.
-        indent: {
-	  name: support-EM
-          label: Ensure early Evasive Maneuvers
-	  type: checkbutton
-	  help: Ensures Evasive Maneuvers will be the first support skill learned by one PC. 
-        }
+        indent: [
+	    {
+	      name: support-EM
+              label: Ensure early Evasive Maneuvers
+	      type: checkbutton
+	      help: Ensures Evasive Maneuvers will be the first support skill learned by one PC. 
+            }
+	]
       }
       {
 	name: stats
 	label: Shuffle stats bonuses
-	type: checkbutton
+	type: radiobutton
 	help: "Shuffles bonuses for each stats among jobs."
+	radio: [
+	  {
+            label: "Randomly shuffle stats"
+	    value: random
+	    help: "PCs can become insanely powerful or useless."
+	  }
+	  {
+            label: "Fairly shuffle stats"
+	    value: fairly
+	    help: "Bonus stats totals are preserved for each job (i.e. 28% for base jobs and 40% for advanced jobs)."
+	  }
+	]
       }
     ]
     Items: [
@@ -42,12 +70,12 @@
 	  {
 	    label: "Shuffle separately"
 	    value: items-separate
-	    help: "Shuffle hidden items and chests separately."
+	    help: "Shuffle hidden items and contents of chests separately."
 	  }
 	  {
 	    label: "Shuffle all together"
 	    value: items-all
-	    help: "Shuffles both hidden items and chests together."
+	    help: "Shuffles both hidden items and contents of chests together."
 	  }
 	]
       }
