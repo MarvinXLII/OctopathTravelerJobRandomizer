@@ -15,7 +15,7 @@ import Items
 import ROM
 
 
-MAIN_TITLE = "Octopath Traveler Randomizer v 0.1.3a"
+MAIN_TITLE = "Octopath Traveler Randomizer v 0.1.4a"
 
 # Source: https://www.daniweb.com/programming/software-development/code/484591/a-tooltip-class-for-tkinter
 class CreateToolTip(object):
@@ -145,7 +145,7 @@ class GuiApplication:
                             for vk in vj['indent']:
                                 self.settings[vk['name']] = tk.BooleanVar()
                                 button = ttk.Checkbutton(lf, text=vk['label'], variable=self.settings[vk['name']], state=tk.DISABLED)
-                                button.grid(row=row, padx=25, sticky='w')
+                                button.grid(row=row, padx=34, sticky='w')
                                 self.buildToolTip(button, vk)
                                 buttons.append(button)
                                 row += 1
@@ -207,10 +207,14 @@ class GuiApplication:
     def toggler(self, lst, key):
         def f():
             if self.settings[key].get():
+                try: lst[0].select()
+                except: pass
                 for li in lst:
                     li.config(state=tk.NORMAL)
             else:
                 for li in lst:
+                    try: li.deselect()
+                    except: pass
                     li.config(state=tk.DISABLED)
         return f
 
