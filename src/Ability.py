@@ -56,27 +56,6 @@ class ABILITY:
         self.write(self.cost, self.offsets['cost'], 1)
         self.write(self.ratio, self.offsets['ratio'], 2)
 
-def shuffleWeapons(abilities):
-    
-    abilitiesWithWeapons = list(filter(lambda x: x.weapon != '', abilities.values()))
-    weapons = []
-    weaponToRestrict = {}
-    for ability in abilitiesWithWeapons:
-        weapons.append(ability.weapon)
-        weaponToRestrict[ability.weapon] = list(ability.restrict)
-
-    # Remap weapons (e.g. Bow -> Staff, making Staff attacks more frequent)
-    types = sorted(list(set(weapons)))
-    newtype = list(types)
-    random.shuffle(newtype)
-    remap = { a:b for a, b in zip(types, newtype) }
-
-    # Shuffle
-    random.shuffle(weapons)
-    for weapon, ability in zip(weapons, abilitiesWithWeapons):
-        ability.weapon = remap[weapon]
-        ability.restrict = weaponToRestrict[ability.weapon]
-
 
 def shuffleData(filename, settings, outdir):
     seed = settings['seed']
@@ -94,17 +73,15 @@ def shuffleData(filename, settings, outdir):
         for name, skill in job.items():
             abilities[name] = ABILITY(data, skill)
 
-    if settings['skills-weapons']:
-        random.seed(seed)
-        shuffleWeapons(abilities)
-
     if settings['skills-sp-costs']:
         random.seed(seed)
+        print('Rescaling SP Costs')
         for ability in abilities.values():
             ability.randomCosts()
 
     if settings['skills-power']:
         random.seed(seed)
+        print('Rescaling skill power')
         for ability in abilities.values():
             ability.randomRatio()
 

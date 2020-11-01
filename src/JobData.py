@@ -153,15 +153,36 @@ class Skills:
                         break
 
 
-    def shuffleSkills(self, oneDivineSkillPerJob, keepAdvancedJobsSeparate):
-
+    def shuffleSkills(self, weaponShuffle, oneDivineSkillPerJob, keepAdvancedJobsSeparate):
+        # Weapon shuffle setup
+        if weaponShuffle:
+            abilitiesWithWeapons = list(filter(lambda x: x.weapon != '', self.abilities.values()))
+            weapons = []
+            weaponToRestrict = {}
+            for ability in abilitiesWithWeapons:
+                weapons.append(ability.weapon)
+                weaponToRestrict[ability.weapon] = list(ability.restrict)
+            # Remap weapons (e.g. Bow -> Staff, making Staff attacks more frequent)
+            types = sorted(list(set(weapons)))
+            newtype = list(types)
+        
         jobs = [job for job in self.jobs.values()]
         while True:
             # Reset
             for skill in self.skills:
                 self.placed[skill] = False
             for job in self.jobs.values():
-                job.skills = [0]*8
+                for i in range(8):
+                    job.skills[i] = 0
+
+            # Reshuffle weapons -- can make oneDivineSkillPerJob impossible!!!
+            if weaponShuffle:
+                random.shuffle(newtype)
+                remap = { a:b for a, b in zip(types, newtype) }
+                random.shuffle(weapons)
+                for weapon, ability in zip(weapons, abilitiesWithWeapons):
+                    ability.weapon = remap[weapon]
+                    ability.restrict = weaponToRestrict[ability.weapon]
 
             if oneDivineSkillPerJob:
                 # Place 1 divine skill per job
@@ -350,7 +371,7 @@ def shuffleData(filename, settings, outdir, abilities):
         print('Shuffling skills')
         random.seed(seed)
         skills = Skills(jobs, skillsDict, abilities)
-        skills.shuffleSkills(settings['skills-one-divine'], settings['skills-separate'])
+        skills.shuffleSkills(settings['skills-weapons'], settings['skills-one-divine'], settings['skills-separate'])
 
     # Random costs
     if settings['skills-jp-costs']:
@@ -379,10 +400,8 @@ def shuffleData(filename, settings, outdir, abilities):
             if os.path.exists(logfile): os.remove(logfile)
             with open(logfile, 'w') as file:
                 file.write(f"{job.pc} starts with Evasive Maneuvers")
-            # Set number of skills needed to unlock to 3
-            job.counts[0] = 3
-            # Set JP costs of "first" skill 1
-            job.costs[2] = 1
+            job.counts[0] = 3 # Set number of skills needed to unlock to 3
+            job.costs[2] = 1  # Set JP costs of "first" skill 1
         # Assign supports
         for i, job in enumerate(jobs.values()):
             job.support = support[i*4:(i+1)*4]

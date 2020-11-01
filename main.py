@@ -9,8 +9,7 @@ from gui import randomize
 
 def main():
     settings = {
-        # 'seed': random.randint(0, 1e8),
-        'seed': 49119664,
+        'seed': random.randint(0, 1e8),
         'skills': True,
         'skills-one-divine': True,
         'skills-separate': True,
@@ -28,10 +27,8 @@ def main():
         # 'items-option': 'items-separate',
         'no-thief-chests': True,
         'output': None,
-
-        ### NEW
     }
-    print(settings['seed'])
+
     setup()
     randomize(settings)
     cleanup()
