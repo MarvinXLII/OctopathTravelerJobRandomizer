@@ -9,6 +9,7 @@ import subprocess
 import sys
 sys.path.append('src')
 from Utilities import get_filename
+import Ability
 import JobData
 import Items
 import ROM
@@ -268,8 +269,11 @@ def randomize(settings):
     # Randomize #
     #############
 
+    file = "./Octopath_Traveler/Content/Ability/Database/AbilityData.uexp"
+    abilities = Ability.shuffleData(file, settings, outdir)
+
     file = "./Octopath_Traveler/Content/Character/Database/JobData.uexp"
-    JobData.shuffleData(file, settings, outdir)
+    JobData.shuffleData(file, settings, outdir, abilities)
 
     file = "./Octopath_Traveler/Content/Object/Database/ObjectData.uexp"
     Items.shuffleItems(file, settings, outdir)
@@ -280,6 +284,11 @@ def randomize(settings):
 
     patches = []
     
+    patch = "Ability_P.pak"
+    target = "../../../Octopath_Traveler/Content/Ability/Database/"
+    ROM.patch(patch, target)
+    patches.append(patch)
+
     patch = "JobData_P.pak"
     target = "../../../Octopath_Traveler/Content/Character/Database/"
     ROM.patch(patch, target)
