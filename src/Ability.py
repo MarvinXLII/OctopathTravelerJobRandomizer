@@ -29,15 +29,18 @@ class ABILITY:
     def randomCosts(self):
         change = round(0.5 + self.cost[0] * random.random() * 0.3)
         change *= 1 if random.random() > 0.5 else -1
-        self.cost = [cost+change for cost in self.cost]
+        for i in range(4):
+            self.cost[i] += change
         
     def randomRatio(self):
-        change = round(0.5 + self.ratio[0] * random.random() * 0.3)
-        # change = round(0.5 + self.ratio[0] * 1 * 0.3)
-        change *= 1 if random.random() > 0.5 else -1
-        # change *= 1 if random.random() > 0.0 else -1
-        self.ratio = [cost+change*canChange for cost, canChange in zip(self.ratio, self.canChangeRatio)]
-        
+        change = []
+        for ratio in self.ratio:
+            value = round(0.5 + ratio * random.random() * 0.3)
+            value *= 1 if random.random() > 0.5 else -1
+            change.append(value)
+        for i in range(4):
+            self.ratio[i] += self.canChangeRatio[i] * change[i]
+
     def read(self, offsets, size):
         lst = []
         for offset in offsets:

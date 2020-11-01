@@ -2,7 +2,6 @@
   "Heal Wounds":
   {
     Job: Cleric
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -10,7 +9,6 @@
   "Holy Light":
   {
     Job: Cleric
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -18,7 +16,6 @@
   "Sheltering Veil":
   {
     Job: Cleric
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -26,7 +23,6 @@
   Luminescence:
   {
     Job: Cleric
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -34,7 +30,6 @@
   "Heal More":
   {
     Job: Cleric
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -42,7 +37,6 @@
   "Reflective Veil":
   {
     Job: Cleric
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -50,7 +44,6 @@
   Revive:
   {
     Job: Cleric
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -58,7 +51,6 @@
   "Aelfrics Auspices":
   {
     Job: Cleric
-    Weapon: ""
     Priority: 4.0
     Advanced: false
     Divine: true
@@ -66,7 +58,6 @@
   Fireball:
   {
     Job: Scholar
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -74,7 +65,6 @@
   Icewind:
   {
     Job: Scholar
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -82,7 +72,6 @@
   "Lightning Bolt":
   {
     Job: Scholar
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -90,7 +79,6 @@
   Analyze:
   {
     Job: Scholar
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -98,7 +86,6 @@
   "Fire Storm":
   {
     Job: Scholar
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -106,7 +93,6 @@
   Blizzard:
   {
     Job: Scholar
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -114,7 +100,6 @@
   "Lightning Blast":
   {
     Job: Scholar
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -122,7 +107,6 @@
   "Alephans Enlightenment":
   {
     Job: Scholar
-    Weapon: ""
     Priority: 4.0
     Advanced: false
     Divine: true
@@ -130,7 +114,6 @@
   Collect:
   {
     Job: Merchant
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -138,7 +121,6 @@
   Tradewinds:
   {
     Job: Merchant
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -146,7 +128,6 @@
   Rest:
   {
     Job: Merchant
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -154,7 +135,6 @@
   "Trade Tempest":
   {
     Job: Merchant
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -162,7 +142,6 @@
   "Donate BP":
   {
     Job: Merchant
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -170,7 +149,6 @@
   Sidestep:
   {
     Job: Merchant
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -178,7 +156,6 @@
   "Hired Help":
   {
     Job: Merchant
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -186,7 +163,6 @@
   "Bifelgans Bounty":
   {
     Job: Merchant
-    Weapon: ""
     Priority: 4.0
     Advanced: false
     Divine: true
@@ -194,7 +170,6 @@
   "Level Slash":
   {
     Job: Warrior
-    Weapon: Sword
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -202,7 +177,6 @@
   Abide:
   {
     Job: Warrior
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -210,7 +184,6 @@
   Spearhead:
   {
     Job: Warrior
-    Weapon: Spear
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -218,7 +191,6 @@
   Incite:
   {
     Job: Warrior
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -226,7 +198,6 @@
   "Cross Strike":
   {
     Job: Warrior
-    Weapon: Sword
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -234,7 +205,6 @@
   "Stout Wall":
   {
     Job: Warrior
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -242,7 +212,6 @@
   "Thousand Spears":
   {
     Job: Warrior
-    Weapon: Spear
     Priority: 2.0
     Advanced: false
     Divine: false
@@ -250,7 +219,6 @@
   "Brands Thunder":
   {
     Job: Warrior
-    Weapon: Sword
     Priority: 3.0
     Advanced: false
     Divine: true
@@ -258,7 +226,6 @@
   "Lion Dance":
   {
     Job: Dancer
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -266,7 +233,6 @@
   "Moonlight Waltz":
   {
     Job: Dancer
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -274,7 +240,6 @@
   "Peacock Strut":
   {
     Job: Dancer
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -282,7 +247,6 @@
   "Mole Dance":
   {
     Job: Dancer
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -290,7 +254,6 @@
   "Night Ode":
   {
     Job: Dancer
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -298,7 +261,6 @@
   "Panther Dance":
   {
     Job: Dancer
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -306,7 +268,6 @@
   "Bewildering Grace":
   {
     Job: Dancer
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -314,7 +275,6 @@
   "Sealticges Seduction":
   {
     Job: Dancer
-    Weapon: ""
     Priority: 4.0
     Advanced: false
     Divine: true
@@ -322,7 +282,6 @@
   "First Aid":
   {
     Job: Apothecary
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -330,7 +289,6 @@
   Icicle:
   {
     Job: Apothecary
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -338,7 +296,6 @@
   Rehabilitate:
   {
     Job: Apothecary
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -346,7 +303,6 @@
   Amputation:
   {
     Job: Apothecary
-    Weapon: Axe
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -354,7 +310,6 @@
   Empoison:
   {
     Job: Apothecary
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -362,7 +317,6 @@
   Vivify:
   {
     Job: Apothecary
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -370,7 +324,6 @@
   "Last Stand":
   {
     Job: Apothecary
-    Weapon: Axe
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -378,7 +331,6 @@
   "Dohters Charity":
   {
     Job: Apothecary
-    Weapon: ""
     Priority: 4.0
     Advanced: false
     Divine: true
@@ -386,7 +338,6 @@
   Steal:
   {
     Job: Thief
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -394,7 +345,6 @@
   Wildfire:
   {
     Job: Thief
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -402,7 +352,6 @@
   "HP Thief":
   {
     Job: Thief
-    Weapon: Dagger
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -410,7 +359,6 @@
   "Shackle Foe":
   {
     Job: Thief
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -418,7 +366,6 @@
   "Armor Corrosive":
   {
     Job: Thief
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -426,7 +373,6 @@
   "Steal SP":
   {
     Job: Thief
-    Weapon: Dagger
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -434,7 +380,6 @@
   "Share SP":
   {
     Job: Thief
-    Weapon: ""
     Priority: 3.0
     Advanced: false
     Divine: false
@@ -442,7 +387,6 @@
   "Aebers Reckoning":
   {
     Job: Thief
-    Weapon: Dagger
     Priority: 3.0
     Advanced: false
     Divine: true
@@ -450,7 +394,6 @@
   "Rain of Arrows":
   {
     Job: Hunter
-    Weapon: Bow
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -458,7 +401,6 @@
   "True Strike":
   {
     Job: Hunter
-    Weapon: Bow
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -466,7 +408,6 @@
   Thunderbird:
   {
     Job: Hunter
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -474,7 +415,6 @@
   "Leghold Trap":
   {
     Job: Hunter
-    Weapon: ""
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -482,7 +422,6 @@
   "Mercy Strike":
   {
     Job: Hunter
-    Weapon: Bow
     Priority: 1.0
     Advanced: false
     Divine: false
@@ -490,7 +429,6 @@
   Arrowstorm:
   {
     Job: Hunter
-    Weapon: Bow
     Priority: 2.0
     Advanced: false
     Divine: false
@@ -498,7 +436,6 @@
   "Take Aim":
   {
     Job: Hunter
-    Weapon: ""
     Priority: 2.0
     Advanced: false
     Divine: false
@@ -506,7 +443,6 @@
   "Draefendis Rage":
   {
     Job: Hunter
-    Weapon: Bow
     Priority: 3.0
     Advanced: false
     Divine: true
@@ -514,7 +450,6 @@
   "Fire Rune":
   {
     Job: Runelord
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -522,7 +457,6 @@
   "Ice Rune":
   {
     Job: Runelord
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -530,7 +464,6 @@
   "Lightning Rune":
   {
     Job: Runelord
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -538,7 +471,6 @@
   "Wind Rune":
   {
     Job: Runelord
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -546,7 +478,6 @@
   "Dark Rune":
   {
     Job: Runelord
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -554,7 +485,6 @@
   "Light Rune":
   {
     Job: Runelord
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -562,7 +492,6 @@
   "Transfer Rune":
   {
     Job: Runelord
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -570,7 +499,6 @@
   "Balogars Blade":
   {
     Job: Runelord
-    Weapon: ""
     Priority: 4.0
     Advanced: true
     Divine: true
@@ -578,7 +506,6 @@
   "Shooting Stars":
   {
     Job: Starseer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -586,7 +513,6 @@
   "BP Boost":
   {
     Job: Starseer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -594,7 +520,6 @@
   Divination:
   {
     Job: Starseer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -602,7 +527,6 @@
   Starsong:
   {
     Job: Starseer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -610,7 +534,6 @@
   "Celestial Intervention":
   {
     Job: Starseer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -618,7 +541,6 @@
   "Ethereal Healing":
   {
     Job: Starseer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -626,7 +548,6 @@
   "Moons Reflection":
   {
     Job: Starseer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -634,7 +555,6 @@
   "Steorras Prophecy":
   {
     Job: Starseer
-    Weapon: ""
     Priority: 4.0
     Advanced: true
     Divine: true
@@ -642,7 +562,6 @@
   "Ignis Ardere":
   {
     Job: Sorcerer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -650,7 +569,6 @@
   "Glacies Claudere":
   {
     Job: Sorcerer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -658,7 +576,6 @@
   "Tonitrus Canere":
   {
     Job: Sorcerer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -666,7 +583,6 @@
   "Ventus Saltare":
   {
     Job: Sorcerer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -674,7 +590,6 @@
   "Lux Congerere":
   {
     Job: Sorcerer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -682,7 +597,6 @@
   "Tenebrae Operire":
   {
     Job: Sorcerer
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -690,7 +604,6 @@
   "Elemental Break":
   {
     Job: Sorcerer
-    Weapon: Staff
     Priority: 2.0
     Advanced: true
     Divine: false
@@ -698,7 +611,6 @@
   "Dreisangs Spell":
   {
     Job: Sorcerer
-    Weapon: ""
     Priority: 4.0
     Advanced: true
     Divine: true
@@ -706,7 +618,6 @@
   "Guardian Liondog":
   {
     Job: Warmaster
-    Weapon: Sword
     Priority: 2.0
     Advanced: true
     Divine: false
@@ -714,7 +625,6 @@
   "Tiger Rage":
   {
     Job: Warmaster
-    Weapon: Axe
     Priority: 2.0
     Advanced: true
     Divine: false
@@ -722,7 +632,6 @@
   "Qilins Horn":
   {
     Job: Warmaster
-    Weapon: Spear
     Priority: 2.0
     Advanced: true
     Divine: false
@@ -730,7 +639,6 @@
   Yatagarasu:
   {
     Job: Warmaster
-    Weapon: Dagger
     Priority: 2.0
     Advanced: true
     Divine: false
@@ -738,7 +646,6 @@
   "Fox Spirit":
   {
     Job: Warmaster
-    Weapon: Staff
     Priority: 2.0
     Advanced: true
     Divine: false
@@ -746,7 +653,6 @@
   "Phoenix Storm":
   {
     Job: Warmaster
-    Weapon: Bow
     Priority: 2.0
     Advanced: true
     Divine: false
@@ -754,7 +660,6 @@
   "Nightmare Chimera":
   {
     Job: Warmaster
-    Weapon: ""
     Priority: 3.0
     Advanced: true
     Divine: false
@@ -762,7 +667,6 @@
   "Winnehilds Battle Cry":
   {
     Job: Warmaster
-    Weapon: All
     Priority: 4.0
     Advanced: true
     Divine: true
