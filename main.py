@@ -10,7 +10,7 @@ from gui import randomize
 def main():
     settings = {
         # 'seed': random.randint(0, 1e8),
-        'seed': 74956134,
+        'seed': 49119664,
         'skills': True,
         'skills-one-divine': True,
         'skills-separate': True,
@@ -31,7 +31,7 @@ def main():
 
         ### NEW
     }
-
+    print(settings['seed'])
     setup()
     randomize(settings)
     cleanup()
