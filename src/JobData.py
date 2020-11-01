@@ -13,28 +13,31 @@ from Utilities import get_filename
 offsets = {
     'weapons': 0x10f,
     'unknown': 0x115, # 9, set all to 0
+    'stats': 0x1e1,
     'skills': 0x3dd,
     'support': 0x663,
+    'counts': 0x684,
     'costs': 0x787,
-    'stats': 0x1e1,
 }
 
 stride = {
     'weapons': 1,
     'unknown': 1, # 9, set all to 0
+    'stats': 0x1d,
     'skills': 0x46,
     'support': 0x46,
+    'counts': 0x46,
     'costs': 4,
-    'stats': 0x1d,
 }
 
 size = {
     'weapons': 1,
     'unknown': 1,
+    'stats': 1,
     'skills': 2,
     'support': 8, # vary at different locations for some reason, just 2 for Merchant and Thief, then offset of 5 for the rest!?
+    'counts': 1,
     'costs': 2,
-    'stats': 1,
 }
 
 class JOBS:
@@ -46,6 +49,7 @@ class JOBS:
         self.weaponDict = {'Sword':0, 'Spear':1, 'Dagger':2, 'Axe':3, 'Bow':4, 'Staff':5}
         # self.unknown = self.read(offsets['unknown'], stride['unknown'], size['unknown'], 9)
         self.support = self.read(offsets['support'], stride['support'], size['support'], 4)
+        self.counts = self.read(offsets['counts'], stride['counts'], size['counts'], 4)
         self.skills = self.read(offsets['skills'], stride['skills'], size['skills'], 8)
         self.costs = self.read(offsets['costs'], stride['costs'], size['costs'], 8)
         self.stats = self.read(offsets['stats'], stride['stats'], size['stats'], 12)
@@ -76,6 +80,7 @@ class JOBS:
         self.write(self.weapons, offsets['weapons'], stride['weapons'], size['weapons'])
         # self.write(self.unknown, offsets['unknown'], stride['unknown'], size['unknown'])
         self.write(self.support, offsets['support'], stride['support'], size['support'])
+        self.write(self.counts, offsets['counts'], stride['counts'], size['counts'])
         self.write(self.skills, offsets['skills'], stride['skills'], size['skills'])
         self.costs = sorted(self.costs) # Ensure sorted before written
         self.write(self.costs, offsets['costs'], stride['costs'], size['costs'])
@@ -369,11 +374,15 @@ def shuffleData(filename, settings, outdir, abilities):
             j = jobID * 4
             support[i], support[j] = support[j], support[i]
             # Document PC with EM
-            name = list(jobs.values())[jobID].pc
+            job = list(jobs.values())[jobID]
             logfile = f'{outdir}/PC_with_EM.log'
             if os.path.exists(logfile): os.remove(logfile)
             with open(logfile, 'w') as file:
-                file.write(f"{name} starts with Evasive Maneuvers")
+                file.write(f"{job.pc} starts with Evasive Maneuvers")
+            # Set number of skills needed to unlock to 3
+            job.counts[0] = 3
+            # Set JP costs of "first" skill 1
+            job.costs[2] = 1
         # Assign supports
         for i, job in enumerate(jobs.values()):
             job.support = support[i*4:(i+1)*4]
