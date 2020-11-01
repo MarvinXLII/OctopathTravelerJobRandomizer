@@ -348,8 +348,8 @@ def shuffleData(filename, settings, outdir, abilities):
         skills.shuffleSkills(settings['skills-one-divine'], settings['skills-separate'])
 
     # Random costs
-    if settings['costs']:
-        print('Randomizing costs')
+    if settings['skills-jp-costs']:
+        print('Randomizing JP costs')
         random.seed(seed)
         for job in jobs.values():
             job.costs = randomCosts()
