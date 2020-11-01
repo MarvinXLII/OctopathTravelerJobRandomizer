@@ -264,6 +264,8 @@ class GuiApplication:
 
 def randomize(settings):
 
+    # SETUP
+    shutil.unpack_archive("./data/data.tar.bz2", ".", "bztar")
     outdir = f"seed_{settings['seed']}"
     if os.path.isdir(outdir):
         shutil.rmtree(outdir)
@@ -311,6 +313,14 @@ def randomize(settings):
         if settings['output'] != None:
             shutil.copy2(patch, settings['output'])
         shutil.move(patch, outdir)
+
+    ###########
+    # Cleanup #
+    ###########
+
+    shutil.rmtree("./Engine")
+    shutil.rmtree("./Octopath_Traveler")
+    
     
 if __name__ == '__main__':
     GuiApplication()

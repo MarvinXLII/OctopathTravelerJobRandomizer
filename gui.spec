@@ -14,7 +14,7 @@ a = Analysis(
     binaries=[],
     datas=[
         ('data/*.json', 'data'),
-        ('data/Octopath_Traveler', 'Octopath_Traveler'),
+        ('data/*.tar.bz2', 'data'),
     ],
     hiddenimports=[],
     hookspath=[],
