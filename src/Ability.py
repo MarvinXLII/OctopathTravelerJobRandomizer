@@ -18,7 +18,7 @@ class ABILITY:
             'ratio': obj['ratio'],
         }
 
-        self.canScaleRatio = obj['scale']
+        self.canChangeRatio = obj['scale']
         self.weapon = obj['weapon']
 
         self.depend = ROM.read(self.data, self.offsets['depend'], 0, 0, 1, 1)
@@ -26,6 +26,18 @@ class ABILITY:
         self.cost = self.read(self.offsets['cost'], 1)
         self.ratio = self.read(self.offsets['ratio'], 2)
 
+    def randomCosts(self):
+        change = round(0.5 + self.cost[0] * random.random() * 0.3)
+        change *= 1 if random.random() > 0.5 else -1
+        self.cost = [cost+change for cost in self.cost]
+        
+    def randomRatio(self):
+        change = round(0.5 + self.ratio[0] * random.random() * 0.3)
+        # change = round(0.5 + self.ratio[0] * 1 * 0.3)
+        change *= 1 if random.random() > 0.5 else -1
+        # change *= 1 if random.random() > 0.0 else -1
+        self.ratio = [cost+change*canChange for cost, canChange in zip(self.ratio, self.canChangeRatio)]
+        
     def read(self, offsets, size):
         lst = []
         for offset in offsets:
@@ -82,6 +94,16 @@ def shuffleData(filename, settings, outdir):
     if settings['skills-weapons']:
         random.seed(seed)
         shuffleWeapons(abilities)
+
+    if settings['skills-sp-costs']:
+        random.seed(seed)
+        for ability in abilities.values():
+            ability.randomCosts()
+
+    if settings['skills-power']:
+        random.seed(seed)
+        for ability in abilities.values():
+            ability.randomRatio()
 
     for ability in abilities.values():
         ability.patch()
