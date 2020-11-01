@@ -28,6 +28,8 @@ def main():
 
         ### NEW
         'skills-weapons': True,
+        'skills-sp-costs': True,
+        'skills-power': True,
     }
 
     setup()
