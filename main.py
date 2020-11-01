@@ -31,15 +31,15 @@ def main():
 
     setup()
     randomize(settings)
-    cleanup()
+    # cleanup()
 
 # Build paths for generating patch
 def setup():
-    try:
-        shutil.rmtree("./Octopath_Traveler")
-    except:
-        pass
-    shutil.copytree("./data/Octopath_Traveler", "Octopath_Traveler")
+    try: shutil.rmtree("./Octopath_Traveler")
+    except: pass
+    try: shutil.rmtree("./Engine")
+    except: pass
+    # shutil.unpack_archive("./data/data.tar.bz2", ".", "bztar")
 
 def cleanup():
     shutil.rmtree("./Engine")
