@@ -215,7 +215,7 @@
     Advanced: false
     Divine: false
   }
-  Incide:
+  Incite:
   {
     Job: Warrior
     Weapon: ""
@@ -255,7 +255,7 @@
     Advanced: false
     Divine: true
   }
-  "Lions Dance":
+  "Lion Dance":
   {
     Job: Dancer
     Weapon: ""
@@ -527,7 +527,7 @@
     Advanced: true
     Divine: false
   }
-  "Thunder Rune":
+  "Lightning Rune":
   {
     Job: Runelord
     Weapon: ""
@@ -615,7 +615,7 @@
     Advanced: true
     Divine: false
   }
-  "Etherial Healing":
+  "Ethereal Healing":
   {
     Job: Starseer
     Weapon: ""
@@ -623,7 +623,7 @@
     Advanced: true
     Divine: false
   }
-  "Moon's Reflection":
+  "Moons Reflection":
   {
     Job: Starseer
     Weapon: ""
@@ -639,7 +639,7 @@
     Advanced: true
     Divine: true
   }
-  "Ignis Adere":
+  "Ignis Ardere":
   {
     Job: Sorcerer
     Weapon: ""
@@ -679,7 +679,7 @@
     Advanced: true
     Divine: false
   }
-  "Tenbrae Operiere":
+  "Tenebrae Operire":
   {
     Job: Sorcerer
     Weapon: ""

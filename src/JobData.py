@@ -83,9 +83,10 @@ class JOBS:
 
 
 class Skills:
-    def __init__(self, jobs, skillJSON):
+    def __init__(self, jobs, skillJSON, abilities):
         self.jobs = jobs
         self.skillJSON = skillJSON
+        self.abilities = abilities
 
         self.skills = []
         for job in self.jobs.values():
@@ -139,7 +140,8 @@ class Skills:
                     continue
                 for skill in skills:
                     if self.placed[skill]: continue
-                    weapon = self.skillJSON[skill]['Weapon']
+                    # weapon = self.skillJSON[skill]['Weapon']
+                    weapon = self.abilities[skill].weapon
                     if job.weaponCheck(weapon):
                         job.skills[i] = skill
                         self.placed[skill] = True
@@ -264,7 +266,7 @@ def randomCosts():
     ]
     return costs
 
-def shuffleData(filename, settings, outdir):
+def shuffleData(filename, settings, outdir, abilities):
     
     seed = settings['seed']
     random.seed(seed)
@@ -326,6 +328,7 @@ def shuffleData(filename, settings, outdir):
             skillNameToValue[name] = value
             skillValueToName[value] = name
             skillsDict[value] = skillsJSON[name]
+            abilities[value] = abilities[name]
 
     ###################
     # RANODMIZE STUFF #
@@ -341,7 +344,7 @@ def shuffleData(filename, settings, outdir):
     if settings['skills']:
         print('Shuffling skills')
         random.seed(seed)
-        skills = Skills(jobs, skillsDict)
+        skills = Skills(jobs, skillsDict, abilities)
         skills.shuffleSkills(settings['skills-one-divine'], settings['skills-separate'])
 
     # Random costs
@@ -423,7 +426,7 @@ def shuffleData(filename, settings, outdir):
             file.write(key+'     ('+', '.join(job.listWeapons())+')'+'\n')
             for s in job.skills:
                 name = skillValueToName[s]
-                file.write(' '*8+name.ljust(26, ' ')+skillsJSON[name]['Weapon']+'\n')
+                file.write(' '*8+name.ljust(26, ' ')+abilities[name].weapon+'\n')
             file.write('\n')
         file.write('\n\n')
 
