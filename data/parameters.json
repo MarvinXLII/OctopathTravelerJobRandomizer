@@ -9,9 +9,9 @@
 	indent: [
 	  {
 	      name: skills-one-divine
-              label: One Divine Skill per job
+              label: Separately shuffle divine skills
 	      type: checkbutton
-	      help: "This ensures each job will only get one Divine Skill."
+	      help: "This ensures each job will only get one Divine Skill, each remaining in the eight slot."
 	  }
 	  {
 	      name: skills-separate
@@ -19,13 +19,31 @@
 	      type: checkbutton
 	      help: "Skills from the 4 advanced jobs will be kept separate from the 8 base jobs."
 	  }
+	  {
+	      name: skills-weapons
+              label: Shuffle weapons used by skills
+	      type: checkbutton
+	      help: "For example, the Apothecary's skill Amputate could change from using an axe to a staff, allowing for either the Cleric or Scholar to use it."
+	  }
 	]
       }
-      {
-	name: costs
-	label: Randomize skill costs
+      {      
+	name: skills-sp-costs
+	label: Randomly adjust SP costs
 	type: checkbutton
-	help: "Randomizer JP costs of skills. Costs will always increase with each skill learned."
+	help: "Adjusts SP costs of skills by up to 30%."
+      }
+      {
+	name: skills-jp-costs
+	label: Randomly adjust JP costs
+	type: checkbutton
+	help: "Adjusts JP costs to learn skills. Costs will always increase with each skill learned."
+      }
+      {      
+	name: skills-power
+	label: Randomly adjust skill power
+	type: checkbutton
+	help: "Randomly adjusts power of all offensive skills. Power still increases with BP used."
       }
       {
 	name: support
