@@ -100,7 +100,6 @@ def shuffleItems(filename, settings, outdir):
     # RANODMIZE STUFF #
     ###################
 
-
     # Shuffle items
     if settings['items']:
         seed = settings['seed']
@@ -110,16 +109,6 @@ def shuffleItems(filename, settings, outdir):
         elif settings['items-option'] == 'items-separate':
             shuffleSubset(items, 'Hidden')
             shuffleSubset(items, 'Chest')
-
-    ##################
-    # PATCH AND DUMP #
-    ##################
-
-    for item in items:
-        item.patch()
-
-    with open(filename, 'wb') as file:
-        file.write(data)
 
     #############
     # PRINT LOG #
@@ -198,3 +187,5 @@ def shuffleItems(filename, settings, outdir):
             else:
                 string += nameItems[str(item.haveItemLabel)]['item'].ljust(30)
             file.write(string+'\n')
+
+    return items
