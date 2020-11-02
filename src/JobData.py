@@ -176,6 +176,7 @@ class Skills:
                     job.skills[i] = 0
 
             # Reshuffle weapons -- can make oneDivineSkillPerJob impossible!!!
+            # MUST BE DONE HERE!!!!
             if weaponShuffle:
                 random.shuffle(newtype)
                 remap = { a:b for a, b in zip(types, newtype) }

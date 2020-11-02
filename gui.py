@@ -13,6 +13,7 @@ import Ability
 import JobData
 import Items
 import ROM
+import Text
 
 
 MAIN_TITLE = "Octopath Traveler Randomizer v 0.1.4a"
@@ -302,7 +303,7 @@ def randomize(settings):
 
     itemFile= "./Octopath_Traveler/Content/Object/Database/ObjectData.uexp"
     items = Items.shuffleItems(itemFile, settings, outdir)
-    
+
     ##############
     # Patch data #
     ##############
@@ -325,6 +326,8 @@ def randomize(settings):
     with open(itemFile, 'wb') as file:
         file.write(item.data)
     
+    Text.updateText(abilities)
+    
     ##################
     # Generate Patch #
     ##################
@@ -343,6 +346,11 @@ def randomize(settings):
 
     patch = "Items_P.pak"
     target = "../../../Octopath_Traveler/Content/Object/Database/"
+    ROM.patch(patch, target)
+    patches.append(patch)
+
+    patch = "GameTextEN_P.pak"
+    target = "../../../Octopath_Traveler/Content/GameText/Database/"
     ROM.patch(patch, target)
     patches.append(patch)
 

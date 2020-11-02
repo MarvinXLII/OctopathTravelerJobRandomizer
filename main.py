@@ -11,8 +11,8 @@ def main():
     settings = {
         'seed': random.randint(0, 1e8),
         'skills': True,
-        'skills-one-divine': True,
-        'skills-separate': True,
+        'skills-one-divine': False,
+        'skills-separate': False,
         'skills-weapons': True,
         'skills-sp-costs': True,
         'skills-jp-costs': True,
