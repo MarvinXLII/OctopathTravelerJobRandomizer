@@ -76,6 +76,7 @@ class GuiApplication:
 
         # Specify output directory
         self.settings['output'] = tk.StringVar()
+        self.settings['output'].set('')
         # Find Paks directory
         if os.name == 'nt': # Windows
             paths = [
@@ -194,15 +195,13 @@ class GuiApplication:
         self.canvas.grid(row=6, column=0, columnspan=20, pady=10)
 
     def checkPath(self, path):
-        if path.split('/')[-1] != 'Paks' and path.split("\\")[-1] != 'Pak':
+        if path.split('/')[-1] != 'Paks':
             return False
         name = 'Octopath_Traveler-WindowsNoEditor.pak'
         try:
             for file in os.listdir(path):
                 p1 = not os.path.isfile(f"{path}/{file}")
                 if p1: continue
-                # p2 = not os.path.isfile(f"{path}\\{file}")
-                # if p1 or p2: continue
                 if file == name: return True
         except:
             pass
@@ -352,7 +351,7 @@ def randomize(settings):
     #######################
 
     for patch in patches:
-        if settings['output'] != None:
+        if settings['output'] != '':
             shutil.copy2(patch, settings['output'])
         shutil.move(patch, outdir)
 

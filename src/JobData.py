@@ -292,6 +292,25 @@ def randomCosts():
     ]
     return costs
 
+def shuffleSupport(jobs, keepAdvancedJobsSeparate):
+        
+    support = []
+    for job in jobs.values():
+        support += job.support
+
+    if keepAdvancedJobsSeparate:
+        base = support[:32]
+        advanced = support[32:]
+        random.shuffle(base)
+        random.shuffle(advanced)
+        support = base + advanced
+    else:
+        random.shuffle(support)
+        
+    for i, job in enumerate(jobs.values()):
+        job.support = support[i*4:(i+1)*4]
+
+
 def shuffleData(filename, settings, outdir, abilities):
     
     seed = settings['seed']
@@ -365,7 +384,7 @@ def shuffleData(filename, settings, outdir, abilities):
     # for job in jobs.values():
     #     random.shuffle(job.weapons)
     ####################################
-    
+
     # Shuffle skils
     if settings['skills']:
         print('Shuffling skills')
@@ -384,27 +403,21 @@ def shuffleData(filename, settings, outdir, abilities):
     if settings['support']:
         print('Shuffling support skills')
         random.seed(seed)
-        support = []
-        for job in jobs.values():
-            support += job.support
-        random.shuffle(support)
+        shuffleSupport(jobs, settings['support-separate'])
         if settings['support-EM']:
-            # Make first support skill
-            i = support.index(supportNameToValue['Evasive Maneuvers'])
-            jobID = random.randint(0, 7)
-            j = jobID * 4
-            support[i], support[j] = support[j], support[i]
+            emVal = supportNameToValue['Evasive Maneuvers']
+            for job in jobs.values():
+                if emVal in job.support:
+                    idx = job.support.index(emVal)
+                    job.support = job.support[emVal:] + job.support[:emVal]
+                    break
             # Document PC with EM
-            job = list(jobs.values())[jobID]
             logfile = f'{outdir}/PC_with_EM.log'
             if os.path.exists(logfile): os.remove(logfile)
             with open(logfile, 'w') as file:
                 file.write(f"{job.pc} starts with Evasive Maneuvers")
             job.counts[0] = 3 # Set number of skills needed to unlock to 3
             job.costs[2] = 1  # Set JP costs of "first" skill 1
-        # Assign supports
-        for i, job in enumerate(jobs.values()):
-            job.support = support[i*4:(i+1)*4]
 
     # Shuffle stats
     if settings['stats']:
