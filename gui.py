@@ -54,7 +54,7 @@ class CreateToolTip(object):
 class GuiApplication:
     def __init__(self, settingsFile=''):
         self.master = tk.Tk()
-        self.master.geometry('680x460')
+        self.master.geometry('690x530')
         self.master.title(MAIN_TITLE)
         self.initialize_gui(settingsFile)
         self.initialize_settings()
@@ -78,11 +78,20 @@ class GuiApplication:
         self.settings['output'] = tk.StringVar()
         # Find Paks directory
         if os.name == 'nt': # Windows
-            try:
-                path = "C:\Program Files (x86)\Steam\steamapps"
-                self.checkPath(path)
-            except:
-                pass
+            paths = [
+                "C:/Program Files (x86)/Steam/steamapps/common/OCTOPATH_TRAVELER/Octopath_Traveler/Content/Paks",
+                "C:/Program Files (x86)/Steam/steamapps/common/OCTOPATH TRAVELER/Octopath_Traveler/Content/Paks",
+                "C:/Program Files (x86)/Steam/Steamapps/common/OCTOPATH_TRAVELER/Octopath_Traveler/Content/Paks",
+                "C:/Program Files (x86)/Steam/Steamapps/common/OCTOPATH TRAVELER/Octopath_Traveler/Content/Paks",
+                "C:/Program Files (x86)/Steam/steamapps/Common/OCTOPATH_TRAVELER/Octopath_Traveler/Content/Paks",
+                "C:/Program Files (x86)/Steam/steamapps/Common/OCTOPATH TRAVELER/Octopath_Traveler/Content/Paks",
+                "C:/Program Files (x86)/Steam/Steamapps/Common/OCTOPATH_TRAVELER/Octopath_Traveler/Content/Paks",
+                "C:/Program Files (x86)/Steam/Steamapps/Common/OCTOPATH TRAVELER/Octopath_Traveler/Content/Paks",
+            ]
+            for path in paths:
+                if not self.checkPath(path): continue
+                self.settings['output'].set(path)
+                break
 
         pathLabel = tk.Label(lf, text='Path to "Paks" folder (optional)')
         pathLabel.grid(row=1, column=0, sticky='w', padx=5, pady=2)
@@ -185,21 +194,29 @@ class GuiApplication:
         self.canvas.grid(row=6, column=0, columnspan=20, pady=10)
 
     def checkPath(self, path):
+        if path.split('/')[-1] != 'Paks' and path.split("\\")[-1] != 'Pak':
+            return False
         name = 'Octopath_Traveler-WindowsNoEditor.pak'
-        self.settings['output'].set('')
-        for root, dirs, files in os.walk(path):
-            if name in files:
-                self.settings['output'].set(root)
-                break
+        try:
+            for file in os.listdir(path):
+                p1 = not os.path.isfile(f"{path}/{file}")
+                if p1: continue
+                # p2 = not os.path.isfile(f"{path}\\{file}")
+                # if p1 or p2: continue
+                if file == name: return True
+        except:
+            pass
+        return False
 
     def getPakPath(self):
         self.clearBottomLabels()
         path = filedialog.askdirectory()
-        if path == ():
-            return
-        if path.split('/')[-1] == 'Paks':
-            self.checkPath(path)
+        if path == (): return
+        if self.checkPath(path):
+            self.settings['output'].set(path)
+            self.bottomLabel(self.settings['output'].get(), 'blue', 0)
         else:
+            self.settings['output'].set('')
             self.bottomLabel('Selected path must lead to the Paks folder.', 'red', 0)
             self.bottomLabel('e.g. ....\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks', 'red', 1) 
             self.bottomLabel('Otherwise, check the current folder for Pak outputs.', 'red', 2) 
@@ -264,8 +281,12 @@ class GuiApplication:
 
 def randomize(settings):
 
-    # SETUP
-    shutil.unpack_archive("./data/data.tar.bz2", ".", "bztar")
+    #########
+    # SETUP #
+    #########
+
+    tar = get_filename("./data/data.tar.bz2")
+    shutil.unpack_archive(tar, ".", "bztar")
     outdir = f"seed_{settings['seed']}"
     if os.path.isdir(outdir):
         shutil.rmtree(outdir)

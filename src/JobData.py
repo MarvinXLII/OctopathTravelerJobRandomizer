@@ -297,7 +297,7 @@ def shuffleData(filename, settings, outdir, abilities):
     seed = settings['seed']
     random.seed(seed)
 
-    with open(get_filename(filename), 'rb') as file:
+    with open(filename, 'rb') as file:
         data = bytearray(file.read())
 
     jobs = {
@@ -421,7 +421,7 @@ def shuffleData(filename, settings, outdir, abilities):
     for job in jobs.values():
         job.patch()
 
-    with open(get_filename(filename), 'wb') as file:
+    with open(filename, 'wb') as file:
         file.write(data)
 
     #############

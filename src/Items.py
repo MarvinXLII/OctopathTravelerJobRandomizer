@@ -78,7 +78,7 @@ def shuffleSubset(items, case):
 
 def shuffleItems(filename, settings, outdir):
 
-    with open(get_filename(filename), 'rb') as file:
+    with open(filename, 'rb') as file:
         data = bytearray(file.read())
 
     items = []
@@ -118,7 +118,7 @@ def shuffleItems(filename, settings, outdir):
     for item in items:
         item.patch()
 
-    with open(get_filename(filename), 'wb') as file:
+    with open(filename, 'wb') as file:
         file.write(data)
 
     #############

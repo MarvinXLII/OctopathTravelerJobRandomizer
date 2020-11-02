@@ -61,7 +61,7 @@ def shuffleData(filename, settings, outdir):
     seed = settings['seed']
     random.seed(seed)
 
-    with open(get_filename(filename), 'rb') as file:
+    with open(filename, 'rb') as file:
         data = bytearray(file.read())
 
     with open(get_filename('data/ability.json'), 'r') as file:
@@ -88,7 +88,7 @@ def shuffleData(filename, settings, outdir):
     for ability in abilities.values():
         ability.patch()
 
-    with open(get_filename(filename), 'wb') as file:
+    with open(filename, 'wb') as file:
         file.write(data)
         
     return abilities
