@@ -43,7 +43,7 @@
 	name: skills-power
 	label: Randomly adjust skill power
 	type: checkbutton
-	help: "Randomly adjusts power of all offensive skills. Power will always with BP used."
+	help: "Randomly adjusts power of all offensive skills by up to 30%."
       }
       {
 	name: support
@@ -55,7 +55,13 @@
 	      name: support-EM
               label: Ensure early Evasive Maneuvers
 	      type: checkbutton
-	      help: Ensures Evasive Maneuvers will be the first support skill learned by one PC. It can be learned right after your first battle.
+	      help: Ensures Evasive Maneuvers will be the first support skill learned by one PC. It can be learned right after the first battle.
+            }
+	    {
+	      name: support-separate
+              label: Separately shuffle base and advanced jobs
+	      type: checkbutton
+	      help: "Support skills from the 4 advanced jobs with be kept separate from the 8 base jobs."
             }
 	]
       }

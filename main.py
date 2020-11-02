@@ -18,6 +18,7 @@ def main():
         'skills-jp-costs': True,
         'skills-power': True,
         'support': True,
+        'support-separate': True,
         'support-EM': True,
         'stats': True,
         # 'stats-option': 'random',
@@ -26,7 +27,7 @@ def main():
         'items-option': 'items-all',
         # 'items-option': 'items-separate',
         'no-thief-chests': True,
-        'output': None,
+        'output': '',
     }
 
     setup()
