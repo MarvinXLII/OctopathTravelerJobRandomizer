@@ -8,8 +8,9 @@ import sys
 
 
 class ABILITY:
-    def __init__(self, data, obj):
+    def __init__(self, data, obj, jobname):
         self.data = data
+        self.jobname = jobname
         
         self.offsets = {
             'depend': obj['depend'],
@@ -25,11 +26,12 @@ class ABILITY:
         self.restrict = self.read(self.offsets['restrict'], 2)
         self.cost = self.read(self.offsets['cost'], 1)
         self.ratio = self.read(self.offsets['ratio'], 2)
+        self.size = len(self.cost)
 
     def randomCosts(self):
         change = round(0.5 + self.cost[0] * random.random() * 0.3)
         change *= 1 if random.random() > 0.5 else -1
-        for i in range(4):
+        for i in range(self.size):
             self.cost[i] += change
         
     def randomRatio(self):
@@ -38,8 +40,7 @@ class ABILITY:
         changes = []
         for ratio in self.ratio:
             changes.append( sign * round(0.5 + ratio * value) )
-
-        for i in range(4):
+        for i in range(self.size):
             self.ratio[i] += self.canChangeRatio[i] * changes[i]
 
     def read(self, offsets, size):
@@ -70,9 +71,9 @@ def shuffleData(filename, settings, outdir):
 
     # Build objects
     abilities = {}
-    for job in abilityJSON.values():
+    for jobname, job in abilityJSON.items():
         for name, skill in job.items():
-            abilities[name] = ABILITY(data, skill)
+            abilities[name] = ABILITY(data, skill, jobname)
 
     if settings['skills-sp-costs']:
         random.seed(seed)
@@ -98,13 +99,12 @@ def shuffleData(filename, settings, outdir):
         file.write('========\n')
         file.write('\n\n')
 
-        file.write(' '*36 + 'SP'.ljust(5, ' ') + 'Power Scale'.ljust(18) + '\n\n')
         def printData(skill):
-            for bp in range(4):
+            for bp in range(abilities[skill].size):
                 if bp == 0:
-                    line = ' '*5 + skill.ljust(30, ' ')
+                    line = ' '*5 + skill.ljust(35, ' ')
                 else:
-                    line = ' '*5 + f"{skill} ({bp} BP)".ljust(30, ' ')
+                    line = ' '*5 + f"{skill} ({bp} BP)".ljust(35, ' ')
                 line += f"{abilities[skill].cost[bp]}".rjust(3, ' ')
                 if abilities[skill].canChangeRatio[bp]:
                     line += f"{abilities[skill].ratio[bp]}%".rjust(14, ' ')
@@ -114,8 +114,14 @@ def shuffleData(filename, settings, outdir):
                 file.write('\n')
             file.write('\n')
 
-        for i, key in enumerate(abilities.keys()):
-            if i%8 == 0: file.write('\n\n')
+        jobname = ''
+        for i, (key, ability) in enumerate(abilities.items()):
+            if ability.jobname != jobname:
+                jobname = ability.jobname
+                file.write('\n\n')
+                file.write(f"{jobname}\n")
+                file.write('-'*len(jobname)+'\n\n')
+                file.write(' '*41 + 'SP'.ljust(5, ' ') + 'Power Scale'.ljust(18) + '\n\n')
             printData(key)
 
     return abilities
