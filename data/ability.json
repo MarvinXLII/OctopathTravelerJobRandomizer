@@ -1,4 +1,40 @@
 {
+  ALL:
+  {
+    Attack:
+    {
+      depend: 1849
+      restrict:
+      [
+        1884
+        3383
+        4882
+        6381
+      ]
+      weapon: ""
+      cost:
+      [
+        2025
+        3524
+        5023
+        6522
+      ]
+      ratio:
+      [
+        2112
+        3611
+        5110
+        6609
+      ]
+      scale:
+      [
+        1
+        1
+        1
+        1
+      ]
+    }
+  }
   Merchant:
   {
     Collect:
@@ -265,6 +301,171 @@
         1
       ]
     }
+    "Hired Help: Mercenary":
+    {
+      depend: 889672
+      restrict:
+      [
+        889707
+        891590
+        893473
+        895356
+      ]
+      weapon: ""
+      cost:
+      [
+        889848
+        891731
+        893614
+        895497
+      ]
+      ratio:
+      [
+        889935
+        891818
+        893701
+        895584
+      ]
+      scale:
+      [
+        1
+        1
+        1
+        1
+      ]
+    }
+    "Hired Help: Bandit":
+    {
+      depend: 897204
+      restrict:
+      [
+        897239
+        899122
+        901005
+        902888
+      ]
+      weapon: ""
+      cost:
+      [
+        897380
+        899263
+        901146
+        903029
+      ]
+      ratio:
+      [
+        897467
+        899350
+        901233
+        903116
+      ]
+      scale:
+      [
+        1
+        1
+        1
+        1
+      ]
+    }
+    "Hired Help: Dancer":
+    {
+      depend: 904736
+      restrict:
+      [
+        904771
+        906654
+        908537
+        910420
+      ]
+      weapon: ""
+      cost:
+      [
+        904912
+        906795
+        908678
+        910561
+      ]
+      ratio:
+      [
+        904999
+        906882
+        908765
+        910648
+      ]
+      scale:
+      [
+        1
+        1
+        1
+        1
+      ]
+    }
+    "Hired Help: Cleric":
+    {
+      depend: 912268
+      restrict:
+      [
+        912303
+        914186
+        916069
+        917952
+      ]
+      weapon: ""
+      cost:
+      [
+        912444
+        914327
+        916210
+        918093
+      ]
+      ratio:
+      [
+        912531
+        914414
+        916297
+        918180
+      ]
+      scale:
+      [
+        1
+        1
+        1
+        1
+      ]
+    }
+    "Hired Help: Veteran Soldier":
+    {
+      depend: 919800
+      restrict:
+      [
+        919835
+        921718
+        923601
+        925484
+      ]
+      weapon: ""
+      cost:
+      [
+        919976
+        921859
+        923742
+        925625
+      ]
+      ratio:
+      [
+        920063
+        921946
+        923829
+        925712
+      ]
+      scale:
+      [
+        1
+        1
+        1
+        1
+      ]
+    }
   }
   Thief:
   {
@@ -526,9 +727,9 @@
       ]
       scale:
       [
-        0
-        0
-        0
+        1
+        1
+        1
         1
       ]
     }
@@ -3199,6 +3400,132 @@
         0
         0
         0
+        1
+      ]
+    }
+    "Elemental Pursuit: Fire":
+    {
+      depend: 931098
+      restrict:
+      [
+        931133
+      ]
+      weapon: ""
+      cost:
+      [
+        931274
+      ]
+      ratio:
+      [
+        931361
+      ]
+      scale:
+      [
+        1
+      ]
+    }
+    "Elemental Pursuit: Ice":
+    {
+      depend: 932981
+      restrict:
+      [
+        933016
+      ]
+      weapon: ""
+      cost:
+      [
+        933157
+      ]
+      ratio:
+      [
+        933244
+      ]
+      scale:
+      [
+        1
+      ]
+    }
+    "Elemental Pursuit: Thunder":
+    {
+      depend: 934864
+      restrict:
+      [
+        934899
+      ]
+      weapon: ""
+      cost:
+      [
+        935040
+      ]
+      ratio:
+      [
+        935127
+      ]
+      scale:
+      [
+        1
+      ]
+    }
+    "Elemental Pursuit: Wind":
+    {
+      depend: 936747
+      restrict:
+      [
+        936782
+      ]
+      weapon: ""
+      cost:
+      [
+        936923
+      ]
+      ratio:
+      [
+        937010
+      ]
+      scale:
+      [
+        1
+      ]
+    }
+    "Elemental Pursuit: Light":
+    {
+      depend: 938630
+      restrict:
+      [
+        938665
+      ]
+      weapon: ""
+      cost:
+      [
+        938806
+      ]
+      ratio:
+      [
+        938893
+      ]
+      scale:
+      [
+        1
+      ]
+    }
+    "Elemental Pursuit: Dark":
+    {
+      depend: 940513
+      restrict:
+      [
+        940548
+      ]
+      weapon: ""
+      cost:
+      [
+        940689
+      ]
+      ratio:
+      [
+        940776
+      ]
+      scale:
+      [
         1
       ]
     }
