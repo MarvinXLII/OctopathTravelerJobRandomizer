@@ -33,13 +33,14 @@ class ABILITY:
             self.cost[i] += change
         
     def randomRatio(self):
-        change = []
+        value = random.random() * 0.3
+        sign = 1 if random.random() > 0.5 else -1
+        changes = []
         for ratio in self.ratio:
-            value = round(0.5 + ratio * random.random() * 0.3)
-            value *= 1 if random.random() > 0.5 else -1
-            change.append(value)
+            changes.append( sign * round(0.5 + ratio * value) )
+
         for i in range(4):
-            self.ratio[i] += self.canChangeRatio[i] * change[i]
+            self.ratio[i] += self.canChangeRatio[i] * changes[i]
 
     def read(self, offsets, size):
         lst = []
@@ -85,10 +86,36 @@ def shuffleData(filename, settings, outdir):
         for ability in abilities.values():
             ability.randomRatio()
 
-    for ability in abilities.values():
-        ability.patch()
+    #############
+    # PRINT LOG #
+    #############
 
-    with open(filename, 'wb') as file:
-        file.write(data)
-        
+    logfile = f'{outdir}/spoiler_skills.log'
+    if os.path.exists(logfile): os.remove(logfile)
+    with open(logfile, 'w') as file:
+        file.write('========\n')
+        file.write(' Skills \n')
+        file.write('========\n')
+        file.write('\n\n')
+
+        file.write(' '*36 + 'SP'.ljust(5, ' ') + 'Power Scale'.ljust(18) + '\n\n')
+        def printData(skill):
+            for bp in range(4):
+                if bp == 0:
+                    line = ' '*5 + skill.ljust(30, ' ')
+                else:
+                    line = ' '*5 + f"{skill} ({bp} BP)".ljust(30, ' ')
+                line += f"{abilities[skill].cost[bp]}".rjust(3, ' ')
+                if abilities[skill].canChangeRatio[bp]:
+                    line += f"{abilities[skill].ratio[bp]}%".rjust(14, ' ')
+                else:
+                    line += f"----".rjust(14, ' ')
+                file.write(line)
+                file.write('\n')
+            file.write('\n')
+
+        for i, key in enumerate(abilities.keys()):
+            if i%8 == 0: file.write('\n\n')
+            printData(key)
+
     return abilities

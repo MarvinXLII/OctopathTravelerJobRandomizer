@@ -214,7 +214,6 @@ class GuiApplication:
         if path == (): return
         if self.checkPath(path):
             self.settings['output'].set(path)
-            self.bottomLabel(self.settings['output'].get(), 'blue', 0)
         else:
             self.settings['output'].set('')
             self.bottomLabel('Selected path must lead to the Paks folder.', 'red', 0)
@@ -268,7 +267,7 @@ class GuiApplication:
 
         self.clearBottomLabels()
         self.bottomLabel('Randomizing....', 'blue', 0)
-        self.randomizeBtn["state"] = "disabled"
+        # self.randomizeBtn["state"] = "disabled"
 
         try:
             randomize(settings)
@@ -296,14 +295,36 @@ def randomize(settings):
     # Randomize #
     #############
 
-    file = "./Octopath_Traveler/Content/Ability/Database/AbilityData.uexp"
-    abilities = Ability.shuffleData(file, settings, outdir)
+    abilityFile = "./Octopath_Traveler/Content/Ability/Database/AbilityData.uexp"
+    abilities = Ability.shuffleData(abilityFile, settings, outdir)
 
-    file = "./Octopath_Traveler/Content/Character/Database/JobData.uexp"
-    JobData.shuffleData(file, settings, outdir, abilities)
+    jobFile = "./Octopath_Traveler/Content/Character/Database/JobData.uexp"
+    jobs = JobData.shuffleData(jobFile, settings, outdir, abilities)
 
-    file = "./Octopath_Traveler/Content/Object/Database/ObjectData.uexp"
-    Items.shuffleItems(file, settings, outdir)
+    itemFile= "./Octopath_Traveler/Content/Object/Database/ObjectData.uexp"
+    items = Items.shuffleItems(itemFile, settings, outdir)
+    
+    ##############
+    # Patch data #
+    ##############
+
+    for ability in abilities.values():
+        ability.patch()
+
+    with open(abilityFile, 'wb') as file:
+        file.write(ability.data)
+
+    for job in jobs.values():
+        job.patch()
+
+    with open(jobFile, 'wb') as file:
+        file.write(job.data)
+    
+    for item in items:
+        item.patch()
+
+    with open(itemFile, 'wb') as file:
+        file.write(item.data)
     
     ##################
     # Generate Patch #

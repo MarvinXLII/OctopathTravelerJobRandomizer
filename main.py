@@ -16,7 +16,7 @@ def main():
         'skills-weapons': True,
         'skills-sp-costs': True,
         'skills-jp-costs': True,
-        'skills-power': True,
+        'skills-power': False,
         'support': True,
         'support-EM': True,
         'stats': True,

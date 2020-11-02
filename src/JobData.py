@@ -414,16 +414,6 @@ def shuffleData(filename, settings, outdir, abilities):
         elif settings['stats-option'] == 'fairly':
             shuffleStatsFairly(jobs)
 
-    ##################
-    # PATCH AND DUMP #
-    ##################
-
-    for job in jobs.values():
-        job.patch()
-
-    with open(filename, 'wb') as file:
-        file.write(data)
-
     #############
     # PRINT LOG #
     #############
@@ -487,3 +477,5 @@ def shuffleData(filename, settings, outdir, abilities):
             string += ''.join(map(lambda x: (str(x-100)).rjust(6, ' '), stats))
             file.write(string+'\n')
         file.write('\n\n')
+
+        return jobs

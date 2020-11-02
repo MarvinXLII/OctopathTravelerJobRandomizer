@@ -43,7 +43,7 @@
 	name: skills-power
 	label: Randomly adjust skill power
 	type: checkbutton
-	help: "Randomly adjusts power of all offensive skills. Power still increases with BP used."
+	help: "Randomly adjusts power of all offensive skills. Power will always with BP used."
       }
       {
 	name: support
