@@ -14,12 +14,8 @@ class TEXT:
             i = idx
             # Get size of entry
             i += self.totalOffset
-            # size = int.from_bytes(self.uexp[i:i+2], 'little')
             size = self.read(self.uexp, i, 2)
-            if size == 5: ## IS THIS NEEDED?????
-                i += 0x18
-            else:
-                i += size + 0x13
+            i += size + 0x13
             self.lst.append(self.uexp[idx:i])
             idx = i
         self.lst.append(self.uexp[idx:])
@@ -35,9 +31,7 @@ class TEXT:
     def findStringIndex(self, string):
         string = string.encode('ascii')
         for i, li in enumerate(self.lst):
-            if string in li:
-                print(i)
-                return i
+            if string in li: return i
         return -1
 
     def read(self, data, offset, size):
@@ -56,9 +50,12 @@ class TEXT:
         new = newSubstring.encode('ascii')
         self.lst[idx] = self.lst[idx].replace(target, new)
         change = len(newSubstring) - len(targetSubstring)
+        # Update string length
         self.lst[idx][self.lengthOffset] += change
+        # Update block length (hash + string)
         size = change + self.read(self.lst[idx], self.totalOffset, 2)
         self.write(self.lst[idx], size, self.totalOffset, 2)
+        # Update length change in uasset
         total = change + self.read(self.uasset, 0x53e4a, 3)
         self.write(self.uasset, total, 0x53e4a, 3)
                 
@@ -88,115 +85,93 @@ def updateText(abilities):
         else:
             return f"a {string}"
     
-    # WEAPON REMAPPING -- Thief
-    # idx = text.findStringIndex("Attack a single foe twice with a dagger, and steal HP equivalent to half of the damage dealt.")
+    # WEAPON SWAPS -- Thief
     string = genTargetString('HP Thief')
     for i in range(4):
         text.changeString(1109+i, "a dagger", string)
 
-    # idx = text.findStringIndex("Attack a single foe twice with a dagger, and steal SP equivalent to 5% of damage dealt.")
     string = genTargetString('Steal SP')
     for i in range(4):
         text.changeString(1121+i, "a dagger", string)
 
-    # idx = text.findStringIndex("[Divine Skill] Attack all foes with a dagger, dealing damage proportional to your speed.")
     string = genTargetString('Aebers Reckoning')
     text.changeString(1132, "a dagger", string)
 
-    # # WEAPON REMAPPING -- Warrior
-    # idx = text.findStringIndex("Attack all foes with a sword.")
+    # WEAPON SWAPS -- Warrior
     string = genTargetString('Level Slash')
     for i in range(4):
         text.changeString(1137+i, "a sword", string)
 
-    # idx = text.findStringIndex("Attack a single foe with a polearm, and act earlier on your next turn.")
     string = genTargetString('Spearhead')
     for i in range(4):
         text.changeString(1145+i, "a polearm", string)
 
-    # idx = text.findStringIndex("Unleash a sword attack on a single foe.")
     string = genTargetString('Cross Strike')
     for i in range(4):
         text.changeString(1153+i, "a sword", string)
 
-    # idx = text.findStringIndex("Attack random foes with a polearm 5 to 10 times.")
     string = genTargetString('Thousand Spears')
     for i in range(4):
         text.changeString(1161+i, "a polearm", string)
 
-    # idx = text.findStringIndex("[Divine Skill] Unleash a tremendously powerful sword attack on a single foe.")
     string = f"{abilities['Brands Thunder'].weapon}".lower()
     text.changeString(1168, "sword", string)
 
-    # WEAPON REMAPPING -- Hunter
-    # idx = text.findStringIndex("Attack random foes 5 to 8 times with a bow.")
+    # WEAPON SWAPS -- Hunter
     string = genTargetString('Rain of Arrows')
     for i in range(4):
         text.changeString(1173+i, "a bow", string)
 
-    # idx = text.findStringIndex("Deal critical damage with a bow to a single foe.")
     string = genTargetString('True Strike')
     for i in range(4):
         text.changeString(1177+i, "a bow", string)
 
-    # idx = text.findStringIndex("Attack a single foe with a bow. Otherwise lethal attacks will instead leave the target with 1 HP.")
     string = genTargetString('Mercy Strike')
     for i in range(4):
         text.changeString(1189+i, "a bow", string)
 
-    # idx = text.findStringIndex("Attack all foes 5 to 8 times with a bow.")
     string = genTargetString('Arrowstorm')
     for i in range(4):
         text.changeString(1193+i, "a bow", string)
 
-    # idx = text.findStringIndex("[Divine Skill] Unleash a highly powerful bow attack on all foes.")
     string = f"{abilities['Draefendis Rage'].weapon}".lower()
     text.changeString(1204, "bow", string)
 
-    # WEAPON REMAPPING -- Apothecary
-    # idx = text.findStringIndex("Unleash an axe attack on a single foe.")
+    # WEAPON SWAPS -- Apothecary
     string = genTargetString('Amputation')
     for i in range(4):
         text.changeString(1325+i, "an axe", string)
 
-    # idx = text.findStringIndex("Attack all foes with an axe, dealing damage inversely proportional to your current HP.")
     string = genTargetString('Last Stand')
     for i in range(4):
         text.changeString(1341+i, "an axe", string)
 
-    # WEAPON REMAPPING -- Warmaster
-    # idx = text.findStringIndex("Unleash 5 to 10 sword attacks against random foes.")
+    # WEAPON SWAPS -- Warmaster
     string = f"{abilities['Guardian Liondog'].weapon}".lower()
     for i in range(4):
         text.changeString(1353+i, "sword", string)
 
-    # idx = text.findStringIndex("Unleash an axe attack on all foes.")
     string = genTargetString('Tiger Rage')
     for i in range(4):
         text.changeString(1357+i, "an axe", string)
 
-    # idx = text.findStringIndex("Unleash a polearm attack on a single foe.")
     string = genTargetString('Qilins Horn')
     for i in range(4):
         text.changeString(1361+i, "a polearm", string)
 
-    # idx = text.findStringIndex("Unleash a dagger attack on all foes.")
     string = genTargetString('Yatagarasu')
     for i in range(4):
         text.changeString(1365+i, "a dagger", string)
 
-    # idx = text.findStringIndex("Unleash a staff attack on all foes.")
     string = genTargetString('Fox Spirit')
     for i in range(4):
         text.changeString(1369+i, "a staff", string)
 
-    # idx = text.findStringIndex("Unleash a bow attack on a single foe.")
     string = genTargetString('Phoenix Storm')
     for i in range(4):
         text.changeString(1373+i, "a bow", string)
 
-    # WEAPON REMAPPING -- Sorcerer
-    # idx = text.findStringIndex("Unleash a powerful staff attack on a single foe that also reduces the target's elemental defense for 2 turns.")
+    # WEAPON SWAPS -- Sorcerer
     string = f"{abilities['Elemental Break'].weapon}".lower()
     text.changeString(1413, "staff", string)
 
