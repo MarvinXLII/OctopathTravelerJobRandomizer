@@ -408,17 +408,17 @@ def shuffleData(filename, settings, outdir, abilities):
         if settings['support-EM']:
             emVal = supportNameToValue['Evasive Maneuvers']
             for job in jobs.values():
-                if emVal in job.support:
-                    idx = job.support.index(emVal)
-                    job.support = job.support[idx:] + job.support[:idx]
-                    break
+                if emVal in job.support: break
+            targJob = list(jobs.values())[random.randint(0,7)]
+            idx = job.support.index(emVal)
+            targJob.support[0], job.support[idx] = job.support[idx], targJob.support[0]
             # Document PC with EM
             logfile = f'{outdir}/PC_with_EM.log'
             if os.path.exists(logfile): os.remove(logfile)
             with open(logfile, 'w') as file:
-                file.write(f"{job.pc}'s first passive skill is Evasive Maneuvers.")
-            job.counts[0] = 3 # Set number of skills needed to unlock to 3
-            job.costs[2] = 1  # Set JP costs of "first" skill 1
+                file.write(f"{targJob.pc}'s first passive skill is Evasive Maneuvers.")
+            targJob.counts[0] = 3 # Set number of skills needed to unlock to 3
+            targJob.costs[2] = 1  # Set JP costs of "first" skill 1
 
     # Shuffle stats
     if settings['stats']:

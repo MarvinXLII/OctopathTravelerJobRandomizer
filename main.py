@@ -9,7 +9,8 @@ from gui import randomize
 
 def main():
     settings = {
-        'seed': random.randint(0, 1e8),
+        # 'seed': random.randint(0, 1e8),
+        'seed': 31528019,
         'skills': True,
         'skills-one-divine': False,
         'skills-separate': False,
