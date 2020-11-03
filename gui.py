@@ -16,7 +16,7 @@ import ROM
 import Text
 
 
-MAIN_TITLE = "Octopath Traveler Randomizer v 0.1.4a"
+MAIN_TITLE = "Octopath Traveler Randomizer v 0.1.4b"
 
 # Source: https://www.daniweb.com/programming/software-development/code/484591/a-tooltip-class-for-tkinter
 class CreateToolTip(object):
