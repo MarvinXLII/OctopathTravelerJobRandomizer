@@ -5,10 +5,12 @@ block_cipher = None
 a = Analysis(
     [
         'gui.py',
-        'src/Utilities.py',
-        'src/JobData.py',
+        'src/Ability.py',
         'src/Items.py',
+        'src/JobData.py',
         'src/ROM.py',
+        'src/Text.py',
+        'src/Utilities.py',
     ],
     pathex=[],
     binaries=[],
