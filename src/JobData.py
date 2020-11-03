@@ -410,7 +410,7 @@ def shuffleData(filename, settings, outdir, abilities):
             for job in jobs.values():
                 if emVal in job.support:
                     idx = job.support.index(emVal)
-                    job.support = job.support[emVal:] + job.support[:emVal]
+                    job.support = job.support[idx:] + job.support[:idx]
                     break
             # Document PC with EM
             logfile = f'{outdir}/PC_with_EM.log'
