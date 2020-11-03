@@ -416,7 +416,7 @@ def shuffleData(filename, settings, outdir, abilities):
             logfile = f'{outdir}/PC_with_EM.log'
             if os.path.exists(logfile): os.remove(logfile)
             with open(logfile, 'w') as file:
-                file.write(f"{job.pc} starts with Evasive Maneuvers")
+                file.write(f"{job.pc}'s first passive skill is Evasive Maneuvers.")
             job.counts[0] = 3 # Set number of skills needed to unlock to 3
             job.costs[2] = 1  # Set JP costs of "first" skill 1
 
