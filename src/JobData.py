@@ -46,7 +46,7 @@ class JOBS:
         self.data = data
         self.pc = pc
         self.weapons = self.read(offsets['weapons'], stride['weapons'], size['weapons'], 6)
-        self.weaponDict = {'Sword':0, 'Spear':1, 'Dagger':2, 'Axe':3, 'Bow':4, 'Staff':5}
+        self.weaponDict = {'Sword':0, 'Polearm':1, 'Dagger':2, 'Axe':3, 'Bow':4, 'Staff':5}
         # self.unknown = self.read(offsets['unknown'], stride['unknown'], size['unknown'], 9)
         self.support = self.read(offsets['support'], stride['support'], size['support'], 4)
         self.counts = self.read(offsets['counts'], stride['counts'], size['counts'], 4)
@@ -65,7 +65,7 @@ class JOBS:
     
     def listWeapons(self):
         lst = []
-        for weapon in ['Sword', 'Spear', 'Dagger', 'Axe', 'Bow', 'Staff']:
+        for weapon in ['Sword', 'Polearm', 'Dagger', 'Axe', 'Bow', 'Staff']:
             if self.weaponCheck(weapon):
                 lst.append(weapon)
         return lst
