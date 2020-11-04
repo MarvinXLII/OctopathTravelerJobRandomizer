@@ -330,40 +330,21 @@ def randomize(settings):
     Text.updateText(abilities)
     PC.inits(settings)
 
-    ##################
-    # Generate Patch #
-    ##################
+    ################
+    # Generate Pak #
+    ################
 
-    patches = []
-    
-    patch = "Ability_P.pak"
-    target = "../../../Octopath_Traveler/Content/Ability/Database/"
+    patch = "rando_P.pak"
+    target = "../../../Octopath_Traveler/Content/"
     ROM.patch(patch, target)
-    patches.append(patch)
-
-    patch = "JobData_P.pak"
-    target = "../../../Octopath_Traveler/Content/Character/Database/"
-    ROM.patch(patch, target)
-    patches.append(patch)
-
-    patch = "Items_P.pak"
-    target = "../../../Octopath_Traveler/Content/Object/Database/"
-    ROM.patch(patch, target)
-    patches.append(patch)
-
-    patch = "GameTextEN_P.pak"
-    target = "../../../Octopath_Traveler/Content/GameText/Database/"
-    ROM.patch(patch, target)
-    patches.append(patch)
 
     #######################
     # Copy to Output Path #
     #######################
 
-    for patch in patches:
-        if settings['output'] != '':
-            shutil.copy2(patch, settings['output'])
-        shutil.move(patch, outdir)
+    if settings['output'] != '':
+        shutil.copy2(patch, settings['output'])
+    shutil.move(patch, outdir)
 
     ###########
     # Cleanup #
