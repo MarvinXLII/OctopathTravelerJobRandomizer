@@ -298,11 +298,19 @@ def randomize(settings):
     # SETUP #
     #########
 
-    pwd = os.getcwd()
+    if sys.executable.endswith('OTR-JOBS.exe'):
+        pwd = os.path.dirname(sys.executable)
+    else:
+        pwd = os.getcwd()
+
     outdir = f"{pwd}/seed_{settings['seed']}"
-    if os.path.isdir(outdir):
-        shutil.rmtree(outdir)
-    os.mkdir(outdir)
+    if not os.path.isdir(outdir):
+        os.mkdir(outdir)
+    else:
+        for filename in os.listdir(outdir):
+            if filename.endswith('.log'):
+                filepath = os.path.join(outdir, filename)
+                os.remove(filepath)
 
     tmpdir = f'{pwd}/tmp_otr_v{RELEASE}'
     if os.path.isdir(tmpdir):
@@ -364,7 +372,7 @@ def randomize(settings):
 
     if settings['output'] != '':
         shutil.copy2(patch, settings['output'])
-    shutil.move(patch, outdir)
+    shutil.move(patch, f"{outdir}/{patch}")
 
     #################
     # Dump Settings #

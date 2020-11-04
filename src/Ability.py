@@ -107,7 +107,7 @@ def shuffleData(filename, settings, outdir):
             if abilities[skill].canChangeRatio[-1]:
                 line += f"{round(abilities[skill].ratioChange, 1)}%".rjust(14, ' ')
             else:
-                line += f"----".rjust(14, ' ')
+                line += f"--".rjust(14, ' ')
             file.write(line)
             file.write('\n')
 
