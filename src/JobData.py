@@ -46,7 +46,7 @@ class JOBS:
         self.data = data
         self.pc = pc
         self.weapons = self.read(offsets['weapons'], stride['weapons'], size['weapons'], 6)
-        self.weaponDict = {'Sword':0, 'Spear':1, 'Dagger':2, 'Axe':3, 'Bow':4, 'Staff':5}
+        self.weaponDict = {'Sword':0, 'Polearm':1, 'Dagger':2, 'Axe':3, 'Bow':4, 'Staff':5}
         # self.unknown = self.read(offsets['unknown'], stride['unknown'], size['unknown'], 9)
         self.support = self.read(offsets['support'], stride['support'], size['support'], 4)
         self.counts = self.read(offsets['counts'], stride['counts'], size['counts'], 4)
@@ -65,7 +65,7 @@ class JOBS:
     
     def listWeapons(self):
         lst = []
-        for weapon in ['Sword', 'Spear', 'Dagger', 'Axe', 'Bow', 'Staff']:
+        for weapon in ['Sword', 'Polearm', 'Dagger', 'Axe', 'Bow', 'Staff']:
             if self.weaponCheck(weapon):
                 lst.append(weapon)
         return lst
@@ -408,17 +408,17 @@ def shuffleData(filename, settings, outdir, abilities):
         if settings['support-EM']:
             emVal = supportNameToValue['Evasive Maneuvers']
             for job in jobs.values():
-                if emVal in job.support:
-                    idx = job.support.index(emVal)
-                    job.support = job.support[emVal:] + job.support[:emVal]
-                    break
+                if emVal in job.support: break
+            targJob = list(jobs.values())[random.randint(0,7)]
+            idx = job.support.index(emVal)
+            targJob.support[0], job.support[idx] = job.support[idx], targJob.support[0]
             # Document PC with EM
             logfile = f'{outdir}/PC_with_EM.log'
             if os.path.exists(logfile): os.remove(logfile)
             with open(logfile, 'w') as file:
-                file.write(f"{job.pc} starts with Evasive Maneuvers")
-            job.counts[0] = 3 # Set number of skills needed to unlock to 3
-            job.costs[2] = 1  # Set JP costs of "first" skill 1
+                file.write(f"{targJob.pc}'s first passive skill is Evasive Maneuvers.")
+            targJob.counts[0] = 3 # Set number of skills needed to unlock to 3
+            targJob.costs[2] = 1  # Set JP costs of "first" skill 1
 
     # Shuffle stats
     if settings['stats']:

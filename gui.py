@@ -56,7 +56,7 @@ class CreateToolTip(object):
 class GuiApplication:
     def __init__(self, settingsFile=''):
         self.master = tk.Tk()
-        self.master.geometry('690x530')
+        self.master.geometry('690x550')
         self.master.title(MAIN_TITLE)
         self.initialize_gui(settingsFile)
         self.initialize_settings()
@@ -157,7 +157,7 @@ class GuiApplication:
                             for vk in vj['indent']:
                                 self.settings[vk['name']] = tk.BooleanVar()
                                 button = ttk.Checkbutton(lf, text=vk['label'], variable=self.settings[vk['name']], state=tk.DISABLED)
-                                button.grid(row=row, padx=34, sticky='w')
+                                button.grid(row=row, padx=30, sticky='w')
                                 self.buildToolTip(button, vk)
                                 buttons.append(button)
                                 row += 1
@@ -187,7 +187,7 @@ class GuiApplication:
                         self.settings[keyoption].set(None)
                         for ri in vj['radio']:
                             radio = tk.Radiobutton(lf, text=ri['label'], variable=self.settings[keyoption], value=ri['value'], padx=15, state=tk.DISABLED)
-                            radio.grid(row=row, padx=10, sticky='w')
+                            radio.grid(row=row, padx=14, sticky='w')
                             self.buildToolTip(radio, ri)
                             buttons.append(radio)
                             row += 1
@@ -219,7 +219,7 @@ class GuiApplication:
             self.settings['output'].set('')
             self.bottomLabel('Selected path must lead to the Paks folder.', 'red', 0)
             self.bottomLabel('e.g. ....\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks', 'red', 1) 
-            self.bottomLabel('Otherwise, check the current folder for Pak outputs.', 'red', 2) 
+            self.bottomLabel('Otherwise, check for Pak outputs in the new seed folder.', 'red', 2) 
 
     def toggler(self, lst, key):
         def f():
