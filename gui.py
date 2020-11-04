@@ -55,20 +55,22 @@ class CreateToolTip(object):
 
 
 class GuiApplication:
-    def __init__(self, settingsFile=''):
+    def __init__(self, settings=None):
         self.master = tk.Tk()
         self.master.geometry('690x550')
         self.master.title(MAIN_TITLE)
-        self.initialize_gui(settingsFile)
-        self.initialize_settings()
+        self.initialize_gui()
+        self.initialize_settings(settings)
         self.master.mainloop()
 
 
-    def initialize_gui(self, settingsFile=''):
+    def initialize_gui(self):
 
-        self.settings = {'release': RELEASE}
         self.warnings = []
         self.togglers = []
+        self.settings = {}
+        self.settings['release'] = tk.StringVar()
+        self.settings['release'].set(RELEASE)
 
         with open(get_filename('./data/parameters.json'), 'r') as file:
             fields = hjson.loads(file.read())
@@ -234,18 +236,27 @@ class GuiApplication:
                     try: li.deselect()
                     except: pass
                     li.config(state=tk.DISABLED)
+                self.turnBoolsOff()
         return f
 
     def buildToolTip(self, button, field):
         if 'help' in field:
             CreateToolTip(button, field['help'])
 
-    def initialize_settings(self):
+    def turnBoolsOff(self):
         for si in self.settings.values():
-            # Set here because ttk will set light-blue, but unchecked, checkboxes as defaults
-            # This ensures the boxes are blank.
             if type(si.get()) == bool:
                 si.set(False)
+            
+    def initialize_settings(self, settings):
+        if settings is None:
+            self.turnBoolsOff()
+            return
+        for key, value in settings.items():
+            if key == 'output': continue
+            self.settings[key].set(value)
+        for toggle in self.togglers:
+            toggle()
 
     def bottomLabel(self, text, fg, row):
         L = tk.Label(self.canvas, text=text, fg=fg)
@@ -344,7 +355,6 @@ def randomize(settings):
 
     patch = "rando_P.pak"
     path = f"{tmpdir}/Octopath_Traveler/Content/Paks"
-    # ROM.patch(patch, target)
     ROM.patch(patch, path)
 
     #######################
@@ -372,4 +382,11 @@ def randomize(settings):
 
 
 if __name__ == '__main__':
-    GuiApplication()
+    if len(sys.argv) > 2:
+        print('Usage: python gui.py <settings.json>')
+    elif len(sys.argv) == 2:
+        with open(sys.argv[1], 'r') as file:
+            settings = hjson.load(file)
+        GuiApplication(settings)
+    else:
+        GuiApplication()
