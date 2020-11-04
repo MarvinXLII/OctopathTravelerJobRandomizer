@@ -16,18 +16,17 @@ def spurningRibbon(uasset, uexp):
         item += stride
         count += stride
 
-def inits(settings):
+def inits(path, settings):
 
-    path = './Octopath_Traveler/Content/Character/Database/PlayableCharacterDB'
-    with open(f"{path}.uasset", 'rb') as file:
+    with open(f"{path}/PlayableCharacterDB.uasset", 'rb') as file:
         uasset = bytearray(file.read())
-    with open(f"{path}.uexp", 'rb') as file:
+    with open(f"{path}/PlayableCharacterDB.uexp", 'rb') as file:
         uexp = bytearray(file.read())
 
     if settings['spurning-ribbon']:
         spurningRibbon(uasset, uexp)
 
-    with open(f"{path}.uasset", 'wb') as file:
+    with open(f"{path}/PlayableCharacterDB.uasset", 'wb') as file:
         file.write(uasset)
-    with open(f"{path}.uexp", 'wb') as file:
+    with open(f"{path}/PlayableCharacterDB.uexp", 'wb') as file:
         file.write(uexp)
