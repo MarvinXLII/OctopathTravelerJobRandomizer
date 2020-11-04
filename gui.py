@@ -70,7 +70,6 @@ class GuiApplication:
         self.togglers = []
         self.settings = {}
         self.settings['release'] = tk.StringVar()
-        self.settings['release'].set(RELEASE)
 
         with open(get_filename('./data/parameters.json'), 'r') as file:
             fields = hjson.loads(file.read())
@@ -153,16 +152,16 @@ class GuiApplication:
                         toggleFunction = self.toggler(buttons, name)
                         button = ttk.Checkbutton(lf, text=vj['label'], variable=self.settings[name], command=toggleFunction)
                         button.grid(row=row, padx=10, sticky='we')
-                        self.togglers.append(toggleFunction)
                         self.buildToolTip(button, vj)
                         row += 1
                         if 'indent' in vj:
+                            self.togglers.append(toggleFunction)
                             for vk in vj['indent']:
                                 self.settings[vk['name']] = tk.BooleanVar()
                                 button = ttk.Checkbutton(lf, text=vk['label'], variable=self.settings[vk['name']], state=tk.DISABLED)
                                 button.grid(row=row, padx=30, sticky='w')
                                 self.buildToolTip(button, vk)
-                                buttons.append(button)
+                                buttons.append((self.settings[vk['name']], button))
                                 row += 1
 
                     elif vj['type'] == 'spinbox':
@@ -192,7 +191,7 @@ class GuiApplication:
                             radio = tk.Radiobutton(lf, text=ri['label'], variable=self.settings[keyoption], value=ri['value'], padx=15, state=tk.DISABLED)
                             radio.grid(row=row, padx=14, sticky='w')
                             self.buildToolTip(radio, ri)
-                            buttons.append(radio)
+                            buttons.append((self.settings[keyoption], radio))
                             row += 1
 
         # For warnings/text at the bottom
@@ -227,16 +226,15 @@ class GuiApplication:
     def toggler(self, lst, key):
         def f():
             if self.settings[key].get():
-                try: lst[0].select()
+                try: lst[0][1].select()
                 except: pass
-                for li in lst:
-                    li.config(state=tk.NORMAL)
+                for vi, bi in lst:
+                    bi.config(state=tk.NORMAL)
             else:
-                for li in lst:
-                    try: li.deselect()
-                    except: pass
-                    li.config(state=tk.DISABLED)
-                self.turnBoolsOff()
+                for vi, bi in lst:
+                    if type(vi.get()) == bool: vi.set(False)
+                    if type(vi.get()) == str: vi.set(None)
+                    bi.config(state=tk.DISABLED)
         return f
 
     def buildToolTip(self, button, field):
@@ -249,11 +247,14 @@ class GuiApplication:
                 si.set(False)
             
     def initialize_settings(self, settings):
+        self.settings['release'].set(RELEASE)
         if settings is None:
             self.turnBoolsOff()
             return
         for key, value in settings.items():
             if key == 'output': continue
+            if key == 'release': continue
+            if key not in self.settings: continue
             self.settings[key].set(value)
         for toggle in self.togglers:
             toggle()
