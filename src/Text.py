@@ -63,9 +63,8 @@ class TEXT:
         self.uexp = b''.join(self.lst)
 
 
-def updateText(abilities):
+def updateText(path, abilities):
 
-    path = './Octopath_Traveler/Content/GameText/Database'
     with open(f"{path}/GameTextEN.uexp", 'rb') as file:
         uexp = bytearray(file.read())
     with open(f"{path}/GameTextEN.uasset", 'rb') as file:

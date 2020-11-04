@@ -26,11 +26,11 @@ def write(data, lst, base, offset, stride, size):
         data[address:address+size] = d
         address += stride
 
-def patch(filename, target):
-    paks = './Octopath_Traveler/Content/Paks/'
+def patch(filename, path):
+    target = "../../../Octopath_Traveler/Content/"
     unrealPak = "./UnrealPak.exe"
     cwd = os.getcwd()
-    os.chdir(get_filename(paks))
+    os.chdir(path)
     command = [unrealPak, filename, f"-Create={target}", "-compress"]
     subprocess.call(command)
     shutil.copy2(filename, cwd)

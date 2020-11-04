@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
+from release import RELEASE
 import hjson
 import random
 import os
@@ -17,7 +18,7 @@ import Text
 import PC
 
 
-MAIN_TITLE = "Octopath Traveler Randomizer v 0.1.4b"
+MAIN_TITLE = f"Octopath Traveler Randomizer v{RELEASE}"
 
 # Source: https://www.daniweb.com/programming/software-development/code/484591/a-tooltip-class-for-tkinter
 class CreateToolTip(object):
@@ -65,7 +66,7 @@ class GuiApplication:
 
     def initialize_gui(self, settingsFile=''):
 
-        self.settings = {}
+        self.settings = {'release': RELEASE}
         self.warnings = []
         self.togglers = []
 
@@ -285,29 +286,38 @@ def randomize(settings):
     # SETUP #
     #########
 
-    tar = get_filename("./data/data.tar.bz2")
-    shutil.unpack_archive(tar, ".", "bztar")
-    outdir = f"seed_{settings['seed']}"
+    pwd = os.getcwd()
+    outdir = f"{pwd}/seed_{settings['seed']}"
     if os.path.isdir(outdir):
         shutil.rmtree(outdir)
     os.mkdir(outdir)
+
+    tmpdir = f'{pwd}/tmp_otr_v{RELEASE}'
+    if os.path.isdir(tmpdir):
+        shutil.rmtree(tmpdir)
+    os.mkdir(tmpdir)
+        
+    tar = get_filename("./data/data.tar.bz2")
+    shutil.unpack_archive(tar, tmpdir, "bztar")
 
     #############
     # Randomize #
     #############
 
-    abilityFile = "./Octopath_Traveler/Content/Ability/Database/AbilityData.uexp"
+    abilityFile = f"{tmpdir}/Octopath_Traveler/Content/Ability/Database/AbilityData.uexp"
     abilities = Ability.shuffleData(abilityFile, settings, outdir)
 
-    jobFile = "./Octopath_Traveler/Content/Character/Database/JobData.uexp"
+    jobFile = f"{tmpdir}/Octopath_Traveler/Content/Character/Database/JobData.uexp"
     jobs = JobData.shuffleData(jobFile, settings, outdir, abilities)
 
-    itemFile= "./Octopath_Traveler/Content/Object/Database/ObjectData.uexp"
+    itemFile= f"{tmpdir}/Octopath_Traveler/Content/Object/Database/ObjectData.uexp"
     items = Items.shuffleItems(itemFile, settings, outdir)
 
-    ##############
-    # Patch data #
-    ##############
+    textDir = f"{tmpdir}/Octopath_Traveler/Content/GameText/Database"
+    Text.updateText(textDir, abilities)
+
+    pcDir = f'{tmpdir}/Octopath_Traveler/Content/Character/Database'
+    PC.inits(pcDir, settings)
 
     for ability in abilities.values():
         ability.patch()
@@ -327,16 +337,15 @@ def randomize(settings):
     with open(itemFile, 'wb') as file:
         file.write(item.data)
     
-    Text.updateText(abilities)
-    PC.inits(settings)
 
     ################
     # Generate Pak #
     ################
 
     patch = "rando_P.pak"
-    target = "../../../Octopath_Traveler/Content/"
-    ROM.patch(patch, target)
+    path = f"{tmpdir}/Octopath_Traveler/Content/Paks"
+    # ROM.patch(patch, target)
+    ROM.patch(patch, path)
 
     #######################
     # Copy to Output Path #
@@ -346,13 +355,21 @@ def randomize(settings):
         shutil.copy2(patch, settings['output'])
     shutil.move(patch, outdir)
 
+    #################
+    # Dump Settings #
+    #################
+
+    settingsCopy = settings.copy()
+    settingsCopy['output'] = ''
+    with open(f"{outdir}/settings.json", 'w') as file:
+        hjson.dump(settingsCopy, file)
+
     ###########
     # Cleanup #
     ###########
 
-    shutil.rmtree("./Engine")
-    shutil.rmtree("./Octopath_Traveler")
-    
-    
+    shutil.rmtree(tmpdir)
+
+
 if __name__ == '__main__':
     GuiApplication()
