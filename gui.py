@@ -14,6 +14,7 @@ import JobData
 import Items
 import ROM
 import Text
+import PC
 
 
 MAIN_TITLE = "Octopath Traveler Randomizer v 0.1.4b"
@@ -327,7 +328,8 @@ def randomize(settings):
         file.write(item.data)
     
     Text.updateText(abilities)
-    
+    PC.inits(settings)
+
     ##################
     # Generate Patch #
     ##################

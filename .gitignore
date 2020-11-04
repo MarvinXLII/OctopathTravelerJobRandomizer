@@ -1,11 +1,7 @@
-*.pak
 **/__pycache__
-*.log
-*.xlsx
 build
 dist
-excel2json.py
-notes.txt
 stuff
 data/Octopath_Traveler
 *~
+seed_*
