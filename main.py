@@ -27,6 +27,7 @@ def main():
         'items-option': 'items-all',
         # 'items-option': 'items-separate',
         'no-thief-chests': True,
+        'spurning-ribbon': True,
         'output': '',
     }
 

@@ -109,6 +109,12 @@
 	type: checkbutton
 	help: "Converts all chests requiring Therion to brown chests."
       }
+      {
+	name: spurning-ribbon
+	label: "Start with a Spurning Ribbon"
+	type: checkbutton
+	help: "Any starting PC will have a Spurning Ribbon in their inventory."
+      }
     ]
   }
 }
