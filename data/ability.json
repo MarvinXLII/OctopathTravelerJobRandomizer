@@ -812,7 +812,7 @@
         196763
         198646
       ]
-      weapon: Spear
+      weapon: Polearm
       cost:
       [
         193138
@@ -944,7 +944,7 @@
         226891
         228774
       ]
-      weapon: Spear
+      weapon: Polearm
       cost:
       [
         223266
@@ -2414,7 +2414,7 @@
         595959
         597842
       ]
-      weapon: Spear
+      weapon: Polearm
       cost:
       [
         592334
@@ -2813,7 +2813,7 @@
         693875
         695758
       ]
-      weapon: ""
+      weapon: Staff
       cost:
       [
         690250
