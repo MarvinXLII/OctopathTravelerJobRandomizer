@@ -168,8 +168,13 @@ class WORLD:
             
 
     def perfectThievery(self):
-        for slot in self.purchase.keys():
-            self.purchaseData.changeValue(slot, 'ProperSteal', -15)
+        # for slot in self.purchase.keys():
+        #     self.purchaseData.changeValue(slot, 'ProperSteal', -15)
+        self.purchaseData.changeValue('DesertS_SHOP_FC_11_1', 'ProperSteal', -15)
+        self.purchaseData.changeValue('PlainM_SHOP_FC_06_1', 'ProperSteal', -15)
+        self.purchaseData.changeValue('PlainM_SHOP_FC_11_1', 'ProperSteal', -15)
+        self.purchaseData.changeValue('PlainM_SHOP_FC_17_1', 'ProperSteal', -15)
+        self.purchaseData.changeValue('SnowM_SHOP_FC_02_1', 'ProperSteal', -15)
 
 
     def noThiefChests(self):

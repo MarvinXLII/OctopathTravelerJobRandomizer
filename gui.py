@@ -382,7 +382,7 @@ def randomize(settings):
     # Cleanup #
     ###########
 
-    shutil.rmtree(tmpdir)
+    # shutil.rmtree(tmpdir)
 
 
 if __name__ == '__main__':
