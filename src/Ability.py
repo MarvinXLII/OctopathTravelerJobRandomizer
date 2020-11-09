@@ -92,9 +92,10 @@ def shuffleData(filename, settings, outdir):
             ability.randomRatio()
 
     ## HIRED HELP NERF
-    costScale = float(settings['scale-vets-cost-option'])
-    vets = abilities['Hired Help: Veteran Soldier']
-    vets.cost = 4 * [ int(vets.cost[0] * costScale) ]
+    if settings['scale-vets-cost']:
+        costScale = float(settings['scale-vets-cost-option'])
+        vets = abilities['Hired Help: Veteran Soldier']
+        vets.cost = 4 * [ int(vets.cost[0] * costScale) ]
             
     #############
     # PRINT LOG #

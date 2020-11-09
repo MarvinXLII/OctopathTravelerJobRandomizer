@@ -16,7 +16,7 @@ class WORLD:
         self.purchaseData = DATA(f"{path}/Octopath_Traveler/Content/Shop/Database", "PurchaseItemTable")
         self.itemAsset = UASSET(f"{path}/Octopath_Traveler/Content/Item/Database/ItemDB.uasset")
 
-        with open(get_filename('data/itemData.json'), 'r') as file:
+        with open(get_filename('data/items.json'), 'r') as file:
             self.items = hjson.load(file)
 
         with open(get_filename('data/purchase.json'), 'r') as file:
