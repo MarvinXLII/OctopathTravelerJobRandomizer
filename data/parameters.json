@@ -45,6 +45,24 @@
 	type: checkbutton
 	help: "Randomly adjusts power of all offensive skills by up to 30%."
       }
+      {      
+	name: scale-vets-cost
+	label: Increase costs of Hired Help: Veteran Soldiers 
+	type: radiobutton
+	help: "Changes costs of Hired Help: Veteran Soldiers"
+	radio: [
+	  {
+	    label: Double
+	    value: 2
+	    help: Doubles cost
+	  }
+	  {
+	    label: Quadruple
+	    value: 4
+	    help: Quadruples cost
+	  }
+	]
+      }
       {
 	name: support
 	label: Shuffle support skills
@@ -88,18 +106,32 @@
       {
 	name: items
 	label: Shuffle hidden items and chests
-	type: radiobutton
-	help: "Shuffles hidden items and contents of treasure chests."
-	radio: [
+	type: checkbutton
+	help: "Shuffle items"
+	indent: [
 	  {
-	    label: "Shuffle separately"
-	    value: items-separate
-	    help: "Shuffle hidden items and contents of chests separately."
+	    name: items-chests
+            label: Include chests
+	    type: checkbutton
+	    help: "Shuffles items included in chests."
 	  }
 	  {
-	    label: "Shuffle all together"
-	    value: items-all
-	    help: "Shuffles both hidden items and contents of chests together."
+	    name: items-hidden
+            label: Included hidden items
+	    type: checkbutton
+	    help: "Shuffles hidden items."
+	  }
+	  {
+	    name: items-npc
+            label: Included NPC items
+	    type: checkbutton
+	    help: "Shuffles items collected from NPC using Therion's Thief skills or Tressa's Merchant skills."
+	  }
+	  {
+	    name: items-separately
+	    label: "Shuffle separately"
+	    type: checkbutton
+	    help: "If checked, all checked options will be shuffled separately, i.e. a chest item will remain in a chest. By default, all checked options will be shuffled together."
 	  }
 	]
       }
@@ -112,6 +144,12 @@
       {
 	name: spurning-ribbon
 	label: "Start with a Spurning Ribbon"
+	type: checkbutton
+	help: "Any starting PC will have a Spurning Ribbon in their inventory."
+      }
+      {
+	name: perfect-thievery
+	label: "Steal with 100% accuracy"
 	type: checkbutton
 	help: "Any starting PC will have a Spurning Ribbon in their inventory."
       }

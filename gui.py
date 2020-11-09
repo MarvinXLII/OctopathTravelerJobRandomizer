@@ -16,6 +16,7 @@ import Items
 import ROM
 import Text
 import PC
+from World import WORLD
 
 
 MAIN_TITLE = f"Octopath Traveler Randomizer v{RELEASE}"
@@ -324,14 +325,17 @@ def randomize(settings):
     # Randomize #
     #############
 
+    world = WORLD(tmpdir)
+    world.randomize(settings)
+    world.miscellaneous(settings)
+    world.dump()
+    world.print(outdir)
+    
     abilityFile = f"{tmpdir}/Octopath_Traveler/Content/Ability/Database/AbilityData.uexp"
     abilities = Ability.shuffleData(abilityFile, settings, outdir)
 
     jobFile = f"{tmpdir}/Octopath_Traveler/Content/Character/Database/JobData.uexp"
     jobs = JobData.shuffleData(jobFile, settings, outdir, abilities)
-
-    itemFile= f"{tmpdir}/Octopath_Traveler/Content/Object/Database/ObjectData.uexp"
-    items = Items.shuffleItems(itemFile, settings, outdir)
 
     textDir = f"{tmpdir}/Octopath_Traveler/Content/GameText/Database"
     Text.updateText(textDir, abilities)
@@ -350,13 +354,6 @@ def randomize(settings):
 
     with open(jobFile, 'wb') as file:
         file.write(job.data)
-    
-    for item in items:
-        item.patch()
-
-    with open(itemFile, 'wb') as file:
-        file.write(item.data)
-    
 
     ################
     # Generate Pak #

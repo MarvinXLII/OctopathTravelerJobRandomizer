@@ -1,0 +1,1674 @@
+{
+  HdnPnt_Cliff_TLA_01:
+  {
+    Item: ITM_WD_006
+    Name: Falcon Dagger
+    Buy: 7000
+    Sell: 1800
+    Region: Cliftlands
+    Location: Bolderfall
+    NPC: Elderly Woman
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TLC_01:
+  {
+    Item: ITM_WL_003
+    Name: War Spear
+    Buy: 1400
+    Sell: 350
+    Region: Cliftlands
+    Location: Ravus Manor Gate
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TLC_02:
+  {
+    Item: ITM_126
+    Name: Dirty Ball of Cloth
+    Buy: 4
+    Sell: 2
+    Region: Cliftlands
+    Location: Ravus Manor Gate
+    NPC: Guard Dog
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TLC_03:
+  {
+    Item: ITM_125
+    Name: Weathered Boots
+    Buy: 10
+    Sell: 5
+    Region: Cliftlands
+    Location: Ravus Manor Gate
+    NPC: Guard Dog
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TLC_04:
+  {
+    Item: ITM_AS_029
+    Name: Elusive Shield
+    Buy: 3600
+    Sell: 750
+    Region: Cliftlands
+    Location: Ravus Manor Gate
+    NPC: Guard Dog
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TMA_01:
+  {
+    Item: ITM_121
+    Name: Pseudo Gold Ore
+    Buy: 40
+    Sell: 20
+    Region: Cliftlands
+    Location: Quarrycrest
+    NPC: Laborer
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TMA_02:
+  {
+    Item: ITM_137
+    Name: Fire Soulstone (L)
+    Buy: 6300
+    Sell: 630
+    Region: Cliftlands
+    Location: Quarrycrest
+    NPC: Elderly Woman
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TMB_01:
+  {
+    Item: ITM_122
+    Name: Fool's Gold Ore
+    Buy: 8000
+    Sell: 4000
+    Region: Cliftlands
+    Location: Quarrycrest Mines
+    NPC: Laborer
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TMB_02:
+  {
+    Item: ITM_010
+    Name: Olive of Life (M)
+    Buy: 3000
+    Sell: 300
+    Region: Cliftlands
+    Location: Quarrycrest Mines
+    NPC: Laborer
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TMB_03:
+  {
+    Item: ITM_007
+    Name: Refreshing Jam
+    Buy: 15000
+    Sell: 1500
+    Region: Cliftlands
+    Location: Quarrycrest Mines
+    NPC: Laborer
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TS_01:
+  {
+    Item: ITM_018
+    Name: Revitalizing Jam
+    Buy: 20000
+    Sell: 2000
+    Region: Cliftlands
+    Location: Orewell
+    NPC: Villager
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TS_02:
+  {
+    Item: ITM_WA_015
+    Name: Hill Cleaver
+    Buy: 40000
+    Sell: 10000
+    Region: Cliftlands
+    Location: Orewell
+    NPC: Old Man
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TS_03:
+  {
+    Item: ITM_088
+    Name: Inspiriting Plum Basket
+    Buy: 2160
+    Sell: 216
+    Region: Cliftlands
+    Location: Orewell
+    NPC: Miserable Mother
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TS_04:
+  {
+    Item: ITM_103
+    Name: Empty Coin Pouch
+    Buy: 30
+    Sell: 15
+    Region: Cliftlands
+    Location: Orewell
+    NPC: Lazy Loafer
+    Shuffle: true
+  }
+  HdnPnt_Cliff_TS_05:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Cliftlands
+    Location: Orewell
+    NPC: Oblivious Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Desert_TLA_01:
+  {
+    Item: ITM_088
+    Name: Inspiriting Plum Basket
+    Buy: 2160
+    Sell: 216
+    Region: Sunlands
+    Location: Marsalim
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Desert_TLA_02:
+  {
+    Item: ITM_137
+    Name: Fire Soulstone (L)
+    Buy: 6300
+    Sell: 630
+    Region: Sunlands
+    Location: Marsalim
+    NPC: Knight Ardante
+    Shuffle: true
+  }
+  HdnPnt_Desert_TLA_03:
+  {
+    Item: ITM_082
+    Name: Copper-filled Pouch
+    Buy: 6000
+    Sell: 3000
+    Region: Sunlands
+    Location: Marsalim
+    NPC: Elderly Woman
+    Shuffle: true
+  }
+  HdnPnt_Desert_TLB_01:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Sunlands
+    Location: Marsalim Palace
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_Desert_TLB_02:
+  {
+    Item: ITM_117
+    Name: Odds and Ends
+    Buy: 1400
+    Sell: 700
+    Region: Sunlands
+    Location: Marsalim Palace
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_Desert_TLB_03:
+  {
+    Item: ITM_137
+    Name: Fire Soulstone (L)
+    Buy: 6300
+    Sell: 630
+    Region: Sunlands
+    Location: Marsalim Palace
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_Desert_TMA_01:
+  {
+    Item: ITM_079
+    Name: Healing Grape (M)
+    Buy: 260
+    Sell: 26
+    Region: Sunlands
+    Location: Sunshade
+    NPC: Masters Lackey
+    Shuffle: true
+  }
+  HdnPnt_Desert_TMA_02:
+  {
+    Item: ITM_020
+    Name: Silver-filled Pouch
+    Buy: 16000
+    Sell: 8000
+    Region: Sunlands
+    Location: Sunshade
+    NPC: Masters Lackey
+    Shuffle: true
+  }
+  HdnPnt_Desert_TMB_01:
+  {
+    Item: ITM_WL_012
+    Name: Arcane Glaive
+    Buy: 2400
+    Sell: 600
+    Region: Sunlands
+    Location: Sunshade Tavern
+    NPC: Tavern Wench
+    Shuffle: true
+  }
+  HdnPnt_Desert_TMB_02:
+  {
+    Item: ITM_050
+    Name: Nourishing Nut
+    Buy: 1000
+    Sell: 100
+    Region: Sunlands
+    Location: Sunshade Tavern
+    NPC: Tavern Propietor
+    Shuffle: true
+  }
+  HdnPnt_Desert_TMB_03:
+  {
+    Item: ITM_010
+    Name: Olive of Life (M)
+    Buy: 3000
+    Sell: 300
+    Region: Sunlands
+    Location: Sunshade Tavern
+    NPC: Stardancer
+    Shuffle: true
+  }
+  HdnPnt_Desert_TSA_01:
+  {
+    Item: ITM_006
+    Name: Heavy Coin Pouch
+    Buy: 4400
+    Sell: 2200
+    Region: Sunlands
+    Location: Wellspring
+    NPC: Bale or Guard?
+    Shuffle: true
+  }
+  HdnPnt_Desert_TSA_02:
+  {
+    Item: ITM_033
+    Name: Thunder Soulstone (M)
+    Buy: 1700
+    Sell: 170
+    Region: Sunlands
+    Location: Wellspring
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Desert_TSA_03:
+  {
+    Item: ITM_080
+    Name: Healing Grape Bunch
+    Buy: 720
+    Sell: 72
+    Region: Sunlands
+    Location: Wellspring
+    NPC: Tavern Patron
+    Shuffle: true
+  }
+  HdnPnt_Desert_TSA_04:
+  {
+    Item: ITM_082
+    Name: Copper-filled Pouch
+    Buy: 6000
+    Sell: 3000
+    Region: Sunlands
+    Location: Wellspring
+    NPC: Merchant
+    Shuffle: true
+  }
+  HdnPnt_Desert_TSA_05:
+  {
+    Item: ITM_006
+    Name: Heavy Coin Pouch
+    Buy: 4400
+    Sell: 2200
+    Region: Sunlands
+    Location: Wellspring
+    NPC: Bale or Guard?
+    Shuffle: true
+  }
+  HdnPnt_Desert_TSA_06:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Sunlands
+    Location: Wellspring
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_Forest_TLA_01:
+  {
+    Item: ITM_010
+    Name: Olive of Life (M)
+    Buy: 3000
+    Sell: 300
+    Region: Woodlands
+    Location: Victor's Hollow
+    NPC: Spectator
+    Shuffle: true
+  }
+  HdnPnt_Forest_TLA_02:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Woodlands
+    Location: Victor's Hollow
+    NPC: Merchant
+    Shuffle: true
+  }
+  HdnPnt_Forest_TLA_03:
+  {
+    Item: ITM_007
+    Name: Refreshing Jam
+    Buy: 15000
+    Sell: 1500
+    Region: Woodlands
+    Location: Victor's Hollow
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Forest_TLB_01:
+  {
+    Item: ITM_144
+    Name: Energizing Pomegranate (M)
+    Buy: 760
+    Sell: 76
+    Region: Woodlands
+    Location: Victor's Hollow Arena Gate
+    NPC: Spectator
+    Shuffle: true
+  }
+  HdnPnt_Forest_TLB_02:
+  {
+    Item: ITM_AC_007
+    Name: Lightning Amulet
+    Buy: 6400
+    Sell: 1600
+    Region: Woodlands
+    Location: Victor's Hollow Arena Gate
+    NPC: Old Man
+    Shuffle: true
+  }
+  HdnPnt_Forest_TLC_01:
+  {
+    Item: ITM_138
+    Name: Ice Soulstone (L)
+    Buy: 6300
+    Sell: 630
+    Region: Woodlands
+    Location: Victor's Hollow Arena
+    NPC: Arena Attendant
+    Shuffle: true
+  }
+  HdnPnt_Forest_TMA_01:
+  {
+    Item: ITM_WB_040
+    Name: Improved Bow of the Eagle
+    Buy: 65000
+    Sell: 16000
+    Region: Woodlands
+    Location: Duskbarrow
+    NPC: VIllager
+    Shuffle: true
+  }
+  HdnPnt_Forest_TMA_02:
+  {
+    Item: ITM_117
+    Name: Odds and Ends
+    Buy: 1400
+    Sell: 700
+    Region: Woodlands
+    Location: Duskbarrow
+    NPC: Obliging Merchant
+    Shuffle: true
+  }
+  HdnPnt_Forest_TMA_03:
+  {
+    Item: ITM_081
+    Name: Old Coin
+    Buy: 3000
+    Sell: 1500
+    Region: Woodlands
+    Location: Duskbarrow
+    NPC: Crest-bearing Swindler
+    Shuffle: true
+  }
+  HdnPnt_Forest_TMA_04:
+  {
+    Item: ITM_031
+    Name: Ice Soulstone (M)
+    Buy: 1700
+    Sell: 170
+    Region: Woodlands
+    Location: Duskbarrow
+    NPC: Smirking Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Forest_TS_01:
+  {
+    Item: ITM_009
+    Name: Olive of Life
+    Buy: 500
+    Sell: 50
+    Region: Woodlands
+    Location: S'warkii
+    NPC: Village Headman
+    Shuffle: true
+  }
+  HdnPnt_Forest_TS_02:
+  {
+    Item: None
+    Name: 1000 Leaves
+    Buy: ----
+    Sell: ----
+    Region: Woodlands
+    Location: S'warkii
+    NPC: Hunter
+    Shuffle: true
+  }
+  HdnPnt_Forest_TS_03:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Woodlands
+    Location: S'warkii
+    NPC: ?????????
+    Shuffle: true
+  }
+  HdnPnt_Forest_TS_04:
+  {
+    Item: ITM_030
+    Name: Ice Soulstone
+    Buy: 200
+    Sell: 20
+    Region: Woodlands
+    Location: S'warkii
+    NPC: Aspiring Hunter
+    Shuffle: true
+  }
+  HdnPnt_Mount_TLA_01:
+  {
+    Item: ITM_020
+    Name: Silver-filled Pouch
+    Buy: 16000
+    Sell: 8000
+    Region: Highlands
+    Location: Stonegard
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Mount_TLA_02:
+  {
+    Item: ITM_118
+    Name: Large Feather
+    Buy: 400
+    Sell: 200
+    Region: Highlands
+    Location: Stonegard Heights
+    NPC: Bookbinder
+    Shuffle: true
+  }
+  HdnPnt_Mount_TLB_01:
+  {
+    Item: ITM_WB_018
+    Name: Soldier's Longbow
+    Buy: 12000
+    Sell: 3000
+    Region: Highlands
+    Location: Stonegard Heights
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Mount_TLB_02:
+  {
+    Item: ITM_103
+    Name: Empty Coin Pouch
+    Buy: 30
+    Sell: 15
+    Region: Highlands
+    Location: Stonegard Heights
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Mount_TLB_03:
+  {
+    Item: ITM_137
+    Name: Fire Soulstone (L)
+    Buy: 6300
+    Sell: 630
+    Region: Highlands
+    Location: Stonegard Heights
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Mount_TLC_01:
+  {
+    Item: ITM_WA_008
+    Name: Graviton Axe
+    Buy: 34000
+    Sell: 8500
+    Region: Highlands
+    Location: Stonegard Valleys
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Mount_TLC_02:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Highlands
+    Location: Stonegard Valleys
+    NPC: Cleric
+    Shuffle: true
+  }
+  HdnPnt_Mount_TLC_03:
+  {
+    Item: ITM_WS_006
+    Name: Bastard Sword
+    Buy: 15000
+    Sell: 3800
+    Region: Highlands
+    Location: Stonegard Valleys
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Mount_TMA_01:
+  {
+    Item: ITM_010
+    Name: Olive of Life (M)
+    Buy: 3000
+    Sell: 300
+    Region: Highlands
+    Location: Everhold
+    NPC: Usher
+    Shuffle: true
+  }
+  HdnPnt_Mount_TMA_02:
+  {
+    Item: ITM_005
+    Name: Rare Stone
+    Buy: 6000
+    Sell: 3000
+    Region: Highlands
+    Location: Everhold
+    NPC: Old Man
+    Shuffle: true
+  }
+  HdnPnt_Mount_TMA_03:
+  {
+    Item: ITM_084
+    Name: Curious Antique
+    Buy: 19000
+    Sell: 9500
+    Region: Highlands
+    Location: Everhold
+    NPC: Girl
+    Shuffle: true
+  }
+  HdnPnt_Mount_TMB_01:
+  {
+    Item: ITM_040
+    Name: Bottle of Blinding Dust
+    Buy: 200
+    Sell: 20
+    Region: Highlands
+    Location: Everhold Amphitheatre
+    NPC: Usher
+    Shuffle: true
+  }
+  HdnPnt_Mount_TMB_02:
+  {
+    Item: ITM_080
+    Name: Healing Grape Bunch
+    Buy: 720
+    Sell: 72
+    Region: Highlands
+    Location: Everhold Amphitheatre
+    NPC: Usher
+    Shuffle: true
+  }
+  HdnPnt_Mount_TS_01:
+  {
+    Item: ITM_WL_018
+    Name: War Lance
+    Buy: 7500
+    Sell: 1900
+    Region: Highlands
+    Location: Cobbleston
+    NPC: Village Headman
+    Shuffle: true
+  }
+  HdnPnt_Mount_TS_02:
+  {
+    Item: ITM_095
+    Name: Candy
+    Buy: 10
+    Sell: 5
+    Region: Highlands
+    Location: Cobbleston
+    NPC: Phillip
+    Shuffle: true
+  }
+  HdnPnt_Mount_TS_03:
+  {
+    Item: ITM_009
+    Name: Olive of Life
+    Buy: 500
+    Sell: 50
+    Region: Highlands
+    Location: Cobbleston
+    NPC: Villager
+    Shuffle: true
+  }
+  HdnPnt_Mount_TS_04:
+  {
+    Item: ITM_WB_011
+    Name: Arcane Bow
+    Buy: 2800
+    Sell: 700
+    Region: Highlands
+    Location: Cobbleston
+    NPC: Villager
+    Shuffle: true
+  }
+  HdnPnt_Mount_TS_05:
+  {
+    Item: ITM_MA_003
+    Name: Purifying Seed
+    Buy: 2600
+    Sell: 260
+    Region: Highlands
+    Location: Cobbleston
+    NPC: Villager
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLA_01:
+  {
+    Item: ITM_050
+    Name: Nourishing Nut
+    Buy: 1000
+    Sell: 100
+    Region: Flatlands
+    Location: Atlasdam
+    NPC: Tavern Patron
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLA_03:
+  {
+    Item: ITM_115
+    Name: Light Soulstone (M)
+    Buy: 1700
+    Sell: 170
+    Region: Flatlands
+    Location: Atlasdam
+    NPC: Girl
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLA_04:
+  {
+    Item: ITM_103
+    Name: Empty Coin Pouch
+    Buy: 30
+    Sell: 15
+    Region: Flatlands
+    Location: Atlasdam
+    NPC: Tavern Patron
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLB_01:
+  {
+    Item: ITM_117
+    Name: Odds and Ends
+    Buy: 1400
+    Sell: 700
+    Region: Flatlands
+    Location: Atlasdam Palace Gate
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLB_02:
+  {
+    Item: ITM_036
+    Name: Light Soulstone
+    Buy: 200
+    Sell: 20
+    Region: Flatlands
+    Location: Atlasdam Palace Gate
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLB_03:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Flatlands
+    Location: Atlasdam Palace Gate
+    NPC: Elderly Woman
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLB_04:
+  {
+    Item: ITM_118
+    Name: Large Feather
+    Buy: 400
+    Sell: 200
+    Region: Flatlands
+    Location: Atlasdam Palace Gate
+    NPC: Merchant
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLC_01:
+  {
+    Item: ITM_009
+    Name: Olive of Life
+    Buy: 500
+    Sell: 50
+    Region: Flatlands
+    Location: Atlasdam Palace
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLC_02:
+  {
+    Item: ITM_001
+    Name: Small Cup
+    Buy: 400
+    Sell: 200
+    Region: Flatlands
+    Location: Atlasdam Palace
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLC_03:
+  {
+    Item: ITM_AS_000
+    Name: Buckler
+    Buy: 40
+    Sell: 10
+    Region: Flatlands
+    Location: Atlasdam Palace
+    NPC: Boy
+    Shuffle: true
+  }
+  HdnPnt_Plain_TLC_04:
+  {
+    Item: ITM_078
+    Name: Healing Grape
+    Buy: 50
+    Sell: 5
+    Region: Flatlands
+    Location: Atlasdam Palace
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_Plain_TMA_01:
+  {
+    Item: ITM_144
+    Name: Energizing Pomegranate (M)
+    Buy: 760
+    Sell: 76
+    Region: Flatlands
+    Location: Noblecourt
+    NPC: Gatekeeper
+    Shuffle: true
+  }
+  HdnPnt_Plain_TMA_02:
+  {
+    Item: ITM_139
+    Name: Thunder Soulstone (L)
+    Buy: 6300
+    Sell: 630
+    Region: Flatlands
+    Location: Noblecourt
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Plain_TMA_03:
+  {
+    Item: ITM_006
+    Name: Heavy Coin Pouch
+    Buy: 4400
+    Sell: 2200
+    Region: Flatlands
+    Location: Noblecourt
+    NPC: Elderly Woman
+    Shuffle: true
+  }
+  HdnPnt_Plain_TMA_04:
+  {
+    Item: ITM_084
+    Name: Curious Antique
+    Buy: 19000
+    Sell: 9500
+    Region: Flatlands
+    Location: Noblecourt
+    NPC: Affable Antiquarian
+    Shuffle: true
+  }
+  HdnPnt_Plain_TMB_01:
+  {
+    Item: ITM_WA_045
+    Name: Steel Axe
+    Buy: 8000
+    Sell: 2000
+    Region: Flatlands
+    Location: East Noblecourt
+    NPC: Tavern Patron
+    Shuffle: true
+  }
+  HdnPnt_Plain_TMB_02:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Flatlands
+    Location: East Noblecourt
+    NPC: Tavern Patron
+    Shuffle: true
+  }
+  HdnPnt_Plain_TMB_03:
+  {
+    Item: ITM_082
+    Name: Copper-filled Pouch
+    Buy: 6000
+    Sell: 3000
+    Region: Flatlands
+    Location: East Noblecourt
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Plain_TMB_04:
+  {
+    Item: ITM_004
+    Name: Introduction to Adventuring
+    Buy: 1600
+    Sell: 800
+    Region: Flatlands
+    Location: East Noblecourt
+    NPC: Boy's Mother
+    Shuffle: true
+  }
+  HdnPnt_Plain_TMB_05:
+  {
+    Item: ITM_005
+    Name: Rare Stone
+    Buy: 6000
+    Sell: 3000
+    Region: Flatlands
+    Location: East Noblecourt
+    NPC: Book-loving Girl
+    Shuffle: true
+  }
+  HdnPnt_Plain_TS_01:
+  {
+    Item: ITM_081
+    Name: Old Coin
+    Buy: 3000
+    Sell: 1500
+    Region: Flatlands
+    Location: Wispermill
+    NPC: Villager
+    Shuffle: true
+  }
+  HdnPnt_Plain_TS_02:
+  {
+    Item: ITM_008
+    Name: Commemorative Coin
+    Buy: 50000
+    Sell: 25000
+    Region: Flatlands
+    Location: Wispermill
+    NPC: Villager
+    Shuffle: true
+  }
+  HdnPnt_Plain_TS_03:
+  {
+    Item: ITM_007
+    Name: Refreshing Jam
+    Buy: 15000
+    Sell: 1500
+    Region: Flatlands
+    Location: Wispermill
+    NPC: Carefree Shepherd
+    Shuffle: true
+  }
+  HdnPnt_Plain_TS_04:
+  {
+    Item: ITM_088
+    Name: Inspiriting Plum Basket
+    Buy: 2160
+    Sell: 216
+    Region: Flatlands
+    Location: Wispermill
+    NPC: Troubled Villager
+    Shuffle: true
+  }
+  HdnPnt_River_F13_01:
+  {
+    Item: ITM_396
+    Name: Giant Egg
+    Buy: 1
+    Sell: 0
+    Region: Riverland
+    Location: West Clearbrook Traverse
+    NPC: Farmer
+    Shuffle: false
+  }
+  HdnPnt_River_TLA_01:
+  {
+    Item: ITM_086
+    Name: Inspiriting Plum
+    Buy: 240
+    Sell: 24
+    Region: Riverland
+    Location: Saintsbridge
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_River_TLA_02:
+  {
+    Item: ITM_031
+    Name: Ice Soulstone (M)
+    Buy: 1700
+    Sell: 170
+    Region: Riverland
+    Location: Saintsbridge
+    NPC: River Dweller
+    Shuffle: true
+  }
+  HdnPnt_River_TLB_01:
+  {
+    Item: ITM_079
+    Name: Healing Grape (M)
+    Buy: 260
+    Sell: 26
+    Region: Riverland
+    Location: Saintsbridge Upstream
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_River_TLB_02:
+  {
+    Item: None
+    Name: 3000 Leaves
+    Buy: ----
+    Sell: ----
+    Region: Riverland
+    Location: Saintsbridge Upstream
+    NPC: Kndly Cleric
+    Shuffle: true
+  }
+  HdnPnt_River_TLC_01:
+  {
+    Item: ITM_117
+    Name: Odds and Ends
+    Buy: 1400
+    Sell: 700
+    Region: Riverland
+    Location: Saintsbridge
+    NPC: Worrywart
+    Shuffle: true
+  }
+  HdnPnt_River_TLC_02:
+  {
+    Item: ITM_082
+    Name: Copper-filled Pouch
+    Buy: 6000
+    Sell: 3000
+    Region: Riverland
+    Location: Saintsbridge Cathedral
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_River_TLC_03:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Riverland
+    Location: Saintsbridge Cathedral
+    NPC: Cleric
+    Shuffle: true
+  }
+  HdnPnt_River_TLC_04:
+  {
+    Item: ITM_007
+    Name: Refreshing Jam
+    Buy: 15000
+    Sell: 1500
+    Region: Riverland
+    Location: Saintsbridge Cathedral
+    NPC: Erstwhile Sellsword
+    Shuffle: true
+  }
+  HdnPnt_River_TMA_01:
+  {
+    Item: ITM_137
+    Name: Fire Soulstone (L)
+    Buy: 6300
+    Sell: 630
+    Region: Riverland
+    Location: Riverford
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_River_TMA_02:
+  {
+    Item: ITM_079
+    Name: Healing Grape (M)
+    Buy: 260
+    Sell: 26
+    Region: Riverland
+    Location: Riverford
+    NPC: Old Man
+    Shuffle: true
+  }
+  HdnPnt_River_TMA_03:
+  {
+    Item: ITM_002
+    Name: Silver Clock
+    Buy: 1200
+    Sell: 600
+    Region: Riverland
+    Location: Lower Riverford
+    NPC: Merchant
+    Shuffle: true
+  }
+  HdnPnt_River_TMB_01:
+  {
+    Item: ITM_020
+    Name: Silver-filled Pouch
+    Buy: 16000
+    Sell: 8000
+    Region: Riverland
+    Location: Lower Riverford
+    NPC: Guard
+    Shuffle: true
+  }
+  HdnPnt_River_TMB_02:
+  {
+    Item: ITM_144
+    Name: Energizing Pomegranate (M)
+    Buy: 760
+    Sell: 76
+    Region: Riverland
+    Location: Lower Riverford
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_River_TS_01:
+  {
+    Item: ITM_MB_002
+    Name: Sleepweed
+    Buy: 5
+    Sell: 1
+    Region: Riverland
+    Location: Clearbrook
+    NPC: Zeph
+    Shuffle: true
+  }
+  HdnPnt_River_TS_02:
+  {
+    Item: ITM_WA_005
+    Name: Silver Axe
+    Buy: 3000
+    Sell: 750
+    Region: Riverland
+    Location: Clearbrook
+    NPC: Granddaughter
+    Shuffle: true
+  }
+  HdnPnt_River_TS_03:
+  {
+    Item: ITM_MB_005
+    Name: Essence of Plum
+    Buy: 200
+    Sell: 20
+    Region: Riverland
+    Location: Clearbrook
+    NPC: Elderly Woman
+    Shuffle: true
+  }
+  HdnPnt_River_TS_04:
+  {
+    Item: ITM_MB_006
+    Name: Essence of Pomegranate
+    Buy: 260
+    Sell: 26
+    Region: Riverland
+    Location: Clearbrook
+    NPC: Angler
+    Shuffle: true
+  }
+  HdnPnt_River_TS_05:
+  {
+    Item: ITM_MB_007
+    Name: Olive Bloom
+    Buy: 450
+    Sell: 45
+    Region: Riverland
+    Location: Clearbrook
+    NPC: Meryl
+    Shuffle: true
+  }
+  HdnPnt_River_TS_07:
+  {
+    Item: ITM_MB_003
+    Name: Addlewort
+    Buy: 5
+    Sell: 1
+    Region: Riverland
+    Location: Clearbrook
+    NPC: Meryl's Mother
+    Shuffle: true
+  }
+  HdnPnt_River_TS_08:
+  {
+    Item: ITM_065
+    Name: Resistant Nut
+    Buy: 1000
+    Sell: 100
+    Region: Riverland
+    Location: Clearbrook
+    NPC: Gertas
+    Shuffle: true
+  }
+  HdnPnt_Sea_TLA_01:
+  {
+    Item: ITM_104
+    Name: Coin Pouch
+    Buy: 1000
+    Sell: 500
+    Region: Coastlands
+    Location: Grandport
+    NPC: Cleric
+    Shuffle: true
+  }
+  HdnPnt_Sea_TLA_02:
+  {
+    Item: ITM_MA_006
+    Name: Injurious Dust
+    Buy: 100
+    Sell: 10
+    Region: Coastlands
+    Location: Grandport
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Sea_TLA_03:
+  {
+    Item: ITM_018
+    Name: Revitalizing Jam
+    Buy: 20000
+    Sell: 2000
+    Region: Coastlands
+    Location: Grandport
+    NPC: Merchant
+    Shuffle: true
+  }
+  HdnPnt_Sea_TLB_01:
+  {
+    Item: ITM_090
+    Name: Rusty Cup
+    Buy: 100
+    Sell: 50
+    Region: Coastlands
+    Location: Grandport Markets
+    NPC: Merchant
+    Shuffle: true
+  }
+  HdnPnt_Sea_TLB_02:
+  {
+    Item: ITM_AH_030
+    Name: Silver Hairpiece
+    Buy: 900
+    Sell: 150
+    Region: Coastlands
+    Location: Grandport Markets
+    NPC: Merchant
+    Shuffle: true
+  }
+  HdnPnt_Sea_TLB_03:
+  {
+    Item: ITM_006
+    Name: Heavy Coin Pouch
+    Buy: 4400
+    Sell: 2200
+    Region: Coastlands
+    Location: Grandport Markets
+    NPC: Bazaar Shopper
+    Shuffle: true
+  }
+  HdnPnt_Sea_TLB_04:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Coastlands
+    Location: Grandport Markets
+    NPC: Bazaar Shopper
+    Shuffle: true
+  }
+  HdnPnt_Sea_TLB_05:
+  {
+    Item: ITM_007
+    Name: Refreshing Jam
+    Buy: 15000
+    Sell: 1500
+    Region: Coastlands
+    Location: Grandport Markets
+    NPC: Ship Captain
+    Shuffle: true
+  }
+  HdnPnt_Sea_TLC_01:
+  {
+    Item: ITM_AC_015
+    Name: Articulate Stone
+    Buy: 7200
+    Sell: 1800
+    Region: Coastlands
+    Location: Grandport Bazaar
+    NPC: Merchant
+    Shuffle: true
+  }
+  HdnPnt_Sea_TMA_01:
+  {
+    Item: ITM_139
+    Name: Thunder Soulstone (L)
+    Buy: 6300
+    Sell: 630
+    Region: Coastlands
+    Location: Goldshore
+    NPC: Old Man
+    Shuffle: true
+  }
+  HdnPnt_Sea_TMA_02:
+  {
+    Item: ITM_080
+    Name: Healing Grape Bunch
+    Buy: 720
+    Sell: 72
+    Region: Coastlands
+    Location: Goldshore
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Sea_TMA_03:
+  {
+    Item: ITM_082
+    Name: Copper-filled Pouch
+    Buy: 6000
+    Sell: 3000
+    Region: Coastlands
+    Location: Goldshore
+    NPC: Elderly Woman
+    Shuffle: true
+  }
+  HdnPnt_Sea_TMA_04:
+  {
+    Item: ITM_117
+    Name: Odds and Ends
+    Buy: 1400
+    Sell: 700
+    Region: Coastlands
+    Location: Goldshore Manor District
+    NPC: Fledgling Fisherman
+    Shuffle: true
+  }
+  HdnPnt_Sea_TMB_01:
+  {
+    Item: ITM_140
+    Name: Wind Soulstone (L)
+    Buy: 6300
+    Sell: 630
+    Region: Coastlands
+    Location: Goldshore Manor District
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Sea_TMB_02:
+  {
+    Item: ITM_079
+    Name: Healing Grape (M)
+    Buy: 260
+    Sell: 26
+    Region: Coastlands
+    Location: Goldshore Manor District
+    NPC: Old Man
+    Shuffle: true
+  }
+  HdnPnt_Sea_TMB_03:
+  {
+    Item: ITM_WA_005
+    Name: Silver Axe
+    Buy: 3000
+    Sell: 750
+    Region: Coastlands
+    Location: Goldshore Manor District
+    NPC: Knight Ardante
+    Shuffle: true
+  }
+  HdnPnt_Sea_TMC_01:
+  {
+    Item: ITM_144
+    Name: Energizing Pomegranate (M)
+    Buy: 760
+    Sell: 76
+    Region: Coastlands
+    Location: Goldshore Cathedral
+    NPC: Cleric
+    Shuffle: true
+  }
+  HdnPnt_Sea_TS_01:
+  {
+    Item: ITM_079
+    Name: Healing Grape (M)
+    Buy: 260
+    Sell: 26
+    Region: Coastlands
+    Location: Rippletide
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Sea_TS_02:
+  {
+    Item: ITM_AC_015
+    Name: Articulate Stone
+    Buy: 7200
+    Sell: 1800
+    Region: Coastlands
+    Location: Rippletide
+    NPC: Merchant
+    Shuffle: true
+  }
+  HdnPnt_Sea_TS_03:
+  {
+    Item: ITM_MB_004
+    Name: Essence of Grape
+    Buy: 40
+    Sell: 4
+    Region: Coastlands
+    Location: Rippletide
+    NPC: Beverage Vendor
+    Shuffle: true
+  }
+  HdnPnt_Sea_TS_04:
+  {
+    Item: ITM_139
+    Name: Thunder Soulstone (L)
+    Buy: 6300
+    Sell: 630
+    Region: Coastlands
+    Location: Rippletide
+    NPC: Tony's Mother
+    Shuffle: true
+  }
+  HdnPnt_Sea_TS_05:
+  {
+    Item: ITM_MB_002
+    Name: Sleepweed
+    Buy: 5
+    Sell: 1
+    Region: Coastlands
+    Location: Rippletide
+    NPC: Antique Dealer
+    Shuffle: true
+  }
+  HdnPnt_Snow_F21_01:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Frostlands
+    Location: ????????
+    NPC: ?????????
+    Shuffle: true
+  }
+  HdnPnt_Snow_TLA_01:
+  {
+    Item: ITM_MB_003
+    Name: Addlewort
+    Buy: 5
+    Sell: 1
+    Region: Frostlands
+    Location: Flamesgrace
+    NPC: Knight Ardante
+    Shuffle: true
+  }
+  HdnPnt_Snow_TLA_02:
+  {
+    Item: ITM_037
+    Name: Shadow Soulstone
+    Buy: 200
+    Sell: 20
+    Region: Frostlands
+    Location: Flamesgrace
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Snow_TLA_03:
+  {
+    Item: ITM_MA_005
+    Name: Injurious Seed
+    Buy: 5
+    Sell: 1
+    Region: Frostlands
+    Location: Flamesgrace
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Snow_TLA_04:
+  {
+    Item: ITM_087
+    Name: Inspiriting Plum (M)
+    Buy: 900
+    Sell: 90
+    Region: Frostlands
+    Location: Flamesgrace
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Snow_TLB_01:
+  {
+    Item: ITM_030
+    Name: Ice Soulstone
+    Buy: 200
+    Sell: 20
+    Region: Frostlands
+    Location: Flamesgrace Cathedral Entrance
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Snow_TLB_02:
+  {
+    Item: ITM_AC_046
+    Name: Empowering Earring
+    Buy: 360
+    Sell: 90
+    Region: Frostlands
+    Location: Flamesgrace Cathedral Entrance
+    NPC: Knight Ardante
+    Shuffle: true
+  }
+  HdnPnt_Snow_TLC_01:
+  {
+    Item: ITM_056
+    Name: Fortifying Nut
+    Buy: 1000
+    Sell: 100
+    Region: Frostlands
+    Location: Flamesgrace Cathedral
+    NPC: Boy
+    Shuffle: true
+  }
+  HdnPnt_Snow_TLC_02:
+  {
+    Item: ITM_009
+    Name: Olive of Life
+    Buy: 500
+    Sell: 50
+    Region: Frostlands
+    Location: Flamesgrace Cathedral
+    NPC: Cleric
+    Shuffle: true
+  }
+  HdnPnt_Snow_TLC_03:
+  {
+    Item: ITM_082
+    Name: Copper-filled Pouch
+    Buy: 6000
+    Sell: 3000
+    Region: Frostlands
+    Location: Flamesgrace Cathedral
+    NPC: Mother
+    Shuffle: true
+  }
+  HdnPnt_Snow_TLC_04:
+  {
+    Item: ITM_WS_011
+    Name: Heavy Blade
+    Buy: 12000
+    Sell: 3000
+    Region: Frostlands
+    Location: Flamesgrace Cathedral
+    NPC: Cleric
+    Shuffle: true
+  }
+  HdnPnt_Snow_TMA_01:
+  {
+    Item: ITM_007
+    Name: Refreshing Jam
+    Buy: 15000
+    Sell: 1500
+    Region: Frostlands
+    Location: Northreach
+    NPC: Tavern Patron
+    Shuffle: true
+  }
+  HdnPnt_Snow_TMA_02:
+  {
+    Item: ITM_082
+    Name: Copper-filled Pouch
+    Buy: 6000
+    Sell: 3000
+    Region: Frostlands
+    Location: Northreach
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Snow_TMA_03:
+  {
+    Item: ITM_010
+    Name: Olive of Life (M)
+    Buy: 3000
+    Sell: 300
+    Region: Frostlands
+    Location: Northreach
+    NPC: Traveler
+    Shuffle: true
+  }
+  HdnPnt_Snow_TMA_04:
+  {
+    Item: ITM_AS_005
+    Name: Knight's Shield
+    Buy: 19200
+    Sell: 4000
+    Region: Frostlands
+    Location: Northreach
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Snow_TMA_05:
+  {
+    Item: ITM_020
+    Name: Silver-filled Pouch
+    Buy: 16000
+    Sell: 8000
+    Region: Frostlands
+    Location: Northreach
+    NPC: Impoverish Man
+    Shuffle: true
+  }
+  HdnPnt_Snow_TS_01:
+  {
+    Item: ITM_007
+    Name: Refreshing Jam
+    Buy: 15000
+    Sell: 1500
+    Region: Frostlands
+    Location: Stillsnow
+    NPC: Boy
+    Shuffle: true
+  }
+  HdnPnt_Snow_TS_02:
+  {
+    Item: ITM_031
+    Name: Ice Soulstone (M)
+    Buy: 1700
+    Sell: 170
+    Region: Frostlands
+    Location: Stillsnow
+    NPC: Girl
+    Shuffle: true
+  }
+  HdnPnt_Snow_TS_03:
+  {
+    Item: ITM_WB_013
+    Name: Soul Bow
+    Buy: 14000
+    Sell: 3500
+    Region: Frostlands
+    Location: Stillsnow
+    NPC: Townsperson
+    Shuffle: true
+  }
+  HdnPnt_Snow_TS_04:
+  {
+    Item: ITM_020
+    Name: Silver-filled Pouch
+    Buy: 16000
+    Sell: 8000
+    Region: Frostlands
+    Location: Stillsnow
+    NPC: Moneylender
+    Shuffle: true
+  }
+  HdnPnt_Snow_TS_05:
+  {
+    Item: ITM_MB_007
+    Name: Olive Bloom
+    Buy: 450
+    Sell: 45
+    Region: Frostlands
+    Location: Stillsnow
+    NPC: Frostlands Farmer
+    Shuffle: true
+  }
+}
