@@ -149,9 +149,9 @@
       }
       {
 	name: perfect-thievery
-	label: "Steal with 100% success rate"
+	label: "Story steals have 100% success rate"
 	type: checkbutton
-	help: "Therion with always steal with a 100% success rate."
+	help: "When mandatory for the story, Therion will always steal with a 100% success rate."
       }
     ]
   }
