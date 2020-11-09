@@ -149,9 +149,9 @@
       }
       {
 	name: perfect-thievery
-	label: "Steal with 100% accuracy"
+	label: "Steal with 100% success rate"
 	type: checkbutton
-	help: "Any starting PC will have a Spurning Ribbon in their inventory."
+	help: "Therion with always steal with a 100% success rate."
       }
     ]
   }
