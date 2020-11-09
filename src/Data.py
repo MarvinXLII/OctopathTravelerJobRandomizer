@@ -1,5 +1,4 @@
 import hjson
-import binascii
 
 class UASSET:
     def __init__(self, filename):

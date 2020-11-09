@@ -3,8 +3,6 @@
   {
     Item: ITM_WD_006
     Name: Falcon Dagger
-    Buy: 7000
-    Sell: 1800
     Region: Cliftlands
     Location: Bolderfall
     NPC: Elderly Woman
@@ -14,8 +12,6 @@
   {
     Item: ITM_WL_003
     Name: War Spear
-    Buy: 1400
-    Sell: 350
     Region: Cliftlands
     Location: Ravus Manor Gate
     NPC: Guard
@@ -25,8 +21,6 @@
   {
     Item: ITM_126
     Name: Dirty Ball of Cloth
-    Buy: 4
-    Sell: 2
     Region: Cliftlands
     Location: Ravus Manor Gate
     NPC: Guard Dog
@@ -36,8 +30,6 @@
   {
     Item: ITM_125
     Name: Weathered Boots
-    Buy: 10
-    Sell: 5
     Region: Cliftlands
     Location: Ravus Manor Gate
     NPC: Guard Dog
@@ -47,8 +39,6 @@
   {
     Item: ITM_AS_029
     Name: Elusive Shield
-    Buy: 3600
-    Sell: 750
     Region: Cliftlands
     Location: Ravus Manor Gate
     NPC: Guard Dog
@@ -58,8 +48,6 @@
   {
     Item: ITM_121
     Name: Pseudo Gold Ore
-    Buy: 40
-    Sell: 20
     Region: Cliftlands
     Location: Quarrycrest
     NPC: Laborer
@@ -69,8 +57,6 @@
   {
     Item: ITM_137
     Name: Fire Soulstone (L)
-    Buy: 6300
-    Sell: 630
     Region: Cliftlands
     Location: Quarrycrest
     NPC: Elderly Woman
@@ -80,8 +66,6 @@
   {
     Item: ITM_122
     Name: Fool's Gold Ore
-    Buy: 8000
-    Sell: 4000
     Region: Cliftlands
     Location: Quarrycrest Mines
     NPC: Laborer
@@ -91,8 +75,6 @@
   {
     Item: ITM_010
     Name: Olive of Life (M)
-    Buy: 3000
-    Sell: 300
     Region: Cliftlands
     Location: Quarrycrest Mines
     NPC: Laborer
@@ -102,8 +84,6 @@
   {
     Item: ITM_007
     Name: Refreshing Jam
-    Buy: 15000
-    Sell: 1500
     Region: Cliftlands
     Location: Quarrycrest Mines
     NPC: Laborer
@@ -113,8 +93,6 @@
   {
     Item: ITM_018
     Name: Revitalizing Jam
-    Buy: 20000
-    Sell: 2000
     Region: Cliftlands
     Location: Orewell
     NPC: Villager
@@ -124,8 +102,6 @@
   {
     Item: ITM_WA_015
     Name: Hill Cleaver
-    Buy: 40000
-    Sell: 10000
     Region: Cliftlands
     Location: Orewell
     NPC: Old Man
@@ -135,8 +111,6 @@
   {
     Item: ITM_088
     Name: Inspiriting Plum Basket
-    Buy: 2160
-    Sell: 216
     Region: Cliftlands
     Location: Orewell
     NPC: Miserable Mother
@@ -146,8 +120,6 @@
   {
     Item: ITM_103
     Name: Empty Coin Pouch
-    Buy: 30
-    Sell: 15
     Region: Cliftlands
     Location: Orewell
     NPC: Lazy Loafer
@@ -157,8 +129,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Cliftlands
     Location: Orewell
     NPC: Oblivious Townsperson
@@ -168,8 +138,6 @@
   {
     Item: ITM_088
     Name: Inspiriting Plum Basket
-    Buy: 2160
-    Sell: 216
     Region: Sunlands
     Location: Marsalim
     NPC: Townsperson
@@ -179,8 +147,6 @@
   {
     Item: ITM_137
     Name: Fire Soulstone (L)
-    Buy: 6300
-    Sell: 630
     Region: Sunlands
     Location: Marsalim
     NPC: Knight Ardante
@@ -190,8 +156,6 @@
   {
     Item: ITM_082
     Name: Copper-filled Pouch
-    Buy: 6000
-    Sell: 3000
     Region: Sunlands
     Location: Marsalim
     NPC: Elderly Woman
@@ -201,8 +165,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Sunlands
     Location: Marsalim Palace
     NPC: Guard
@@ -212,8 +174,6 @@
   {
     Item: ITM_117
     Name: Odds and Ends
-    Buy: 1400
-    Sell: 700
     Region: Sunlands
     Location: Marsalim Palace
     NPC: Guard
@@ -223,8 +183,6 @@
   {
     Item: ITM_137
     Name: Fire Soulstone (L)
-    Buy: 6300
-    Sell: 630
     Region: Sunlands
     Location: Marsalim Palace
     NPC: Guard
@@ -234,8 +192,6 @@
   {
     Item: ITM_079
     Name: Healing Grape (M)
-    Buy: 260
-    Sell: 26
     Region: Sunlands
     Location: Sunshade
     NPC: Masters Lackey
@@ -245,8 +201,6 @@
   {
     Item: ITM_020
     Name: Silver-filled Pouch
-    Buy: 16000
-    Sell: 8000
     Region: Sunlands
     Location: Sunshade
     NPC: Masters Lackey
@@ -256,8 +210,6 @@
   {
     Item: ITM_WL_012
     Name: Arcane Glaive
-    Buy: 2400
-    Sell: 600
     Region: Sunlands
     Location: Sunshade Tavern
     NPC: Tavern Wench
@@ -267,8 +219,6 @@
   {
     Item: ITM_050
     Name: Nourishing Nut
-    Buy: 1000
-    Sell: 100
     Region: Sunlands
     Location: Sunshade Tavern
     NPC: Tavern Propietor
@@ -278,8 +228,6 @@
   {
     Item: ITM_010
     Name: Olive of Life (M)
-    Buy: 3000
-    Sell: 300
     Region: Sunlands
     Location: Sunshade Tavern
     NPC: Stardancer
@@ -289,8 +237,6 @@
   {
     Item: ITM_006
     Name: Heavy Coin Pouch
-    Buy: 4400
-    Sell: 2200
     Region: Sunlands
     Location: Wellspring
     NPC: Bale or Guard?
@@ -300,8 +246,6 @@
   {
     Item: ITM_033
     Name: Thunder Soulstone (M)
-    Buy: 1700
-    Sell: 170
     Region: Sunlands
     Location: Wellspring
     NPC: Townsperson
@@ -311,8 +255,6 @@
   {
     Item: ITM_080
     Name: Healing Grape Bunch
-    Buy: 720
-    Sell: 72
     Region: Sunlands
     Location: Wellspring
     NPC: Tavern Patron
@@ -322,8 +264,6 @@
   {
     Item: ITM_082
     Name: Copper-filled Pouch
-    Buy: 6000
-    Sell: 3000
     Region: Sunlands
     Location: Wellspring
     NPC: Merchant
@@ -333,8 +273,6 @@
   {
     Item: ITM_006
     Name: Heavy Coin Pouch
-    Buy: 4400
-    Sell: 2200
     Region: Sunlands
     Location: Wellspring
     NPC: Bale or Guard?
@@ -344,8 +282,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Sunlands
     Location: Wellspring
     NPC: Guard
@@ -355,8 +291,6 @@
   {
     Item: ITM_010
     Name: Olive of Life (M)
-    Buy: 3000
-    Sell: 300
     Region: Woodlands
     Location: Victor's Hollow
     NPC: Spectator
@@ -366,8 +300,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Woodlands
     Location: Victor's Hollow
     NPC: Merchant
@@ -377,8 +309,6 @@
   {
     Item: ITM_007
     Name: Refreshing Jam
-    Buy: 15000
-    Sell: 1500
     Region: Woodlands
     Location: Victor's Hollow
     NPC: Townsperson
@@ -388,8 +318,6 @@
   {
     Item: ITM_144
     Name: Energizing Pomegranate (M)
-    Buy: 760
-    Sell: 76
     Region: Woodlands
     Location: Victor's Hollow Arena Gate
     NPC: Spectator
@@ -399,8 +327,6 @@
   {
     Item: ITM_AC_007
     Name: Lightning Amulet
-    Buy: 6400
-    Sell: 1600
     Region: Woodlands
     Location: Victor's Hollow Arena Gate
     NPC: Old Man
@@ -410,8 +336,6 @@
   {
     Item: ITM_138
     Name: Ice Soulstone (L)
-    Buy: 6300
-    Sell: 630
     Region: Woodlands
     Location: Victor's Hollow Arena
     NPC: Arena Attendant
@@ -421,8 +345,6 @@
   {
     Item: ITM_WB_040
     Name: Improved Bow of the Eagle
-    Buy: 65000
-    Sell: 16000
     Region: Woodlands
     Location: Duskbarrow
     NPC: VIllager
@@ -432,8 +354,6 @@
   {
     Item: ITM_117
     Name: Odds and Ends
-    Buy: 1400
-    Sell: 700
     Region: Woodlands
     Location: Duskbarrow
     NPC: Obliging Merchant
@@ -443,8 +363,6 @@
   {
     Item: ITM_081
     Name: Old Coin
-    Buy: 3000
-    Sell: 1500
     Region: Woodlands
     Location: Duskbarrow
     NPC: Crest-bearing Swindler
@@ -454,8 +372,6 @@
   {
     Item: ITM_031
     Name: Ice Soulstone (M)
-    Buy: 1700
-    Sell: 170
     Region: Woodlands
     Location: Duskbarrow
     NPC: Smirking Townsperson
@@ -465,8 +381,6 @@
   {
     Item: ITM_009
     Name: Olive of Life
-    Buy: 500
-    Sell: 50
     Region: Woodlands
     Location: S'warkii
     NPC: Village Headman
@@ -476,8 +390,6 @@
   {
     Item: None
     Name: 1000 Leaves
-    Buy: ----
-    Sell: ----
     Region: Woodlands
     Location: S'warkii
     NPC: Hunter
@@ -487,8 +399,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Woodlands
     Location: S'warkii
     NPC: ?????????
@@ -498,8 +408,6 @@
   {
     Item: ITM_030
     Name: Ice Soulstone
-    Buy: 200
-    Sell: 20
     Region: Woodlands
     Location: S'warkii
     NPC: Aspiring Hunter
@@ -509,8 +417,6 @@
   {
     Item: ITM_020
     Name: Silver-filled Pouch
-    Buy: 16000
-    Sell: 8000
     Region: Highlands
     Location: Stonegard
     NPC: Townsperson
@@ -520,8 +426,6 @@
   {
     Item: ITM_118
     Name: Large Feather
-    Buy: 400
-    Sell: 200
     Region: Highlands
     Location: Stonegard Heights
     NPC: Bookbinder
@@ -531,8 +435,6 @@
   {
     Item: ITM_WB_018
     Name: Soldier's Longbow
-    Buy: 12000
-    Sell: 3000
     Region: Highlands
     Location: Stonegard Heights
     NPC: Townsperson
@@ -542,8 +444,6 @@
   {
     Item: ITM_103
     Name: Empty Coin Pouch
-    Buy: 30
-    Sell: 15
     Region: Highlands
     Location: Stonegard Heights
     NPC: Townsperson
@@ -553,8 +453,6 @@
   {
     Item: ITM_137
     Name: Fire Soulstone (L)
-    Buy: 6300
-    Sell: 630
     Region: Highlands
     Location: Stonegard Heights
     NPC: Townsperson
@@ -564,8 +462,6 @@
   {
     Item: ITM_WA_008
     Name: Graviton Axe
-    Buy: 34000
-    Sell: 8500
     Region: Highlands
     Location: Stonegard Valleys
     NPC: Townsperson
@@ -575,8 +471,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Highlands
     Location: Stonegard Valleys
     NPC: Cleric
@@ -586,8 +480,6 @@
   {
     Item: ITM_WS_006
     Name: Bastard Sword
-    Buy: 15000
-    Sell: 3800
     Region: Highlands
     Location: Stonegard Valleys
     NPC: Townsperson
@@ -597,8 +489,6 @@
   {
     Item: ITM_010
     Name: Olive of Life (M)
-    Buy: 3000
-    Sell: 300
     Region: Highlands
     Location: Everhold
     NPC: Usher
@@ -608,8 +498,6 @@
   {
     Item: ITM_005
     Name: Rare Stone
-    Buy: 6000
-    Sell: 3000
     Region: Highlands
     Location: Everhold
     NPC: Old Man
@@ -619,8 +507,6 @@
   {
     Item: ITM_084
     Name: Curious Antique
-    Buy: 19000
-    Sell: 9500
     Region: Highlands
     Location: Everhold
     NPC: Girl
@@ -630,8 +516,6 @@
   {
     Item: ITM_040
     Name: Bottle of Blinding Dust
-    Buy: 200
-    Sell: 20
     Region: Highlands
     Location: Everhold Amphitheatre
     NPC: Usher
@@ -641,8 +525,6 @@
   {
     Item: ITM_080
     Name: Healing Grape Bunch
-    Buy: 720
-    Sell: 72
     Region: Highlands
     Location: Everhold Amphitheatre
     NPC: Usher
@@ -652,8 +534,6 @@
   {
     Item: ITM_WL_018
     Name: War Lance
-    Buy: 7500
-    Sell: 1900
     Region: Highlands
     Location: Cobbleston
     NPC: Village Headman
@@ -663,8 +543,6 @@
   {
     Item: ITM_095
     Name: Candy
-    Buy: 10
-    Sell: 5
     Region: Highlands
     Location: Cobbleston
     NPC: Phillip
@@ -674,8 +552,6 @@
   {
     Item: ITM_009
     Name: Olive of Life
-    Buy: 500
-    Sell: 50
     Region: Highlands
     Location: Cobbleston
     NPC: Villager
@@ -685,8 +561,6 @@
   {
     Item: ITM_WB_011
     Name: Arcane Bow
-    Buy: 2800
-    Sell: 700
     Region: Highlands
     Location: Cobbleston
     NPC: Villager
@@ -696,8 +570,6 @@
   {
     Item: ITM_MA_003
     Name: Purifying Seed
-    Buy: 2600
-    Sell: 260
     Region: Highlands
     Location: Cobbleston
     NPC: Villager
@@ -707,8 +579,6 @@
   {
     Item: ITM_050
     Name: Nourishing Nut
-    Buy: 1000
-    Sell: 100
     Region: Flatlands
     Location: Atlasdam
     NPC: Tavern Patron
@@ -718,8 +588,6 @@
   {
     Item: ITM_115
     Name: Light Soulstone (M)
-    Buy: 1700
-    Sell: 170
     Region: Flatlands
     Location: Atlasdam
     NPC: Girl
@@ -729,8 +597,6 @@
   {
     Item: ITM_103
     Name: Empty Coin Pouch
-    Buy: 30
-    Sell: 15
     Region: Flatlands
     Location: Atlasdam
     NPC: Tavern Patron
@@ -740,8 +606,6 @@
   {
     Item: ITM_117
     Name: Odds and Ends
-    Buy: 1400
-    Sell: 700
     Region: Flatlands
     Location: Atlasdam Palace Gate
     NPC: Guard
@@ -751,8 +615,6 @@
   {
     Item: ITM_036
     Name: Light Soulstone
-    Buy: 200
-    Sell: 20
     Region: Flatlands
     Location: Atlasdam Palace Gate
     NPC: Guard
@@ -762,8 +624,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Flatlands
     Location: Atlasdam Palace Gate
     NPC: Elderly Woman
@@ -773,8 +633,6 @@
   {
     Item: ITM_118
     Name: Large Feather
-    Buy: 400
-    Sell: 200
     Region: Flatlands
     Location: Atlasdam Palace Gate
     NPC: Merchant
@@ -784,8 +642,6 @@
   {
     Item: ITM_009
     Name: Olive of Life
-    Buy: 500
-    Sell: 50
     Region: Flatlands
     Location: Atlasdam Palace
     NPC: Guard
@@ -795,8 +651,6 @@
   {
     Item: ITM_001
     Name: Small Cup
-    Buy: 400
-    Sell: 200
     Region: Flatlands
     Location: Atlasdam Palace
     NPC: Guard
@@ -806,8 +660,6 @@
   {
     Item: ITM_AS_000
     Name: Buckler
-    Buy: 40
-    Sell: 10
     Region: Flatlands
     Location: Atlasdam Palace
     NPC: Boy
@@ -817,8 +669,6 @@
   {
     Item: ITM_078
     Name: Healing Grape
-    Buy: 50
-    Sell: 5
     Region: Flatlands
     Location: Atlasdam Palace
     NPC: Guard
@@ -828,8 +678,6 @@
   {
     Item: ITM_144
     Name: Energizing Pomegranate (M)
-    Buy: 760
-    Sell: 76
     Region: Flatlands
     Location: Noblecourt
     NPC: Gatekeeper
@@ -839,8 +687,6 @@
   {
     Item: ITM_139
     Name: Thunder Soulstone (L)
-    Buy: 6300
-    Sell: 630
     Region: Flatlands
     Location: Noblecourt
     NPC: Townsperson
@@ -850,8 +696,6 @@
   {
     Item: ITM_006
     Name: Heavy Coin Pouch
-    Buy: 4400
-    Sell: 2200
     Region: Flatlands
     Location: Noblecourt
     NPC: Elderly Woman
@@ -861,8 +705,6 @@
   {
     Item: ITM_084
     Name: Curious Antique
-    Buy: 19000
-    Sell: 9500
     Region: Flatlands
     Location: Noblecourt
     NPC: Affable Antiquarian
@@ -872,8 +714,6 @@
   {
     Item: ITM_WA_045
     Name: Steel Axe
-    Buy: 8000
-    Sell: 2000
     Region: Flatlands
     Location: East Noblecourt
     NPC: Tavern Patron
@@ -883,8 +723,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Flatlands
     Location: East Noblecourt
     NPC: Tavern Patron
@@ -894,8 +732,6 @@
   {
     Item: ITM_082
     Name: Copper-filled Pouch
-    Buy: 6000
-    Sell: 3000
     Region: Flatlands
     Location: East Noblecourt
     NPC: Townsperson
@@ -905,8 +741,6 @@
   {
     Item: ITM_004
     Name: Introduction to Adventuring
-    Buy: 1600
-    Sell: 800
     Region: Flatlands
     Location: East Noblecourt
     NPC: Boy's Mother
@@ -916,8 +750,6 @@
   {
     Item: ITM_005
     Name: Rare Stone
-    Buy: 6000
-    Sell: 3000
     Region: Flatlands
     Location: East Noblecourt
     NPC: Book-loving Girl
@@ -927,8 +759,6 @@
   {
     Item: ITM_081
     Name: Old Coin
-    Buy: 3000
-    Sell: 1500
     Region: Flatlands
     Location: Wispermill
     NPC: Villager
@@ -938,8 +768,6 @@
   {
     Item: ITM_008
     Name: Commemorative Coin
-    Buy: 50000
-    Sell: 25000
     Region: Flatlands
     Location: Wispermill
     NPC: Villager
@@ -949,8 +777,6 @@
   {
     Item: ITM_007
     Name: Refreshing Jam
-    Buy: 15000
-    Sell: 1500
     Region: Flatlands
     Location: Wispermill
     NPC: Carefree Shepherd
@@ -960,8 +786,6 @@
   {
     Item: ITM_088
     Name: Inspiriting Plum Basket
-    Buy: 2160
-    Sell: 216
     Region: Flatlands
     Location: Wispermill
     NPC: Troubled Villager
@@ -971,8 +795,6 @@
   {
     Item: ITM_396
     Name: Giant Egg
-    Buy: 1
-    Sell: 0
     Region: Riverland
     Location: West Clearbrook Traverse
     NPC: Farmer
@@ -982,8 +804,6 @@
   {
     Item: ITM_086
     Name: Inspiriting Plum
-    Buy: 240
-    Sell: 24
     Region: Riverland
     Location: Saintsbridge
     NPC: Townsperson
@@ -993,8 +813,6 @@
   {
     Item: ITM_031
     Name: Ice Soulstone (M)
-    Buy: 1700
-    Sell: 170
     Region: Riverland
     Location: Saintsbridge
     NPC: River Dweller
@@ -1004,8 +822,6 @@
   {
     Item: ITM_079
     Name: Healing Grape (M)
-    Buy: 260
-    Sell: 26
     Region: Riverland
     Location: Saintsbridge Upstream
     NPC: Townsperson
@@ -1015,8 +831,6 @@
   {
     Item: None
     Name: 3000 Leaves
-    Buy: ----
-    Sell: ----
     Region: Riverland
     Location: Saintsbridge Upstream
     NPC: Kndly Cleric
@@ -1026,8 +840,6 @@
   {
     Item: ITM_117
     Name: Odds and Ends
-    Buy: 1400
-    Sell: 700
     Region: Riverland
     Location: Saintsbridge
     NPC: Worrywart
@@ -1037,8 +849,6 @@
   {
     Item: ITM_082
     Name: Copper-filled Pouch
-    Buy: 6000
-    Sell: 3000
     Region: Riverland
     Location: Saintsbridge Cathedral
     NPC: Townsperson
@@ -1048,8 +858,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Riverland
     Location: Saintsbridge Cathedral
     NPC: Cleric
@@ -1059,8 +867,6 @@
   {
     Item: ITM_007
     Name: Refreshing Jam
-    Buy: 15000
-    Sell: 1500
     Region: Riverland
     Location: Saintsbridge Cathedral
     NPC: Erstwhile Sellsword
@@ -1070,8 +876,6 @@
   {
     Item: ITM_137
     Name: Fire Soulstone (L)
-    Buy: 6300
-    Sell: 630
     Region: Riverland
     Location: Riverford
     NPC: Guard
@@ -1081,8 +885,6 @@
   {
     Item: ITM_079
     Name: Healing Grape (M)
-    Buy: 260
-    Sell: 26
     Region: Riverland
     Location: Riverford
     NPC: Old Man
@@ -1092,8 +894,6 @@
   {
     Item: ITM_002
     Name: Silver Clock
-    Buy: 1200
-    Sell: 600
     Region: Riverland
     Location: Lower Riverford
     NPC: Merchant
@@ -1103,8 +903,6 @@
   {
     Item: ITM_020
     Name: Silver-filled Pouch
-    Buy: 16000
-    Sell: 8000
     Region: Riverland
     Location: Lower Riverford
     NPC: Guard
@@ -1114,8 +912,6 @@
   {
     Item: ITM_144
     Name: Energizing Pomegranate (M)
-    Buy: 760
-    Sell: 76
     Region: Riverland
     Location: Lower Riverford
     NPC: Townsperson
@@ -1125,8 +921,6 @@
   {
     Item: ITM_MB_002
     Name: Sleepweed
-    Buy: 5
-    Sell: 1
     Region: Riverland
     Location: Clearbrook
     NPC: Zeph
@@ -1136,8 +930,6 @@
   {
     Item: ITM_WA_005
     Name: Silver Axe
-    Buy: 3000
-    Sell: 750
     Region: Riverland
     Location: Clearbrook
     NPC: Granddaughter
@@ -1147,8 +939,6 @@
   {
     Item: ITM_MB_005
     Name: Essence of Plum
-    Buy: 200
-    Sell: 20
     Region: Riverland
     Location: Clearbrook
     NPC: Elderly Woman
@@ -1158,8 +948,6 @@
   {
     Item: ITM_MB_006
     Name: Essence of Pomegranate
-    Buy: 260
-    Sell: 26
     Region: Riverland
     Location: Clearbrook
     NPC: Angler
@@ -1169,8 +957,6 @@
   {
     Item: ITM_MB_007
     Name: Olive Bloom
-    Buy: 450
-    Sell: 45
     Region: Riverland
     Location: Clearbrook
     NPC: Meryl
@@ -1180,8 +966,6 @@
   {
     Item: ITM_MB_003
     Name: Addlewort
-    Buy: 5
-    Sell: 1
     Region: Riverland
     Location: Clearbrook
     NPC: Meryl's Mother
@@ -1191,8 +975,6 @@
   {
     Item: ITM_065
     Name: Resistant Nut
-    Buy: 1000
-    Sell: 100
     Region: Riverland
     Location: Clearbrook
     NPC: Gertas
@@ -1202,8 +984,6 @@
   {
     Item: ITM_104
     Name: Coin Pouch
-    Buy: 1000
-    Sell: 500
     Region: Coastlands
     Location: Grandport
     NPC: Cleric
@@ -1213,8 +993,6 @@
   {
     Item: ITM_MA_006
     Name: Injurious Dust
-    Buy: 100
-    Sell: 10
     Region: Coastlands
     Location: Grandport
     NPC: Townsperson
@@ -1224,8 +1002,6 @@
   {
     Item: ITM_018
     Name: Revitalizing Jam
-    Buy: 20000
-    Sell: 2000
     Region: Coastlands
     Location: Grandport
     NPC: Merchant
@@ -1235,8 +1011,6 @@
   {
     Item: ITM_090
     Name: Rusty Cup
-    Buy: 100
-    Sell: 50
     Region: Coastlands
     Location: Grandport Markets
     NPC: Merchant
@@ -1246,8 +1020,6 @@
   {
     Item: ITM_AH_030
     Name: Silver Hairpiece
-    Buy: 900
-    Sell: 150
     Region: Coastlands
     Location: Grandport Markets
     NPC: Merchant
@@ -1257,8 +1029,6 @@
   {
     Item: ITM_006
     Name: Heavy Coin Pouch
-    Buy: 4400
-    Sell: 2200
     Region: Coastlands
     Location: Grandport Markets
     NPC: Bazaar Shopper
@@ -1268,8 +1038,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Coastlands
     Location: Grandport Markets
     NPC: Bazaar Shopper
@@ -1279,8 +1047,6 @@
   {
     Item: ITM_007
     Name: Refreshing Jam
-    Buy: 15000
-    Sell: 1500
     Region: Coastlands
     Location: Grandport Markets
     NPC: Ship Captain
@@ -1290,8 +1056,6 @@
   {
     Item: ITM_AC_015
     Name: Articulate Stone
-    Buy: 7200
-    Sell: 1800
     Region: Coastlands
     Location: Grandport Bazaar
     NPC: Merchant
@@ -1301,8 +1065,6 @@
   {
     Item: ITM_139
     Name: Thunder Soulstone (L)
-    Buy: 6300
-    Sell: 630
     Region: Coastlands
     Location: Goldshore
     NPC: Old Man
@@ -1312,8 +1074,6 @@
   {
     Item: ITM_080
     Name: Healing Grape Bunch
-    Buy: 720
-    Sell: 72
     Region: Coastlands
     Location: Goldshore
     NPC: Townsperson
@@ -1323,8 +1083,6 @@
   {
     Item: ITM_082
     Name: Copper-filled Pouch
-    Buy: 6000
-    Sell: 3000
     Region: Coastlands
     Location: Goldshore
     NPC: Elderly Woman
@@ -1334,8 +1092,6 @@
   {
     Item: ITM_117
     Name: Odds and Ends
-    Buy: 1400
-    Sell: 700
     Region: Coastlands
     Location: Goldshore Manor District
     NPC: Fledgling Fisherman
@@ -1345,8 +1101,6 @@
   {
     Item: ITM_140
     Name: Wind Soulstone (L)
-    Buy: 6300
-    Sell: 630
     Region: Coastlands
     Location: Goldshore Manor District
     NPC: Townsperson
@@ -1356,8 +1110,6 @@
   {
     Item: ITM_079
     Name: Healing Grape (M)
-    Buy: 260
-    Sell: 26
     Region: Coastlands
     Location: Goldshore Manor District
     NPC: Old Man
@@ -1367,8 +1119,6 @@
   {
     Item: ITM_WA_005
     Name: Silver Axe
-    Buy: 3000
-    Sell: 750
     Region: Coastlands
     Location: Goldshore Manor District
     NPC: Knight Ardante
@@ -1378,8 +1128,6 @@
   {
     Item: ITM_144
     Name: Energizing Pomegranate (M)
-    Buy: 760
-    Sell: 76
     Region: Coastlands
     Location: Goldshore Cathedral
     NPC: Cleric
@@ -1389,8 +1137,6 @@
   {
     Item: ITM_079
     Name: Healing Grape (M)
-    Buy: 260
-    Sell: 26
     Region: Coastlands
     Location: Rippletide
     NPC: Townsperson
@@ -1400,8 +1146,6 @@
   {
     Item: ITM_AC_015
     Name: Articulate Stone
-    Buy: 7200
-    Sell: 1800
     Region: Coastlands
     Location: Rippletide
     NPC: Merchant
@@ -1411,8 +1155,6 @@
   {
     Item: ITM_MB_004
     Name: Essence of Grape
-    Buy: 40
-    Sell: 4
     Region: Coastlands
     Location: Rippletide
     NPC: Beverage Vendor
@@ -1422,8 +1164,6 @@
   {
     Item: ITM_139
     Name: Thunder Soulstone (L)
-    Buy: 6300
-    Sell: 630
     Region: Coastlands
     Location: Rippletide
     NPC: Tony's Mother
@@ -1433,8 +1173,6 @@
   {
     Item: ITM_MB_002
     Name: Sleepweed
-    Buy: 5
-    Sell: 1
     Region: Coastlands
     Location: Rippletide
     NPC: Antique Dealer
@@ -1444,8 +1182,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Frostlands
     Location: ????????
     NPC: ?????????
@@ -1455,8 +1191,6 @@
   {
     Item: ITM_MB_003
     Name: Addlewort
-    Buy: 5
-    Sell: 1
     Region: Frostlands
     Location: Flamesgrace
     NPC: Knight Ardante
@@ -1466,8 +1200,6 @@
   {
     Item: ITM_037
     Name: Shadow Soulstone
-    Buy: 200
-    Sell: 20
     Region: Frostlands
     Location: Flamesgrace
     NPC: Townsperson
@@ -1477,8 +1209,6 @@
   {
     Item: ITM_MA_005
     Name: Injurious Seed
-    Buy: 5
-    Sell: 1
     Region: Frostlands
     Location: Flamesgrace
     NPC: Townsperson
@@ -1488,8 +1218,6 @@
   {
     Item: ITM_087
     Name: Inspiriting Plum (M)
-    Buy: 900
-    Sell: 90
     Region: Frostlands
     Location: Flamesgrace
     NPC: Townsperson
@@ -1499,8 +1227,6 @@
   {
     Item: ITM_030
     Name: Ice Soulstone
-    Buy: 200
-    Sell: 20
     Region: Frostlands
     Location: Flamesgrace Cathedral Entrance
     NPC: Townsperson
@@ -1510,8 +1236,6 @@
   {
     Item: ITM_AC_046
     Name: Empowering Earring
-    Buy: 360
-    Sell: 90
     Region: Frostlands
     Location: Flamesgrace Cathedral Entrance
     NPC: Knight Ardante
@@ -1521,8 +1245,6 @@
   {
     Item: ITM_056
     Name: Fortifying Nut
-    Buy: 1000
-    Sell: 100
     Region: Frostlands
     Location: Flamesgrace Cathedral
     NPC: Boy
@@ -1532,8 +1254,6 @@
   {
     Item: ITM_009
     Name: Olive of Life
-    Buy: 500
-    Sell: 50
     Region: Frostlands
     Location: Flamesgrace Cathedral
     NPC: Cleric
@@ -1543,8 +1263,6 @@
   {
     Item: ITM_082
     Name: Copper-filled Pouch
-    Buy: 6000
-    Sell: 3000
     Region: Frostlands
     Location: Flamesgrace Cathedral
     NPC: Mother
@@ -1554,8 +1272,6 @@
   {
     Item: ITM_WS_011
     Name: Heavy Blade
-    Buy: 12000
-    Sell: 3000
     Region: Frostlands
     Location: Flamesgrace Cathedral
     NPC: Cleric
@@ -1565,8 +1281,6 @@
   {
     Item: ITM_007
     Name: Refreshing Jam
-    Buy: 15000
-    Sell: 1500
     Region: Frostlands
     Location: Northreach
     NPC: Tavern Patron
@@ -1576,8 +1290,6 @@
   {
     Item: ITM_082
     Name: Copper-filled Pouch
-    Buy: 6000
-    Sell: 3000
     Region: Frostlands
     Location: Northreach
     NPC: Townsperson
@@ -1587,8 +1299,6 @@
   {
     Item: ITM_010
     Name: Olive of Life (M)
-    Buy: 3000
-    Sell: 300
     Region: Frostlands
     Location: Northreach
     NPC: Traveler
@@ -1598,8 +1308,6 @@
   {
     Item: ITM_AS_005
     Name: Knight's Shield
-    Buy: 19200
-    Sell: 4000
     Region: Frostlands
     Location: Northreach
     NPC: Townsperson
@@ -1609,8 +1317,6 @@
   {
     Item: ITM_020
     Name: Silver-filled Pouch
-    Buy: 16000
-    Sell: 8000
     Region: Frostlands
     Location: Northreach
     NPC: Impoverish Man
@@ -1620,8 +1326,6 @@
   {
     Item: ITM_007
     Name: Refreshing Jam
-    Buy: 15000
-    Sell: 1500
     Region: Frostlands
     Location: Stillsnow
     NPC: Boy
@@ -1631,8 +1335,6 @@
   {
     Item: ITM_031
     Name: Ice Soulstone (M)
-    Buy: 1700
-    Sell: 170
     Region: Frostlands
     Location: Stillsnow
     NPC: Girl
@@ -1642,8 +1344,6 @@
   {
     Item: ITM_WB_013
     Name: Soul Bow
-    Buy: 14000
-    Sell: 3500
     Region: Frostlands
     Location: Stillsnow
     NPC: Townsperson
@@ -1653,8 +1353,6 @@
   {
     Item: ITM_020
     Name: Silver-filled Pouch
-    Buy: 16000
-    Sell: 8000
     Region: Frostlands
     Location: Stillsnow
     NPC: Moneylender
@@ -1664,8 +1362,6 @@
   {
     Item: ITM_MB_007
     Name: Olive Bloom
-    Buy: 450
-    Sell: 45
     Region: Frostlands
     Location: Stillsnow
     NPC: Frostlands Farmer

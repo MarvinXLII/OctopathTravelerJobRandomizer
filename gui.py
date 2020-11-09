@@ -6,13 +6,11 @@ import hjson
 import random
 import os
 import shutil
-import subprocess
 import sys
 sys.path.append('src')
 from Utilities import get_filename
 import Ability
 import JobData
-import Items
 import ROM
 import Text
 import PC
