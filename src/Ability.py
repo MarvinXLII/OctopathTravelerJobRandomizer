@@ -25,7 +25,7 @@ class ABILITY:
 
         self.depend = ROM.read(self.data, self.offsets['depend'], 0, 0, 1, 1)
         self.restrict = self.read(self.offsets['restrict'], 2)
-        self.cost = self.read(self.offsets['cost'], 1)
+        self.cost = self.read(self.offsets['cost'], 4)
         self.ratio = self.read(self.offsets['ratio'], 2)
         self.size = len(self.cost)
 
@@ -57,7 +57,7 @@ class ABILITY:
 
     def patch(self):
         self.write(self.restrict, self.offsets['restrict'], 2)
-        self.write(self.cost, self.offsets['cost'], 1)
+        self.write(self.cost, self.offsets['cost'], 4)
         self.write(self.ratio, self.offsets['ratio'], 2)
 
 
@@ -80,15 +80,22 @@ def shuffleData(filename, settings, outdir):
     if settings['skills-sp-costs']:
         random.seed(seed)
         print('Rescaling SP Costs')
-        for ability in abilities.values():
+        for key, ability in abilities.items():
+            if 'Hired Help' in key: continue # LEAVES cost, not SP
             ability.randomCosts()
 
     if settings['skills-power']:
         random.seed(seed)
         print('Rescaling skill power')
-        for ability in abilities.values():
+        for key, ability in abilities.items():
+            if 'Hired Help' in key: continue # HH is unaffected
             ability.randomRatio()
 
+    ## HIRED HELP NERF
+    costScale = float(settings['scale-vets-cost-option'])
+    vets = abilities['Hired Help: Veteran Soldier']
+    vets.cost = 4 * [ int(vets.cost[0] * costScale) ]
+            
     #############
     # PRINT LOG #
     #############
@@ -102,8 +109,8 @@ def shuffleData(filename, settings, outdir):
         file.write('\n\n')
 
         def printData(skill):
-            line = ' '*5 + skill.ljust(35, ' ')
-            line += f"{abilities[skill].cost[-1]}".rjust(3, ' ')
+            line = ' '*5 + skill.ljust(40, ' ')
+            line += f"{abilities[skill].cost[-1]}".rjust(6, ' ')
             if abilities[skill].canChangeRatio[-1]:
                 line += f"{round(abilities[skill].ratioChange, 1)}%".rjust(14, ' ')
             else:
@@ -118,7 +125,7 @@ def shuffleData(filename, settings, outdir):
                 file.write('\n\n')
                 file.write(f"{jobname}\n")
                 file.write('-'*len(jobname)+'\n\n')
-                file.write(' '*41 + 'SP'.ljust(5, ' ') + 'Power Change'.ljust(18) + '\n\n')
+                file.write(' '*49 + 'SP'.ljust(5, ' ') + 'Power Change'.ljust(18) + '\n\n')
             printData(key)
 
     return abilities
