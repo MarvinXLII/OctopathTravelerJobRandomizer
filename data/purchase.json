@@ -6175,7 +6175,7 @@
     Item: ITM_314
     Name: Ancient Map
     NPC: Antique Dealer
-    Shuffle: true
+    Shuffle: false
     Region: Woodlands
     Location: Victors Hollow
     Price: 1
