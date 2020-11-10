@@ -95,7 +95,7 @@ class WORLD:
         objectsHidden = []
         slotsHidden = []; itemsHidden = []; moneyHidden = []
         if settings['items-hidden']:
-            for candidate, value in self.chests.items():
+            for candidate, value in self.hidden.items():
                 objectsHidden.append((candidate, value))
             slotsHidden, itemsHidden, moneyHidden = listObjectItems(objectsHidden)
 
