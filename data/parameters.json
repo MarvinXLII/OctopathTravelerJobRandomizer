@@ -105,7 +105,7 @@
     Items: [
       {
 	name: items
-	label: Shuffle hidden items and chests
+	label: Shuffle items
 	type: checkbutton
 	help: "Shuffle items"
 	indent: [
@@ -117,13 +117,13 @@
 	  }
 	  {
 	    name: items-hidden
-            label: Included hidden items
+            label: Include hidden items
 	    type: checkbutton
 	    help: "Shuffles hidden items."
 	  }
 	  {
 	    name: items-npc
-            label: Included NPC items
+            label: Include NPC items
 	    type: checkbutton
 	    help: "Shuffles items collected from NPC using Therion's Thief skills or Tressa's Merchant skills."
 	  }
