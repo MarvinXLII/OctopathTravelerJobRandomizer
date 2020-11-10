@@ -179,7 +179,8 @@ class WORLD:
 
     def noThiefChests(self):
         for slot in self.chests.keys():
-            self.objectData.changeValue(slot, 'ObjectType', 1)
+            if self.objectData.uexp.entries[slot]['ObjectType']['value'] == 3:
+                self.objectData.changeValue(slot, 'ObjectType', 1)
 
 
     def printHidden(self, outdir):
