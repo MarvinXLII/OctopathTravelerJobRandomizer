@@ -4755,10 +4755,10 @@
   {
     Item: ITM_009
     Name: Olive of Life
-    NPC: ??????
-    Shuffle: false
-    Region: ""
-    Location: ""
+    NPC: Impresario
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Noblecourt Flats
     Price: 475
     steal: -15
   }
@@ -4766,10 +4766,10 @@
   {
     Item: ITM_119
     Name: Glass Marble
-    NPC: ??????
-    Shuffle: false
-    Region: ""
-    Location: ""
+    NPC: Impresario
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Noblecourt Flats
     Price: 10
     steal: -15
   }
@@ -4777,10 +4777,10 @@
   {
     Item: ITM_AH_008
     Name: Oasis Hat
-    NPC: ??????
-    Shuffle: false
-    Region: ""
-    Location: ""
+    NPC: Impresario
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Noblecourt Flats
     Price: 17100
     steal: -15
   }
@@ -10916,9 +10916,9 @@
     Item: ITM_AB_036
     Name: Primeval Robe
     NPC: ??????
-    Shuffle: false
-    Region: ""
-    Location: ""
+    Shuffle: true
+    Region: Coastlands
+    Location: Moonstruck Coast
     Price: 19200
     steal: -15
   }
@@ -10927,9 +10927,9 @@
     Item: ITM_038
     Name: Bottle of Poison Dust
     NPC: ??????
-    Shuffle: false
-    Region: ""
-    Location: ""
+    Shuffle: true
+    Region: Coastlands
+    Location: Moonstruck Coast
     Price: 200
     steal: -15
   }
@@ -10938,9 +10938,9 @@
     Item: ITM_033
     Name: Thunder Soulstone (M)
     NPC: ??????
-    Shuffle: false
-    Region: ""
-    Location: ""
+    Shuffle: true
+    Region: Coastlands
+    Location: Moonstruck Coast
     Price: 1700
     steal: -15
   }
