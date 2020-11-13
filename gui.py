@@ -323,12 +323,6 @@ def randomize(settings):
     # Randomize #
     #############
 
-    world = WORLD(tmpdir)
-    world.randomize(settings)
-    world.miscellaneous(settings)
-    world.dump()
-    world.print(outdir)
-    
     abilityFile = f"{tmpdir}/Octopath_Traveler/Content/Ability/Database/AbilityData.uexp"
     abilities = Ability.shuffleData(abilityFile, settings, outdir)
 
@@ -352,6 +346,12 @@ def randomize(settings):
 
     with open(jobFile, 'wb') as file:
         file.write(job.data)
+
+    world = WORLD(tmpdir, jobs)
+    world.randomize(settings)
+    world.miscellaneous(settings)
+    world.dump()
+    world.print(outdir)
 
     ################
     # Generate Pak #
@@ -382,7 +382,7 @@ def randomize(settings):
     # Cleanup #
     ###########
 
-    # shutil.rmtree(tmpdir)
+    shutil.rmtree(tmpdir)
 
 
 if __name__ == '__main__':

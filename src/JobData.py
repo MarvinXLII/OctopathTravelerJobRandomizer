@@ -12,7 +12,6 @@ from Utilities import get_filename
 
 offsets = {
     'weapons': 0x10f,
-    'unknown': 0x115, # 9, set all to 0
     'stats': 0x1e1,
     'skills': 0x3dd,
     'support': 0x663,
@@ -22,7 +21,6 @@ offsets = {
 
 stride = {
     'weapons': 1,
-    'unknown': 1, # 9, set all to 0
     'stats': 0x1d,
     'skills': 0x46,
     'support': 0x46,
@@ -32,7 +30,6 @@ stride = {
 
 size = {
     'weapons': 1,
-    'unknown': 1,
     'stats': 1,
     'skills': 2,
     'support': 8, # vary at different locations for some reason, just 2 for Merchant and Thief, then offset of 5 for the rest!?
@@ -47,7 +44,6 @@ class JOBS:
         self.pc = pc
         self.weapons = self.read(offsets['weapons'], stride['weapons'], size['weapons'], 6)
         self.weaponDict = {'Sword':0, 'Polearm':1, 'Dagger':2, 'Axe':3, 'Bow':4, 'Staff':5}
-        # self.unknown = self.read(offsets['unknown'], stride['unknown'], size['unknown'], 9)
         self.support = self.read(offsets['support'], stride['support'], size['support'], 4)
         self.counts = self.read(offsets['counts'], stride['counts'], size['counts'], 4)
         self.skills = self.read(offsets['skills'], stride['skills'], size['skills'], 8)
@@ -78,7 +74,6 @@ class JOBS:
 
     def patch(self):
         self.write(self.weapons, offsets['weapons'], stride['weapons'], size['weapons'])
-        # self.write(self.unknown, offsets['unknown'], stride['unknown'], size['unknown'])
         self.write(self.support, offsets['support'], stride['support'], size['support'])
         self.write(self.counts, offsets['counts'], stride['counts'], size['counts'])
         self.write(self.skills, offsets['skills'], stride['skills'], size['skills'])
@@ -145,7 +140,6 @@ class Skills:
                     continue
                 for skill in skills:
                     if self.placed[skill]: continue
-                    # weapon = self.skillJSON[skill]['Weapon']
                     weapon = self.abilities[skill].weapon
                     if job.weaponCheck(weapon):
                         job.skills[i] = skill
@@ -227,6 +221,12 @@ class Skills:
             # Assert all are placed
             if all(list(self.placed.values())):
                 break
+
+        if not oneDivineSkillPerJob:
+            for job in jobs:
+                skills = job.skills[2:]
+                random.shuffle(skills)
+                job.skills[2:] = skills
 
 
 def shuffleStats(jobs):
@@ -428,6 +428,14 @@ def shuffleData(filename, settings, outdir, abilities):
         elif settings['stats-option'] == 'fairly':
             shuffleStatsFairly(jobs)
 
+
+    ###################################################
+    # TEMPORARY: Store support skill name in each job #
+    ###################################################
+
+    for job in jobs.values():
+        job.supportSkillNames = [supportValueToName[s] for s in job.support]
+
     #############
     # PRINT LOG #
     #############
@@ -492,4 +500,4 @@ def shuffleData(filename, settings, outdir, abilities):
             file.write(string+'\n')
         file.write('\n\n')
 
-        return jobs
+    return jobs
