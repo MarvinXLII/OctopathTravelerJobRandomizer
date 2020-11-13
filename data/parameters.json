@@ -81,6 +81,12 @@
 	      type: checkbutton
 	      help: "Support skills from the 4 advanced jobs with be kept separate from the 8 base jobs."
             }
+	    {
+	      name: support-spoil
+              label: Spoil passive skills in game
+	      type: checkbutton
+	      help: "The passive skills of a job will be displayed in its shrine."
+            }
 	]
       }
       {

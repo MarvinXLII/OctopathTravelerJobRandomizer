@@ -2,19 +2,23 @@ from Data import UASSET
 from Data import UEXP
 from Data import DATA
 from Data import TEXTDATA
+from Data import TALKDATA
 import hjson
 from Utilities import get_filename
 import random
 import os
 
 class WORLD:
-    def __init__(self, path):
+    def __init__(self, path, jobs):
         self.path = path
+        self.jobs = jobs
         
         ## Load all the data I need
         self.objectData = DATA(f"{path}/Octopath_Traveler/Content/Object/Database", "ObjectData")
         self.purchaseData = DATA(f"{path}/Octopath_Traveler/Content/Shop/Database", "PurchaseItemTable")
         self.itemAsset = UASSET(f"{path}/Octopath_Traveler/Content/Item/Database/ItemDB.uasset")
+        self.talkData = TALKDATA(f"{path}/Octopath_Traveler/Content/Talk/Database", "TalkData_EN")
+        # self.textData = TEXTDATA(f"{path}/Octopath_Traveler/Content/GameText/Database", "GameTextEN")
 
         with open(get_filename('data/items.json'), 'r') as file:
             self.items = hjson.load(file)
@@ -36,20 +40,27 @@ class WORLD:
         if settings['items']:
             self.shuffleItems(settings)
 
+
     def miscellaneous(self, settings):
         if settings['perfect-thievery']:
             self.perfectThievery()
 
         if settings['no-thief-chests']:
             self.noThiefChests()
-        
+
+        if settings['support-spoil']:
+            self.spoilPassiveSkills()
+
+
     def dump(self):
         # Update the uasset/uexp files
         self.purchaseData.update()
         self.objectData.update()
+        self.talkData.update()
         # Dump the data
-        self.purchaseData.dump(self.path)
-        self.objectData.dump(self.path)
+        self.purchaseData.dump()
+        self.objectData.dump()
+        self.talkData.dump()
 
 
     def print(self, outdir):
@@ -181,6 +192,67 @@ class WORLD:
         for slot in self.chests.keys():
             if self.objectData.uexp.entries[slot]['ObjectType']['value'] == 3:
                 self.objectData.changeValue(slot, 'ObjectType', 1)
+
+
+    def spoilPassiveSkills(self):
+        text1 = {
+            'Thief': 'TX_OBD_CLD_2J0000_0010',
+            'Dancer': 'TX_OBD_DED_2J0000_0010',
+            'Hunter': 'TX_OBD_FOD_2J0000_0010',
+            'Sorcerer': 'TX_OBD_FOD_3J0000_0010',
+            'Warrior': 'TX_OBD_MOD_2J0000_0010',
+            'Runelord': 'TX_OBD_MOD_3J0000_0010',
+            'Scholar': 'TX_OBD_PLD_2J0000_0010',
+            'Starseer': 'TX_OBD_PLD_3J0000_0010',
+            'Apothecary': 'TX_OBD_RID_2J0000_0010',
+            'Warmaster': 'TX_OBD_RID_3J0000_0010',
+            'Merchant': 'TX_OBD_SED_2J0000_0010',
+            'Cleric': 'TX_OBD_SND_2J0000_0010',
+        }
+
+        text2 = {
+            'Thief': 'TX_OBN_CLD_2J0000_0020',
+            'Dancer': 'TX_OBN_DED_2J0000_0020',
+            'Hunter': 'TX_OBN_FOD_2J0000_0020',
+            'Sorcerer': 'TX_OBN_FOD_3J0000_0020',
+            'Warrior': 'TX_OBN_MOD_2J0000_0020',
+            'Runelord': 'TX_OBN_MOD_3J0000_0020',
+            'Scholar': 'TX_OBN_PLD_2J0000_0020',
+            'Starseer': 'TX_OBN_PLD_3J0000_0020',
+            'Apothecary': 'TX_OBN_RID_2J0000_0020',
+            'Warmaster': 'TX_OBN_RID_3J0000_0020',
+            'Merchant': 'TX_OBN_SED_2J0000_0020',
+            'Cleric': 'TX_OBN_SND_2J0000_0020',
+        }
+
+        text3 = {
+            'Thief': 'TX_OBN_CLD_2J0000_0030',
+            'Dancer': 'TX_OBN_DED_2J0000_0030',
+            'Hunter': 'TX_OBN_FOD_2J0000_0030',
+            'Sorcerer': 'TX_OBN_FOD_3J0000_0030',
+            'Warrior': 'TX_OBN_MOD_2J0000_0030',
+            'Runelord': 'TX_OBN_MOD_3J0000_0030',
+            'Scholar': 'TX_OBN_PLD_2J0000_0030',
+            'Starseer': 'TX_OBN_PLD_3J0000_0030',
+            'Apothecary': 'TX_OBN_RID_2J0000_0030',
+            'Warmaster': 'TX_OBN_RID_3J0000_0030',
+            'Merchant': 'TX_OBN_SED_2J0000_0030',
+            'Cleric': 'TX_OBN_SND_2J0000_0030',
+        }
+
+        for key, job in self.jobs.items():
+            # Collecting the orb
+            strings = [f'You unlocked {key} as a secondary job!\nThe passive skills thee shall learn are\n']
+            strings += job.supportSkillNames
+            string = '\n'.join(strings)
+            self.talkData.changeText(text1[key], [string])
+            # After collecting the orb
+            # Line 1
+            string = ', '.join(job.supportSkillNames[:2])
+            self.talkData.changeText(text2[key], [string])
+            # Line 2
+            string = ', '.join(job.supportSkillNames[2:])
+            self.talkData.changeText(text3[key], [string])
 
 
     def printHidden(self, outdir):
