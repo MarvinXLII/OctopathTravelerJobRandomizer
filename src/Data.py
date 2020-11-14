@@ -153,6 +153,7 @@ class UEXP:
                     self.entries[key][name]['name'] = self.entries[key][name]['value']  # Might ne necessary for 'EnumProperty'. Included here only for completeness.
                 elif typeName == 'BoolProperty':
                     self.address += 8 # Is this always 0? Presumably an array of bools rather than nonzero?
+                    self.entries[key][name]['size'] = 2
                     self.entries[key][name]['offset'] = self.address - base
                     self.entries[key][name]['value'] = True if self.readData(1) else False
                     self.entries[key][name]['name'] = self.entries[key][name]['value'] # Just for completeness
