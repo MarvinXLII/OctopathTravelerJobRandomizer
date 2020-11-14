@@ -17,6 +17,8 @@ Several options are available:
 
 - Item shuffler: shuffles hidden items and treasure chests.
 
+- QOL: Options to start with the Spurning Ribbon, get Evasive Manuevers early, and spoil passive skills in game.
+
 **FUTURE WORK**
 
 Future releases will hopefully include:
@@ -30,11 +32,18 @@ Future releases will hopefully include:
 
 **Usage**
 
-Run the executable from the [Releases](https://github.com/MarvinXLII/OctopathTravelerJobRandomizer/releases) page. 
-When finished, copy the "*_P.pak" files from the new seed_### folder into the "Paks" folder in your game,
-typically located at "C:\Program Files (x86)\Steam\steamapps\common\OCTOPATH TRAVELER\Octopath_Traveler\Content\Paks".
-The executable also allows you to enter this folder manually, which will automatically copy the files to their destination.
+Run the executable from the
+[Releases](https://github.com/MarvinXLII/OctopathTravelerJobRandomizer/releases)
+page.  When finished, copy the "*_P.pak" files from the new seed_###
+folder into the "Paks" folder in your game, typically located at
+"C:\Program Files (x86)\Steam\steamapps\common\OCTOPATH
+TRAVELER\Octopath_Traveler\Content\Paks".  The executable also allows
+you to enter this folder manually, which will automatically copy the
+file to its destination.
 
-If you prefer to run the code, you'll have to install Python 3.6+ and `hjson`. 
-Settings can be set in the `main.py` file, and the randomizer can be run with `python main.py`.
-If you would prefer to use the gui, run `python gui.py` or build it yourself with `pyinstaller gui.spec`.
+If you prefer to run the code, you'll have to install Python 3.6+ and
+`hjson`.  Settings can be set in the `main.py` file, and the
+randomizer can be run with `python main.py`.  If you would prefer to
+use the gui, install `tkinter` and run `python gui.py`. You can build
+the executable yourself by installing `pyinstaller` and running
+`pyinstaller gui.spec`.
