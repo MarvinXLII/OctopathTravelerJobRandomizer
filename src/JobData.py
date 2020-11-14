@@ -160,9 +160,9 @@ class Skills:
             types = sorted(list(set(weapons)))
             newtype = list(types)
         
-        jobs = [job for job in self.jobs.values()]
         while True:
             # Reset
+            jobs = [job for job in self.jobs.values()]
             for skill in self.skills:
                 self.placed[skill] = False
             for job in self.jobs.values():
