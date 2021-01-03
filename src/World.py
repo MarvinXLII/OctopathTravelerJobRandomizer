@@ -179,13 +179,16 @@ class WORLD:
             
 
     def perfectThievery(self):
-        # for slot in self.purchase.keys():
-        #     self.purchaseData.changeValue(slot, 'ProperSteal', -15)
-        self.purchaseData.changeValue('DesertS_SHOP_FC_11_1', 'ProperSteal', -15)
-        self.purchaseData.changeValue('PlainM_SHOP_FC_06_1', 'ProperSteal', -15)
-        self.purchaseData.changeValue('PlainM_SHOP_FC_11_1', 'ProperSteal', -15)
-        self.purchaseData.changeValue('PlainM_SHOP_FC_17_1', 'ProperSteal', -15)
-        self.purchaseData.changeValue('SnowM_SHOP_FC_02_1', 'ProperSteal', -15)
+        self.purchaseData.changeValue('DesertS_SHOP_FC_01_1', 'ProperSteal', -15) # Aristocrat's Mask
+        self.purchaseData.changeValue('DesertS_SHOP_FC_02_1', 'ProperSteal', -15) # Aristocrat's Mask
+        self.purchaseData.changeValue('DesertS_SHOP_FC_03_1', 'ProperSteal', -15) # Attendants's Mask
+        self.purchaseData.changeValue('DesertS_SHOP_FC_10_1', 'ProperSteal', -15) # Black Market Inventory
+        self.purchaseData.changeValue('DesertS_SHOP_FC_11_1', 'ProperSteal', -15) # Bottle of Wine
+        self.purchaseData.changeValue('PlainM_SHOP_FC_06_1', 'ProperSteal', -15)  # Oasis Water
+        self.purchaseData.changeValue('PlainM_SHOP_FC_11_1', 'ProperSteal', -15)  # Crystal Ore
+        self.purchaseData.changeValue('PlainM_SHOP_FC_17_1', 'ProperSteal', -15)  # Wyvern Scale
+        self.purchaseData.changeValue('SnowM_SHOP_FC_01_1', 'ProperSteal', -15)   # Brigand's Garb
+        self.purchaseData.changeValue('SnowM_SHOP_FC_02_1', 'ProperSteal', -15)   # Brigand Leader's Garb
 
 
     def noThiefChests(self):
