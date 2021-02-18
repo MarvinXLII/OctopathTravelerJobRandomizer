@@ -201,7 +201,7 @@
     ModRatio: false
     Icon: Status
     Name: Physical Boost
-    Description: Augment a single, random ally's physical attack and/or physical defense for 2 turns.
+    Description: Augment a single, random ally's physical attack and physical defense for 2 turns.
   }
   BT_ABI_4150:
   {
@@ -213,7 +213,7 @@
     ModRatio: false
     Icon: Status
     Name: Physical Boost
-    Description: Augment a single, random ally's physical attack and/or physical defense for 3 turns.
+    Description: Augment a single, random ally's physical attack and physical defense for 3 turns.
   }
   BT_ABI_4151:
   {
@@ -225,7 +225,7 @@
     ModRatio: false
     Icon: Status
     Name: Physical Boost
-    Description: Augment a single, random ally's physical attack and/or physical defense for 4 turns.
+    Description: Augment a single, random ally's physical attack and physical defense for 4 turns.
   }
   BT_ABI_4152:
   {
@@ -237,7 +237,7 @@
     ModRatio: false
     Icon: Status
     Name: Physical Boost
-    Description: Augment a single, random ally's physical attack and/or physical defense for 5 turns.
+    Description: Augment a single, random ally's physical attack and physical defense for 5 turns.
   }
   BT_ABI_4153:
   {
@@ -249,7 +249,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost
-    Description: Augment a single, random ally's elemental attack and/or elemental defense for 2 turns.
+    Description: Augment a single, random ally's elemental attack and elemental defense for 2 turns.
   }
   BT_ABI_4154:
   {
@@ -261,7 +261,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost
-    Description: Augment a single, random ally's elemental attack and/or elemental defense for 3 turns.
+    Description: Augment a single, random ally's elemental attack and elemental defense for 3 turns.
   }
   BT_ABI_4155:
   {
@@ -273,7 +273,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost
-    Description: Augment a single, random ally's elemental attack and/or elemental defense for 4 turns.
+    Description: Augment a single, random ally's elemental attack and elemental defense for 4 turns.
   }
   BT_ABI_4156:
   {
@@ -285,7 +285,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost
-    Description: Augment a single, random ally's elemental attack and/or elemental defense for 5 turns.
+    Description: Augment a single, random ally's elemental attack and elemental defense for 5 turns.
   }
   BT_ABI_4157:
   {
@@ -345,7 +345,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost (All)
-    Description: Augments elemental attack and/or elemental defense of all allies for 2 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4162:
   {
@@ -357,7 +357,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost (All)
-    Description: Augments elemental attack and/or elemental defense of all allies for 3 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
   }
   BT_ABI_4163:
   {
@@ -369,7 +369,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost (All)
-    Description: Augments elemental attack and/or elemental defense of all allies for 4 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
   }
   BT_ABI_4164:
   {
@@ -381,7 +381,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost (All)
-    Description: Augments elemental attack and/or elemental defense of all allies for 5 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
   }
   BT_ABI_4165:
   {
@@ -3033,7 +3033,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally’s Physical Defense for 2 turns and 1 Counter buff.
+    Description: Augments a single, random ally’s Physical Defense for 2 turns and grants 1 Counter buff.
   }
   BT_ABI_4394:
   {
@@ -3045,7 +3045,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally’s Physical Defense for 2 turns and 2 Counter buffs.
+    Description: Augments a single, random ally’s Physical Defense for 2 turns and grants 2 Counter buffs.
   }
   BT_ABI_4395:
   {
@@ -3057,7 +3057,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally’s Physical Defense for 2 turns and 3 Counter buffs.
+    Description: Augments a single, random ally’s Physical Defense for 2 turns and grants 3 Counter buffs.
   }
   BT_ABI_4396:
   {
@@ -3069,7 +3069,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally’s Physical Defense for 2 turns and 4 Counter buffs.
+    Description: Augments a single, random ally’s Physical Defense for 2 turns and grants 4 Counter buffs.
   }
   BT_ABI_4397:
   {
@@ -3753,7 +3753,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Horrible Breath (All)
-    Description: Occasionally puts all foes to sleep and/or poisons them for 6 turns, and/or decreases speed, elemental defense, and/or physical defense for 9 turns.
+    Description: Occasionally puts all foes to sleep, poisons them, and decreases speed, elemental defense, and/or physical defense for 9 turns.
   }
   BT_ABI_4458:
   {
@@ -3765,7 +3765,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Horrible Breath (All)
-    Description: Occasionally puts all foes to sleep and/or poisons them for 6 turns, and/or decreases speed, elemental defense, and/or physical defense for 9 turns.
+    Description: Occasionally puts all foes to sleep, poisons them, and decreases speed, elemental defense, and/or physical defense for 9 turns.
   }
   BT_ABI_4459:
   {
@@ -3777,7 +3777,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Horrible Breath (All)
-    Description: Occasionally puts all foes to sleep and/or poisons them for 6 turns, and/or decreases speed, elemental defense, and/or physical defense for 9 turns.
+    Description: Occasionally puts all foes to sleep, poisons them, and decreases speed, elemental defense, and/or physical defense for 9 turns.
   }
   BT_ABI_4460:
   {
@@ -3789,7 +3789,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Horrible Breath (All)
-    Description: Occasionally puts all foes to sleep and/or poisons them for 6 turns, and/or decreases speed, elemental defense, and/or physical defense for 9 turns.
+    Description: Occasionally puts all foes to sleep, poisons them, and decreases speed, elemental defense, and/or physical defense for 9 turns.
   }
   BT_ABI_4461:
   {
@@ -3909,7 +3909,7 @@
     ModRatio: true
     Icon: Magic
     Name: Inferno Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4475:
   {
@@ -3921,7 +3921,7 @@
     ModRatio: true
     Icon: Magic
     Name: Inferno Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4476:
   {
@@ -3933,7 +3933,7 @@
     ModRatio: true
     Icon: Magic
     Name: Inferno Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4477:
   {
@@ -3957,7 +3957,7 @@
     ModRatio: true
     Icon: Magic
     Name: Diamond Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4479:
   {
@@ -3969,7 +3969,7 @@
     ModRatio: true
     Icon: Magic
     Name: Diamond Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4480:
   {
@@ -3981,7 +3981,7 @@
     ModRatio: true
     Icon: Magic
     Name: Diamond Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4481:
   {
@@ -4005,7 +4005,7 @@
     ModRatio: true
     Icon: Magic
     Name: Vortex Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4483:
   {
@@ -4017,7 +4017,7 @@
     ModRatio: true
     Icon: Magic
     Name: Vortex Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4484:
   {
@@ -4029,7 +4029,7 @@
     ModRatio: true
     Icon: Magic
     Name: Vortex Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4485:
   {
@@ -4053,7 +4053,7 @@
     ModRatio: true
     Icon: Magic
     Name: Tempest Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4487:
   {
@@ -4065,7 +4065,7 @@
     ModRatio: true
     Icon: Magic
     Name: Tempest Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4488:
   {
@@ -4077,7 +4077,7 @@
     ModRatio: true
     Icon: Magic
     Name: Tempest Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4489:
   {
@@ -4101,7 +4101,7 @@
     ModRatio: true
     Icon: Magic
     Name: Solar Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4491:
   {
@@ -4113,7 +4113,7 @@
     ModRatio: true
     Icon: Magic
     Name: Solar Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4492:
   {
@@ -4125,7 +4125,7 @@
     ModRatio: true
     Icon: Magic
     Name: Solar Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4493:
   {
@@ -4149,7 +4149,7 @@
     ModRatio: true
     Icon: Magic
     Name: Eclipse Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4495:
   {
@@ -4161,7 +4161,7 @@
     ModRatio: true
     Icon: Magic
     Name: Eclipse Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4496:
   {
@@ -4173,7 +4173,7 @@
     ModRatio: true
     Icon: Magic
     Name: Eclipse Clock (All)
-    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
   }
   BT_ABI_4497:
   {
@@ -4241,7 +4241,7 @@
     Weapon: null
     Element: Wind
     SP: 12
-    Ratio: 910
+    Ratio: 190
     ModRatio: true
     Icon: Magic
     Name: Butterfly Effect (All)
@@ -4289,7 +4289,7 @@
     Weapon: null
     Element: Fire
     SP: 14
-    Ratio: 910
+    Ratio: 190
     ModRatio: true
     Icon: Magic
     Name: Crimson Flame (All)
