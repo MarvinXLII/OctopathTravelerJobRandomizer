@@ -23,10 +23,10 @@ Several options are available:
 
 Run the executable from the
 [Releases](https://github.com/MarvinXLII/OctopathTravelerJobRandomizer/releases)
-page.  When finished, copy the "*_P.pak" files from the new seed_###
+page.  When finished, copy the `*_P.pak` files from the new `seed_###`
 folder into the "Paks" folder in your game, typically located at
-"C:\Program Files (x86)\Steam\steamapps\common\OCTOPATH
-TRAVELER\Octopath_Traveler\Content\Paks".  The executable also allows
+`C:\Program Files (x86)\Steam\steamapps\common\OCTOPATH
+TRAVELER\Octopath_Traveler\Content\Paks`.  The executable also allows
 you to enter this folder manually, which will automatically copy the
 file to its destination.
 
