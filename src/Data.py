@@ -346,16 +346,16 @@ class DATA:
         self.rom.patchFile(self.uasset.data, f"{self.fileName}.uasset")
         self.rom.patchFile(self.uexp.data, f"{self.fileName}.uexp")
 
-        ## TEMPORARY STUFF JUST FOR CHECKING
-        dir = os.path.dirname(self.rom.getFullPath(f"{self.fileName}.uasset"))
-        baseUasset = os.path.basename(f"{self.fileName}.uasset")
-        baseUexp = os.path.basename(f"{self.fileName}.uexp")
-        if not os.path.isdir(dir):
-            os.makedirs(dir)
-        with open(os.path.join(dir, baseUasset), 'wb') as file:
-            file.write(self.uasset.data)
-        with open(os.path.join(dir, baseUexp), 'wb') as file:
-            file.write(self.uexp.data)
+        # ## TEMPORARY STUFF JUST FOR CHECKING
+        # dir = os.path.dirname(self.rom.getFullPath(f"{self.fileName}.uasset"))
+        # baseUasset = os.path.basename(f"{self.fileName}.uasset")
+        # baseUexp = os.path.basename(f"{self.fileName}.uexp")
+        # if not os.path.isdir(dir):
+        #     os.makedirs(dir)
+        # with open(os.path.join(dir, baseUasset), 'wb') as file:
+        #     file.write(self.uasset.data)
+        # with open(os.path.join(dir, baseUexp), 'wb') as file:
+        #     file.write(self.uexp.data)
 
 
 

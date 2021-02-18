@@ -36,13 +36,6 @@ class ROM:
         self.data = {}
         self.isPatched = {}
         
-    def dumpFile(self, fileName):
-        dirname = os.path.dirname(fileName)
-        if not os.path.isdir(dirname):
-            os.makedirs(dirname)
-        with open('wb') as file:
-            file.write(self.files[fileName])
-        
     def patchFile(self, data, fileName):
         key = self.getFullPath(fileName)
         if self.data[key] != data:
