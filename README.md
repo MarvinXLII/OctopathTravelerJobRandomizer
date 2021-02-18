@@ -7,28 +7,17 @@ This is the beginnings of a randomizer for Octopath Traveler (Steam version). Ch
 
 Several options are available:
 
-- Skills: shuffles all skills, weapons, and rescales SP costs and power.
+- Skills: shuffles all skills, weapons, and rescales SP costs and power. Abilities learned from H'aanit's Capture skill can be included in the skill shuffle.
 
 - Costs: adjusts the JP costs of skills.
 
 - Support Skills: shuffles support skills among jobs.
 
-- Stat bonuses: shuffles each stat among the 8 PCs.
+- Stats: shuffles each stat among the 8 PCs as well as stat bonuses from secondary jobs.
 
-- Item shuffler: shuffles hidden items and treasure chests.
+- Item shuffler: shuffles hidden items, treasure chests, and those sold by/stolen from NPCs.
 
-- QOL: Options to start with the Spurning Ribbon, get Evasive Manuevers early, and spoil passive skills in game.
-
-**FUTURE WORK**
-
-Future releases will hopefully include:
-
-- Shuffling/randomizing equippable weapons (currently leads to
-  in-battle side-effects at the moment).
-
-- Shuffling base Jobs of the PCs.
-
-- Other random stuff!
+- QOL: Miscellaneous options, including starting with the Spurning Ribbon and quickly learning Evasive Maneuvers.
 
 **Usage**
 
