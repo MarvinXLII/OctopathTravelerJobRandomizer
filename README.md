@@ -19,7 +19,7 @@ Several options are available:
 
 - QOL: Miscellaneous options, including starting with the Spurning Ribbon and quickly learning Evasive Maneuvers.
 
-**Usage**
+**USAGE**
 
 Run the executable from the
 [Releases](https://github.com/MarvinXLII/OctopathTravelerJobRandomizer/releases)
