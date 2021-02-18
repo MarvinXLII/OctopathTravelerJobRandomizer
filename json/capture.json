@@ -1,0 +1,5330 @@
+{
+  BT_ABI_1680:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Hya!
+    Description: Strike with a spear.
+  }
+  BT_ABI_1681:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 6
+    Ratio: 105
+    ModRatio: true
+    Icon: Physical
+    Name: Hya! Hya!
+    Description: Strike twice with a spear.
+  }
+  BT_ABI_1682:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 6
+    Ratio: 115
+    ModRatio: true
+    Icon: Physical
+    Name: Hya! Hya! Hya!
+    Description: Strike thrice with a spear.
+  }
+  BT_ABI_1683:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 6
+    Ratio: 130
+    ModRatio: true
+    Icon: Physical
+    Name: Hya! Hya! Hya! Hya!
+    Description: Strike four times with a spear!
+  }
+  BT_ABI_4137:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 11
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Restore Health
+    Description: Restore HP to a single ally.
+  }
+  BT_ABI_4138:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 11
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Restore Health
+    Description: Restore HP to a single ally.
+  }
+  BT_ABI_4139:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 11
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Restore Health
+    Description: Restore HP to a single ally.
+  }
+  BT_ABI_4140:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 11
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Restore Health
+    Description: Restore HP to a single ally.
+  }
+  BT_ABI_4141:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 22
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Restore Great Health
+    Description: Restore a large amount of HP to a single ally.
+  }
+  BT_ABI_4142:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 22
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Restore Great Health
+    Description: Restore a large amount of HP to a single ally.
+  }
+  BT_ABI_4143:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 22
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Restore Great Health
+    Description: Restore a large amount of HP to a single ally.
+  }
+  BT_ABI_4144:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 22
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Restore Great Health
+    Description: Restore a large amount of HP to a single ally.
+  }
+  BT_ABI_4145:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 44
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Great Healing Mist
+    Description: Restore a large amount of HP to all allies.
+  }
+  BT_ABI_4146:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 44
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Great Healing Mist
+    Description: Restore a large amount of HP to all allies.
+  }
+  BT_ABI_4147:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 44
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Great Healing Mist
+    Description: Restore a large amount of HP to all allies.
+  }
+  BT_ABI_4148:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 44
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Great Healing Mist
+    Description: Restore a large amount of HP to all allies.
+  }
+  BT_ABI_4149:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Physical Boost
+    Description: Augment a single, random ally's physical attack and/or physical defense for 2 turns.
+  }
+  BT_ABI_4150:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Physical Boost
+    Description: Augment a single, random ally's physical attack and/or physical defense for 3 turns.
+  }
+  BT_ABI_4151:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Physical Boost
+    Description: Augment a single, random ally's physical attack and/or physical defense for 4 turns.
+  }
+  BT_ABI_4152:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Physical Boost
+    Description: Augment a single, random ally's physical attack and/or physical defense for 5 turns.
+  }
+  BT_ABI_4153:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Mental Boost
+    Description: Augment a single, random ally's elemental attack and/or elemental defense for 2 turns.
+  }
+  BT_ABI_4154:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Mental Boost
+    Description: Augment a single, random ally's elemental attack and/or elemental defense for 3 turns.
+  }
+  BT_ABI_4155:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Mental Boost
+    Description: Augment a single, random ally's elemental attack and/or elemental defense for 4 turns.
+  }
+  BT_ABI_4156:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Mental Boost
+    Description: Augment a single, random ally's elemental attack and/or elemental defense for 5 turns.
+  }
+  BT_ABI_4157:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Steel Defenses
+    Description: Augment a single ally's physical defense and elemental defense for 2 turns.
+  }
+  BT_ABI_4158:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Steel Defenses
+    Description: Augment a single ally's physical defense and elemental defense for 3 turns.
+  }
+  BT_ABI_4159:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Steel Defenses
+    Description: Augment a single ally's physical defense and elemental defense for 4 turns.
+  }
+  BT_ABI_4160:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Steel Defenses
+    Description: Augment a single ally's physical defense and elemental defense for 5 turns.
+  }
+  BT_ABI_4161:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Mental Boost (All)
+    Description: Augments elemental attack and/or elemental defense of all allies for 2 turns.
+  }
+  BT_ABI_4162:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Mental Boost (All)
+    Description: Augments elemental attack and/or elemental defense of all allies for 3 turns.
+  }
+  BT_ABI_4163:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Mental Boost (All)
+    Description: Augments elemental attack and/or elemental defense of all allies for 4 turns.
+  }
+  BT_ABI_4164:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Mental Boost (All)
+    Description: Augments elemental attack and/or elemental defense of all allies for 5 turns.
+  }
+  BT_ABI_4165:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 5
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Black Bile
+    Description: Occasionally decreases the target’s physical attack and/or physical defense for 4 turns.
+  }
+  BT_ABI_4166:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 5
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Black Bile
+    Description: Occasionally decreases the target’s physical attack and/or physical defense for 4 turns.
+  }
+  BT_ABI_4167:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 5
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Black Bile
+    Description: Occasionally decreases the target’s physical attack and/or physical defense for 4 turns.
+  }
+  BT_ABI_4168:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 5
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Black Bile
+    Description: Occasionally decreases the target’s physical attack and/or physical defense for 4 turns.
+  }
+  BT_ABI_4169:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 5
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Red Bile
+    Description: Occasionally decreases the target’s elemental attack and/or elemental defense for 4 turns.
+  }
+  BT_ABI_4170:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 5
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Red Bile
+    Description: Occasionally decreases the target’s elemental attack and/or elemental defense for 4 turns.
+  }
+  BT_ABI_4171:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 5
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Red Bile
+    Description: Occasionally decreases the target’s elemental attack and/or elemental defense for 4 turns.
+  }
+  BT_ABI_4172:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 5
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Red Bile
+    Description: Occasionally decreases the target’s elemental attack and/or elemental defense for 4 turns.
+  }
+  BT_ABI_4173:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Viscous Bile
+    Description: Occasionally decreases the target’s elemental attack, elemental defense, and/or speed for 6 turns.
+  }
+  BT_ABI_4174:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Viscous Bile
+    Description: Occasionally decreases the target’s elemental attack, elemental defense, and/or speed for 6 turns.
+  }
+  BT_ABI_4175:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Viscous Bile
+    Description: Occasionally decreases the target’s elemental attack, elemental defense, and/or speed for 6 turns.
+  }
+  BT_ABI_4176:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Viscous Bile
+    Description: Occasionally decreases the target’s elemental attack, elemental defense, and/or speed for 6 turns.
+  }
+  BT_ABI_4177:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Toxic Mist (All)
+    Description: Occasionally poisons all foes for 2 turns.
+  }
+  BT_ABI_4178:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Toxic Mist (All)
+    Description: Occasionally poisons all foes for 2 turns.
+  }
+  BT_ABI_4179:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Toxic Mist (All)
+    Description: Occasionally poisons all foes for 2 turns.
+  }
+  BT_ABI_4180:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Toxic Mist (All)
+    Description: Occasionally poisons all foes for 2 turns.
+  }
+  BT_ABI_4181:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Slumber Wave (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4182:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Slumber Wave (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4183:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Slumber Wave (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4184:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Slumber Wave (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4185:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Blinding Mist (All)
+    Description: Occasionally blinds all foes for 4 turns.
+  }
+  BT_ABI_4186:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Blinding Mist (All)
+    Description: Occasionally blinds all foes for 4 turns.
+  }
+  BT_ABI_4187:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Blinding Mist (All)
+    Description: Occasionally blinds all foes for 4 turns.
+  }
+  BT_ABI_4188:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Blinding Mist (All)
+    Description: Occasionally blinds all foes for 4 turns.
+  }
+  BT_ABI_4189:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Soporific Mist (All)
+    Description: Occasionally puts all foes to sleep for 6 turns.
+  }
+  BT_ABI_4190:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Soporific Mist (All)
+    Description: Occasionally puts all foes to sleep for 6 turns.
+  }
+  BT_ABI_4191:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Soporific Mist (All)
+    Description: Occasionally puts all foes to sleep for 6 turns.
+  }
+  BT_ABI_4192:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Soporific Mist (All)
+    Description: Occasionally puts all foes to sleep for 6 turns.
+  }
+  BT_ABI_4193:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Rainbow Flash (All)
+    Description: Occasionally blinds all foes for 6 turns.
+  }
+  BT_ABI_4194:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Rainbow Flash (All)
+    Description: Occasionally blinds all foes for 6 turns.
+  }
+  BT_ABI_4195:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Rainbow Flash (All)
+    Description: Occasionally blinds all foes for 6 turns.
+  }
+  BT_ABI_4196:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Rainbow Flash (All)
+    Description: Occasionally blinds all foes for 6 turns.
+  }
+  BT_ABI_4197:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Crimson Powder (All)
+    Description: Occasionally puts all foes to sleep and/or poison them for 6 turns.
+  }
+  BT_ABI_4198:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Crimson Powder (All)
+    Description: Occasionally puts all foes to sleep and/or poison them for 6 turns.
+  }
+  BT_ABI_4199:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Crimson Powder (All)
+    Description: Occasionally puts all foes to sleep and/or poison them for 6 turns.
+  }
+  BT_ABI_4200:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Crimson Powder (All)
+    Description: Occasionally puts all foes to sleep and/or poison them for 6 turns.
+  }
+  BT_ABI_4201:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Claw
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4202:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Claw
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4203:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Claw
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4204:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Claw
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4205:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Claw
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4206:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Claw
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4207:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Claw
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4208:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Claw
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4209:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Claw
+    Description: Occasionally confuses a foe for 2 turns.
+  }
+  BT_ABI_4210:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Claw
+    Description: Occasionally confuses a foe for 2 turns.
+  }
+  BT_ABI_4211:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Claw
+    Description: Occasionally confuses a foe for 2 turns.
+  }
+  BT_ABI_4212:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Claw
+    Description: Occasionally confuses a foe for 2 turns.
+  }
+  BT_ABI_4213:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Venomous Claw (All)
+    Description: Occasionally poisons all foes for 2 turns.
+  }
+  BT_ABI_4214:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 190
+    ModRatio: true
+    Icon: Physical
+    Name: Venomous Claw (All)
+    Description: Occasionally poisons all foes for 2 turns.
+  }
+  BT_ABI_4215:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 280
+    ModRatio: true
+    Icon: Physical
+    Name: Venomous Claw (All)
+    Description: Occasionally poisons all foes for 2 turns.
+  }
+  BT_ABI_4216:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 370
+    ModRatio: true
+    Icon: Physical
+    Name: Venomous Claw (All)
+    Description: Occasionally poisons all foes for 2 turns.
+  }
+  BT_ABI_4217:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Befuddling Spark (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4218:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 12
+    Ratio: 190
+    ModRatio: true
+    Icon: Magic
+    Name: Befuddling Spark (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4219:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 12
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Befuddling Spark (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4220:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 12
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Befuddling Spark (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4221:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Venomous Fang
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4222:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Venomous Fang
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4223:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Venomous Fang
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4224:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Venomous Fang
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4225:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Fang
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4226:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Fang
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4227:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Fang
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4228:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Fang
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4229:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Fang (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4230:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Fang (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4231:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Fang (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4232:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Fang (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4233:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Fang (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4234:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Fang (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4235:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Fang (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4236:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Fang (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4237:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Poison Strike
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4238:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Poison Strike
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4239:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Poison Strike
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4240:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Poison Strike
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4241:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Strike (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4242:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Strike (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4243:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Strike (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4244:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Strike (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4245:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Poison Shot
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4246:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Poison Shot
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4247:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Poison Shot
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4248:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Poison Shot
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4249:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Shot
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4250:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Shot
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4251:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Shot
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4252:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Shot
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4253:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Shot (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4254:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Shot (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4255:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Shot (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4256:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Soporific Shot (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4257:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Shot (All)
+    Description: Occasionally blinds all foes for 2 turns.
+  }
+  BT_ABI_4258:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Shot (All)
+    Description: Occasionally blinds all foes for 2 turns.
+  }
+  BT_ABI_4259:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Shot (All)
+    Description: Occasionally blinds all foes for 2 turns.
+  }
+  BT_ABI_4260:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Shot (All)
+    Description: Occasionally blinds all foes for 2 turns.
+  }
+  BT_ABI_4261:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Shot (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4262:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Shot (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4263:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Shot (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4264:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Befuddling Shot (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4265:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 8
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Toxic Ice
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4266:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 8
+    Ratio: 190
+    ModRatio: true
+    Icon: Magic
+    Name: Toxic Ice
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4267:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 8
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Toxic Ice
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4268:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 8
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Toxic Ice
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4269:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 8
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Toxic Wind
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4270:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 8
+    Ratio: 190
+    ModRatio: true
+    Icon: Magic
+    Name: Toxic Wind
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4271:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 8
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Toxic Wind
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4272:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 8
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Toxic Wind
+    Description: Occasionally poisons a foe for 2 turns.
+  }
+  BT_ABI_4273:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 8
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Soporific Wind
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4274:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 8
+    Ratio: 190
+    ModRatio: true
+    Icon: Magic
+    Name: Soporific Wind
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4275:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 8
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Soporific Wind
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4276:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 8
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Soporific Wind
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4277:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Armor Break (All)
+    Description: Occasionally decreases physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4278:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Armor Break (All)
+    Description: Occasionally decreases physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4279:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Armor Break (All)
+    Description: Occasionally decreases physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4280:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Armor Break (All)
+    Description: Occasionally decreases physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4281:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Enfettering Slash (All)
+    Description: Occasionally reduces speed of all foes for 2 turns.
+  }
+  BT_ABI_4282:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Enfettering Slash (All)
+    Description: Occasionally reduces speed of all foes for 2 turns.
+  }
+  BT_ABI_4283:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Enfettering Slash (All)
+    Description: Occasionally reduces speed of all foes for 2 turns.
+  }
+  BT_ABI_4284:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Enfettering Slash (All)
+    Description: Occasionally reduces speed of all foes for 2 turns.
+  }
+  BT_ABI_4285:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Sharp Scratch (All)
+    Description: Occasionally decreases critical hit rates of all foes for 2 turns.
+  }
+  BT_ABI_4286:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Sharp Scratch (All)
+    Description: Occasionally decreases critical hit rates of all foes for 2 turns.
+  }
+  BT_ABI_4287:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Sharp Scratch (All)
+    Description: Occasionally decreases critical hit rates of all foes for 2 turns.
+  }
+  BT_ABI_4288:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Sharp Scratch (All)
+    Description: Occasionally decreases critical hit rates of all foes for 2 turns.
+  }
+  BT_ABI_4289:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Offensive Claw
+    Description: Occasionally decreases physical attack of a foe for 2 turns.
+  }
+  BT_ABI_4290:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Offensive Claw
+    Description: Occasionally decreases physical attack of a foe for 2 turns.
+  }
+  BT_ABI_4291:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Offensive Claw
+    Description: Occasionally decreases physical attack of a foe for 2 turns.
+  }
+  BT_ABI_4292:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Offensive Claw
+    Description: Occasionally decreases physical attack of a foe for 2 turns.
+  }
+  BT_ABI_4293:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Invincible Cleave
+    Description: Grants a single, random ally invincibility for 2 turns.
+  }
+  BT_ABI_4294:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Invincible Cleave
+    Description: Grants a single, random ally invincibility for 2 turns.
+  }
+  BT_ABI_4295:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Invincible Cleave
+    Description: Grants a single, random ally invincibility for 2 turns.
+  }
+  BT_ABI_4296:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Invincible Cleave
+    Description: Grants a single, random ally invincibility for 2 turns.
+  }
+  BT_ABI_4297:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Striking Sword Dance
+    Description: Augment a single, random ally’s physical attack for 2 turns.
+  }
+  BT_ABI_4298:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 6
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Striking Sword Dance
+    Description: Augment a single, random ally’s physical attack for 2 turns.
+  }
+  BT_ABI_4299:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 6
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Striking Sword Dance
+    Description: Augment a single, random ally’s physical attack for 2 turns.
+  }
+  BT_ABI_4300:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 6
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Striking Sword Dance
+    Description: Augment a single, random ally’s physical attack for 2 turns.
+  }
+  BT_ABI_4301:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Swordwall Dance
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4302:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 6
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Swordwall Dance
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4303:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 6
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Swordwall Dance
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4304:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 6
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Swordwall Dance
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4305:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Bulwark Axe
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4306:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Bulwark Axe
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4307:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Bulwark Axe
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4308:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Bulwark Axe
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4309:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Guardian Axe
+    Description: Augment a single, random ally's elemental defense for 2 turns.
+  }
+  BT_ABI_4310:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Guardian Axe
+    Description: Augment a single, random ally's elemental defense for 2 turns.
+  }
+  BT_ABI_4311:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Guardian Axe
+    Description: Augment a single, random ally's elemental defense for 2 turns.
+  }
+  BT_ABI_4312:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Guardian Axe
+    Description: Augment a single, random ally's elemental defense for 2 turns.
+  }
+  BT_ABI_4313:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Retaliative Axe
+    Description: Grants a single, random ally the ability to counter physical damage 2 times.
+  }
+  BT_ABI_4314:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Retaliative Axe
+    Description: Grants a single, random ally the ability to counter physical damage 3 times.
+  }
+  BT_ABI_4315:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Retaliative Axe
+    Description: Grants a single, random ally the ability to counter physical damage 4 times.
+  }
+  BT_ABI_4316:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 6
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Retaliative Axe
+    Description: Grants a single, random ally the ability to counter physical damage 5 times.
+  }
+  BT_ABI_4317:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 11
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Armor Crush
+    Description: Occasionally decreases physical defense of a foe for 2 turns.
+  }
+  BT_ABI_4318:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 11
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Armor Crush
+    Description: Occasionally decreases physical defense of a foe for 2 turns.
+  }
+  BT_ABI_4319:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 11
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Armor Crush
+    Description: Occasionally decreases physical defense of a foe for 2 turns.
+  }
+  BT_ABI_4320:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 11
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Armor Crush
+    Description: Occasionally decreases physical defense of a foe for 2 turns.
+  }
+  BT_ABI_4321:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 11
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Blessed Spear
+    Description: Augment a single, random ally’s elemental defense for 2 turns.
+  }
+  BT_ABI_4322:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 11
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Blessed Spear
+    Description: Augment a single, random ally’s elemental defense for 2 turns.
+  }
+  BT_ABI_4323:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 11
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Blessed Spear
+    Description: Augment a single, random ally’s elemental defense for 2 turns.
+  }
+  BT_ABI_4324:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 11
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Blessed Spear
+    Description: Augment a single, random ally’s elemental defense for 2 turns.
+  }
+  BT_ABI_4325:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 11
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Guard Break
+    Description: Occasionally decreases elemental defense of a foe for 2 turns.
+  }
+  BT_ABI_4326:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 11
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Guard Break
+    Description: Occasionally decreases elemental defense of a foe for 2 turns.
+  }
+  BT_ABI_4327:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 11
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Guard Break
+    Description: Occasionally decreases elemental defense of a foe for 2 turns.
+  }
+  BT_ABI_4328:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 11
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Guard Break
+    Description: Occasionally decreases elemental defense of a foe for 2 turns.
+  }
+  BT_ABI_4329:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 9
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Endanger Life (All)
+    Description: Occasionally reduces speed of all foes for 2 turns.
+  }
+  BT_ABI_4330:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 9
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Endanger Life (All)
+    Description: Occasionally reduces speed of all foes for 2 turns.
+  }
+  BT_ABI_4331:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 9
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Endanger Life (All)
+    Description: Occasionally reduces speed of all foes for 2 turns.
+  }
+  BT_ABI_4332:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 9
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Endanger Life (All)
+    Description: Occasionally reduces speed of all foes for 2 turns.
+  }
+  BT_ABI_4333:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Elemental Arrow Dance
+    Description: Augment a single, random ally's elemental attack for 2 turns.
+  }
+  BT_ABI_4334:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 6
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Elemental Arrow Dance
+    Description: Augment a single, random ally's elemental attack for 2 turns.
+  }
+  BT_ABI_4335:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 6
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Elemental Arrow Dance
+    Description: Augment a single, random ally's elemental attack for 2 turns.
+  }
+  BT_ABI_4336:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 6
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Elemental Arrow Dance
+    Description: Augment a single, random ally's elemental attack for 2 turns.
+  }
+  BT_ABI_4337:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Wreak Havoc (All)
+    Description: Augment physical attack of all allies for 2 turns.
+  }
+  BT_ABI_4338:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 12
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Wreak Havoc (All)
+    Description: Augment physical attack of all allies for 2 turns.
+  }
+  BT_ABI_4339:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 12
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Wreak Havoc (All)
+    Description: Augment physical attack of all allies for 2 turns.
+  }
+  BT_ABI_4340:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 12
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Wreak Havoc (All)
+    Description: Augment physical attack of all allies for 2 turns.
+  }
+  BT_ABI_4341:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Rapid Staff Dance
+    Description: Augment a single, random ally’s speed for 2 turns.
+  }
+  BT_ABI_4342:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Rapid Staff Dance
+    Description: Augment a single, random ally’s speed for 2 turns.
+  }
+  BT_ABI_4343:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Rapid Staff Dance
+    Description: Augment a single, random ally’s speed for 2 turns.
+  }
+  BT_ABI_4344:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Rapid Staff Dance
+    Description: Augment a single, random ally’s speed for 2 turns.
+  }
+  BT_ABI_4345:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Icy Breath (All)
+    Description: Occasionally decreases elemental defense of all foes for 2 turns.
+  }
+  BT_ABI_4346:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Magic
+    Name: Icy Breath (All)
+    Description: Occasionally decreases elemental defense of all foes for 2 turns.
+  }
+  BT_ABI_4347:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Magic
+    Name: Icy Breath (All)
+    Description: Occasionally decreases elemental defense of all foes for 2 turns.
+  }
+  BT_ABI_4348:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Magic
+    Name: Icy Breath (All)
+    Description: Occasionally decreases elemental defense of all foes for 2 turns.
+  }
+  BT_ABI_4349:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Blizzard Breath (All)
+    Description: Occasionally decreases elemental attack of all foes for 2 turns.
+  }
+  BT_ABI_4350:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Magic
+    Name: Blizzard Breath (All)
+    Description: Occasionally decreases elemental attack of all foes for 2 turns.
+  }
+  BT_ABI_4351:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Magic
+    Name: Blizzard Breath (All)
+    Description: Occasionally decreases elemental attack of all foes for 2 turns.
+  }
+  BT_ABI_4352:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Magic
+    Name: Blizzard Breath (All)
+    Description: Occasionally decreases elemental attack of all foes for 2 turns.
+  }
+  BT_ABI_4353:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Crushing Wing (All)
+    Description: Occasionally decreases physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4354:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Magic
+    Name: Crushing Wing (All)
+    Description: Occasionally decreases physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4355:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Magic
+    Name: Crushing Wing (All)
+    Description: Occasionally decreases physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4356:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Magic
+    Name: Crushing Wing (All)
+    Description: Occasionally decreases physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4357:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Warding Thunder
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4358:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 6
+    Ratio: 180
+    ModRatio: true
+    Icon: Magic
+    Name: Warding Thunder
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4359:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 6
+    Ratio: 260
+    ModRatio: true
+    Icon: Magic
+    Name: Warding Thunder
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4360:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 6
+    Ratio: 340
+    ModRatio: true
+    Icon: Magic
+    Name: Warding Thunder
+    Description: Augment a single, random ally’s physical defense for 2 turns.
+  }
+  BT_ABI_4365:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Charge
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4366:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Charge
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4367:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Charge
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4368:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Blinding Charge
+    Description: Occasionally blinds a foe for 2 turns.
+  }
+  BT_ABI_4369:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Sand Strike (All)
+    Description: Occasionally blinds all targets for 2 turns.
+  }
+  BT_ABI_4370:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Sand Strike (All)
+    Description: Occasionally blinds all targets for 2 turns.
+  }
+  BT_ABI_4371:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Sand Strike (All)
+    Description: Occasionally blinds all targets for 2 turns.
+  }
+  BT_ABI_4372:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Sand Strike (All)
+    Description: Occasionally blinds all targets for 2 turns.
+  }
+  BT_ABI_4373:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Grooming (All)
+    Description: Restores HP to all allies.
+  }
+  BT_ABI_4374:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Grooming (All)
+    Description: Restores HP to all allies.
+  }
+  BT_ABI_4375:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Grooming (All)
+    Description: Restores HP to all allies.
+  }
+  BT_ABI_4376:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Grooming (All)
+    Description: Restores HP to all allies.
+  }
+  BT_ABI_4381:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 9
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Mighty Charge (All)
+    Description: Attacks all foes with a spear.
+  }
+  BT_ABI_4382:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 9
+    Ratio: 190
+    ModRatio: true
+    Icon: Physical
+    Name: Mighty Charge (All)
+    Description: Attacks all foes with a spear.
+  }
+  BT_ABI_4383:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 9
+    Ratio: 280
+    ModRatio: true
+    Icon: Physical
+    Name: Mighty Charge (All)
+    Description: Attacks all foes with a spear.
+  }
+  BT_ABI_4384:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 9
+    Ratio: 370
+    ModRatio: true
+    Icon: Physical
+    Name: Mighty Charge (All)
+    Description: Attacks all foes with a spear.
+  }
+  BT_ABI_4385:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 14
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Enraged Bash (All)
+    Description: Attacks all foes twice with a staff.
+  }
+  BT_ABI_4386:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 14
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Enraged Bash (All)
+    Description: Attacks all foes twice with a staff.
+  }
+  BT_ABI_4387:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 14
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Enraged Bash (All)
+    Description: Attacks all foes twice with a staff.
+  }
+  BT_ABI_4388:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 14
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Enraged Bash (All)
+    Description: Attacks all foes twice with a staff.
+  }
+  BT_ABI_4389:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 16
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Ice Floe
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4390:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 16
+    Ratio: 200
+    ModRatio: true
+    Icon: Magic
+    Name: Ice Floe
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4391:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 16
+    Ratio: 300
+    ModRatio: true
+    Icon: Magic
+    Name: Ice Floe
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4392:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 16
+    Ratio: 400
+    ModRatio: true
+    Icon: Magic
+    Name: Ice Floe
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4393:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Retaliative Posture
+    Description: Augments a single, random ally’s Physical Defense for 2 turns and 1 Counter buff.
+  }
+  BT_ABI_4394:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Retaliative Posture
+    Description: Augments a single, random ally’s Physical Defense for 2 turns and 2 Counter buffs.
+  }
+  BT_ABI_4395:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Retaliative Posture
+    Description: Augments a single, random ally’s Physical Defense for 2 turns and 3 Counter buffs.
+  }
+  BT_ABI_4396:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Retaliative Posture
+    Description: Augments a single, random ally’s Physical Defense for 2 turns and 4 Counter buffs.
+  }
+  BT_ABI_4397:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Great Sweep (All)
+    Description: Occasionally decreases critical hit rates of all foes for 2 turns.
+  }
+  BT_ABI_4398:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Great Sweep (All)
+    Description: Occasionally decreases critical hit rates of all foes for 2 turns.
+  }
+  BT_ABI_4399:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Great Sweep (All)
+    Description: Occasionally decreases critical hit rates of all foes for 2 turns.
+  }
+  BT_ABI_4400:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Great Sweep (All)
+    Description: Occasionally decreases critical hit rates of all foes for 2 turns.
+  }
+  BT_ABI_4401:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Hurricane Lunge (All)
+    Description: Augment all allies' speed for 2 turns.
+  }
+  BT_ABI_4402:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 10
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Hurricane Lunge (All)
+    Description: Augment all allies' speed for 3 turns.
+  }
+  BT_ABI_4403:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 10
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Hurricane Lunge (All)
+    Description: Augment all allies' speed for 4 turns.
+  }
+  BT_ABI_4404:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 10
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Hurricane Lunge (All)
+    Description: Augment all allies' speed for 5 turns.
+  }
+  BT_ABI_4409:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 29
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Millennial Frond
+    Description: Restores a large amount of HP to a single ally and augments that ally’s physical attack and elemental attack for 2 turns.
+  }
+  BT_ABI_4410:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 29
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Millennial Frond
+    Description: Restores a large amount of HP to a single ally and augments that ally’s physical attack and elemental attack for 2 turns.
+  }
+  BT_ABI_4411:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 29
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Millennial Frond
+    Description: Restores a large amount of HP to a single ally and augments that ally’s physical attack and elemental attack for 2 turns.
+  }
+  BT_ABI_4412:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 29
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Millennial Frond
+    Description: Restores a large amount of HP to a single ally and augments that ally’s physical attack and elemental attack for 2 turns.
+  }
+  BT_ABI_4413:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Convincing Blow
+    Description: Augment a single, random ally’s critical rate for 2 turns
+  }
+  BT_ABI_4414:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Convincing Blow
+    Description: Augment a single, random ally’s critical rate for 2 turns
+  }
+  BT_ABI_4415:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Icon: Physical
+    Name: Convincing Blow
+    Description: Augment a single, random ally’s critical rate for 2 turns
+  }
+  BT_ABI_4416:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Icon: Physical
+    Name: Convincing Blow
+    Description: Augment a single, random ally’s critical rate for 2 turns
+  }
+  BT_ABI_4417:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 17
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Continual Light (HP)
+    Description: Restore a large amount of HP to an ally and grants that ally HP regeneration for 2 turns.
+  }
+  BT_ABI_4418:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 17
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Continual Light (HP)
+    Description: Restore a large amount of HP to an ally and grants that ally HP regeneration for 2 turns.
+  }
+  BT_ABI_4419:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 17
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Continual Light (HP)
+    Description: Restore a large amount of HP to an ally and grants that ally HP regeneration for 2 turns.
+  }
+  BT_ABI_4420:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 17
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Continual Light (HP)
+    Description: Restore a large amount of HP to an ally and grants that ally HP regeneration for 2 turns.
+  }
+  BT_ABI_4421:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Body Press
+    Description: Occasionally confuses a foe for 2 turns.
+  }
+  BT_ABI_4422:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Body Press
+    Description: Occasionally confuses a foe for 2 turns.
+  }
+  BT_ABI_4423:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Body Press
+    Description: Occasionally confuses a foe for 2 turns.
+  }
+  BT_ABI_4424:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Body Press
+    Description: Occasionally confuses a foe for 2 turns.
+  }
+  BT_ABI_4425:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Soporific Claw
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4426:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Soporific Claw
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4427:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Soporific Claw
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4428:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Soporific Claw
+    Description: Occasionally puts a foe to sleep for 2 turns.
+  }
+  BT_ABI_4429:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 14
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Shock Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4430:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 14
+    Ratio: 200
+    ModRatio: true
+    Icon: Magic
+    Name: Shock Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4431:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 14
+    Ratio: 300
+    ModRatio: true
+    Icon: Magic
+    Name: Shock Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4432:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 14
+    Ratio: 400
+    ModRatio: true
+    Icon: Magic
+    Name: Shock Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4433:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Dark
+    SP: 14
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Shadow Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4434:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Dark
+    SP: 14
+    Ratio: 200
+    ModRatio: true
+    Icon: Magic
+    Name: Shadow Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4435:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Dark
+    SP: 14
+    Ratio: 300
+    ModRatio: true
+    Icon: Magic
+    Name: Shadow Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4436:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Dark
+    SP: 14
+    Ratio: 400
+    ModRatio: true
+    Icon: Magic
+    Name: Shadow Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4437:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Light
+    SP: 14
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Light Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4438:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Light
+    SP: 14
+    Ratio: 200
+    ModRatio: true
+    Icon: Magic
+    Name: Light Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4439:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Light
+    SP: 14
+    Ratio: 300
+    ModRatio: true
+    Icon: Magic
+    Name: Light Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4440:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Light
+    SP: 14
+    Ratio: 400
+    ModRatio: true
+    Icon: Magic
+    Name: Light Stream
+    Description: Attacks a single foe twice.
+  }
+  BT_ABI_4441:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Ice Floe (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4442:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 12
+    Ratio: 190
+    ModRatio: true
+    Icon: Magic
+    Name: Ice Floe (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4443:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 12
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Ice Floe (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4444:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 12
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Ice Floe (All)
+    Description: Occasionally confuses all foes for 2 turns.
+  }
+  BT_ABI_4445:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double-blind Attack (All)
+    Description: Occasionally blinds all foes for 2 turns.
+  }
+  BT_ABI_4446:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 12
+    Ratio: 190
+    ModRatio: true
+    Icon: Physical
+    Name: Double-blind Attack (All)
+    Description: Occasionally blinds all foes for 2 turns.
+  }
+  BT_ABI_4447:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 12
+    Ratio: 280
+    ModRatio: true
+    Icon: Physical
+    Name: Double-blind Attack (All)
+    Description: Occasionally blinds all foes for 2 turns.
+  }
+  BT_ABI_4448:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 12
+    Ratio: 370
+    ModRatio: true
+    Icon: Physical
+    Name: Double-blind Attack (All)
+    Description: Occasionally blinds all foes for 2 turns.
+  }
+  BT_ABI_4449:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Fell Swoop (All)
+    Description: Augments physical attack and/or elemental attack of all allies for 2 turns.
+  }
+  BT_ABI_4450:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 12
+    Ratio: 190
+    ModRatio: true
+    Icon: Physical
+    Name: Fell Swoop (All)
+    Description: Augments physical attack and/or elemental attack of all allies for 2 turns.
+  }
+  BT_ABI_4451:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 12
+    Ratio: 280
+    ModRatio: true
+    Icon: Physical
+    Name: Fell Swoop (All)
+    Description: Augments physical attack and/or elemental attack of all allies for 2 turns.
+  }
+  BT_ABI_4452:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 12
+    Ratio: 370
+    ModRatio: true
+    Icon: Physical
+    Name: Fell Swoop (All)
+    Description: Augments physical attack and/or elemental attack of all allies for 2 turns.
+  }
+  BT_ABI_4453:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Sandstorm Slash (All)
+    Description: Occasionally decreases physical defense and/or elemental defense of all foes for 2 turns.
+  }
+  BT_ABI_4454:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 190
+    ModRatio: true
+    Icon: Physical
+    Name: Sandstorm Slash (All)
+    Description: Occasionally decreases physical defense and/or elemental defense of all foes for 2 turns.
+  }
+  BT_ABI_4455:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 280
+    ModRatio: true
+    Icon: Physical
+    Name: Sandstorm Slash (All)
+    Description: Occasionally decreases physical defense and/or elemental defense of all foes for 2 turns.
+  }
+  BT_ABI_4456:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 12
+    Ratio: 370
+    ModRatio: true
+    Icon: Physical
+    Name: Sandstorm Slash (All)
+    Description: Occasionally decreases physical defense and/or elemental defense of all foes for 2 turns.
+  }
+  BT_ABI_4457:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Horrible Breath (All)
+    Description: Occasionally puts all foes to sleep and/or poisons them for 6 turns, and/or decreases speed, elemental defense, and/or physical defense for 9 turns.
+  }
+  BT_ABI_4458:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 150
+    ModRatio: false
+    Icon: Enemy
+    Name: Horrible Breath (All)
+    Description: Occasionally puts all foes to sleep and/or poisons them for 6 turns, and/or decreases speed, elemental defense, and/or physical defense for 9 turns.
+  }
+  BT_ABI_4459:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 200
+    ModRatio: false
+    Icon: Enemy
+    Name: Horrible Breath (All)
+    Description: Occasionally puts all foes to sleep and/or poisons them for 6 turns, and/or decreases speed, elemental defense, and/or physical defense for 9 turns.
+  }
+  BT_ABI_4460:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 18
+    Ratio: 250
+    ModRatio: false
+    Icon: Enemy
+    Name: Horrible Breath (All)
+    Description: Occasionally puts all foes to sleep and/or poisons them for 6 turns, and/or decreases speed, elemental defense, and/or physical defense for 9 turns.
+  }
+  BT_ABI_4461:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 26
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Continual Light (SP) (All)
+    Description: Restore 25 SP to all allies and grants SP regeneration for 2 turns.
+  }
+  BT_ABI_4462:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 26
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Continual Light (SP) (All)
+    Description: Restore 50 SP to all allies and grants SP regeneration for 2 turns.
+  }
+  BT_ABI_4463:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 26
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Continual Light (SP) (All)
+    Description: Restore 75 SP to all allies and grants SP regeneration for 2 turns.
+  }
+  BT_ABI_4464:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 26
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Continual Light (SP) (All)
+    Description: Restore 100 SP to all allies and grants SP regeneration for 2 turns.
+  }
+  BT_ABI_4465:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Vorpal Claw (All)
+    Description: Occasionally kills all targets instantly.
+  }
+  BT_ABI_4466:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 190
+    ModRatio: false
+    Icon: Enemy
+    Name: Vorpal Claw (All)
+    Description: Occasionally kills all targets instantly.
+  }
+  BT_ABI_4467:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 280
+    ModRatio: false
+    Icon: Enemy
+    Name: Vorpal Claw (All)
+    Description: Occasionally kills all targets instantly.
+  }
+  BT_ABI_4468:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 370
+    ModRatio: false
+    Icon: Enemy
+    Name: Vorpal Claw (All)
+    Description: Occasionally kills all targets instantly.
+  }
+  BT_ABI_4473:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Fire
+    SP: 15
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Inferno Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
+  }
+  BT_ABI_4474:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Fire
+    SP: 15
+    Ratio: 220
+    ModRatio: true
+    Icon: Magic
+    Name: Inferno Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+  }
+  BT_ABI_4475:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Fire
+    SP: 15
+    Ratio: 340
+    ModRatio: true
+    Icon: Magic
+    Name: Inferno Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+  }
+  BT_ABI_4476:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Fire
+    SP: 15
+    Ratio: 460
+    ModRatio: true
+    Icon: Magic
+    Name: Inferno Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+  }
+  BT_ABI_4477:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 15
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Diamond Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
+  }
+  BT_ABI_4478:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 15
+    Ratio: 190
+    ModRatio: true
+    Icon: Magic
+    Name: Diamond Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+  }
+  BT_ABI_4479:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 15
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Diamond Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+  }
+  BT_ABI_4480:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Ice
+    SP: 15
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Diamond Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+  }
+  BT_ABI_4481:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 15
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Vortex Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
+  }
+  BT_ABI_4482:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 15
+    Ratio: 190
+    ModRatio: true
+    Icon: Magic
+    Name: Vortex Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+  }
+  BT_ABI_4483:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 15
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Vortex Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+  }
+  BT_ABI_4484:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Thunder
+    SP: 15
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Vortex Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+  }
+  BT_ABI_4485:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 15
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Tempest Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
+  }
+  BT_ABI_4486:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 15
+    Ratio: 190
+    ModRatio: true
+    Icon: Magic
+    Name: Tempest Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+  }
+  BT_ABI_4487:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 15
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Tempest Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+  }
+  BT_ABI_4488:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 15
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Tempest Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+  }
+  BT_ABI_4489:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Light
+    SP: 15
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Solar Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
+  }
+  BT_ABI_4490:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Light
+    SP: 15
+    Ratio: 190
+    ModRatio: true
+    Icon: Magic
+    Name: Solar Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+  }
+  BT_ABI_4491:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Light
+    SP: 15
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Solar Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+  }
+  BT_ABI_4492:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Light
+    SP: 15
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Solar Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+  }
+  BT_ABI_4493:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Dark
+    SP: 15
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Eclipse Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 2 turns.
+  }
+  BT_ABI_4494:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Dark
+    SP: 15
+    Ratio: 190
+    ModRatio: true
+    Icon: Magic
+    Name: Eclipse Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 3 turns.
+  }
+  BT_ABI_4495:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Dark
+    SP: 15
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Eclipse Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 4 turns.
+  }
+  BT_ABI_4496:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Dark
+    SP: 15
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Eclipse Clock (All)
+    Description: Augments elemental attack and elemental defense of all allies for 5 turns.
+  }
+  BT_ABI_4497:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Impact Clock
+    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single, random ally for 2 turns.
+  }
+  BT_ABI_4498:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Impact Clock
+    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single, random ally for 3 turns.
+  }
+  BT_ABI_4499:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Impact Clock
+    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single, random ally for 4 turns.
+  }
+  BT_ABI_4500:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Impact Clock
+    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single, random ally for 5 turns.
+  }
+  BT_ABI_4501:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Butterfly Effect (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4502:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 12
+    Ratio: 910
+    ModRatio: true
+    Icon: Magic
+    Name: Butterfly Effect (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4503:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 12
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Butterfly Effect (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4504:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Wind
+    SP: 12
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Butterfly Effect (All)
+    Description: Occasionally puts all foes to sleep for 2 turns.
+  }
+  BT_ABI_4505:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Fire
+    SP: 14
+    Ratio: 100
+    ModRatio: true
+    Icon: Magic
+    Name: Crimson Flame (All)
+    Description: Occasionally decreases physical attack and/or physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4506:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Fire
+    SP: 14
+    Ratio: 910
+    ModRatio: true
+    Icon: Magic
+    Name: Crimson Flame (All)
+    Description: Occasionally decreases physical attack and/or physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4507:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Fire
+    SP: 14
+    Ratio: 280
+    ModRatio: true
+    Icon: Magic
+    Name: Crimson Flame (All)
+    Description: Occasionally decreases physical attack and/or physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4508:
+  {
+    Priority: 1
+    Weapon: null
+    Element: Fire
+    SP: 14
+    Ratio: 370
+    ModRatio: true
+    Icon: Magic
+    Name: Crimson Flame (All)
+    Description: Occasionally decreases physical attack and/or physical defense of all foes for 2 turns.
+  }
+  BT_ABI_4509:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 33
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Incredible Heal (All)
+    Description: Restore a large amount of HP to all allies and grants 2 turns of HP regeneration.
+  }
+  BT_ABI_4510:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 33
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Incredible Heal (All)
+    Description: Restore a large amount of HP to all allies and grants 2 turns of HP regeneration.
+  }
+  BT_ABI_4511:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 33
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Incredible Heal (All)
+    Description: Restore a large amount of HP to all allies and grants 2 turns of HP regeneration.
+  }
+  BT_ABI_4512:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 33
+    Ratio: 100
+    ModRatio: true
+    Icon: Heal
+    Name: Incredible Heal (All)
+    Description: Restore a large amount of HP to all allies and grants 2 turns of HP regeneration.
+  }
+  BT_ABI_4573:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 3
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Acid Blue
+    Description: Occasionally decreases physical attack and/or elemental attack of a foe for 2 turns.
+  }
+  BT_ABI_4574:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 3
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Acid Blue
+    Description: Occasionally decreases physical attack and/or elemental attack of a foe for 2 turns.
+  }
+  BT_ABI_4575:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 3
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Acid Blue
+    Description: Occasionally decreases physical attack and/or elemental attack of a foe for 2 turns.
+  }
+  BT_ABI_4576:
+  {
+    Priority: 1
+    Weapon: null
+    Element: null
+    SP: 3
+    Ratio: 100
+    ModRatio: false
+    Icon: Enemy
+    Name: Acid Blue
+    Description: Occasionally decreases physical attack and/or elemental attack of a foe for 2 turns.
+  }
+  BT_ABI_4589:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 17
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a sword.
+  }
+  BT_ABI_4590:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 17
+    Ratio: 190
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a sword.
+  }
+  BT_ABI_4591:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 17
+    Ratio: 280
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a sword.
+  }
+  BT_ABI_4592:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 17
+    Ratio: 370
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a sword.
+  }
+  BT_ABI_4593:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 19
+    Ratio: 80
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a sword.
+  }
+  BT_ABI_4594:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 19
+    Ratio: 140
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a sword.
+  }
+  BT_ABI_4595:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 19
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a sword.
+  }
+  BT_ABI_4596:
+  {
+    Priority: 1
+    Weapon: sword
+    Element: null
+    SP: 19
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a sword.
+  }
+  BT_ABI_4597:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 17
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with an axe.
+  }
+  BT_ABI_4598:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 17
+    Ratio: 190
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with an axe.
+  }
+  BT_ABI_4599:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 17
+    Ratio: 280
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with an axe.
+  }
+  BT_ABI_4600:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 17
+    Ratio: 370
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with an axe.
+  }
+  BT_ABI_4601:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 19
+    Ratio: 80
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with an axe.
+  }
+  BT_ABI_4602:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 19
+    Ratio: 140
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with an axe.
+  }
+  BT_ABI_4603:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 19
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with an axe.
+  }
+  BT_ABI_4604:
+  {
+    Priority: 1
+    Weapon: axe
+    Element: null
+    SP: 19
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with an axe.
+  }
+  BT_ABI_4609:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 14
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a dagger.
+  }
+  BT_ABI_4610:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 14
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a dagger.
+  }
+  BT_ABI_4611:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 14
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a dagger.
+  }
+  BT_ABI_4612:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 14
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a dagger.
+  }
+  BT_ABI_4613:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 17
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a dagger.
+  }
+  BT_ABI_4614:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 17
+    Ratio: 190
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a dagger.
+  }
+  BT_ABI_4615:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 17
+    Ratio: 280
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a dagger.
+  }
+  BT_ABI_4616:
+  {
+    Priority: 1
+    Weapon: dagger
+    Element: null
+    SP: 17
+    Ratio: 370
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a dagger.
+  }
+  BT_ABI_4625:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 14
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a spear.
+  }
+  BT_ABI_4626:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 14
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a spear.
+  }
+  BT_ABI_4627:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 14
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a spear.
+  }
+  BT_ABI_4628:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 14
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a spear.
+  }
+  BT_ABI_4629:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 9
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a spear.
+  }
+  BT_ABI_4630:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 9
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a spear.
+  }
+  BT_ABI_4631:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 9
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a spear.
+  }
+  BT_ABI_4632:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 9
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a spear.
+  }
+  BT_ABI_4633:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 19
+    Ratio: 80
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a spear.
+  }
+  BT_ABI_4634:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 19
+    Ratio: 140
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a spear.
+  }
+  BT_ABI_4635:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 19
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a spear.
+  }
+  BT_ABI_4636:
+  {
+    Priority: 1
+    Weapon: polearm
+    Element: null
+    SP: 19
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a spear.
+  }
+  BT_ABI_4641:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 14
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a staff.
+  }
+  BT_ABI_4642:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 14
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a staff.
+  }
+  BT_ABI_4643:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 14
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a staff.
+  }
+  BT_ABI_4644:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 14
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a staff.
+  }
+  BT_ABI_4645:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 17
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a staff.
+  }
+  BT_ABI_4646:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 17
+    Ratio: 190
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a staff.
+  }
+  BT_ABI_4647:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 17
+    Ratio: 280
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a staff.
+  }
+  BT_ABI_4648:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 17
+    Ratio: 370
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a staff.
+  }
+  BT_ABI_4657:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 14
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a bow.
+  }
+  BT_ABI_4658:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 14
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a bow.
+  }
+  BT_ABI_4659:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 14
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a bow.
+  }
+  BT_ABI_4660:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 14
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Double Attack All
+    Description: Attack all foes twice with a bow.
+  }
+  BT_ABI_4661:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 9
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a bow.
+  }
+  BT_ABI_4662:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 9
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a bow.
+  }
+  BT_ABI_4663:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 9
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a bow.
+  }
+  BT_ABI_4664:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 9
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a bow.
+  }
+  BT_ABI_4665:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 19
+    Ratio: 80
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a bow.
+  }
+  BT_ABI_4666:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 19
+    Ratio: 140
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a bow.
+  }
+  BT_ABI_4667:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 19
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a bow.
+  }
+  BT_ABI_4668:
+  {
+    Priority: 1
+    Weapon: bow
+    Element: null
+    SP: 19
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a bow.
+  }
+  BT_ABI_4669:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 9
+    Ratio: 100
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a staff.
+  }
+  BT_ABI_4670:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 9
+    Ratio: 180
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a staff.
+  }
+  BT_ABI_4671:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 9
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a staff.
+  }
+  BT_ABI_4672:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 9
+    Ratio: 340
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack
+    Description: Attack a foe thrice with a staff.
+  }
+  BT_ABI_4673:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 19
+    Ratio: 80
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a staff.
+  }
+  BT_ABI_4674:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 19
+    Ratio: 140
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a staff.
+  }
+  BT_ABI_4675:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 19
+    Ratio: 200
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a staff.
+  }
+  BT_ABI_4676:
+  {
+    Priority: 1
+    Weapon: staff
+    Element: null
+    SP: 19
+    Ratio: 260
+    ModRatio: true
+    Icon: Physical
+    Name: Triple Attack All
+    Description: Attack all foes thrice with a staff.
+  }
+  BT_ABI_4513:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 20
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Luck of the Cait
+    Description: Cause a lucky effect to occur one time.
+  }
+  BT_ABI_4514:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 20
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Luck of the Cait
+    Description: Cause a lucky effect to occur 2 times.
+  }
+  BT_ABI_4515:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 20
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Luck of the Cait
+    Description: Cause a lucky effect to occur 3 times.
+  }
+  BT_ABI_4516:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 20
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Luck of the Cait
+    Description: Cause a lucky effect to occur 4 times.
+  }
+  BT_ABI_4517:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Deluxe Luck of the Cait
+    Description: Cause a deluxe effect to occur one time.
+  }
+  BT_ABI_4518:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Deluxe Luck of the Cait
+    Description: Cause a deluxe effect to occur 2 times.
+  }
+  BT_ABI_4519:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Deluxe Luck of the Cait
+    Description: Cause a deluxe effect to occur 3 times.
+  }
+  BT_ABI_4520:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Deluxe Luck of the Cait
+    Description: Cause a deluxe effect to occur 4 times.
+  }
+  BT_ABI_4521:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Supreme Luck of the Cait
+    Description: Cause a supreme effect to occur one time.
+  }
+  BT_ABI_4522:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Supreme Luck of the Cait
+    Description: Cause a supreme effect to occur 2 times.
+  }
+  BT_ABI_4523:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Supreme Luck of the Cait
+    Description: Cause a supreme effect to occur 3 times.
+  }
+  BT_ABI_4524:
+  {
+    Priority: 2
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Icon: Status
+    Name: Supreme Luck of the Cait
+    Description: Cause a supreme effect to occur 4 times.
+  }
+}

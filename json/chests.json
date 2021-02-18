@@ -1,5872 +1,4404 @@
 {
   TrsrBx_Cliff_D11_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Cliftlands
     Location: Ravus Manor
     Shuffle: true
   }
   TrsrBx_Cliff_D11_02:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Cliftlands
     Location: Ravus Manor
     Shuffle: true
   }
   TrsrBx_Cliff_D11_03:
   {
-    Item: None
-    Name: 800 Leaves
     Region: Cliftlands
     Location: Ravus Manor
     Shuffle: true
   }
   TrsrBx_Cliff_D11_04:
   {
-    Item: ITM_AB_054
-    Name: Wind Attire
     Region: Cliftlands
     Location: Ravus Manor
     Shuffle: true
   }
   TrsrBx_Cliff_D11_05:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Cliftlands
     Location: Ravus Manor
     Shuffle: true
   }
   TrsrBx_Cliff_D11_06:
   {
-    Item: ITM_053
-    Name: Invigorating Nut
     Region: Cliftlands
     Location: Ravus Manor
     Shuffle: true
   }
   TrsrBx_Cliff_D11_07:
   {
-    Item: ITM_041
-    Name: Bottle of Befuddling Dust
     Region: Cliftlands
     Location: Ravus Manor
     Shuffle: true
   }
   TrsrBx_Cliff_D12_01:
   {
-    Item: ITM_059
-    Name: Tough Nut
     Region: Cliftlands
     Location: Carrion Caves
     Shuffle: true
   }
   TrsrBx_Cliff_D12_03:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Cliftlands
     Location: Carrion Caves
     Shuffle: true
   }
   TrsrBx_Cliff_D12_04:
   {
-    Item: None
-    Name: 6000 Leaves
     Region: Cliftlands
     Location: Carrion Caves
     Shuffle: true
   }
   TrsrBx_Cliff_D12_05:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Cliftlands
     Location: Carrion Caves
     Shuffle: true
   }
   TrsrBx_Cliff_D12_06:
   {
-    Item: ITM_WA_029
-    Name: Enchanted Axe
     Region: Cliftlands
     Location: Carrion Caves
     Shuffle: true
   }
   TrsrBx_Cliff_D21_02:
   {
-    Item: ITM_035
-    Name: Wind Soulstone (M)
     Region: Cliftlands
     Location: Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_D21_03:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Cliftlands
     Location: Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_D21_04:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Cliftlands
     Location: Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_D21_05:
   {
-    Item: None
-    Name: 6000 Leaves
     Region: Cliftlands
     Location: Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_D21_06:
   {
-    Item: ITM_AC_019
-    Name: Conscious Stone
     Region: Cliftlands
     Location: Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_D21_07:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Cliftlands
     Location: Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_D21_08:
   {
-    Item: ITM_AH_056
-    Name: Hasty Helm
     Region: Cliftlands
     Location: Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_D21_09:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Cliftlands
     Location: Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_D22_01:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Cliftlands
     Location: The Sewers
     Shuffle: true
   }
   TrsrBx_Cliff_D22_02:
   {
-    Item: ITM_WS_020
-    Name: Snipe Saber
     Region: Cliftlands
     Location: The Sewers
     Shuffle: true
   }
   TrsrBx_Cliff_D22_03:
   {
-    Item: ITM_029
-    Name: Fire Soulstone (M)
     Region: Cliftlands
     Location: The Sewers
     Shuffle: true
   }
   TrsrBx_Cliff_D22_04:
   {
-    Item: ITM_041
-    Name: Bottle of Befuddling Dust
     Region: Cliftlands
     Location: The Sewers
     Shuffle: true
   }
   TrsrBx_Cliff_D22_05:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Cliftlands
     Location: The Sewers
     Shuffle: true
   }
   TrsrBx_Cliff_D22_06:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Cliftlands
     Location: The Sewers
     Shuffle: true
   }
   TrsrBx_Cliff_D22_07:
   {
-    Item: ITM_AC_067
-    Name: Sprightly Ring
     Region: Cliftlands
     Location: The Sewers
     Shuffle: true
   }
   TrsrBx_Cliff_D23_01:
   {
-    Item: ITM_140
-    Name: Wind Soulstone (L)
     Region: Cliftlands
     Location: Derelict Mine
     Shuffle: true
   }
   TrsrBx_Cliff_D23_02:
   {
-    Item: ITM_AC_019
-    Name: Conscious Stone
     Region: Cliftlands
     Location: Derelict Mine
     Shuffle: true
   }
   TrsrBx_Cliff_D23_03:
   {
-    Item: None
-    Name: 10000 Leaves
     Region: Cliftlands
     Location: Derelict Mine
     Shuffle: true
   }
   TrsrBx_Cliff_D23_04:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Cliftlands
     Location: Derelict Mine
     Shuffle: true
   }
   TrsrBx_Cliff_D23_05:
   {
-    Item: ITM_017
-    Name: Olive of Life (L)
     Region: Cliftlands
     Location: Derelict Mine
     Shuffle: true
   }
   TrsrBx_Cliff_D23_06:
   {
-    Item: ITM_WS_032
-    Name: Carnage Blade
     Region: Cliftlands
     Location: Derelict Mine
     Shuffle: true
   }
   TrsrBx_Cliff_D31A_01:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31A_02:
   {
-    Item: ITM_035
-    Name: Wind Soulstone (M)
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31A_03:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31A_04:
   {
-    Item: ITM_014
-    Name: Herb of Clarity
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31A_05:
   {
-    Item: ITM_AC_002
-    Name: Inferno Amulet
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31A_06:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31A_07:
   {
-    Item: ITM_MA_007
-    Name: Ruinous Seed
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31A_08:
   {
-    Item: ITM_MA_003
-    Name: Purifying Seed
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31A_09:
   {
-    Item: ITM_MA_008
-    Name: Ruinous Dust
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31A_10:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31B_01:
   {
-    Item: ITM_AC_019
-    Name: Conscious Stone
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31B_03:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31B_04:
   {
-    Item: ITM_WB_036
-    Name: Augmented Bow of the Falcon
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31B_05:
   {
-    Item: None
-    Name: 30000 Leaves
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31B_06:
   {
-    Item: ITM_018
-    Name: Revitalizing Jam
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31B_07:
   {
-    Item: ITM_011
-    Name: Herb of Healing
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31B_08:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D31B_09:
   {
-    Item: ITM_AB_021
-    Name: Imperial Armor
     Region: Cliftlands
     Location: Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_D32_01:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Cliftlands
     Location: Dragonsong Fane
     Shuffle: true
   }
   TrsrBx_Cliff_D32_02:
   {
-    Item: ITM_AH_024
-    Name: Crystal Helm
     Region: Cliftlands
     Location: Dragonsong Fane
     Shuffle: true
   }
   TrsrBx_Cliff_D32_03:
   {
-    Item: ITM_WB_024
-    Name: Holy Longbow
     Region: Cliftlands
     Location: Dragonsong Fane
     Shuffle: true
   }
   TrsrBx_Cliff_D32_04:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Cliftlands
     Location: Dragonsong Fane
     Shuffle: true
   }
   TrsrBx_Cliff_D32_05:
   {
-    Item: ITM_AC_019
-    Name: Conscious Stone
     Region: Cliftlands
     Location: Dragonsong Fane
     Shuffle: true
   }
   TrsrBx_Cliff_D32_06:
   {
-    Item: ITM_017
-    Name: Olive of Life (L)
     Region: Cliftlands
     Location: Dragonsong Fane
     Shuffle: true
   }
   TrsrBx_Cliff_F11_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Cliftlands
     Location: North Bolderfall Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F11_02:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Cliftlands
     Location: North Bolderfall Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F11_03:
   {
-    Item: None
-    Name: 1000 Leaves
     Region: Cliftlands
     Location: North Bolderfall Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F12_01:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Cliftlands
     Location: South Bolderfall Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F12_02:
   {
-    Item: ITM_015
-    Name: Herb of Awakening
     Region: Cliftlands
     Location: South Bolderfall Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F12_03:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Cliftlands
     Location: South Bolderfall Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F12_04:
   {
-    Item: ITM_034
-    Name: Wind Soulstone
     Region: Cliftlands
     Location: South Bolderfall Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F21_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Cliftlands
     Location: Road to Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_F21_02:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Cliftlands
     Location: Road to Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_F21_03:
   {
-    Item: None
-    Name: 5000 Leaves
     Region: Cliftlands
     Location: Road to Morlocke's Manse
     Shuffle: true
   }
   TrsrBx_Cliff_F22_01:
   {
-    Item: ITM_016
-    Name: Herb of Valor
     Region: Cliftlands
     Location: South Quarrycrest Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F22_02:
   {
-    Item: ITM_143
-    Name: Energizing Pomegranate
     Region: Cliftlands
     Location: South Quarrycrest Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F22_03:
   {
-    Item: ITM_AC_001
-    Name: Fire Amulet
     Region: Cliftlands
     Location: South Quarrycrest Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F31_01:
   {
-    Item: ITM_MA_004
-    Name: Purifying Dust
     Region: Cliftlands
     Location: Trail to the Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_F31_02:
   {
-    Item: None
-    Name: 20000 Leaves
     Region: Cliftlands
     Location: Trail to the Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_F31_03:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Cliftlands
     Location: Trail to the Forest of Rubeh
     Shuffle: true
   }
   TrsrBx_Cliff_F32_01:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Cliftlands
     Location: South Orewell Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F32_02:
   {
-    Item: ITM_029
-    Name: Fire Soulstone (M)
     Region: Cliftlands
     Location: South Orewell Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F32_03:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Cliftlands
     Location: South Orewell Pass
     Shuffle: true
   }
   TrsrBx_Cliff_F32_04:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Cliftlands
     Location: South Orewell Pass
     Shuffle: true
   }
   TrsrBx_Cliff_TLA_01:
   {
-    Item: ITM_WD_003
-    Name: Stinging Dagger
     Region: Cliftlands
     Location: Bolderfall
     Shuffle: true
   }
   TrsrBx_Cliff_TLA_02:
   {
-    Item: None
-    Name: 1000 Leaves
     Region: Cliftlands
     Location: Bolderfall
     Shuffle: true
   }
   TrsrBx_Cliff_TLC_01:
   {
-    Item: ITM_WS_003
-    Name: Broadsword
     Region: Cliftlands
     Location: Bolderfall
     Shuffle: true
   }
   TrsrBx_Cliff_TLC_02:
   {
-    Item: ITM_AH_016
-    Name: Iron Helm
     Region: Cliftlands
     Location: Bolderfall
     Shuffle: true
   }
   TrsrBx_Cliff_TMA_01:
   {
-    Item: ITM_035
-    Name: Wind Soulstone (M)
     Region: Cliftlands
     Location: Quarrycrest
     Shuffle: true
   }
   TrsrBx_Cliff_TMA_02:
   {
-    Item: ITM_120
-    Name: Dubious Gold Ore
     Region: Cliftlands
     Location: Quarrycrest
     Shuffle: true
   }
   TrsrBx_Cliff_TMA_03:
   {
-    Item: ITM_121
-    Name: Pseudo Gold Ore
     Region: Cliftlands
     Location: Quarrycrest
     Shuffle: true
   }
   TrsrBx_Cliff_TMB_01:
   {
-    Item: ITM_122
-    Name: Fool's Gold Ore
     Region: Cliftlands
     Location: Quarrycrest
     Shuffle: true
   }
   TrsrBx_Cliff_TMB_02:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Cliftlands
     Location: Quarrycrest
     Shuffle: true
   }
   TrsrBx_Cliff_TMB_03:
   {
-    Item: ITM_016
-    Name: Herb of Valor
     Region: Cliftlands
     Location: Quarrycrest
     Shuffle: true
   }
   TrsrBx_Cliff_TS_01:
   {
-    Item: ITM_MA_002
-    Name: Soothing Dust
     Region: Cliftlands
     Location: Orewell
     Shuffle: true
   }
   TrsrBx_Cliff_TS_02:
   {
-    Item: ITM_094
-    Name: Scrap of Rope
     Region: Cliftlands
     Location: Orewell
     Shuffle: true
   }
   TrsrBx_Cliff_TS_03:
   {
-    Item: ITM_125
-    Name: Weathered Boots
     Region: Cliftlands
     Location: Orewell
     Shuffle: true
   }
   TrsrBx_Cliff_TS_04:
   {
-    Item: None
-    Name: 68 Leaves
     Region: Cliftlands
     Location: Orewell
     Shuffle: true
   }
   TrsrBx_Desert_D11_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Sunlands
     Location: Sunshade Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D11_02:
   {
-    Item: ITM_037
-    Name: Shadow Soulstone
     Region: Sunlands
     Location: Sunshade Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D11_03:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Sunlands
     Location: Sunshade Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D11_04:
   {
-    Item: ITM_AC_046
-    Name: Empowering Earring
     Region: Sunlands
     Location: Sunshade Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D12_01:
   {
-    Item: None
-    Name: 6000 Leaves
     Region: Sunlands
     Location: Whistling Cavern
     Shuffle: true
   }
   TrsrBx_Desert_D12_02:
   {
-    Item: ITM_029
-    Name: Fire Soulstone (M)
     Region: Sunlands
     Location: Whistling Cavern
     Shuffle: true
   }
   TrsrBx_Desert_D12_03:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Sunlands
     Location: Whistling Cavern
     Shuffle: true
   }
   TrsrBx_Desert_D12_04:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Sunlands
     Location: Whistling Cavern
     Shuffle: true
   }
   TrsrBx_Desert_D12_05:
   {
-    Item: ITM_WB_005
-    Name: Heavy Bow
     Region: Sunlands
     Location: Whistling Cavern
     Shuffle: true
   }
   TrsrBx_Desert_D21_01:
   {
-    Item: None
-    Name: 200 Leaves
     Region: Sunlands
     Location: Lizardmen's Den
     Shuffle: true
   }
   TrsrBx_Desert_D21_02:
   {
-    Item: None
-    Name: 2000 Leaves
     Region: Sunlands
     Location: Lizardmen's Den
     Shuffle: true
   }
   TrsrBx_Desert_D21_03:
   {
-    Item: None
-    Name: 400 Leaves
     Region: Sunlands
     Location: Lizardmen's Den
     Shuffle: true
   }
   TrsrBx_Desert_D21_04:
   {
-    Item: None
-    Name: 1400 Leaves
     Region: Sunlands
     Location: Lizardmen's Den
     Shuffle: true
   }
   TrsrBx_Desert_D21_05:
   {
-    Item: None
-    Name: 800 Leaves
     Region: Sunlands
     Location: Lizardmen's Den
     Shuffle: true
   }
   TrsrBx_Desert_D21_06:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Sunlands
     Location: Lizardmen's Den
     Shuffle: true
   }
   TrsrBx_Desert_D21_07:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Sunlands
     Location: Lizardmen's Den
     Shuffle: true
   }
   TrsrBx_Desert_D21_08:
   {
-    Item: None
-    Name: 1000 Leaves
     Region: Sunlands
     Location: Lizardmen's Den
     Shuffle: true
   }
   TrsrBx_Desert_D21_09:
   {
-    Item: None
-    Name: 4000 Leaves
     Region: Sunlands
     Location: Lizardmen's Den
     Shuffle: true
   }
   TrsrBx_Desert_D21_10:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Sunlands
     Location: Lizardmen's Den
     Shuffle: true
   }
   TrsrBx_Desert_D22_01:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Sunlands
     Location: Black Market
     Shuffle: true
   }
   TrsrBx_Desert_D22_02:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Sunlands
     Location: Black Market
     Shuffle: true
   }
   TrsrBx_Desert_D22_03:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Sunlands
     Location: Black Market
     Shuffle: true
   }
   TrsrBx_Desert_D22_04:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Sunlands
     Location: Black Market
     Shuffle: true
   }
   TrsrBx_Desert_D22_05:
   {
-    Item: None
-    Name: 10000 Leaves
     Region: Sunlands
     Location: Black Market
     Shuffle: true
   }
   TrsrBx_Desert_D22_06:
   {
-    Item: ITM_AC_011
-    Name: Light Amulet
     Region: Sunlands
     Location: Black Market
     Shuffle: true
   }
   TrsrBx_Desert_D22_07:
   {
-    Item: ITM_AC_017
-    Name: Calming Stone
     Region: Sunlands
     Location: Black Market
     Shuffle: true
   }
   TrsrBx_Desert_D22_08:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Sunlands
     Location: Black Market
     Shuffle: true
   }
   TrsrBx_Desert_D22_09:
   {
-    Item: ITM_WB_021
-    Name: Huntress's Longbow
     Region: Sunlands
     Location: Black Market
     Shuffle: true
   }
   TrsrBx_Desert_D23_01:
   {
-    Item: ITM_WA_009
-    Name: Inferno Axe
     Region: Sunlands
     Location: Quicksand Caves
     Shuffle: true
   }
   TrsrBx_Desert_D23_02:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Sunlands
     Location: Quicksand Caves
     Shuffle: true
   }
   TrsrBx_Desert_D23_03:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Sunlands
     Location: Quicksand Caves
     Shuffle: true
   }
   TrsrBx_Desert_D23_04:
   {
-    Item: ITM_AC_017
-    Name: Calming Stone
     Region: Sunlands
     Location: Quicksand Caves
     Shuffle: true
   }
   TrsrBx_Desert_D23_05:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Sunlands
     Location: Quicksand Caves
     Shuffle: true
   }
   TrsrBx_Desert_D23_06:
   {
-    Item: ITM_AC_056
-    Name: Protective Bracelet
     Region: Sunlands
     Location: Quicksand Caves
     Shuffle: true
   }
   TrsrBx_Desert_D31A_01:
   {
-    Item: None
-    Name: 30000 Leaves
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31A_02:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31A_03:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31A_04:
   {
-    Item: ITM_AC_017
-    Name: Calming Stone
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31A_05:
   {
-    Item: ITM_WS_024
-    Name: Unseen Saber
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_01:
   {
-    Item: None
-    Name: 50000 Leaves
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_02:
   {
-    Item: ITM_AC_012
-    Name: Gleaming Amulet
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_03:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_04:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_05:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_06:
   {
-    Item: ITM_AC_065
-    Name: Enlightening Necklace
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_07:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_08:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_09:
   {
-    Item: ITM_AS_033
-    Name: Force Shield
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_10:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D31B_11:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Sunlands
     Location: Grimsand Ruins
     Shuffle: true
   }
   TrsrBx_Desert_D32_03:
   {
-    Item: ITM_WD_034
-    Name: Viper Dagger
     Region: Sunlands
     Location: Marsalim Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D32_04:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Sunlands
     Location: Marsalim Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D32_05:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Sunlands
     Location: Marsalim Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D32_06:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Sunlands
     Location: Marsalim Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D32_07:
   {
-    Item: ITM_WS_022
-    Name: Angel Saber
     Region: Sunlands
     Location: Marsalim Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D32_08:
   {
-    Item: ITM_018
-    Name: Revitalizing Jam
     Region: Sunlands
     Location: Marsalim Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D32_09:
   {
-    Item: ITM_AC_017
-    Name: Calming Stone
     Region: Sunlands
     Location: Marsalim Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_D32_10:
   {
-    Item: ITM_WL_040
-    Name: Master's Spear
     Region: Sunlands
     Location: Marsalim Catacombs
     Shuffle: true
   }
   TrsrBx_Desert_F11_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Sunlands
     Location: Southern Sunshade Sands
     Shuffle: true
   }
   TrsrBx_Desert_F11_02:
   {
-    Item: ITM_081
-    Name: Old Coin
     Region: Sunlands
     Location: Southern Sunshade Sands
     Shuffle: true
   }
   TrsrBx_Desert_F11_03:
   {
-    Item: ITM_014
-    Name: Herb of Clarity
     Region: Sunlands
     Location: Southern Sunshade Sands
     Shuffle: true
   }
   TrsrBx_Desert_F12_01:
   {
-    Item: ITM_032
-    Name: Thunder Soulstone
     Region: Sunlands
     Location: Eastern Sunshade Sands
     Shuffle: true
   }
   TrsrBx_Desert_F12_02:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Sunlands
     Location: Eastern Sunshade Sands
     Shuffle: true
   }
   TrsrBx_Desert_F12_03:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Sunlands
     Location: Eastern Sunshade Sands
     Shuffle: true
   }
   TrsrBx_Desert_F21_01:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Sunlands
     Location: Western Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F21_02:
   {
-    Item: None
-    Name: 6000 Leaves
     Region: Sunlands
     Location: Western Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F22_01:
   {
-    Item: ITM_143
-    Name: Energizing Pomegranate
     Region: Sunlands
     Location: Southern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F22_02:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Sunlands
     Location: Southern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F22_03:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Sunlands
     Location: Southern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F22_04:
   {
-    Item: ITM_AC_060
-    Name: Unerring Bracelet
     Region: Sunlands
     Location: Southern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F23_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Sunlands
     Location: Northern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F23_02:
   {
-    Item: ITM_WL_022
-    Name: Imperial Lance
     Region: Sunlands
     Location: Northern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F23_03:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Sunlands
     Location: Northern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F23_04:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Sunlands
     Location: Northern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F24_01:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Sunlands
     Location: Eastern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F24_02:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Sunlands
     Location: Eastern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F24_03:
   {
-    Item: ITM_139
-    Name: Thunder Soulstone (L)
     Region: Sunlands
     Location: Eastern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F24_04:
   {
-    Item: ITM_122
-    Name: Fool's Gold Ore
     Region: Sunlands
     Location: Eastern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F24_05:
   {
-    Item: ITM_AC_064
-    Name: Enlightening Bracelet
     Region: Sunlands
     Location: Eastern Wellspring Sands
     Shuffle: true
   }
   TrsrBx_Desert_F31_02:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Sunlands
     Location: Grimsand Road
     Shuffle: true
   }
   TrsrBx_Desert_F31_03:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Sunlands
     Location: Grimsand Road
     Shuffle: true
   }
   TrsrBx_Desert_F31_04:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Sunlands
     Location: Grimsand Road
     Shuffle: true
   }
   TrsrBx_Desert_F32_01:
   {
-    Item: None
-    Name: 20000 Leaves
     Region: Sunlands
     Location: Eastern Marsalim Sands
     Shuffle: true
   }
   TrsrBx_Desert_F32_02:
   {
-    Item: ITM_139
-    Name: Thunder Soulstone (L)
     Region: Sunlands
     Location: Eastern Marsalim Sands
     Shuffle: true
   }
   TrsrBx_Desert_F32_03:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Sunlands
     Location: Eastern Marsalim Sands
     Shuffle: true
   }
   TrsrBx_Desert_TLA_01:
   {
-    Item: ITM_013
-    Name: Herb of Light
     Region: Sunlands
     Location: Marsalim
     Shuffle: true
   }
   TrsrBx_Desert_TLA_02:
   {
-    Item: ITM_042
-    Name: Bottle of Sleeping Dust
     Region: Sunlands
     Location: Marsalim
     Shuffle: true
   }
   TrsrBx_Desert_TLA_03:
   {
-    Item: ITM_WB_015
-    Name: Spirit Bow
     Region: Sunlands
     Location: Marsalim
     Shuffle: true
   }
   TrsrBx_Desert_TLB_01:
   {
-    Item: ITM_AB_055
-    Name: High House's Armor
     Region: Sunlands
     Location: Marsalim
     Shuffle: true
   }
   TrsrBx_Desert_TLB_02:
   {
-    Item: None
-    Name: 25000 Leaves
     Region: Sunlands
     Location: Marsalim
     Shuffle: true
   }
   TrsrBx_Desert_TLB_03:
   {
-    Item: ITM_AH_036
-    Name: Enchanted Circlet
     Region: Sunlands
     Location: Marsalim
     Shuffle: true
   }
   TrsrBx_Desert_TLB_04:
   {
-    Item: ITM_AC_006
-    Name: Tempest Amulet
     Region: Sunlands
     Location: Marsalim
     Shuffle: true
   }
   TrsrBx_Desert_TMA_01:
   {
-    Item: ITM_AB_066
-    Name: Traditional Dancer Garb
     Region: Sunlands
     Location: Sunshade
     Shuffle: true
   }
   TrsrBx_Desert_TMB_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Sunlands
     Location: Sunshade
     Shuffle: true
   }
   TrsrBx_Desert_TSA_01:
   {
-    Item: None
-    Name: 14000 Leaves
     Region: Sunlands
     Location: Wellspring
     Shuffle: true
   }
   TrsrBx_Desert_TSA_02:
   {
-    Item: None
-    Name: 9000 Leaves
     Region: Sunlands
     Location: Wellspring
     Shuffle: true
   }
   TrsrBx_Desert_TSA_03:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Sunlands
     Location: Wellspring
     Shuffle: true
   }
   TrsrBx_Desert_TSA_04:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Sunlands
     Location: Wellspring
     Shuffle: true
   }
   TrsrBx_Forest_D11_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Woodlands
     Location: The Whisperwood
     Shuffle: true
   }
   TrsrBx_Forest_D11_02:
   {
-    Item: ITM_037
-    Name: Shadow Soulstone
     Region: Woodlands
     Location: The Whisperwood
     Shuffle: true
   }
   TrsrBx_Forest_D11_03:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Woodlands
     Location: The Whisperwood
     Shuffle: true
   }
   TrsrBx_Forest_D11_04:
   {
-    Item: None
-    Name: 600 Leaves
     Region: Woodlands
     Location: The Whisperwood
     Shuffle: true
   }
   TrsrBx_Forest_D11_05:
   {
-    Item: ITM_AB_001
-    Name: Bronze Vest
     Region: Woodlands
     Location: The Whisperwood
     Shuffle: true
   }
   TrsrBx_Forest_D11_06:
   {
-    Item: ITM_143
-    Name: Energizing Pomegranate
     Region: Woodlands
     Location: The Whisperwood
     Shuffle: true
   }
   TrsrBx_Forest_D12_02:
   {
-    Item: ITM_WL_018
-    Name: War Lance
     Region: Woodlands
     Location: Path of Beasts
     Shuffle: true
   }
   TrsrBx_Forest_D12_03:
   {
-    Item: None
-    Name: 4000 Leaves
     Region: Woodlands
     Location: Path of Beasts
     Shuffle: true
   }
   TrsrBx_Forest_D12_04:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Woodlands
     Location: Path of Beasts
     Shuffle: true
   }
   TrsrBx_Forest_D12_06:
   {
-    Item: ITM_059
-    Name: Tough Nut
     Region: Woodlands
     Location: Path of Beasts
     Shuffle: true
   }
   TrsrBx_Forest_D21_02:
   {
-    Item: ITM_013
-    Name: Herb of Light
     Region: Woodlands
     Location: The Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_D21_03:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Woodlands
     Location: The Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_D21_05:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Woodlands
     Location: The Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_D21_07:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Woodlands
     Location: The Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_D21_08:
   {
-    Item: ITM_WR_015
-    Name: Sledgehammer
     Region: Woodlands
     Location: The Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_D21_09:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Woodlands
     Location: The Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_D21_10:
   {
-    Item: None
-    Name: 15000 Leaves
     Region: Woodlands
     Location: The Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_D21_11:
   {
-    Item: ITM_AC_020
-    Name: Vivifying Stone
     Region: Woodlands
     Location: The Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_D22_01:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Woodlands
     Location: Forest of No Return
     Shuffle: true
   }
   TrsrBx_Forest_D22_02:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Woodlands
     Location: Forest of No Return
     Shuffle: true
   }
   TrsrBx_Forest_D22_03:
   {
-    Item: ITM_AH_047
-    Name: Silent Bandana
     Region: Woodlands
     Location: Forest of No Return
     Shuffle: true
   }
   TrsrBx_Forest_D22_04:
   {
-    Item: ITM_142
-    Name: Shadow Soulstone (L)
     Region: Woodlands
     Location: Forest of No Return
     Shuffle: true
   }
   TrsrBx_Forest_D22_05:
   {
-    Item: ITM_AC_020
-    Name: Vivifying Stone
     Region: Woodlands
     Location: Forest of No Return
     Shuffle: true
   }
   TrsrBx_Forest_D22_06:
   {
-    Item: ITM_WL_036
-    Name: Elemental Glaive
     Region: Woodlands
     Location: Forest of No Return
     Shuffle: true
   }
   TrsrBx_Forest_D2job_01:
   {
-    Item: ITM_017
-    Name: Olive of Life (L)
     Region: Woodlands
     Location: Shrine of the Huntress
     Shuffle: true
   }
   TrsrBx_Forest_D31A_01:
   {
-    Item: ITM_WB_017
-    Name: Rune Bow
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D31A_02:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D31A_03:
   {
-    Item: None
-    Name: 20000 Leaves
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D31A_04:
   {
-    Item: ITM_142
-    Name: Shadow Soulstone (L)
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D31A_05:
   {
-    Item: ITM_AC_020
-    Name: Vivifying Stone
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D31B_02:
   {
-    Item: ITM_AC_010
-    Name: Void Amulet
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D31B_03:
   {
-    Item: None
-    Name: 50000 Leaves
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D31B_04:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D31B_05:
   {
-    Item: ITM_138
-    Name: Ice Soulstone (L)
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D31B_06:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D31B_07:
   {
-    Item: ITM_AS_005
-    Name: Knight's Shield
     Region: Woodlands
     Location: Ruins of Eld
     Shuffle: true
   }
   TrsrBx_Forest_D32_01:
   {
-    Item: ITM_AC_008
-    Name: Thunderstorm Amulet
     Region: Woodlands
     Location: Moldering Ruins
     Shuffle: true
   }
   TrsrBx_Forest_D32_02:
   {
-    Item: ITM_AC_020
-    Name: Vivifying Stone
     Region: Woodlands
     Location: Moldering Ruins
     Shuffle: true
   }
   TrsrBx_Forest_D32_03:
   {
-    Item: ITM_AH_038
-    Name: Hypnos Crown
     Region: Woodlands
     Location: Moldering Ruins
     Shuffle: true
   }
   TrsrBx_Forest_D32_04:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Woodlands
     Location: Moldering Ruins
     Shuffle: true
   }
   TrsrBx_Forest_D32_05:
   {
-    Item: ITM_142
-    Name: Shadow Soulstone (L)
     Region: Woodlands
     Location: Moldering Ruins
     Shuffle: true
   }
   TrsrBx_Forest_D32_06:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Woodlands
     Location: Moldering Ruins
     Shuffle: true
   }
   TrsrBx_Forest_D32_07:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Woodlands
     Location: Moldering Ruins
     Shuffle: true
   }
   TrsrBx_Forest_D3job_01:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Woodlands
     Location: Shrine of Archmagus
     Shuffle: true
   }
   TrsrBx_Forest_D3job_02:
   {
-    Item: ITM_116
-    Name: Shadow Soulstone (M)
     Region: Woodlands
     Location: Shrine of Archmagus
     Shuffle: true
   }
   TrsrBx_Forest_D3job_03:
   {
-    Item: None
-    Name: 20000 Leaves
     Region: Woodlands
     Location: Shrine of Archmagus
     Shuffle: true
   }
   TrsrBx_Forest_D3job_04:
   {
-    Item: ITM_018
-    Name: Revitalizing Jam
     Region: Woodlands
     Location: Shrine of Archmagus
     Shuffle: true
   }
   TrsrBx_Forest_D3job_05:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Woodlands
     Location: Shrine of Archmagus
     Shuffle: true
   }
   TrsrBx_Forest_D3job_07:
   {
-    Item: ITM_WR_035
-    Name: Wizard's Rod
     Region: Woodlands
     Location: Shrine of Archmagus
     Shuffle: true
   }
   TrsrBx_Forest_F11_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Woodlands
     Location: Path to the Whisperwood
     Shuffle: true
   }
   TrsrBx_Forest_F11_02:
   {
-    Item: ITM_037
-    Name: Shadow Soulstone
     Region: Woodlands
     Location: Path to the Whisperwood
     Shuffle: true
   }
   TrsrBx_Forest_F11_03:
   {
-    Item: None
-    Name: 500 Leaves
     Region: Woodlands
     Location: Path to the Whisperwood
     Shuffle: true
   }
   TrsrBx_Forest_F11_04:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Woodlands
     Location: Path to the Whisperwood
     Shuffle: true
   }
   TrsrBx_Forest_F12_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Woodlands
     Location: West S'warkii Trail
     Shuffle: true
   }
   TrsrBx_Forest_F12_02:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Woodlands
     Location: West S'warkii Trail
     Shuffle: true
   }
   TrsrBx_Forest_F12_03:
   {
-    Item: ITM_013
-    Name: Herb of Light
     Region: Woodlands
     Location: West S'warkii Trail
     Shuffle: true
   }
   TrsrBx_Forest_F13_01:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Woodlands
     Location: North S'warkii Trail
     Shuffle: true
   }
   TrsrBx_Forest_F13_02:
   {
-    Item: ITM_015
-    Name: Herb of Awakening
     Region: Woodlands
     Location: North S'warkii Trail
     Shuffle: true
   }
   TrsrBx_Forest_F13_03:
   {
-    Item: ITM_071
-    Name: Slippery Nut
     Region: Woodlands
     Location: North S'warkii Trail
     Shuffle: true
   }
   TrsrBx_Forest_F13_04:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Woodlands
     Location: North S'warkii Trail
     Shuffle: true
   }
   TrsrBx_Forest_F21_01:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Woodlands
     Location: Path to the Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_F21_02:
   {
-    Item: ITM_116
-    Name: Shadow Soulstone (M)
     Region: Woodlands
     Location: Path to the Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_F21_03:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Woodlands
     Location: Path to the Forgotten Grotto
     Shuffle: true
   }
   TrsrBx_Forest_F22_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Woodlands
     Location: East Victors Hollow Trail
     Shuffle: true
   }
   TrsrBx_Forest_F22_02:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Woodlands
     Location: East Victors Hollow Trail
     Shuffle: true
   }
   TrsrBx_Forest_F22_03:
   {
-    Item: None
-    Name: 5000 Leaves
     Region: Woodlands
     Location: East Victors Hollow Trail
     Shuffle: true
   }
   TrsrBx_Forest_F31_01:
   {
-    Item: ITM_093
-    Name: Herb of Revival
     Region: Woodlands
     Location: East Duskbarrow Trail
     Shuffle: true
   }
   TrsrBx_Forest_F31_02:
   {
-    Item: ITM_012
-    Name: Herb of Clamor
     Region: Woodlands
     Location: East Duskbarrow Trail
     Shuffle: true
   }
   TrsrBx_Forest_F31_03:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Woodlands
     Location: East Duskbarrow Trail
     Shuffle: true
   }
   TrsrBx_Forest_F31_04:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Woodlands
     Location: East Duskbarrow Trail
     Shuffle: true
   }
   TrsrBx_Forest_TLA_01:
   {
-    Item: ITM_006
-    Name: Heavy Coin Pouch
     Region: Woodlands
     Location: Victors Hollow
     Shuffle: true
   }
   TrsrBx_Forest_TLB_01:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Woodlands
     Location: Victors Hollow
     Shuffle: true
   }
   TrsrBx_Forest_TLC_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Woodlands
     Location: Victors Hollow
     Shuffle: true
   }
   TrsrBx_Forest_TLC_02:
   {
-    Item: ITM_AC_009
-    Name: Dark Amulet
     Region: Woodlands
     Location: Victors Hollow
     Shuffle: true
   }
   TrsrBx_Forest_TMA_01:
   {
-    Item: ITM_084
-    Name: Curious Antique
     Region: Woodlands
     Location: Duskbarrow
     Shuffle: true
   }
   TrsrBx_Forest_TMA_02:
   {
-    Item: None
-    Name: 30000 Leaves
     Region: Woodlands
     Location: Duskbarrow
     Shuffle: true
   }
   TrsrBx_Forest_TMA_03:
   {
-    Item: ITM_038
-    Name: Bottle of Poison Dust
     Region: Woodlands
     Location: Duskbarrow
     Shuffle: true
   }
   TrsrBx_Forest_TS_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Woodlands
     Location: S'warkii
     Shuffle: true
   }
   TrsrBx_Forest_TS_03:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Woodlands
     Location: S'warkii
     Shuffle: true
   }
   TrsrBx_Forest_TS_04:
   {
-    Item: ITM_WB_003
-    Name: Stone Bow
     Region: Woodlands
     Location: S'warkii
     Shuffle: true
   }
   TrsrBx_Mount_D11_01:
   {
-    Item: ITM_AH_042
-    Name: Black Cap
     Region: Highlands
     Location: Brigands' Den
     Shuffle: true
   }
   TrsrBx_Mount_D11_02:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Highlands
     Location: Brigands' Den
     Shuffle: true
   }
   TrsrBx_Mount_D11_03:
   {
-    Item: ITM_028
-    Name: Fire Soulstone
     Region: Highlands
     Location: Brigands' Den
     Shuffle: true
   }
   TrsrBx_Mount_D11_04:
   {
-    Item: ITM_123
-    Name: Copper Lantern
     Region: Highlands
     Location: Brigands' Den
     Shuffle: true
   }
   TrsrBx_Mount_D11_05:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Highlands
     Location: Brigands' Den
     Shuffle: true
   }
   TrsrBx_Mount_D12_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Highlands
     Location: Untouched Sanctum
     Shuffle: true
   }
   TrsrBx_Mount_D12_02:
   {
-    Item: ITM_WR_013
-    Name: Pole Mace
     Region: Highlands
     Location: Untouched Sanctum
     Shuffle: true
   }
   TrsrBx_Mount_D12_03:
   {
-    Item: ITM_068
-    Name: Sharp Nut
     Region: Highlands
     Location: Untouched Sanctum
     Shuffle: true
   }
   TrsrBx_Mount_D12_04:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Highlands
     Location: Untouched Sanctum
     Shuffle: true
   }
   TrsrBx_Mount_D12_05:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Highlands
     Location: Untouched Sanctum
     Shuffle: true
   }
   TrsrBx_Mount_D12_06:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Highlands
     Location: Untouched Sanctum
     Shuffle: true
   }
   TrsrBx_Mount_D21_01:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Highlands
     Location: The Spectrewood
     Shuffle: true
   }
   TrsrBx_Mount_D21_02:
   {
-    Item: ITM_AC_001
-    Name: Fire Amulet
     Region: Highlands
     Location: The Spectrewood
     Shuffle: true
   }
   TrsrBx_Mount_D21_03:
   {
-    Item: ITM_029
-    Name: Fire Soulstone (M)
     Region: Highlands
     Location: The Spectrewood
     Shuffle: true
   }
   TrsrBx_Mount_D21_04:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Highlands
     Location: The Spectrewood
     Shuffle: true
   }
   TrsrBx_Mount_D21_05:
   {
-    Item: None
-    Name: 6000 Leaves
     Region: Highlands
     Location: The Spectrewood
     Shuffle: true
   }
   TrsrBx_Mount_D22_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Highlands
     Location: Yvon's Birthplace
     Shuffle: true
   }
   TrsrBx_Mount_D22_02:
   {
-    Item: ITM_124
-    Name: Bone
     Region: Highlands
     Location: Yvon's Birthplace
     Shuffle: true
   }
   TrsrBx_Mount_D22_03:
   {
-    Item: ITM_AC_016
-    Name: Bright Stone
     Region: Highlands
     Location: Yvon's Cellar
     Shuffle: true
   }
   TrsrBx_Mount_D22_04:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Highlands
     Location: Yvon's Cellar
     Shuffle: true
   }
   TrsrBx_Mount_D22_05:
   {
-    Item: None
-    Name: 12000 Leaves
     Region: Highlands
     Location: Yvon's Cellar
     Shuffle: true
   }
   TrsrBx_Mount_D22_06:
   {
-    Item: ITM_141
-    Name: Light Soulstone (L)
     Region: Highlands
     Location: Yvon's Cellar
     Shuffle: true
   }
   TrsrBx_Mount_D22_07:
   {
-    Item: ITM_029
-    Name: Fire Soulstone (M)
     Region: Highlands
     Location: Yvon's Cellar
     Shuffle: true
   }
   TrsrBx_Mount_D22_08:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Highlands
     Location: Yvon's Cellar
     Shuffle: true
   }
   TrsrBx_Mount_D22_09:
   {
-    Item: ITM_WR_020
-    Name: Sturdy Quartz Rod
     Region: Highlands
     Location: Yvon's Cellar
     Shuffle: true
   }
   TrsrBx_Mount_D23_01:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Highlands
     Location: Tomb of the Kings
     Shuffle: true
   }
   TrsrBx_Mount_D23_02:
   {
-    Item: ITM_040
-    Name: Bottle of Blinding Dust
     Region: Highlands
     Location: Tomb of the Kings
     Shuffle: true
   }
   TrsrBx_Mount_D23_03:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Highlands
     Location: Tomb of the Kings
     Shuffle: true
   }
   TrsrBx_Mount_D23_04:
   {
-    Item: None
-    Name: 9400 Leaves
     Region: Highlands
     Location: Tomb of the Kings
     Shuffle: true
   }
   TrsrBx_Mount_D23_05:
   {
-    Item: ITM_AC_016
-    Name: Bright Stone
     Region: Highlands
     Location: Tomb of the Kings
     Shuffle: true
   }
   TrsrBx_Mount_D23_06:
   {
-    Item: ITM_084
-    Name: Curious Antique
     Region: Highlands
     Location: Tomb of the Kings
     Shuffle: true
   }
   TrsrBx_Mount_D23_07:
   {
-    Item: ITM_AH_056
-    Name: Hasty Helm
     Region: Highlands
     Location: Tomb of the Kings
     Shuffle: true
   }
   TrsrBx_Mount_D31A_02:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Highlands
     Location: Everhold Amphitheatre: Arena
     Shuffle: true
   }
   TrsrBx_Mount_D31A_03:
   {
-    Item: None
-    Name: 30000 Leaves
     Region: Highlands
     Location: Everhold Amphitheatre: Arena
     Shuffle: true
   }
   TrsrBx_Mount_D31A_04:
   {
-    Item: None
-    Name: 20000 Leaves
     Region: Highlands
     Location: Everhold Amphitheatre: Arena
     Shuffle: true
   }
   TrsrBx_Mount_D31A_05:
   {
-    Item: ITM_WS_024
-    Name: Unseen Saber
     Region: Highlands
     Location: Everhold Amphitheatre: Arena
     Shuffle: true
   }
   TrsrBx_Mount_D31A_06:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Highlands
     Location: Everhold Amphitheatre: Arena
     Shuffle: true
   }
   TrsrBx_Mount_D31A_07:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Highlands
     Location: Everhold Amphitheatre: Arena
     Shuffle: true
   }
   TrsrBx_Mount_D31A_08:
   {
-    Item: ITM_AC_002
-    Name: Inferno Amulet
     Region: Highlands
     Location: Everhold Amphitheatre: Arena
     Shuffle: true
   }
   TrsrBx_Mount_D31A_09:
   {
-    Item: ITM_AB_067
-    Name: Ethereal Dancer Garb
     Region: Highlands
     Location: Everhold Amphitheatre: Arena
     Shuffle: true
   }
   TrsrBx_Mount_D31B_01:
   {
-    Item: ITM_WR_024
-    Name: Enchanted Rod
     Region: Highlands
     Location: Everhold Amphitheatre: Balcony
     Shuffle: true
   }
   TrsrBx_Mount_D31B_02:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Highlands
     Location: Everhold Amphitheatre: Balcony
     Shuffle: true
   }
   TrsrBx_Mount_D31B_03:
   {
-    Item: ITM_141
-    Name: Light Soulstone (L)
     Region: Highlands
     Location: Everhold Amphitheatre: Balcony
     Shuffle: true
   }
   TrsrBx_Mount_D31B_04:
   {
-    Item: ITM_AC_016
-    Name: Bright Stone
     Region: Highlands
     Location: Everhold Amphitheatre: Balcony
     Shuffle: true
   }
   TrsrBx_Mount_D31B_05:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Highlands
     Location: Everhold Amphitheatre: Balcony
     Shuffle: true
   }
   TrsrBx_Mount_D31B_06:
   {
-    Item: ITM_018
-    Name: Revitalizing Jam
     Region: Highlands
     Location: Everhold Amphitheatre: Balcony
     Shuffle: true
   }
   TrsrBx_Mount_D32_01:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Highlands
     Location: Everhold Tunnels
     Shuffle: true
   }
   TrsrBx_Mount_D32_02:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Highlands
     Location: Everhold Tunnels
     Shuffle: true
   }
   TrsrBx_Mount_D32_03:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Highlands
     Location: Everhold Tunnels
     Shuffle: true
   }
   TrsrBx_Mount_D32_04:
   {
-    Item: ITM_WA_017
-    Name: Death Cleaver
     Region: Highlands
     Location: Everhold Tunnels
     Shuffle: true
   }
   TrsrBx_Mount_D32_05:
   {
-    Item: ITM_WR_040
-    Name: Knowledge Staff
     Region: Highlands
     Location: Everhold Tunnels
     Shuffle: true
   }
   TrsrBx_Mount_D32_06:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Highlands
     Location: Everhold Tunnels
     Shuffle: true
   }
   TrsrBx_Mount_D32_07:
   {
-    Item: None
-    Name: 35000 Leaves
     Region: Highlands
     Location: Everhold Tunnels
     Shuffle: true
   }
   TrsrBx_Mount_D32_08:
   {
-    Item: ITM_AC_016
-    Name: Bright Stone
     Region: Highlands
     Location: Everhold Tunnels
     Shuffle: true
   }
   TrsrBx_Mount_D3job_01:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Highlands
     Location: Shrine of the Runeblade
     Shuffle: true
   }
   TrsrBx_Mount_D3job_02:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Highlands
     Location: Shrine of the Runeblade
     Shuffle: true
   }
   TrsrBx_Mount_D3job_03:
   {
-    Item: None
-    Name: 50000 Leaves
     Region: Highlands
     Location: Shrine of the Runeblade
     Shuffle: true
   }
   TrsrBx_Mount_D3job_04:
   {
-    Item: ITM_018
-    Name: Revitalizing Jam
     Region: Highlands
     Location: Shrine of the Runeblade
     Shuffle: true
   }
   TrsrBx_Mount_F11_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Highlands
     Location: Mountain Pass
     Shuffle: true
   }
   TrsrBx_Mount_F11_02:
   {
-    Item: ITM_036
-    Name: Light Soulstone
     Region: Highlands
     Location: Mountain Pass
     Shuffle: true
   }
   TrsrBx_Mount_F11_03:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Highlands
     Location: Mountain Pass
     Shuffle: true
   }
   TrsrBx_Mount_F11_04:
   {
-    Item: ITM_081
-    Name: Old Coin
     Region: Highlands
     Location: Mountain Pass
     Shuffle: true
   }
   TrsrBx_Mount_F12_01:
   {
-    Item: ITM_062
-    Name: Magic Nut
     Region: Highlands
     Location: North Cobbleston Gap
     Shuffle: true
   }
   TrsrBx_Mount_F12_02:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Highlands
     Location: North Cobbleston Gap
     Shuffle: true
   }
   TrsrBx_Mount_F12_03:
   {
-    Item: None
-    Name: 1200 Leaves
     Region: Highlands
     Location: North Cobbleston Gap
     Shuffle: true
   }
   TrsrBx_Mount_F12_04:
   {
-    Item: ITM_036
-    Name: Light Soulstone
     Region: Highlands
     Location: North Cobbleston Gap
     Shuffle: true
   }
   TrsrBx_Mount_F12_05:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Highlands
     Location: North Cobbleston Gap
     Shuffle: true
   }
   TrsrBx_Mount_F13_01:
   {
-    Item: ITM_012
-    Name: Herb of Clamor
     Region: Highlands
     Location: South Cobbleston Gap
     Shuffle: true
   }
   TrsrBx_Mount_F13_02:
   {
-    Item: None
-    Name: 1000 Leaves
     Region: Highlands
     Location: South Cobbleston Gap
     Shuffle: true
   }
   TrsrBx_Mount_F13_03:
   {
-    Item: ITM_015
-    Name: Herb of Awakening
     Region: Highlands
     Location: South Cobbleston Gap
     Shuffle: true
   }
   TrsrBx_Mount_F13_04:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Highlands
     Location: South Cobbleston Gap
     Shuffle: true
   }
   TrsrBx_Mount_F13_05:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Highlands
     Location: South Cobbleston Gap
     Shuffle: true
   }
   TrsrBx_Mount_F21_01:
   {
-    Item: None
-    Name: 5000 Leaves
     Region: Highlands
     Location: Spectrewood Trail
     Shuffle: true
   }
   TrsrBx_Mount_F21_02:
   {
-    Item: ITM_122
-    Name: Fool's Gold Ore
     Region: Highlands
     Location: Spectrewood Trail
     Shuffle: true
   }
   TrsrBx_Mount_F21_03:
   {
-    Item: ITM_012
-    Name: Herb of Clamor
     Region: Highlands
     Location: Spectrewood Trail
     Shuffle: true
   }
   TrsrBx_Mount_F22_01:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Highlands
     Location: North Stonegard Pass
     Shuffle: true
   }
   TrsrBx_Mount_F22_02:
   {
-    Item: ITM_115
-    Name: Light Soulstone (M)
     Region: Highlands
     Location: North Stonegard Pass
     Shuffle: true
   }
   TrsrBx_Mount_F22_03:
   {
-    Item: ITM_143
-    Name: Energizing Pomegranate
     Region: Highlands
     Location: North Stonegard Pass
     Shuffle: true
   }
   TrsrBx_Mount_F23_01:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Highlands
     Location: West Stonegard Pass
     Shuffle: true
   }
   TrsrBx_Mount_F23_03:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Highlands
     Location: West Stonegard Pass
     Shuffle: true
   }
   TrsrBx_Mount_F23_04:
   {
-    Item: ITM_143
-    Name: Energizing Pomegranate
     Region: Highlands
     Location: West Stonegard Pass
     Shuffle: true
   }
   TrsrBx_Mount_F31_01:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Highlands
     Location: West Everhold Pass
     Shuffle: true
   }
   TrsrBx_Mount_F31_02:
   {
-    Item: ITM_029
-    Name: Fire Soulstone (M)
     Region: Highlands
     Location: West Everhold Pass
     Shuffle: true
   }
   TrsrBx_Mount_F31_03:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Highlands
     Location: West Everhold Pass
     Shuffle: true
   }
   TrsrBx_Mount_F31_04:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Highlands
     Location: West Everhold Pass
     Shuffle: true
   }
   TrsrBx_Mount_F31_05:
   {
-    Item: ITM_141
-    Name: Light Soulstone (L)
     Region: Highlands
     Location: West Everhold Pass
     Shuffle: true
   }
   TrsrBx_Mount_TLA_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Highlands
     Location: Stonegard
     Shuffle: true
   }
   TrsrBx_Mount_TLB_01:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Highlands
     Location: Stonegard
     Shuffle: true
   }
   TrsrBx_Mount_TLC_01:
   {
-    Item: ITM_AB_019
-    Name: Spiked Armor
     Region: Highlands
     Location: Stonegard
     Shuffle: true
   }
   TrsrBx_Mount_TMA_01:
   {
-    Item: ITM_005
-    Name: Rare Stone
     Region: Highlands
     Location: Everhold
     Shuffle: true
   }
   TrsrBx_Mount_TMA_02:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Highlands
     Location: Everhold
     Shuffle: true
   }
   TrsrBx_Mount_TMB_01:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Highlands
     Location: Everhold
     Shuffle: true
   }
   TrsrBx_Mount_TS_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Highlands
     Location: Cobbleston
     Shuffle: true
   }
   TrsrBx_Mount_TS_02:
   {
-    Item: ITM_WS_025
-    Name: Captain's Sword
     Region: Highlands
     Location: Cobbleston
     Shuffle: true
   }
   TrsrBx_Plain_D11_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Flatlands
     Location: Subterranean Study
     Shuffle: true
   }
   TrsrBx_Plain_D11_02:
   {
-    Item: ITM_012
-    Name: Herb of Clamor
     Region: Flatlands
     Location: Subterranean Study
     Shuffle: true
   }
   TrsrBx_Plain_D11_03:
   {
-    Item: ITM_AB_054
-    Name: Wind Attire
     Region: Flatlands
     Location: Subterranean Study
     Shuffle: true
   }
   TrsrBx_Plain_D11_04:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Flatlands
     Location: Subterranean Study
     Shuffle: true
   }
   TrsrBx_Plain_D11_05:
   {
-    Item: ITM_013
-    Name: Herb of Light
     Region: Flatlands
     Location: Subterranean Study
     Shuffle: true
   }
   TrsrBx_Plain_D11_06:
   {
-    Item: ITM_081
-    Name: Old Coin
     Region: Flatlands
     Location: Subterranean Study
     Shuffle: true
   }
   TrsrBx_Plain_D11_07:
   {
-    Item: ITM_036
-    Name: Light Soulstone
     Region: Flatlands
     Location: Subterranean Study
     Shuffle: true
   }
   TrsrBx_Plain_D12_01:
   {
-    Item: ITM_WS_005
-    Name: Silver Sword
     Region: Flatlands
     Location: The Whistlewood
     Shuffle: true
   }
   TrsrBx_Plain_D12_02:
   {
-    Item: ITM_143
-    Name: Energizing Pomegranate
     Region: Flatlands
     Location: The Whistlewood
     Shuffle: true
   }
   TrsrBx_Plain_D12_03:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Flatlands
     Location: The Whistlewood
     Shuffle: true
   }
   TrsrBx_Plain_D12_04:
   {
-    Item: ITM_065
-    Name: Resistant Nut
     Region: Flatlands
     Location: The Whistlewood
     Shuffle: true
   }
   TrsrBx_Plain_D12_05:
   {
-    Item: None
-    Name: 1500 Leaves
     Region: Flatlands
     Location: The Whistlewood
     Shuffle: true
   }
   TrsrBx_Plain_D21_01:
   {
-    Item: ITM_115
-    Name: Light Soulstone (M)
     Region: Flatlands
     Location: Orlick's Manse
     Shuffle: true
   }
   TrsrBx_Plain_D21_02:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Flatlands
     Location: Orlick's Manse
     Shuffle: true
   }
   TrsrBx_Plain_D21_04:
   {
-    Item: None
-    Name: 3000 Leaves
     Region: Flatlands
     Location: Orlick's Manse
     Shuffle: true
   }
   TrsrBx_Plain_D21_05:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Flatlands
     Location: Orlick's Manse
     Shuffle: true
   }
   TrsrBx_Plain_D21_06:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Flatlands
     Location: Orlick's Manse
     Shuffle: true
   }
   TrsrBx_Plain_D21_08:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Flatlands
     Location: Orlick's Manse
     Shuffle: true
   }
   TrsrBx_Plain_D21_09:
   {
-    Item: ITM_AC_007
-    Name: Lightning Amulet
     Region: Flatlands
     Location: Orlick's Manse
     Shuffle: true
   }
   TrsrBx_Plain_D22_01:
   {
-    Item: ITM_AC_013
-    Name: Antidote Stone
     Region: Flatlands
     Location: Obsidian Manse
     Shuffle: true
   }
   TrsrBx_Plain_D22_02:
   {
-    Item: None
-    Name: 5000 Leaves
     Region: Flatlands
     Location: Obsidian Manse
     Shuffle: true
   }
   TrsrBx_Plain_D22_03:
   {
-    Item: ITM_AH_035
-    Name: Elemental Hat
     Region: Flatlands
     Location: Obsidian Manse
     Shuffle: true
   }
   TrsrBx_Plain_D22_04:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Flatlands
     Location: Obsidian Manse
     Shuffle: true
   }
   TrsrBx_Plain_D22_05:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Flatlands
     Location: Obsidian Manse
     Shuffle: true
   }
   TrsrBx_Plain_D22_06:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Flatlands
     Location: Obsidian Manse
     Shuffle: true
   }
   TrsrBx_Plain_D22_07:
   {
-    Item: ITM_017
-    Name: Olive of Life (L)
     Region: Flatlands
     Location: Obsidian Manse
     Shuffle: true
   }
   TrsrBx_Plain_D22_08:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Flatlands
     Location: Obsidian Manse
     Shuffle: true
   }
   TrsrBx_Plain_D22_09:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Flatlands
     Location: Obsidian Manse
     Shuffle: true
   }
   TrsrBx_Plain_D23_01:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Flatlands
     Location: The Hollow Throne
     Shuffle: true
   }
   TrsrBx_Plain_D23_02:
   {
-    Item: ITM_018
-    Name: Revitalizing Jam
     Region: Flatlands
     Location: The Hollow Throne
     Shuffle: true
   }
   TrsrBx_Plain_D23_03:
   {
-    Item: ITM_AC_013
-    Name: Antidote Stone
     Region: Flatlands
     Location: The Hollow Throne
     Shuffle: true
   }
   TrsrBx_Plain_D23_04:
   {
-    Item: None
-    Name: 4000 Leaves
     Region: Flatlands
     Location: The Hollow Throne
     Shuffle: true
   }
   TrsrBx_Plain_D23_05:
   {
-    Item: ITM_WA_046
-    Name: Argent Axe
     Region: Flatlands
     Location: The Hollow Throne
     Shuffle: true
   }
   TrsrBx_Plain_D23_06:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Flatlands
     Location: The Hollow Throne
     Shuffle: true
   }
   TrsrBx_Plain_D23_07:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Flatlands
     Location: The Hollow Throne
     Shuffle: true
   }
   TrsrBx_Plain_D23_08:
   {
-    Item: ITM_WS_013
-    Name: Moonblade
     Region: Flatlands
     Location: The Hollow Throne
     Shuffle: true
   }
   TrsrBx_Plain_D31A_01:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31A_02:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31A_04:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31A_06:
   {
-    Item: ITM_WR_017
-    Name: Giant's Club
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31B_01:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31B_03:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31B_04:
   {
-    Item: ITM_AC_013
-    Name: Antidote Stone
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31B_05:
   {
-    Item: ITM_AH_037
-    Name: Adamantine Hat
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31B_06:
   {
-    Item: ITM_AC_008
-    Name: Thunderstorm Amulet
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31B_09:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31B_10:
   {
-    Item: None
-    Name: 30000 Leaves
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D31B_11:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Flatlands
     Location: Ebony Grotto
     Shuffle: true
   }
   TrsrBx_Plain_D32_01:
   {
-    Item: ITM_AC_006
-    Name: Tempest Amulet
     Region: Flatlands
     Location: Forest of Purgation
     Shuffle: true
   }
   TrsrBx_Plain_D32_02:
   {
-    Item: None
-    Name: 20000 Leaves
     Region: Flatlands
     Location: Forest of Purgation
     Shuffle: true
   }
   TrsrBx_Plain_D32_04:
   {
-    Item: ITM_139
-    Name: Thunder Soulstone (L)
     Region: Flatlands
     Location: Forest of Purgation
     Shuffle: true
   }
   TrsrBx_Plain_D32_05:
   {
-    Item: ITM_017
-    Name: Olive of Life (L)
     Region: Flatlands
     Location: Forest of Purgation
     Shuffle: true
   }
   TrsrBx_Plain_D32_06:
   {
-    Item: ITM_141
-    Name: Light Soulstone (L)
     Region: Flatlands
     Location: Forest of Purgation
     Shuffle: true
   }
   TrsrBx_Plain_D32_07:
   {
-    Item: ITM_WD_046
-    Name: Forbidden Dagger
     Region: Flatlands
     Location: Forest of Purgation
     Shuffle: true
   }
   TrsrBx_Plain_D3job_01:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Flatlands
     Location: Shrine of the Starseer
     Shuffle: true
   }
   TrsrBx_Plain_D3job_02:
   {
-    Item: ITM_AC_013
-    Name: Antidote Stone
     Region: Flatlands
     Location: Shrine of the Starseer
     Shuffle: true
   }
   TrsrBx_Plain_D3job_03:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Flatlands
     Location: Shrine of the Starseer
     Shuffle: true
   }
   TrsrBx_Plain_D3job_05:
   {
-    Item: ITM_141
-    Name: Light Soulstone (L)
     Region: Flatlands
     Location: Shrine of the Starseer
     Shuffle: true
   }
   TrsrBx_Plain_F11_01:
   {
-    Item: None
-    Name: 500 Leaves
     Region: Flatlands
     Location: East Atlasdam Flats
     Shuffle: true
   }
   TrsrBx_Plain_F11_02:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Flatlands
     Location: East Atlasdam Flats
     Shuffle: true
   }
   TrsrBx_Plain_F12_01:
   {
-    Item: ITM_032
-    Name: Thunder Soulstone
     Region: Flatlands
     Location: North Atlasdam Flats
     Shuffle: true
   }
   TrsrBx_Plain_F12_04:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Flatlands
     Location: North Atlasdam Flats
     Shuffle: true
   }
   TrsrBx_Plain_F21_01:
   {
-    Item: ITM_AC_005
-    Name: Wind Amulet
     Region: Flatlands
     Location: Western Noblecourt Flats
     Shuffle: true
   }
   TrsrBx_Plain_F21_02:
   {
-    Item: None
-    Name: 5000 Leaves
     Region: Flatlands
     Location: Western Noblecourt Flats
     Shuffle: true
   }
   TrsrBx_Plain_F21_03:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Flatlands
     Location: Western Noblecourt Flats
     Shuffle: true
   }
   TrsrBx_Plain_F21_04:
   {
-    Item: ITM_115
-    Name: Light Soulstone (M)
     Region: Flatlands
     Location: Western Noblecourt Flats
     Shuffle: true
   }
   TrsrBx_Plain_F21_05:
   {
-    Item: ITM_143
-    Name: Energizing Pomegranate
     Region: Flatlands
     Location: Western Noblecourt Flats
     Shuffle: true
   }
   TrsrBx_Plain_F31_02:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Flatlands
     Location: Western Wispermill Flats
     Shuffle: true
   }
   TrsrBx_Plain_F31_03:
   {
-    Item: ITM_025
-    Name: Cat's Eye
     Region: Flatlands
     Location: Western Wispermill Flats
     Shuffle: true
   }
   TrsrBx_Plain_F31_04:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Flatlands
     Location: Western Wispermill Flats
     Shuffle: true
   }
   TrsrBx_Plain_TLC_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Flatlands
     Location: Altasdam Palace
     Shuffle: true
   }
   TrsrBx_Plain_TLC_02:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Flatlands
     Location: Altasdam Palace
     Shuffle: true
   }
   TrsrBx_Plain_TLC_03:
   {
-    Item: ITM_015
-    Name: Herb of Awakening
     Region: Flatlands
     Location: Altasdam Palace
     Shuffle: true
   }
   TrsrBx_Plain_TLC_04:
   {
-    Item: ITM_032
-    Name: Thunder Soulstone
     Region: Flatlands
     Location: Altasdam Palace
     Shuffle: true
   }
   TrsrBx_Plain_TMA_01:
   {
-    Item: ITM_012
-    Name: Herb of Clamor
     Region: Flatlands
     Location: Noblecourt
     Shuffle: true
   }
   TrsrBx_Plain_TMA_02:
   {
-    Item: None
-    Name: 10000 Leaves
     Region: Flatlands
     Location: Noblecourt
     Shuffle: true
   }
   TrsrBx_Plain_TMB_01:
   {
-    Item: ITM_013
-    Name: Herb of Light
     Region: Flatlands
     Location: Noblecourt
     Shuffle: true
   }
   TrsrBx_Plain_TMB_02:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Flatlands
     Location: Noblecourt
     Shuffle: true
   }
   TrsrBx_Plain_TS_01:
   {
-    Item: ITM_033
-    Name: Thunder Soulstone (M)
     Region: Flatlands
     Location: Wispermill
     Shuffle: true
   }
   TrsrBx_River_D11_01:
   {
-    Item: ITM_MA_007
-    Name: Ruinous Seed
     Region: Riverlands
     Location: Cave of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_D11_02:
   {
-    Item: ITM_MA_006
-    Name: Injurious Dust
     Region: Riverlands
     Location: Cave of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_D11_03:
   {
-    Item: ITM_MA_002
-    Name: Soothing Dust
     Region: Riverlands
     Location: Cave of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_D11_04:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Riverlands
     Location: Cave of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_D11_05:
   {
-    Item: ITM_053
-    Name: Invigorating Nut
     Region: Riverlands
     Location: Cave of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_D11_06:
   {
-    Item: ITM_AB_001
-    Name: Bronze Vest
     Region: Riverlands
     Location: Cave of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_D11_07:
   {
-    Item: ITM_MA_004
-    Name: Purifying Dust
     Region: Riverlands
     Location: Cave of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_D11_08:
   {
-    Item: None
-    Name: 500 Leaves
     Region: Riverlands
     Location: Cave of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_D12_01:
   {
-    Item: ITM_WR_028
-    Name: Psychic Staff
     Region: Riverlands
     Location: Twin Falls
     Shuffle: true
   }
   TrsrBx_River_D12_02:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Riverlands
     Location: Twin Falls
     Shuffle: true
   }
   TrsrBx_River_D12_03:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Riverlands
     Location: Twin Falls
     Shuffle: true
   }
   TrsrBx_River_D12_04:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Riverlands
     Location: Twin Falls
     Shuffle: true
   }
   TrsrBx_River_D12_05:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Riverlands
     Location: Twin Falls
     Shuffle: true
   }
   TrsrBx_River_D12_06:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Riverlands
     Location: Twin Falls
     Shuffle: true
   }
   TrsrBx_River_D12_07:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Riverlands
     Location: Twin Falls
     Shuffle: true
   }
   TrsrBx_River_D12_08:
   {
-    Item: None
-    Name: 5000 Leaves
     Region: Riverlands
     Location: Twin Falls
     Shuffle: true
   }
   TrsrBx_River_D21_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Riverlands
     Location: The Murkwood
     Shuffle: true
   }
   TrsrBx_River_D21_02:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Riverlands
     Location: The Murkwood
     Shuffle: true
   }
   TrsrBx_River_D21_03:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Riverlands
     Location: The Murkwood
     Shuffle: true
   }
   TrsrBx_River_D21_04:
   {
-    Item: None
-    Name: 5000 Leaves
     Region: Riverlands
     Location: The Murkwood
     Shuffle: true
   }
   TrsrBx_River_D21_05:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Riverlands
     Location: The Murkwood
     Shuffle: true
   }
   TrsrBx_River_D21_06:
   {
-    Item: ITM_AC_018
-    Name: Clarity Stone
     Region: Riverlands
     Location: The Murkwood
     Shuffle: true
   }
   TrsrBx_River_D21_07:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Riverlands
     Location: The Murkwood
     Shuffle: true
   }
   TrsrBx_River_D21_08:
   {
-    Item: ITM_AS_002
-    Name: Kite Shield
     Region: Riverlands
     Location: The Murkwood
     Shuffle: true
   }
   TrsrBx_River_D21_09:
   {
-    Item: ITM_WR_028
-    Name: Psychic Staff
     Region: Riverlands
     Location: The Murkwood
     Shuffle: true
   }
   TrsrBx_River_D22_01:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Riverlands
     Location: Rivira Woods
     Shuffle: true
   }
   TrsrBx_River_D22_02:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Riverlands
     Location: Rivira Woods
     Shuffle: true
   }
   TrsrBx_River_D22_03:
   {
-    Item: ITM_AC_003
-    Name: Ice Amulet
     Region: Riverlands
     Location: Rivira Woods
     Shuffle: true
   }
   TrsrBx_River_D22_04:
   {
-    Item: ITM_MA_003
-    Name: Purifying Seed
     Region: Riverlands
     Location: Rivira Woods
     Shuffle: true
   }
   TrsrBx_River_D22_05:
   {
-    Item: ITM_WD_013
-    Name: Gaolbreaker
     Region: Riverlands
     Location: Rivira Woods
     Shuffle: true
   }
   TrsrBx_River_D22_06:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Riverlands
     Location: Rivira Woods
     Shuffle: true
   }
   TrsrBx_River_D22_07:
   {
-    Item: ITM_MA_006
-    Name: Injurious Dust
     Region: Riverlands
     Location: Rivira Woods
     Shuffle: true
   }
   TrsrBx_River_D22_08:
   {
-    Item: ITM_MA_004
-    Name: Purifying Dust
     Region: Riverlands
     Location: Rivira Woods
     Shuffle: true
   }
   TrsrBx_River_D23_01:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Riverlands
     Location: Farshore
     Shuffle: true
   }
   TrsrBx_River_D23_02:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Riverlands
     Location: Farshore
     Shuffle: true
   }
   TrsrBx_River_D23_03:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Riverlands
     Location: Farshore
     Shuffle: true
   }
   TrsrBx_River_D23_04:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Riverlands
     Location: Farshore
     Shuffle: true
   }
   TrsrBx_River_D23_05:
   {
-    Item: ITM_138
-    Name: Ice Soulstone (L)
     Region: Riverlands
     Location: Farshore
     Shuffle: true
   }
   TrsrBx_River_D23_06:
   {
-    Item: ITM_AC_018
-    Name: Clarity Stone
     Region: Riverlands
     Location: Farshore
     Shuffle: true
   }
   TrsrBx_River_D23_07:
   {
-    Item: None
-    Name: 30000 Leaves
     Region: Riverlands
     Location: Farshore
     Shuffle: true
   }
   TrsrBx_River_D31A_01:
   {
-    Item: ITM_016
-    Name: Herb of Valor
     Region: Riverlands
     Location: Hidden Path
     Shuffle: true
   }
   TrsrBx_River_D31A_02:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Riverlands
     Location: Hidden Path
     Shuffle: true
   }
   TrsrBx_River_D31A_03:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Riverlands
     Location: Hidden Path
     Shuffle: true
   }
   TrsrBx_River_D31A_04:
   {
-    Item: ITM_138
-    Name: Ice Soulstone (L)
     Region: Riverlands
     Location: Hidden Path
     Shuffle: true
   }
   TrsrBx_River_D31A_05:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Riverlands
     Location: Hidden Path
     Shuffle: true
   }
   TrsrBx_River_D31A_06:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Riverlands
     Location: Hidden Path
     Shuffle: true
   }
   TrsrBx_River_D31A_07:
   {
-    Item: ITM_AH_021
-    Name: Imperial Helm
     Region: Riverlands
     Location: Hidden Path
     Shuffle: true
   }
   TrsrBx_River_D31B_01:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Riverlands
     Location: Lord's Manse
     Shuffle: true
   }
   TrsrBx_River_D31B_02:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Riverlands
     Location: Lord's Manse
     Shuffle: true
   }
   TrsrBx_River_D31B_03:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Riverlands
     Location: Lord's Manse
     Shuffle: true
   }
   TrsrBx_River_D31B_04:
   {
-    Item: ITM_AC_004
-    Name: Blizzard Amulet
     Region: Riverlands
     Location: Lord's Manse
     Shuffle: true
   }
   TrsrBx_River_D31B_05:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Riverlands
     Location: Lord's Manse
     Shuffle: true
   }
   TrsrBx_River_D31B_06:
   {
-    Item: ITM_AC_018
-    Name: Clarity Stone
     Region: Riverlands
     Location: Lord's Manse
     Shuffle: true
   }
   TrsrBx_River_D31B_07:
   {
-    Item: ITM_WA_024
-    Name: Rune Hatchet
     Region: Riverlands
     Location: Lord's Manse
     Shuffle: true
   }
   TrsrBx_River_D31B_08:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Riverlands
     Location: Lord's Manse
     Shuffle: true
   }
   TrsrBx_River_D31B_09:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Riverlands
     Location: Lord's Manse
     Shuffle: true
   }
   TrsrBx_River_D31B_10:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Riverlands
     Location: Lord's Manse
     Shuffle: true
   }
   TrsrBx_River_D32_01:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_02:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_03:
   {
-    Item: ITM_WS_046
-    Name: Forbidden Blade
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_04:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_05:
   {
-    Item: ITM_AC_018
-    Name: Clarity Stone
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_06:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_07:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_08:
   {
-    Item: ITM_WR_024
-    Name: Enchanted Rod
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_09:
   {
-    Item: ITM_090
-    Name: Rusty Cup
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_10:
   {
-    Item: ITM_125
-    Name: Weathered Boots
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_11:
   {
-    Item: ITM_AS_033
-    Name: Force Shield
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_12:
   {
-    Item: ITM_092
-    Name: Cloth Map
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_13:
   {
-    Item: ITM_091
-    Name: Glossy Gold Coin
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D32_14:
   {
-    Item: ITM_094
-    Name: Scrap of Rope
     Region: Riverlands
     Location: Refuge Ruins
     Shuffle: true
   }
   TrsrBx_River_D3job_02:
   {
-    Item: None
-    Name: 30000 Leaves
     Region: Riverlands
     Location: Shrine of the Warbringer
     Shuffle: true
   }
   TrsrBx_River_D3job_04:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Riverlands
     Location: Shrine of the Warbringer
     Shuffle: true
   }
   TrsrBx_River_D3job_05:
   {
-    Item: ITM_093
-    Name: Herb of Revival
     Region: Riverlands
     Location: Shrine of the Warbringer
     Shuffle: true
   }
   TrsrBx_River_D3job_08:
   {
-    Item: ITM_018
-    Name: Revitalizing Jam
     Region: Riverlands
     Location: Shrine of the Warbringer
     Shuffle: true
   }
   TrsrBx_River_D3job_09:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Riverlands
     Location: Shrine of the Warbringer
     Shuffle: true
   }
   TrsrBx_River_F11_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Riverlands
     Location: Path of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_F11_02:
   {
-    Item: ITM_MA_002
-    Name: Soothing Dust
     Region: Riverlands
     Location: Path of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_F11_03:
   {
-    Item: ITM_MB_005
-    Name: Essence of Plum
     Region: Riverlands
     Location: Path of Rhiyo
     Shuffle: true
   }
   TrsrBx_River_F12_01:
   {
-    Item: ITM_MA_001
-    Name: Soothing Seed
     Region: Riverlands
     Location: South Clearbrook Traverse
     Shuffle: true
   }
   TrsrBx_River_F12_02:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Riverlands
     Location: South Clearbrook Traverse
     Shuffle: true
   }
   TrsrBx_River_F12_03:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Riverlands
     Location: South Clearbrook Traverse
     Shuffle: true
   }
   TrsrBx_River_F12_04:
   {
-    Item: None
-    Name: 500 Leaves
     Region: Riverlands
     Location: South Clearbrook Traverse
     Shuffle: true
   }
   TrsrBx_River_F13_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Riverlands
     Location: West Clearbrook Traverse
     Shuffle: true
   }
   TrsrBx_River_F13_02:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Riverlands
     Location: West Clearbrook Traverse
     Shuffle: true
   }
   TrsrBx_River_F13_03:
   {
-    Item: ITM_117
-    Name: Odds and Ends
     Region: Riverlands
     Location: West Clearbrook Traverse
     Shuffle: true
   }
   TrsrBx_River_F21_01:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Riverlands
     Location: Murkwood Trail
     Shuffle: true
   }
   TrsrBx_River_F21_02:
   {
-    Item: None
-    Name: 3500 Leaves
     Region: Riverlands
     Location: Murkwood Trail
     Shuffle: true
   }
   TrsrBx_River_F21_03:
   {
-    Item: ITM_015
-    Name: Herb of Awakening
     Region: Riverlands
     Location: Murkwood Trail
     Shuffle: true
   }
   TrsrBx_River_F22_01:
   {
-    Item: ITM_005
-    Name: Rare Stone
     Region: Riverlands
     Location: East Saintsbridge Traverse
     Shuffle: true
   }
   TrsrBx_River_F22_02:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Riverlands
     Location: East Saintsbridge Traverse
     Shuffle: true
   }
   TrsrBx_River_F22_03:
   {
-    Item: ITM_011
-    Name: Herb of Healing
     Region: Riverlands
     Location: East Saintsbridge Traverse
     Shuffle: true
   }
   TrsrBx_River_F31_01:
   {
-    Item: ITM_140
-    Name: Wind Soulstone (L)
     Region: Riverlands
     Location: North Riverford Traverse
     Shuffle: true
   }
   TrsrBx_River_F31_02:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Riverlands
     Location: North Riverford Traverse
     Shuffle: true
   }
   TrsrBx_River_F31_03:
   {
-    Item: ITM_093
-    Name: Herb of Revival
     Region: Riverlands
     Location: North Riverford Traverse
     Shuffle: true
   }
   TrsrBx_River_TLA_01:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Riverlands
     Location: Saintsbridge
     Shuffle: true
   }
   TrsrBx_River_TLA_02:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Riverlands
     Location: Saintsbridge
     Shuffle: true
   }
   TrsrBx_River_TLB_01:
   {
-    Item: ITM_042
-    Name: Bottle of Sleeping Dust
     Region: Riverlands
     Location: Saintsbridge
     Shuffle: true
   }
   TrsrBx_River_TLB_02:
   {
-    Item: ITM_006
-    Name: Heavy Coin Pouch
     Region: Riverlands
     Location: Saintsbridge
     Shuffle: true
   }
   TrsrBx_River_TLC_01:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Riverlands
     Location: Saintsbridge
     Shuffle: true
   }
   TrsrBx_River_TLC_02:
   {
-    Item: ITM_016
-    Name: Herb of Valor
     Region: Riverlands
     Location: Saintsbridge
     Shuffle: true
   }
   TrsrBx_River_TMA_01:
   {
-    Item: ITM_018
-    Name: Revitalizing Jam
     Region: Riverlands
     Location: Riverford
     Shuffle: true
   }
   TrsrBx_River_TMB_01:
   {
-    Item: ITM_016
-    Name: Herb of Valor
     Region: Riverlands
     Location: Riverford
     Shuffle: true
   }
   TrsrBx_River_TMB_02:
   {
-    Item: ITM_AS_025
-    Name: Adamantine Shield
     Region: Riverlands
     Location: Riverford
     Shuffle: true
   }
   TrsrBx_River_TS_01:
   {
-    Item: ITM_120
-    Name: Dubious Gold Ore
     Region: Riverlands
     Location: Clearbrook
     Shuffle: true
   }
   TrsrBx_River_TS_02:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Riverlands
     Location: Clearbrook
     Shuffle: true
   }
   TrsrBx_River_TS_03:
   {
-    Item: ITM_WA_002
-    Name: Iron Axe
     Region: Riverlands
     Location: Clearbrook
     Shuffle: true
   }
   TrsrBx_Sea_D11_01:
   {
-    Item: None
-    Name: 1000 Leaves
     Region: Coastlands
     Location: Caves of Maiya
     Shuffle: true
   }
   TrsrBx_Sea_D11_02:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Coastlands
     Location: Caves of Maiya
     Shuffle: true
   }
   TrsrBx_Sea_D11_03:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Coastlands
     Location: Caves of Maiya
     Shuffle: true
   }
   TrsrBx_Sea_D11_04:
   {
-    Item: ITM_032
-    Name: Thunder Soulstone
     Region: Coastlands
     Location: Caves of Maiya
     Shuffle: true
   }
   TrsrBx_Sea_D11_06:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Coastlands
     Location: Caves of Maiya
     Shuffle: true
   }
   TrsrBx_Sea_D12_01:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Coastlands
     Location: Undertow Cove
     Shuffle: true
   }
   TrsrBx_Sea_D12_02:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Coastlands
     Location: Undertow Cove
     Shuffle: true
   }
   TrsrBx_Sea_D12_03:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Coastlands
     Location: Undertow Cove
     Shuffle: true
   }
   TrsrBx_Sea_D12_05:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Coastlands
     Location: Undertow Cove
     Shuffle: true
   }
   TrsrBx_Sea_D12_06:
   {
-    Item: ITM_WD_015
-    Name: Justice Breaker
     Region: Coastlands
     Location: Undertow Cove
     Shuffle: true
   }
   TrsrBx_Sea_D12_07:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Coastlands
     Location: Undertow Cove
     Shuffle: true
   }
   TrsrBx_Sea_D12_08:
   {
-    Item: None
-    Name: 20000 Leaves
     Region: Coastlands
     Location: Undertow Cove
     Shuffle: true
   }
   TrsrBx_Sea_D21_01:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Coastlands
     Location: Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_D21_02:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Coastlands
     Location: Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_D21_03:
   {
-    Item: ITM_AH_020
-    Name: Grand Helm
     Region: Coastlands
     Location: Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_D21_05:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Coastlands
     Location: Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_D21_06:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Coastlands
     Location: Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_D21_07:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Coastlands
     Location: Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_D21_08:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Coastlands
     Location: Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_D22_01:
   {
-    Item: ITM_MA_004
-    Name: Purifying Dust
     Region: Coastlands
     Location: Caves of Azure
     Shuffle: true
   }
   TrsrBx_Sea_D22_02:
   {
-    Item: ITM_MA_008
-    Name: Ruinous Dust
     Region: Coastlands
     Location: Caves of Azure
     Shuffle: true
   }
   TrsrBx_Sea_D22_03:
   {
-    Item: ITM_AB_019
-    Name: Spiked Armor
     Region: Coastlands
     Location: Caves of Azure
     Shuffle: true
   }
   TrsrBx_Sea_D22_04:
   {
-    Item: ITM_AB_045
-    Name: Falcon Garb
     Region: Coastlands
     Location: Caves of Azure
     Shuffle: true
   }
   TrsrBx_Sea_D23_01:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Coastlands
     Location: Captains' Bane
     Shuffle: true
   }
   TrsrBx_Sea_D23_02:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Coastlands
     Location: Captains' Bane
     Shuffle: true
   }
   TrsrBx_Sea_D23_03:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Coastlands
     Location: Captains' Bane
     Shuffle: true
   }
   TrsrBx_Sea_D23_04:
   {
-    Item: ITM_WL_007
-    Name: Hedgehog Spear
     Region: Coastlands
     Location: Captains' Bane
     Shuffle: true
   }
   TrsrBx_Sea_D23_05:
   {
-    Item: ITM_AC_015
-    Name: Articulate Stone
     Region: Coastlands
     Location: Captains' Bane
     Shuffle: true
   }
   TrsrBx_Sea_D23_06:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Coastlands
     Location: Captains' Bane
     Shuffle: true
   }
   TrsrBx_Sea_D31A_01:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31A_02:
   {
-    Item: ITM_139
-    Name: Thunder Soulstone (L)
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31A_03:
   {
-    Item: ITM_WD_010
-    Name: Legion Dagger
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31A_04:
   {
-    Item: ITM_140
-    Name: Wind Soulstone (L)
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31A_05:
   {
-    Item: ITM_AH_021
-    Name: Imperial Helm
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31B_01:
   {
-    Item: ITM_AS_033
-    Name: Force Shield
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31B_02:
   {
-    Item: ITM_139
-    Name: Thunder Soulstone (L)
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31B_03:
   {
-    Item: ITM_AB_063
-    Name: Robe of the Dragon Princess
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31B_04:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31B_05:
   {
-    Item: ITM_017
-    Name: Olive of Life (L)
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31B_06:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D31B_07:
   {
-    Item: ITM_WL_024
-    Name: Scourge Lance
     Region: Coastlands
     Location: Grandport Sewers
     Shuffle: true
   }
   TrsrBx_Sea_D32_02:
   {
-    Item: ITM_140
-    Name: Wind Soulstone (L)
     Region: Coastlands
     Location: Loch of the Lost King
     Shuffle: true
   }
   TrsrBx_Sea_D32_04:
   {
-    Item: None
-    Name: 30000 Leaves
     Region: Coastlands
     Location: Loch of the Lost King
     Shuffle: true
   }
   TrsrBx_Sea_D32_06:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Coastlands
     Location: Loch of the Lost King
     Shuffle: true
   }
   TrsrBx_Sea_D32_07:
   {
-    Item: ITM_AC_015
-    Name: Articulate Stone
     Region: Coastlands
     Location: Loch of the Lost King
     Shuffle: true
   }
   TrsrBx_Sea_D32_08:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Coastlands
     Location: Loch of the Lost King
     Shuffle: true
   }
   TrsrBx_Sea_D32_09:
   {
-    Item: ITM_017
-    Name: Olive of Life (L)
     Region: Coastlands
     Location: Loch of the Lost King
     Shuffle: true
   }
   TrsrBx_Sea_D32_10:
   {
-    Item: ITM_WR_022
-    Name: Sturdy Sapphire Rod
     Region: Coastlands
     Location: Loch of the Lost King
     Shuffle: true
   }
   TrsrBx_Sea_D32_12:
   {
-    Item: ITM_WB_040
-    Name: Improved Bow of the Eagle
     Region: Coastlands
     Location: Loch of the Lost King
     Shuffle: true
   }
   TrsrBx_Sea_F11_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Coastlands
     Location: Path to Caves of Maiya
     Shuffle: true
   }
   TrsrBx_Sea_F11_02:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Coastlands
     Location: Path to Caves of Maiya
     Shuffle: true
   }
   TrsrBx_Sea_F11_03:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Coastlands
     Location: Path to Caves of Maiya
     Shuffle: true
   }
   TrsrBx_Sea_F11_04:
   {
-    Item: ITM_014
-    Name: Herb of Clarity
     Region: Coastlands
     Location: Path to Caves of Maiya
     Shuffle: true
   }
   TrsrBx_Sea_F12_01:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Coastlands
     Location: North Rippletide Coast
     Shuffle: true
   }
   TrsrBx_Sea_F12_02:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Coastlands
     Location: North Rippletide Coast
     Shuffle: true
   }
   TrsrBx_Sea_F12_03:
   {
-    Item: ITM_056
-    Name: Fortifying Nut
     Region: Coastlands
     Location: North Rippletide Coast
     Shuffle: true
   }
   TrsrBx_Sea_F13_01:
   {
-    Item: ITM_034
-    Name: Wind Soulstone
     Region: Coastlands
     Location: East Rippletide Coast
     Shuffle: true
   }
   TrsrBx_Sea_F13_02:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Coastlands
     Location: East Rippletide Coast
     Shuffle: true
   }
   TrsrBx_Sea_F13_03:
   {
-    Item: ITM_062
-    Name: Magic Nut
     Region: Coastlands
     Location: East Rippletide Coast
     Shuffle: true
   }
   TrsrBx_Sea_F21_01:
   {
-    Item: ITM_AC_003
-    Name: Ice Amulet
     Region: Coastlands
     Location: Road to the Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_F21_02:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Coastlands
     Location: Road to the Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_F21_03:
   {
-    Item: ITM_038
-    Name: Bottle of Poison Dust
     Region: Coastlands
     Location: Road to the Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_F21_04:
   {
-    Item: ITM_033
-    Name: Thunder Soulstone (M)
     Region: Coastlands
     Location: Road to the Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_F21_05:
   {
-    Item: ITM_015
-    Name: Herb of Awakening
     Region: Coastlands
     Location: Road to the Seaside Grotto
     Shuffle: true
   }
   TrsrBx_Sea_F22_01:
   {
-    Item: ITM_006
-    Name: Heavy Coin Pouch
     Region: Coastlands
     Location: Road to the Caves of Azure
     Shuffle: true
   }
   TrsrBx_Sea_F22_02:
   {
-    Item: ITM_143
-    Name: Energizing Pomegranate
     Region: Coastlands
     Location: Road to the Caves of Azure
     Shuffle: true
   }
   TrsrBx_Sea_F22_03:
   {
-    Item: ITM_MA_003
-    Name: Purifying Seed
     Region: Coastlands
     Location: Road to the Caves of Azure
     Shuffle: true
   }
   TrsrBx_Sea_F23_01:
   {
-    Item: ITM_143
-    Name: Energizing Pomegranate
     Region: Coastlands
     Location: West Goldshore Coast
     Shuffle: true
   }
   TrsrBx_Sea_F23_03:
   {
-    Item: ITM_016
-    Name: Herb of Valor
     Region: Coastlands
     Location: West Goldshore Coast
     Shuffle: true
   }
   TrsrBx_Sea_F23_04:
   {
-    Item: ITM_040
-    Name: Bottle of Blinding Dust
     Region: Coastlands
     Location: West Goldshore Coast
     Shuffle: true
   }
   TrsrBx_Sea_F23_05:
   {
-    Item: ITM_033
-    Name: Thunder Soulstone (M)
     Region: Coastlands
     Location: West Goldshore Coast
     Shuffle: true
   }
   TrsrBx_Sea_F24_01:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Coastlands
     Location: Moonstruck Coast
     Shuffle: true
   }
   TrsrBx_Sea_F24_03:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Coastlands
     Location: Moonstruck Coast
     Shuffle: true
   }
   TrsrBx_Sea_F24_04:
   {
-    Item: ITM_AC_015
-    Name: Articulate Stone
     Region: Coastlands
     Location: Moonstruck Coast
     Shuffle: true
   }
   TrsrBx_Sea_F24_05:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Coastlands
     Location: Moonstruck Coast
     Shuffle: true
   }
   TrsrBx_Sea_F31_02:
   {
-    Item: ITM_139
-    Name: Thunder Soulstone (L)
     Region: Coastlands
     Location: West Grandport Coast
     Shuffle: true
   }
   TrsrBx_Sea_F31_03:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Coastlands
     Location: West Grandport Coast
     Shuffle: true
   }
   TrsrBx_Sea_F31_04:
   {
-    Item: None
-    Name: 20000 Leaves
     Region: Coastlands
     Location: West Grandport Coast
     Shuffle: true
   }
   TrsrBx_Sea_F31_05:
   {
-    Item: ITM_140
-    Name: Wind Soulstone (L)
     Region: Coastlands
     Location: West Grandport Coast
     Shuffle: true
   }
   TrsrBx_Sea_TLA_01:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Coastlands
     Location: Grandport
     Shuffle: true
   }
   TrsrBx_Sea_TLB_01:
   {
-    Item: ITM_042
-    Name: Bottle of Sleeping Dust
     Region: Coastlands
     Location: Grandport
     Shuffle: true
   }
   TrsrBx_Sea_TLB_04:
   {
-    Item: ITM_103
-    Name: Empty Coin Pouch
     Region: Coastlands
     Location: Grandport
     Shuffle: true
   }
   TrsrBx_Sea_TLB_05:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Coastlands
     Location: Grandport
     Shuffle: true
   }
   TrsrBx_Sea_TLC_01:
   {
-    Item: None
-    Name: 25000 Leaves
     Region: Coastlands
     Location: Grandport
     Shuffle: true
   }
   TrsrBx_Sea_TLC_02:
   {
-    Item: ITM_085
-    Name: Dazzling Artwork
     Region: Coastlands
     Location: Grandport
     Shuffle: true
   }
   TrsrBx_Sea_TMA_01:
   {
-    Item: ITM_033
-    Name: Thunder Soulstone (M)
     Region: Coastlands
     Location: Goldshore
     Shuffle: true
   }
   TrsrBx_Sea_TMA_04:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Coastlands
     Location: Goldshore
     Shuffle: true
   }
   TrsrBx_Sea_TMA_05:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Coastlands
     Location: Goldshore
     Shuffle: true
   }
   TrsrBx_Sea_TMB_03:
   {
-    Item: None
-    Name: 4500 Leaves
     Region: Coastlands
     Location: Goldshore
     Shuffle: true
   }
   TrsrBx_Sea_TMB_04:
   {
-    Item: ITM_012
-    Name: Herb of Clamor
     Region: Coastlands
     Location: Goldshore
     Shuffle: true
   }
   TrsrBx_Sea_TMB_05:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Coastlands
     Location: Goldshore
     Shuffle: true
   }
   TrsrBx_Sea_TMC_02:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Coastlands
     Location: Goldshore
     Shuffle: true
   }
   TrsrBx_Sea_TMC_03:
   {
-    Item: ITM_013
-    Name: Herb of Light
     Region: Coastlands
     Location: Goldshore
     Shuffle: true
   }
   TrsrBx_Sea_TMC_04:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Coastlands
     Location: Goldshore
     Shuffle: true
   }
   TrsrBx_Sea_TS_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Coastlands
     Location: Rippletide
     Shuffle: true
   }
   TrsrBx_Sea_TS_02:
   {
-    Item: ITM_038
-    Name: Bottle of Poison Dust
     Region: Coastlands
     Location: Rippletide
     Shuffle: true
   }
   TrsrBx_Sea_TS_03:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Coastlands
     Location: Rippletide
     Shuffle: true
   }
   TrsrBx_Sea_TS_04:
   {
-    Item: None
-    Name: 500 Leaves
     Region: Coastlands
     Location: Rippletide
     Shuffle: true
   }
   TrsrBx_Snow_D11_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Frostlands
     Location: Cave of Origin
     Shuffle: true
   }
   TrsrBx_Snow_D11_02:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Frostlands
     Location: Cave of Origin
     Shuffle: true
   }
   TrsrBx_Snow_D11_03:
   {
-    Item: ITM_037
-    Name: Shadow Soulstone
     Region: Frostlands
     Location: Cave of Origin
     Shuffle: true
   }
   TrsrBx_Snow_D11_05:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Frostlands
     Location: Cave of Origin
     Shuffle: true
   }
   TrsrBx_Snow_D11_06:
   {
-    Item: ITM_AH_030
-    Name: Silver Hairpiece
     Region: Frostlands
     Location: Cave of Origin
     Shuffle: true
   }
   TrsrBx_Snow_D12_01:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Frostlands
     Location: Hoarfrost Grotto
     Shuffle: true
   }
   TrsrBx_Snow_D12_02:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Frostlands
     Location: Hoarfrost Grotto
     Shuffle: true
   }
   TrsrBx_Snow_D12_03:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Frostlands
     Location: Hoarfrost Grotto
     Shuffle: true
   }
   TrsrBx_Snow_D12_04:
   {
-    Item: None
-    Name: 10000 Leaves
     Region: Frostlands
     Location: Hoarfrost Grotto
     Shuffle: true
   }
   TrsrBx_Snow_D12_05:
   {
-    Item: ITM_WA_020
-    Name: Soul Hatchet
     Region: Frostlands
     Location: Hoarfrost Grotto
     Shuffle: true
   }
   TrsrBx_Snow_D12_06:
   {
-    Item: ITM_077
-    Name: Light Nut
     Region: Frostlands
     Location: Hoarfrost Grotto
     Shuffle: true
   }
   TrsrBx_Snow_D21_01:
   {
-    Item: None
-    Name: 15000 Leaves
     Region: Frostlands
     Location: The Whitewood
     Shuffle: true
   }
   TrsrBx_Snow_D21_02:
   {
-    Item: ITM_017
-    Name: Olive of Life (L)
     Region: Frostlands
     Location: The Whitewood
     Shuffle: true
   }
   TrsrBx_Snow_D21_03:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Frostlands
     Location: The Whitewood
     Shuffle: true
   }
   TrsrBx_Snow_D21_04:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Frostlands
     Location: The Whitewood
     Shuffle: true
   }
   TrsrBx_Snow_D21_05:
   {
-    Item: ITM_WA_013
-    Name: Rock Cleaver
     Region: Frostlands
     Location: The Whitewood
     Shuffle: true
   }
   TrsrBx_Snow_D21_06:
   {
-    Item: ITM_116
-    Name: Shadow Soulstone (M)
     Region: Frostlands
     Location: The Whitewood
     Shuffle: true
   }
   TrsrBx_Snow_D21_07:
   {
-    Item: ITM_AC_011
-    Name: Light Amulet
     Region: Frostlands
     Location: The Whitewood
     Shuffle: true
   }
   TrsrBx_Snow_D22_01:
   {
-    Item: ITM_093
-    Name: Herb of Revival
     Region: Frostlands
     Location: Secret Path
     Shuffle: true
   }
   TrsrBx_Snow_D22_02:
   {
-    Item: ITM_116
-    Name: Shadow Soulstone (M)
     Region: Frostlands
     Location: Secret Path
     Shuffle: true
   }
   TrsrBx_Snow_D22_03:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Frostlands
     Location: Secret Path
     Shuffle: true
   }
   TrsrBx_Snow_D22_04:
   {
-    Item: None
-    Name: 5500 Leaves
     Region: Frostlands
     Location: Secret Path
     Shuffle: true
   }
   TrsrBx_Snow_D22_05:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Frostlands
     Location: Secret Path
     Shuffle: true
   }
   TrsrBx_Snow_D22_06:
   {
-    Item: ITM_AB_005
-    Name: Spiked Vest
     Region: Frostlands
     Location: Secret Path
     Shuffle: true
   }
   TrsrBx_Snow_D22_07:
   {
-    Item: ITM_AC_014
-    Name: Wakeful Stone
     Region: Frostlands
     Location: Secret Path
     Shuffle: true
   }
   TrsrBx_Snow_D22_08:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Frostlands
     Location: Secret Path
     Shuffle: true
   }
   TrsrBx_Snow_D23_01:
   {
-    Item: ITM_AC_014
-    Name: Wakeful Stone
     Region: Frostlands
     Location: Tomb of the Imperator
     Shuffle: true
   }
   TrsrBx_Snow_D23_02:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Frostlands
     Location: Tomb of the Imperator
     Shuffle: true
   }
   TrsrBx_Snow_D23_03:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Frostlands
     Location: Tomb of the Imperator
     Shuffle: true
   }
   TrsrBx_Snow_D23_04:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Frostlands
     Location: Tomb of the Imperator
     Shuffle: true
   }
   TrsrBx_Snow_D23_05:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Frostlands
     Location: Tomb of the Imperator
     Shuffle: true
   }
   TrsrBx_Snow_D23_06:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Frostlands
     Location: Tomb of the Imperator
     Shuffle: true
   }
   TrsrBx_Snow_D23_07:
   {
-    Item: ITM_WD_013
-    Name: Gaolbreaker
     Region: Frostlands
     Location: Tomb of the Imperator
     Shuffle: true
   }
   TrsrBx_Snow_D31A_01:
   {
-    Item: ITM_093
-    Name: Herb of Revival
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D31A_02:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D31A_03:
   {
-    Item: ITM_138
-    Name: Ice Soulstone (L)
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D31A_04:
   {
-    Item: ITM_AC_012
-    Name: Gleaming Amulet
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D31A_05:
   {
-    Item: ITM_WS_031
-    Name: Enchanted Sword
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D31B_01:
   {
-    Item: ITM_AC_014
-    Name: Wakeful Stone
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D31B_02:
   {
-    Item: ITM_145
-    Name: Energizing Pomegranate (L)
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D31B_03:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D31B_04:
   {
-    Item: ITM_084
-    Name: Curious Antique
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D31B_05:
   {
-    Item: ITM_AC_010
-    Name: Void Amulet
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D31B_06:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Frostlands
     Location: Lorn Cathedral: Cellars
     Shuffle: true
   }
   TrsrBx_Snow_D32_01:
   {
-    Item: ITM_AC_014
-    Name: Wakeful Stone
     Region: Frostlands
     Location: Maw of the Ice Dragon
     Shuffle: true
   }
   TrsrBx_Snow_D32_02:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Frostlands
     Location: Maw of the Ice Dragon
     Shuffle: true
   }
   TrsrBx_Snow_D32_03:
   {
-    Item: ITM_AH_037
-    Name: Adamantine Hat
     Region: Frostlands
     Location: Maw of the Ice Dragon
     Shuffle: true
   }
   TrsrBx_Snow_D32_04:
   {
-    Item: None
-    Name: 30000 Leaves
     Region: Frostlands
     Location: Maw of the Ice Dragon
     Shuffle: true
   }
   TrsrBx_Snow_D32_05:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Frostlands
     Location: Maw of the Ice Dragon
     Shuffle: true
   }
   TrsrBx_Snow_D32_06:
   {
-    Item: ITM_142
-    Name: Shadow Soulstone (L)
     Region: Frostlands
     Location: Maw of the Ice Dragon
     Shuffle: true
   }
   TrsrBx_Snow_D32_07:
   {
-    Item: ITM_WD_046
-    Name: Forbidden Dagger
     Region: Frostlands
     Location: Maw of the Ice Dragon
     Shuffle: true
   }
   TrsrBx_Snow_F11_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Frostlands
     Location: Path to the Cave of Origin
     Shuffle: true
   }
   TrsrBx_Snow_F11_02:
   {
-    Item: None
-    Name: 600 Leaves
     Region: Frostlands
     Location: Path to the Cave of Origin
     Shuffle: true
   }
   TrsrBx_Snow_F11_03:
   {
-    Item: ITM_014
-    Name: Herb of Clarity
     Region: Frostlands
     Location: Path to the Cave of Origin
     Shuffle: true
   }
   TrsrBx_Snow_F12_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Frostlands
     Location: Western Flamesgrace Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F12_02:
   {
-    Item: ITM_037
-    Name: Shadow Soulstone
     Region: Frostlands
     Location: Western Flamesgrace Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F12_03:
   {
-    Item: None
-    Name: 800 Leaves
     Region: Frostlands
     Location: Western Flamesgrace Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F12_04:
   {
-    Item: ITM_074
-    Name: Critical Nut
     Region: Frostlands
     Location: Western Flamesgrace Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F13_01:
   {
-    Item: ITM_012
-    Name: Herb of Clamor
     Region: Frostlands
     Location: Northern Flamesgrace Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F13_02:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Frostlands
     Location: Northern Flamesgrace Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F13_03:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Frostlands
     Location: Northern Flamesgrace Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F21_01:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Frostlands
     Location: Trail to the Whitewood
     Shuffle: true
   }
   TrsrBx_Snow_F21_02:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Frostlands
     Location: Trail to the Whitewood
     Shuffle: true
   }
   TrsrBx_Snow_F22_01:
   {
-    Item: ITM_031
-    Name: Ice Soulstone (M)
     Region: Frostlands
     Location: Road to the Obsidian Parlor
     Shuffle: true
   }
   TrsrBx_Snow_F22_02:
   {
-    Item: ITM_093
-    Name: Herb of Revival
     Region: Frostlands
     Location: Road to the Obsidian Parlor
     Shuffle: true
   }
   TrsrBx_Snow_F22_03:
   {
-    Item: ITM_AC_009
-    Name: Dark Amulet
     Region: Frostlands
     Location: Road to the Obsidian Parlor
     Shuffle: true
   }
   TrsrBx_Snow_F23_01:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Frostlands
     Location: Western Snowstill Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F23_02:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Frostlands
     Location: Western Snowstill Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F23_03:
   {
-    Item: ITM_093
-    Name: Herb of Revival
     Region: Frostlands
     Location: Western Snowstill Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F23_04:
   {
-    Item: ITM_031
-    Name: Ice Soulstone (M)
     Region: Frostlands
     Location: Western Snowstill Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F31_01:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Frostlands
     Location: Southern Northreach Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F31_02:
   {
-    Item: ITM_116
-    Name: Shadow Soulstone (M)
     Region: Frostlands
     Location: Southern Northreach Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F31_03:
   {
-    Item: ITM_093
-    Name: Herb of Revival
     Region: Frostlands
     Location: Southern Northreach Wilds
     Shuffle: true
   }
   TrsrBx_Snow_F31_04:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Frostlands
     Location: Southern Northreach Wilds
     Shuffle: true
   }
   TrsrBx_Snow_TLC_01:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Frostlands
     Location: Flamesgrace
     Shuffle: true
   }
   TrsrBx_Snow_TLC_02:
   {
-    Item: ITM_016
-    Name: Herb of Valor
     Region: Frostlands
     Location: Flamesgrace
     Shuffle: true
   }
   TrsrBx_Snow_TLC_03:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Frostlands
     Location: Flamesgrace
     Shuffle: true
   }
   TrsrBx_Snow_TMA_01:
   {
-    Item: None
-    Name: 20000 Leaves
     Region: Frostlands
     Location: Northreach
     Shuffle: true
   }
   TrsrBx_Snow_TMA_02:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Frostlands
     Location: Northreach
     Shuffle: true
   }
   TrsrBx_Snow_TMA_03:
   {
-    Item: ITM_WB_022
-    Name: Master's Longbow
     Region: Frostlands
     Location: Northreach
     Shuffle: true
   }
   TrsrBx_Snow_TMB_01:
   {
-    Item: ITM_031
-    Name: Ice Soulstone (M)
     Region: Frostlands
     Location: Northreach
     Shuffle: true
   }
   TrsrBx_Snow_TMB_03:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Frostlands
     Location: Northreach
     Shuffle: true
   }
   TrsrBx_Snow_TS_01:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Frostlands
     Location: Stillsnow
     Shuffle: true
   }
   TrsrBx_Snow_TS_02:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Frostlands
     Location: Stillsnow
     Shuffle: true
   }
   TrsrBx_Snow_TS_03:
   {
-    Item: ITM_116
-    Name: Shadow Soulstone (M)
     Region: Frostlands
     Location: Stillsnow
     Shuffle: true
   }
   TrsrBx_Snow_TS_04:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Frostlands
     Location: Stillsnow
     Shuffle: true
   }
   TrsrBx_Snow_TS_05:
   {
-    Item: ITM_WD_011
-    Name: Swordbreaker
     Region: Frostlands
     Location: Stillsnow
     Shuffle: true

@@ -9,12 +9,8 @@ import shutil
 import sys
 sys.path.append('src')
 from Utilities import get_filename
-import Ability
-import JobData
-import ROM
-import Text
-import PC
 from World import WORLD
+from ROM import ROM
 
 
 MAIN_TITLE = f"Octopath Traveler Randomizer v{RELEASE}"
@@ -24,11 +20,12 @@ class CreateToolTip(object):
     '''
     create a tooltip for a given widget
     '''
-    def __init__(self, widget, text='widget info'):
+    def __init__(self, widget, text='widget info', wraplength=200):
         self.widget = widget
         self.text = text
         self.widget.bind("<Enter>", self.enter)
         self.widget.bind("<Leave>", self.close)
+        self.wraplength = wraplength
 
     def enter(self, event=None):
         x = y = 0
@@ -42,7 +39,7 @@ class CreateToolTip(object):
         self.tw.wm_geometry("+%d+%d" % (x, y))
         label = tk.Label(self.tw, text=self.text, justify='left',
                       background='white', relief='solid', borderwidth=1,
-                      wraplength=200,
+                      wraplength=self.wraplength,
                       font=("times", "12", "normal"),
                       padx=4, pady=6,
         )
@@ -69,48 +66,49 @@ class GuiApplication:
         self.togglers = []
         self.settings = {}
         self.settings['release'] = tk.StringVar()
+        self.rom = None
 
-        with open(get_filename('./data/parameters.json'), 'r') as file:
+        with open(get_filename('json/gui.json'), 'r') as file:
             fields = hjson.loads(file.read())
 
+        #####################
+        # PAKS FOLDER STUFF #
+        #####################
+
         labelfonts = ('Helvetica', 14, 'bold')
-        lf = tk.LabelFrame(self.master, text='Output Folder', font=labelfonts)
+        lf = tk.LabelFrame(self.master, text='Paks Folder', font=labelfonts)
         lf.grid(row=0, columnspan=2, sticky='nsew', padx=5, pady=5, ipadx=5, ipady=5)
 
-        # Specify output directory
-        self.settings['output'] = tk.StringVar()
-        self.settings['output'].set('')
-        # Find Paks directory
-        if os.name == 'nt': # Windows
-            paths = [
-                "C:/Program Files (x86)/Steam/steamapps/common/OCTOPATH_TRAVELER/Octopath_Traveler/Content/Paks",
-                "C:/Program Files (x86)/Steam/steamapps/common/OCTOPATH TRAVELER/Octopath_Traveler/Content/Paks",
-                "C:/Program Files (x86)/Steam/Steamapps/common/OCTOPATH_TRAVELER/Octopath_Traveler/Content/Paks",
-                "C:/Program Files (x86)/Steam/Steamapps/common/OCTOPATH TRAVELER/Octopath_Traveler/Content/Paks",
-                "C:/Program Files (x86)/Steam/steamapps/Common/OCTOPATH_TRAVELER/Octopath_Traveler/Content/Paks",
-                "C:/Program Files (x86)/Steam/steamapps/Common/OCTOPATH TRAVELER/Octopath_Traveler/Content/Paks",
-                "C:/Program Files (x86)/Steam/Steamapps/Common/OCTOPATH_TRAVELER/Octopath_Traveler/Content/Paks",
-                "C:/Program Files (x86)/Steam/Steamapps/Common/OCTOPATH TRAVELER/Octopath_Traveler/Content/Paks",
-            ]
-            for path in paths:
-                if not self.checkPath(path): continue
-                self.settings['output'].set(path)
-                break
+        # Path to paks
+        self.settings['rom'] = tk.StringVar()
+        self.settings['rom'].set('')
 
-        pathLabel = tk.Label(lf, text='Path to "Paks" folder (optional)')
-        pathLabel.grid(row=1, column=0, sticky='w', padx=5, pady=2)
-
-        pathToPak = tk.Entry(lf, textvariable=self.settings['output'], width=65, state='readonly')
+        pathToPak = tk.Entry(lf, textvariable=self.settings['rom'], width=65, state='readonly')
         pathToPak.grid(row=0, column=0, columnspan=2, padx=(10,0), pady=3)
+
+        pathLabel = tk.Label(lf, text='Path to "Paks" folder')
+        pathLabel.grid(row=1, column=0, sticky='w', padx=5, pady=2)
 
         pathButton = tk.Button(lf, text='Browse ...', command=self.getPakPath, width=20) # needs command..
         pathButton.grid(row=1, column=1, sticky='e', padx=5, pady=2)
+        self.buildToolTip(pathButton, 'Input the game folder that contains "Octopath_Traveler-WindowsNoEditor.pak".\n\nIt is usally something like\n...\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks.\n\nIt might take a few seconds to load the Pak.', wraplength=500)
+
+        name = fields['ROM']['name']
+        label = fields['ROM']['label']
+        self.settings[name] = tk.BooleanVar()
+        pakButton = ttk.Checkbutton(lf, text=label, variable=self.settings[name])
+        pakButton.grid(row=2, padx=10, sticky='we')
+        self.buildToolTip(pakButton, fields['ROM'])
+
+        #####################
+        # SEED & RANDOMIZER #
+        #####################
 
         lf = tk.LabelFrame(self.master, text="Seed", font=labelfonts)
         lf.grid(row=0, column=2, columnspan=2, sticky='nsew', padx=5, pady=5, ipadx=5, ipady=5)
         self.settings['seed'] = tk.IntVar()
         self.randomSeed()
-        # tk.Label(lf, text='Seed:').grid(row=2, column=0, sticky='w', padx=60, pady=10)
+
         box = tk.Spinbox(lf, from_=0, to=1e8, width=9, textvariable=self.settings['seed'])
         box.grid(row=2, column=0, sticky='e', padx=60)
 
@@ -120,9 +118,13 @@ class GuiApplication:
         self.randomizeBtn = tk.Button(lf, text='Randomize', command=self.randomize, height=1)
         self.randomizeBtn.grid(row=4, column=0, columnspan=1, sticky='we', padx=30, ipadx=30)
 
+        ############
+        # SETTINGS #
+        ############
+
         # Tabs setup
         tabControl = ttk.Notebook(self.master)
-        tabNames = list(fields.keys())
+        tabNames = ['Settings']
         tabs = {name: ttk.Frame(tabControl) for name in tabNames}
         for name, tab in tabs.items():
             tabControl.add(tab, text=name)
@@ -133,14 +135,14 @@ class GuiApplication:
         for name, tab in tabs.items():
             labelDict = fields[name]
             for i, (key, value) in enumerate(labelDict.items()):
-                row = 0    # i//4
-                column = i # i%4
+                row = 0
+                column = i
                 # Setup LabelFrame
                 lf = tk.LabelFrame(tab, text=key, font=labelfonts)
                 lf.grid(row=row, column=column, padx=10, pady=5, ipadx=30, ipady=5, sticky='news')
+                # Dictionary of buttons for toggling
+                buttonDict = {}
                 # Loop over buttons
-                # -- maybe do this in a separate function that returns the button?
-                # -- then apply its grid here
                 row = 0
                 for vj in value:
                     name = vj['name']
@@ -149,9 +151,15 @@ class GuiApplication:
                         self.settings[name] = tk.BooleanVar()
                         buttons = []
                         toggleFunction = self.toggler(buttons, name)
-                        button = ttk.Checkbutton(lf, text=vj['label'], variable=self.settings[name], command=toggleFunction)
+                        if 'toggle' in vj:
+                            button = ttk.Checkbutton(lf, text=vj['label'], variable=self.settings[name], command=toggleFunction, state=tk.DISABLED)
+                        else:
+                            button = ttk.Checkbutton(lf, text=vj['label'], variable=self.settings[name], command=toggleFunction)
                         button.grid(row=row, padx=10, sticky='we')
                         self.buildToolTip(button, vj)
+                        buttonDict[name] = buttons
+                        if 'toggle' in vj:
+                            buttonDict[vj['toggle']].append((self.settings[vj['name']], button))
                         row += 1
                         if 'indent' in vj:
                             self.togglers.append(toggleFunction)
@@ -170,7 +178,7 @@ class GuiApplication:
                         self.settings[name] = tk.IntVar()
                         self.settings[name].set(spinbox['default'])
                         box = tk.Spinbox(lf, from_=spinbox['min'], to=spinbox['max'], width=3, textvariable=self.settings[name], state='readonly')
-                        box.grid(row=row, column=2, padx=10, sticky='we')
+                        box.grid(row=row, column=1, padx=0, sticky='w')
                         self.buildToolTip(box, vj)
                         row += 1
 
@@ -200,12 +208,11 @@ class GuiApplication:
     def checkPath(self, path):
         if path.split('/')[-1] != 'Paks':
             return False
-        name = 'Octopath_Traveler-WindowsNoEditor.pak'
         try:
             for file in os.listdir(path):
-                p1 = not os.path.isfile(f"{path}/{file}")
-                if p1: continue
-                if file == name: return True
+                fileName = os.path.join(path, file)
+                if file == 'Octopath_Traveler-WindowsNoEditor.pak':
+                    return True
         except:
             pass
         return False
@@ -215,9 +222,14 @@ class GuiApplication:
         path = filedialog.askdirectory()
         if path == (): return
         if self.checkPath(path):
-            self.settings['output'].set(path)
+            self.settings['rom'].set(path)
+            try:
+                self.rom = ROM(path)
+            except:
+                self.bottomLabel('Your game is incompatible with this randomizer.','red',0)
+                self.bottomLabel('It has only been tested on Steam releases.','red',1)
         else:
-            self.settings['output'].set('')
+            self.settings['rom'].set('')
             self.bottomLabel('Selected path must lead to the Paks folder.', 'red', 0)
             self.bottomLabel('e.g. ....\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks', 'red', 1) 
             self.bottomLabel('Otherwise, check for Pak outputs in the new seed folder.', 'red', 2) 
@@ -236,13 +248,16 @@ class GuiApplication:
                     bi.config(state=tk.DISABLED)
         return f
 
-    def buildToolTip(self, button, field):
-        if 'help' in field:
-            CreateToolTip(button, field['help'])
+    def buildToolTip(self, button, field, wraplength=200):
+        if isinstance(field, str):
+            CreateToolTip(button, field, wraplength)
+        if isinstance(field, dict):
+            if 'help' in field:
+                CreateToolTip(button, field['help'])
 
     def turnBoolsOff(self):
         for si in self.settings.values():
-            if type(si.get()) == bool:
+            if isinstance(si.get(), bool):
                 si.set(False)
             
     def initialize_settings(self, settings):
@@ -251,7 +266,7 @@ class GuiApplication:
             self.turnBoolsOff()
             return
         for key, value in settings.items():
-            if key == 'output': continue
+            if key == 'rom': continue
             if key == 'release': continue
             if key not in self.settings: continue
             self.settings[key].set(value)
@@ -273,116 +288,40 @@ class GuiApplication:
     def randomSeed(self):
         self.settings['seed'].set(random.randint(0, 1e8))
 
-    def randomize(self, settings=None):
-        # Setup settings
-        if settings is None:
-            settings = { key: value.get() for key, value in self.settings.items() }
+    def randomize(self):
+        if self.rom is None:
+            self.clearBottomLabels()
+            self.bottomLabel('Must specify the path to your "Paks" folder', 'red', 0)
+            return
+
+        settings = { key: value.get() for key, value in self.settings.items() }
 
         self.clearBottomLabels()
         self.bottomLabel('Randomizing....', 'blue', 0)
-        # self.randomizeBtn["state"] = "disabled"
 
-        try:
-            randomize(settings)
+        if randomize(self.rom, settings):
             self.clearBottomLabels()
             self.bottomLabel('Randomizing...done! Good luck!', 'blue', 0)
-        except:
+        else:
             self.clearBottomLabels()
             self.bottomLabel('Randomizing failed.', 'red', 0)
 
 
-def randomize(settings):
+def randomize(rom, settings):
 
-    #########
-    # SETUP #
-    #########
-
-    if sys.executable.endswith('OTR-JOBS.exe'):
-        pwd = os.path.dirname(sys.executable)
-    else:
-        pwd = os.getcwd()
-
-    outdir = f"{pwd}/seed_{settings['seed']}"
-    if not os.path.isdir(outdir):
-        os.mkdir(outdir)
-    else:
-        for filename in os.listdir(outdir):
-            if filename.endswith('.log'):
-                filepath = os.path.join(outdir, filename)
-                os.remove(filepath)
-
-    tmpdir = f'{pwd}/tmp_otr_v{RELEASE}'
-    if os.path.isdir(tmpdir):
-        shutil.rmtree(tmpdir)
-    os.mkdir(tmpdir)
-        
-    tar = get_filename("./data/data.tar.bz2")
-    shutil.unpack_archive(tar, tmpdir, "bztar")
-
-    #############
-    # Randomize #
-    #############
-
-    abilityFile = f"{tmpdir}/Octopath_Traveler/Content/Ability/Database/AbilityData.uexp"
-    abilities = Ability.shuffleData(abilityFile, settings, outdir)
-
-    jobFile = f"{tmpdir}/Octopath_Traveler/Content/Character/Database/JobData.uexp"
-    jobs = JobData.shuffleData(jobFile, settings, outdir, abilities)
-
-    textDir = f"{tmpdir}/Octopath_Traveler/Content/GameText/Database"
-    Text.updateText(textDir, abilities)
-
-    pcDir = f'{tmpdir}/Octopath_Traveler/Content/Character/Database'
-    PC.inits(pcDir, settings)
-
-    for ability in abilities.values():
-        ability.patch()
-
-    with open(abilityFile, 'wb') as file:
-        file.write(ability.data)
-
-    for job in jobs.values():
-        job.patch()
-
-    with open(jobFile, 'wb') as file:
-        file.write(job.data)
-
-    world = WORLD(tmpdir, jobs)
-    world.randomize(settings)
-    world.miscellaneous(settings)
-    world.dump()
-    world.print(outdir)
-
-    ################
-    # Generate Pak #
-    ################
-
-    patch = "rando_P.pak"
-    path = f"{tmpdir}/Octopath_Traveler/Content/Paks"
-    ROM.patch(patch, path)
-
-    #######################
-    # Copy to Output Path #
-    #######################
-
-    if settings['output'] != '':
-        shutil.copy2(patch, settings['output'])
-    shutil.move(patch, f"{outdir}/{patch}")
-
-    #################
-    # Dump Settings #
-    #################
-
-    settingsCopy = settings.copy()
-    settingsCopy['output'] = ''
-    with open(f"{outdir}/settings.json", 'w') as file:
-        hjson.dump(settingsCopy, file)
-
-    ###########
-    # Cleanup #
-    ###########
-
-    shutil.rmtree(tmpdir)
+    try:
+        # Start fresh with ROM
+        rom.clean()
+        # Modify data
+        world = WORLD(rom, settings)
+        world.randomize()
+        world.qualityOfLife()
+        # Dump pak
+        world.dump()
+        return True
+    except:
+        world.failed()
+        return False
 
 
 if __name__ == '__main__':

@@ -1,0 +1,201 @@
+{
+  "ROM": {
+    name: copy-pak
+    label: Output "rando_P.pak" here too!
+    type: checkbutton
+    help: "The pak will always be output in the 'seed' folder along with spoiler logs.\n\nThis option will additionally copy the pak to the game's Pak folder for convenience."
+  }
+  "Settings": {
+    Jobs: [
+      {
+	name: skills
+	label: Shuffle skills
+	type: checkbutton
+	help: "Shuffles skills among jobs. By default, all skills among all jobs are shuffled and no capture skills are included."
+	indent: [
+	  {
+	    name: skills-one-divine
+            label: Separately shuffle divine skills
+	    type: checkbutton
+	    help: "This ensures each job will only get one Divine Skill, each remaining in the eight slot."
+	  }
+	  {
+	    name: skills-separate
+            label: Separately shuffle base and advanced jobs
+	    type: checkbutton
+	    help: "Skills from the 4 advanced jobs will be kept separate from the 8 base jobs."
+	  }
+	  {
+	    name: skills-weapons
+            label: Shuffle weapons used by skills
+	    type: checkbutton
+	    help: "For example, the Apothecary's skill Amputate could change from using an axe to a staff, allowing for either the Cleric or Scholar to use it."
+	  }
+	  {
+	    name: skills-capture
+	    label: Include capture skills
+	    type: checkbutton
+	    help: "8-16 job skills will be overwritten with enemy skills obtained through H'aanit's Capture ability.\n\nThese skills are modified to cost SP, and offensive skills will have attack power comparable to typical job skills."
+	  }
+	]
+      }
+      {      
+	name: skills-sp-costs
+	label: Randomly adjust SP costs
+	type: checkbutton
+	help: "Adjusts SP costs of skills by up to 30%."
+      }
+      {
+	name: skills-jp-costs
+	label: Randomly adjust JP costs
+	type: checkbutton
+	help: "Adjusts JP costs to learn skills. Costs will always increase with each skill learned."
+      }
+      {
+	name: skills-jp-costs-adv
+	label: Nerf JP costs of advanced jobs
+	type: checkbutton
+	help: "Costs to learn skills of advanced jobs will nerfed to 30, 100, 500, 1000, 3000, and 5000 JP, and you will start with 2 skills learned."
+      }
+      {      
+	name: skills-power
+	label: Randomly adjust skill power
+	type: checkbutton
+	help: "Randomly adjusts power of all offensive skills by up to 30%."
+      }
+      {      
+	name: scale-vets-cost
+	label: Scales costs of Hired Help: Veteran Soldiers 
+	type: radiobutton
+	help: "Changes costs of Hired Help: Veteran Soldiers"
+	radio: [
+	  {
+	    label: Double
+	    value: 2
+	    help: "60,000 leaves/attack"
+	  }
+	  {
+	    label: Triple
+	    value: 3
+	    help: "90,000 leaves/attack"
+	  }
+	  {
+	    label: Quadruple
+	    value: 4
+	    help: "120,000 leaves/attack"
+	  }
+	]
+      }
+      {
+	name: support
+	label: Shuffle support skills
+	type: checkbutton
+	help: Shuffle support skills among jobs.
+          indent: [
+	    {
+	      name: support-EM
+              label: Ensure early Evasive Maneuvers
+	      type: checkbutton
+	      help: Ensures Evasive Maneuvers will be the first support skill learned by one PC. It can be learned right after the first battle.
+            }
+	    {
+	      name: support-separate
+              label: Separately shuffle base and advanced jobs
+	      type: checkbutton
+	      help: "Support skills from the 4 advanced jobs with be kept separate from the 8 base jobs."
+            }
+	    {
+	      name: support-spoil
+              label: Spoil passive skills in game
+	      type: checkbutton
+	      help: "The passive skills of a job will be displayed in its shrine during cutscenes."
+            }
+	  ]
+      }
+      {
+	name: stats
+	label: Shuffle stats
+	type: checkbutton
+	help: "Randomly shuffles stats of PCs and job bonuses."
+	indent: [
+	  {
+	    name: stats-fairly
+            label: "Fairly shuffle stats"
+	    type: checkbutton
+	    help: "Stats are completely swapped, e.g. Alfyn could get Primrose's stats, or the Cleric job could get the Sorcerer's stat boosts."
+	  }
+	]
+      }
+    ]
+    Items: [
+      {
+	name: items
+	label: Shuffle items
+	type: checkbutton
+	help: "Shuffle items"
+	indent: [
+	  {
+	    name: items-chests
+            label: Include chests
+	    type: checkbutton
+	    help: "Shuffles items included in chests."
+	  }
+	  {
+	    name: items-hidden
+            label: Include hidden items
+	    type: checkbutton
+	    help: "Shuffles hidden items found using Path Actions Inquire or Scrutinize."
+	  }
+	  {
+	    name: items-npc
+            label: Include NPC items
+	    type: checkbutton
+	    help: "Shuffles items collected from NPC using Path Actions Steal or Purchase."
+	  }
+	]
+      }
+      {
+	name: items-separately
+	toggle: items
+	label: "Shuffle treasures separately"
+	type: checkbutton
+	help: "By default, all items selected are shuffled together. Select any of the following that you wish to be shuffled separately."
+	indent: [
+	  {
+	    name: items-separate-chests
+	    label: Chests
+	    type: checkbutton
+	  }
+	  {
+	    name: items-separate-hidden
+	    label: Hidden items
+	    type: checkbutton
+	  }
+	  {
+	    name: items-separate-npc
+	    label: NPC items
+	    type: checkbutton
+	  }
+	]
+      }
+      {
+	name: no-thief-chests
+	label: "No locked chests"
+	type: checkbutton
+	help: "Converts all chests requiring Therion to brown chests."
+      }
+      {
+	name: perfect-thievery
+	label: "Story steals have 100% success rate"
+	type: checkbutton
+	help: "When mandatory for the story, Therion will steal with a 100% success rate."
+      }
+      {
+	name: spurning-ribbon
+	label: "Start with a Spurning Ribbon"
+	type: checkbutton
+	help: "All PCs will have a Spurning Ribbon in their inventory."
+      }
+    ]
+  }
+}

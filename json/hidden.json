@@ -1,8 +1,6 @@
 {
   HdnPnt_Cliff_TLA_01:
   {
-    Item: ITM_WD_006
-    Name: Falcon Dagger
     Region: Cliftlands
     Location: Bolderfall
     NPC: Elderly Woman
@@ -10,8 +8,6 @@
   }
   HdnPnt_Cliff_TLC_01:
   {
-    Item: ITM_WL_003
-    Name: War Spear
     Region: Cliftlands
     Location: Ravus Manor Gate
     NPC: Guard
@@ -19,8 +15,6 @@
   }
   HdnPnt_Cliff_TLC_02:
   {
-    Item: ITM_126
-    Name: Dirty Ball of Cloth
     Region: Cliftlands
     Location: Ravus Manor Gate
     NPC: Guard Dog
@@ -28,8 +22,6 @@
   }
   HdnPnt_Cliff_TLC_03:
   {
-    Item: ITM_125
-    Name: Weathered Boots
     Region: Cliftlands
     Location: Ravus Manor Gate
     NPC: Guard Dog
@@ -37,8 +29,6 @@
   }
   HdnPnt_Cliff_TLC_04:
   {
-    Item: ITM_AS_029
-    Name: Elusive Shield
     Region: Cliftlands
     Location: Ravus Manor Gate
     NPC: Guard Dog
@@ -46,8 +36,6 @@
   }
   HdnPnt_Cliff_TMA_01:
   {
-    Item: ITM_121
-    Name: Pseudo Gold Ore
     Region: Cliftlands
     Location: Quarrycrest
     NPC: Laborer
@@ -55,8 +43,6 @@
   }
   HdnPnt_Cliff_TMA_02:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Cliftlands
     Location: Quarrycrest
     NPC: Elderly Woman
@@ -64,8 +50,6 @@
   }
   HdnPnt_Cliff_TMB_01:
   {
-    Item: ITM_122
-    Name: Fool's Gold Ore
     Region: Cliftlands
     Location: Quarrycrest Mines
     NPC: Laborer
@@ -73,8 +57,6 @@
   }
   HdnPnt_Cliff_TMB_02:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Cliftlands
     Location: Quarrycrest Mines
     NPC: Laborer
@@ -82,8 +64,6 @@
   }
   HdnPnt_Cliff_TMB_03:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Cliftlands
     Location: Quarrycrest Mines
     NPC: Laborer
@@ -91,8 +71,6 @@
   }
   HdnPnt_Cliff_TS_01:
   {
-    Item: ITM_018
-    Name: Revitalizing Jam
     Region: Cliftlands
     Location: Orewell
     NPC: Villager
@@ -100,8 +78,6 @@
   }
   HdnPnt_Cliff_TS_02:
   {
-    Item: ITM_WA_015
-    Name: Hill Cleaver
     Region: Cliftlands
     Location: Orewell
     NPC: Old Man
@@ -109,8 +85,6 @@
   }
   HdnPnt_Cliff_TS_03:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Cliftlands
     Location: Orewell
     NPC: Miserable Mother
@@ -118,8 +92,6 @@
   }
   HdnPnt_Cliff_TS_04:
   {
-    Item: ITM_103
-    Name: Empty Coin Pouch
     Region: Cliftlands
     Location: Orewell
     NPC: Lazy Loafer
@@ -127,8 +99,6 @@
   }
   HdnPnt_Cliff_TS_05:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Cliftlands
     Location: Orewell
     NPC: Oblivious Townsperson
@@ -136,8 +106,6 @@
   }
   HdnPnt_Desert_TLA_01:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Sunlands
     Location: Marsalim
     NPC: Townsperson
@@ -145,8 +113,6 @@
   }
   HdnPnt_Desert_TLA_02:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Sunlands
     Location: Marsalim
     NPC: Knight Ardante
@@ -154,8 +120,6 @@
   }
   HdnPnt_Desert_TLA_03:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Sunlands
     Location: Marsalim
     NPC: Elderly Woman
@@ -163,8 +127,6 @@
   }
   HdnPnt_Desert_TLB_01:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Sunlands
     Location: Marsalim Palace
     NPC: Guard
@@ -172,8 +134,6 @@
   }
   HdnPnt_Desert_TLB_02:
   {
-    Item: ITM_117
-    Name: Odds and Ends
     Region: Sunlands
     Location: Marsalim Palace
     NPC: Guard
@@ -181,8 +141,6 @@
   }
   HdnPnt_Desert_TLB_03:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Sunlands
     Location: Marsalim Palace
     NPC: Guard
@@ -190,8 +148,6 @@
   }
   HdnPnt_Desert_TMA_01:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Sunlands
     Location: Sunshade
     NPC: Masters Lackey
@@ -199,8 +155,6 @@
   }
   HdnPnt_Desert_TMA_02:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Sunlands
     Location: Sunshade
     NPC: Masters Lackey
@@ -208,8 +162,6 @@
   }
   HdnPnt_Desert_TMB_01:
   {
-    Item: ITM_WL_012
-    Name: Arcane Glaive
     Region: Sunlands
     Location: Sunshade Tavern
     NPC: Tavern Wench
@@ -217,8 +169,6 @@
   }
   HdnPnt_Desert_TMB_02:
   {
-    Item: ITM_050
-    Name: Nourishing Nut
     Region: Sunlands
     Location: Sunshade Tavern
     NPC: Tavern Propietor
@@ -226,8 +176,6 @@
   }
   HdnPnt_Desert_TMB_03:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Sunlands
     Location: Sunshade Tavern
     NPC: Stardancer
@@ -235,8 +183,6 @@
   }
   HdnPnt_Desert_TSA_01:
   {
-    Item: ITM_006
-    Name: Heavy Coin Pouch
     Region: Sunlands
     Location: Wellspring
     NPC: Bale or Guard?
@@ -244,8 +190,6 @@
   }
   HdnPnt_Desert_TSA_02:
   {
-    Item: ITM_033
-    Name: Thunder Soulstone (M)
     Region: Sunlands
     Location: Wellspring
     NPC: Townsperson
@@ -253,8 +197,6 @@
   }
   HdnPnt_Desert_TSA_03:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Sunlands
     Location: Wellspring
     NPC: Tavern Patron
@@ -262,8 +204,6 @@
   }
   HdnPnt_Desert_TSA_04:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Sunlands
     Location: Wellspring
     NPC: Merchant
@@ -271,8 +211,6 @@
   }
   HdnPnt_Desert_TSA_05:
   {
-    Item: ITM_006
-    Name: Heavy Coin Pouch
     Region: Sunlands
     Location: Wellspring
     NPC: Bale or Guard?
@@ -280,8 +218,6 @@
   }
   HdnPnt_Desert_TSA_06:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Sunlands
     Location: Wellspring
     NPC: Guard
@@ -289,8 +225,6 @@
   }
   HdnPnt_Forest_TLA_01:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Woodlands
     Location: Victor's Hollow
     NPC: Spectator
@@ -298,8 +232,6 @@
   }
   HdnPnt_Forest_TLA_02:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Woodlands
     Location: Victor's Hollow
     NPC: Merchant
@@ -307,8 +239,6 @@
   }
   HdnPnt_Forest_TLA_03:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Woodlands
     Location: Victor's Hollow
     NPC: Townsperson
@@ -316,8 +246,6 @@
   }
   HdnPnt_Forest_TLB_01:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Woodlands
     Location: Victor's Hollow Arena Gate
     NPC: Spectator
@@ -325,8 +253,6 @@
   }
   HdnPnt_Forest_TLB_02:
   {
-    Item: ITM_AC_007
-    Name: Lightning Amulet
     Region: Woodlands
     Location: Victor's Hollow Arena Gate
     NPC: Old Man
@@ -334,8 +260,6 @@
   }
   HdnPnt_Forest_TLC_01:
   {
-    Item: ITM_138
-    Name: Ice Soulstone (L)
     Region: Woodlands
     Location: Victor's Hollow Arena
     NPC: Arena Attendant
@@ -343,8 +267,6 @@
   }
   HdnPnt_Forest_TMA_01:
   {
-    Item: ITM_WB_040
-    Name: Improved Bow of the Eagle
     Region: Woodlands
     Location: Duskbarrow
     NPC: VIllager
@@ -352,8 +274,6 @@
   }
   HdnPnt_Forest_TMA_02:
   {
-    Item: ITM_117
-    Name: Odds and Ends
     Region: Woodlands
     Location: Duskbarrow
     NPC: Obliging Merchant
@@ -361,8 +281,6 @@
   }
   HdnPnt_Forest_TMA_03:
   {
-    Item: ITM_081
-    Name: Old Coin
     Region: Woodlands
     Location: Duskbarrow
     NPC: Crest-bearing Swindler
@@ -370,8 +288,6 @@
   }
   HdnPnt_Forest_TMA_04:
   {
-    Item: ITM_031
-    Name: Ice Soulstone (M)
     Region: Woodlands
     Location: Duskbarrow
     NPC: Smirking Townsperson
@@ -379,8 +295,6 @@
   }
   HdnPnt_Forest_TS_01:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Woodlands
     Location: S'warkii
     NPC: Village Headman
@@ -388,8 +302,6 @@
   }
   HdnPnt_Forest_TS_02:
   {
-    Item: None
-    Name: 1000 Leaves
     Region: Woodlands
     Location: S'warkii
     NPC: Hunter
@@ -397,8 +309,6 @@
   }
   HdnPnt_Forest_TS_03:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Woodlands
     Location: S'warkii
     NPC: ?????????
@@ -406,8 +316,6 @@
   }
   HdnPnt_Forest_TS_04:
   {
-    Item: ITM_030
-    Name: Ice Soulstone
     Region: Woodlands
     Location: S'warkii
     NPC: Aspiring Hunter
@@ -415,8 +323,6 @@
   }
   HdnPnt_Mount_TLA_01:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Highlands
     Location: Stonegard
     NPC: Townsperson
@@ -424,8 +330,6 @@
   }
   HdnPnt_Mount_TLA_02:
   {
-    Item: ITM_118
-    Name: Large Feather
     Region: Highlands
     Location: Stonegard Heights
     NPC: Bookbinder
@@ -433,8 +337,6 @@
   }
   HdnPnt_Mount_TLB_01:
   {
-    Item: ITM_WB_018
-    Name: Soldier's Longbow
     Region: Highlands
     Location: Stonegard Heights
     NPC: Townsperson
@@ -442,8 +344,6 @@
   }
   HdnPnt_Mount_TLB_02:
   {
-    Item: ITM_103
-    Name: Empty Coin Pouch
     Region: Highlands
     Location: Stonegard Heights
     NPC: Townsperson
@@ -451,8 +351,6 @@
   }
   HdnPnt_Mount_TLB_03:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Highlands
     Location: Stonegard Heights
     NPC: Townsperson
@@ -460,8 +358,6 @@
   }
   HdnPnt_Mount_TLC_01:
   {
-    Item: ITM_WA_008
-    Name: Graviton Axe
     Region: Highlands
     Location: Stonegard Valleys
     NPC: Townsperson
@@ -469,8 +365,6 @@
   }
   HdnPnt_Mount_TLC_02:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Highlands
     Location: Stonegard Valleys
     NPC: Cleric
@@ -478,8 +372,6 @@
   }
   HdnPnt_Mount_TLC_03:
   {
-    Item: ITM_WS_006
-    Name: Bastard Sword
     Region: Highlands
     Location: Stonegard Valleys
     NPC: Townsperson
@@ -487,8 +379,6 @@
   }
   HdnPnt_Mount_TMA_01:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Highlands
     Location: Everhold
     NPC: Usher
@@ -496,8 +386,6 @@
   }
   HdnPnt_Mount_TMA_02:
   {
-    Item: ITM_005
-    Name: Rare Stone
     Region: Highlands
     Location: Everhold
     NPC: Old Man
@@ -505,8 +393,6 @@
   }
   HdnPnt_Mount_TMA_03:
   {
-    Item: ITM_084
-    Name: Curious Antique
     Region: Highlands
     Location: Everhold
     NPC: Girl
@@ -514,8 +400,6 @@
   }
   HdnPnt_Mount_TMB_01:
   {
-    Item: ITM_040
-    Name: Bottle of Blinding Dust
     Region: Highlands
     Location: Everhold Amphitheatre
     NPC: Usher
@@ -523,8 +407,6 @@
   }
   HdnPnt_Mount_TMB_02:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Highlands
     Location: Everhold Amphitheatre
     NPC: Usher
@@ -532,8 +414,6 @@
   }
   HdnPnt_Mount_TS_01:
   {
-    Item: ITM_WL_018
-    Name: War Lance
     Region: Highlands
     Location: Cobbleston
     NPC: Village Headman
@@ -541,8 +421,6 @@
   }
   HdnPnt_Mount_TS_02:
   {
-    Item: ITM_095
-    Name: Candy
     Region: Highlands
     Location: Cobbleston
     NPC: Phillip
@@ -550,8 +428,6 @@
   }
   HdnPnt_Mount_TS_03:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Highlands
     Location: Cobbleston
     NPC: Villager
@@ -559,8 +435,6 @@
   }
   HdnPnt_Mount_TS_04:
   {
-    Item: ITM_WB_011
-    Name: Arcane Bow
     Region: Highlands
     Location: Cobbleston
     NPC: Villager
@@ -568,8 +442,6 @@
   }
   HdnPnt_Mount_TS_05:
   {
-    Item: ITM_MA_003
-    Name: Purifying Seed
     Region: Highlands
     Location: Cobbleston
     NPC: Villager
@@ -577,8 +449,6 @@
   }
   HdnPnt_Plain_TLA_01:
   {
-    Item: ITM_050
-    Name: Nourishing Nut
     Region: Flatlands
     Location: Atlasdam
     NPC: Tavern Patron
@@ -586,8 +456,6 @@
   }
   HdnPnt_Plain_TLA_03:
   {
-    Item: ITM_115
-    Name: Light Soulstone (M)
     Region: Flatlands
     Location: Atlasdam
     NPC: Girl
@@ -595,8 +463,6 @@
   }
   HdnPnt_Plain_TLA_04:
   {
-    Item: ITM_103
-    Name: Empty Coin Pouch
     Region: Flatlands
     Location: Atlasdam
     NPC: Tavern Patron
@@ -604,8 +470,6 @@
   }
   HdnPnt_Plain_TLB_01:
   {
-    Item: ITM_117
-    Name: Odds and Ends
     Region: Flatlands
     Location: Atlasdam Palace Gate
     NPC: Guard
@@ -613,8 +477,6 @@
   }
   HdnPnt_Plain_TLB_02:
   {
-    Item: ITM_036
-    Name: Light Soulstone
     Region: Flatlands
     Location: Atlasdam Palace Gate
     NPC: Guard
@@ -622,8 +484,6 @@
   }
   HdnPnt_Plain_TLB_03:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Flatlands
     Location: Atlasdam Palace Gate
     NPC: Elderly Woman
@@ -631,8 +491,6 @@
   }
   HdnPnt_Plain_TLB_04:
   {
-    Item: ITM_118
-    Name: Large Feather
     Region: Flatlands
     Location: Atlasdam Palace Gate
     NPC: Merchant
@@ -640,8 +498,6 @@
   }
   HdnPnt_Plain_TLC_01:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Flatlands
     Location: Atlasdam Palace
     NPC: Guard
@@ -649,8 +505,6 @@
   }
   HdnPnt_Plain_TLC_02:
   {
-    Item: ITM_001
-    Name: Small Cup
     Region: Flatlands
     Location: Atlasdam Palace
     NPC: Guard
@@ -658,8 +512,6 @@
   }
   HdnPnt_Plain_TLC_03:
   {
-    Item: ITM_AS_000
-    Name: Buckler
     Region: Flatlands
     Location: Atlasdam Palace
     NPC: Boy
@@ -667,8 +519,6 @@
   }
   HdnPnt_Plain_TLC_04:
   {
-    Item: ITM_078
-    Name: Healing Grape
     Region: Flatlands
     Location: Atlasdam Palace
     NPC: Guard
@@ -676,8 +526,6 @@
   }
   HdnPnt_Plain_TMA_01:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Flatlands
     Location: Noblecourt
     NPC: Gatekeeper
@@ -685,8 +533,6 @@
   }
   HdnPnt_Plain_TMA_02:
   {
-    Item: ITM_139
-    Name: Thunder Soulstone (L)
     Region: Flatlands
     Location: Noblecourt
     NPC: Townsperson
@@ -694,8 +540,6 @@
   }
   HdnPnt_Plain_TMA_03:
   {
-    Item: ITM_006
-    Name: Heavy Coin Pouch
     Region: Flatlands
     Location: Noblecourt
     NPC: Elderly Woman
@@ -703,8 +547,6 @@
   }
   HdnPnt_Plain_TMA_04:
   {
-    Item: ITM_084
-    Name: Curious Antique
     Region: Flatlands
     Location: Noblecourt
     NPC: Affable Antiquarian
@@ -712,8 +554,6 @@
   }
   HdnPnt_Plain_TMB_01:
   {
-    Item: ITM_WA_045
-    Name: Steel Axe
     Region: Flatlands
     Location: East Noblecourt
     NPC: Tavern Patron
@@ -721,8 +561,6 @@
   }
   HdnPnt_Plain_TMB_02:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Flatlands
     Location: East Noblecourt
     NPC: Tavern Patron
@@ -730,8 +568,6 @@
   }
   HdnPnt_Plain_TMB_03:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Flatlands
     Location: East Noblecourt
     NPC: Townsperson
@@ -739,8 +575,6 @@
   }
   HdnPnt_Plain_TMB_04:
   {
-    Item: ITM_004
-    Name: Introduction to Adventuring
     Region: Flatlands
     Location: East Noblecourt
     NPC: Boy's Mother
@@ -748,8 +582,6 @@
   }
   HdnPnt_Plain_TMB_05:
   {
-    Item: ITM_005
-    Name: Rare Stone
     Region: Flatlands
     Location: East Noblecourt
     NPC: Book-loving Girl
@@ -757,8 +589,6 @@
   }
   HdnPnt_Plain_TS_01:
   {
-    Item: ITM_081
-    Name: Old Coin
     Region: Flatlands
     Location: Wispermill
     NPC: Villager
@@ -766,8 +596,6 @@
   }
   HdnPnt_Plain_TS_02:
   {
-    Item: ITM_008
-    Name: Commemorative Coin
     Region: Flatlands
     Location: Wispermill
     NPC: Villager
@@ -775,8 +603,6 @@
   }
   HdnPnt_Plain_TS_03:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Flatlands
     Location: Wispermill
     NPC: Carefree Shepherd
@@ -784,8 +610,6 @@
   }
   HdnPnt_Plain_TS_04:
   {
-    Item: ITM_088
-    Name: Inspiriting Plum Basket
     Region: Flatlands
     Location: Wispermill
     NPC: Troubled Villager
@@ -793,8 +617,6 @@
   }
   HdnPnt_River_F13_01:
   {
-    Item: ITM_396
-    Name: Giant Egg
     Region: Riverland
     Location: West Clearbrook Traverse
     NPC: Farmer
@@ -802,8 +624,6 @@
   }
   HdnPnt_River_TLA_01:
   {
-    Item: ITM_086
-    Name: Inspiriting Plum
     Region: Riverland
     Location: Saintsbridge
     NPC: Townsperson
@@ -811,8 +631,6 @@
   }
   HdnPnt_River_TLA_02:
   {
-    Item: ITM_031
-    Name: Ice Soulstone (M)
     Region: Riverland
     Location: Saintsbridge
     NPC: River Dweller
@@ -820,8 +638,6 @@
   }
   HdnPnt_River_TLB_01:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Riverland
     Location: Saintsbridge Upstream
     NPC: Townsperson
@@ -829,8 +645,6 @@
   }
   HdnPnt_River_TLB_02:
   {
-    Item: None
-    Name: 3000 Leaves
     Region: Riverland
     Location: Saintsbridge Upstream
     NPC: Kndly Cleric
@@ -838,8 +652,6 @@
   }
   HdnPnt_River_TLC_01:
   {
-    Item: ITM_117
-    Name: Odds and Ends
     Region: Riverland
     Location: Saintsbridge
     NPC: Worrywart
@@ -847,8 +659,6 @@
   }
   HdnPnt_River_TLC_02:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Riverland
     Location: Saintsbridge Cathedral
     NPC: Townsperson
@@ -856,8 +666,6 @@
   }
   HdnPnt_River_TLC_03:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Riverland
     Location: Saintsbridge Cathedral
     NPC: Cleric
@@ -865,8 +673,6 @@
   }
   HdnPnt_River_TLC_04:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Riverland
     Location: Saintsbridge Cathedral
     NPC: Erstwhile Sellsword
@@ -874,8 +680,6 @@
   }
   HdnPnt_River_TMA_01:
   {
-    Item: ITM_137
-    Name: Fire Soulstone (L)
     Region: Riverland
     Location: Riverford
     NPC: Guard
@@ -883,8 +687,6 @@
   }
   HdnPnt_River_TMA_02:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Riverland
     Location: Riverford
     NPC: Old Man
@@ -892,8 +694,6 @@
   }
   HdnPnt_River_TMA_03:
   {
-    Item: ITM_002
-    Name: Silver Clock
     Region: Riverland
     Location: Lower Riverford
     NPC: Merchant
@@ -901,8 +701,6 @@
   }
   HdnPnt_River_TMB_01:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Riverland
     Location: Lower Riverford
     NPC: Guard
@@ -910,8 +708,6 @@
   }
   HdnPnt_River_TMB_02:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Riverland
     Location: Lower Riverford
     NPC: Townsperson
@@ -919,8 +715,6 @@
   }
   HdnPnt_River_TS_01:
   {
-    Item: ITM_MB_002
-    Name: Sleepweed
     Region: Riverland
     Location: Clearbrook
     NPC: Zeph
@@ -928,8 +722,6 @@
   }
   HdnPnt_River_TS_02:
   {
-    Item: ITM_WA_005
-    Name: Silver Axe
     Region: Riverland
     Location: Clearbrook
     NPC: Granddaughter
@@ -937,8 +729,6 @@
   }
   HdnPnt_River_TS_03:
   {
-    Item: ITM_MB_005
-    Name: Essence of Plum
     Region: Riverland
     Location: Clearbrook
     NPC: Elderly Woman
@@ -946,8 +736,6 @@
   }
   HdnPnt_River_TS_04:
   {
-    Item: ITM_MB_006
-    Name: Essence of Pomegranate
     Region: Riverland
     Location: Clearbrook
     NPC: Angler
@@ -955,8 +743,6 @@
   }
   HdnPnt_River_TS_05:
   {
-    Item: ITM_MB_007
-    Name: Olive Bloom
     Region: Riverland
     Location: Clearbrook
     NPC: Meryl
@@ -964,8 +750,6 @@
   }
   HdnPnt_River_TS_07:
   {
-    Item: ITM_MB_003
-    Name: Addlewort
     Region: Riverland
     Location: Clearbrook
     NPC: Meryl's Mother
@@ -973,8 +757,6 @@
   }
   HdnPnt_River_TS_08:
   {
-    Item: ITM_065
-    Name: Resistant Nut
     Region: Riverland
     Location: Clearbrook
     NPC: Gertas
@@ -982,8 +764,6 @@
   }
   HdnPnt_Sea_TLA_01:
   {
-    Item: ITM_104
-    Name: Coin Pouch
     Region: Coastlands
     Location: Grandport
     NPC: Cleric
@@ -991,8 +771,6 @@
   }
   HdnPnt_Sea_TLA_02:
   {
-    Item: ITM_MA_006
-    Name: Injurious Dust
     Region: Coastlands
     Location: Grandport
     NPC: Townsperson
@@ -1000,8 +778,6 @@
   }
   HdnPnt_Sea_TLA_03:
   {
-    Item: ITM_018
-    Name: Revitalizing Jam
     Region: Coastlands
     Location: Grandport
     NPC: Merchant
@@ -1009,8 +785,6 @@
   }
   HdnPnt_Sea_TLB_01:
   {
-    Item: ITM_090
-    Name: Rusty Cup
     Region: Coastlands
     Location: Grandport Markets
     NPC: Merchant
@@ -1018,8 +792,6 @@
   }
   HdnPnt_Sea_TLB_02:
   {
-    Item: ITM_AH_030
-    Name: Silver Hairpiece
     Region: Coastlands
     Location: Grandport Markets
     NPC: Merchant
@@ -1027,8 +799,6 @@
   }
   HdnPnt_Sea_TLB_03:
   {
-    Item: ITM_006
-    Name: Heavy Coin Pouch
     Region: Coastlands
     Location: Grandport Markets
     NPC: Bazaar Shopper
@@ -1036,8 +806,6 @@
   }
   HdnPnt_Sea_TLB_04:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Coastlands
     Location: Grandport Markets
     NPC: Bazaar Shopper
@@ -1045,8 +813,6 @@
   }
   HdnPnt_Sea_TLB_05:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Coastlands
     Location: Grandport Markets
     NPC: Ship Captain
@@ -1054,8 +820,6 @@
   }
   HdnPnt_Sea_TLC_01:
   {
-    Item: ITM_AC_015
-    Name: Articulate Stone
     Region: Coastlands
     Location: Grandport Bazaar
     NPC: Merchant
@@ -1063,8 +827,6 @@
   }
   HdnPnt_Sea_TMA_01:
   {
-    Item: ITM_139
-    Name: Thunder Soulstone (L)
     Region: Coastlands
     Location: Goldshore
     NPC: Old Man
@@ -1072,8 +834,6 @@
   }
   HdnPnt_Sea_TMA_02:
   {
-    Item: ITM_080
-    Name: Healing Grape Bunch
     Region: Coastlands
     Location: Goldshore
     NPC: Townsperson
@@ -1081,8 +841,6 @@
   }
   HdnPnt_Sea_TMA_03:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Coastlands
     Location: Goldshore
     NPC: Elderly Woman
@@ -1090,8 +848,6 @@
   }
   HdnPnt_Sea_TMA_04:
   {
-    Item: ITM_117
-    Name: Odds and Ends
     Region: Coastlands
     Location: Goldshore Manor District
     NPC: Fledgling Fisherman
@@ -1099,8 +855,6 @@
   }
   HdnPnt_Sea_TMB_01:
   {
-    Item: ITM_140
-    Name: Wind Soulstone (L)
     Region: Coastlands
     Location: Goldshore Manor District
     NPC: Townsperson
@@ -1108,8 +862,6 @@
   }
   HdnPnt_Sea_TMB_02:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Coastlands
     Location: Goldshore Manor District
     NPC: Old Man
@@ -1117,8 +869,6 @@
   }
   HdnPnt_Sea_TMB_03:
   {
-    Item: ITM_WA_005
-    Name: Silver Axe
     Region: Coastlands
     Location: Goldshore Manor District
     NPC: Knight Ardante
@@ -1126,8 +876,6 @@
   }
   HdnPnt_Sea_TMC_01:
   {
-    Item: ITM_144
-    Name: Energizing Pomegranate (M)
     Region: Coastlands
     Location: Goldshore Cathedral
     NPC: Cleric
@@ -1135,8 +883,6 @@
   }
   HdnPnt_Sea_TS_01:
   {
-    Item: ITM_079
-    Name: Healing Grape (M)
     Region: Coastlands
     Location: Rippletide
     NPC: Townsperson
@@ -1144,8 +890,6 @@
   }
   HdnPnt_Sea_TS_02:
   {
-    Item: ITM_AC_015
-    Name: Articulate Stone
     Region: Coastlands
     Location: Rippletide
     NPC: Merchant
@@ -1153,8 +897,6 @@
   }
   HdnPnt_Sea_TS_03:
   {
-    Item: ITM_MB_004
-    Name: Essence of Grape
     Region: Coastlands
     Location: Rippletide
     NPC: Beverage Vendor
@@ -1162,8 +904,6 @@
   }
   HdnPnt_Sea_TS_04:
   {
-    Item: ITM_139
-    Name: Thunder Soulstone (L)
     Region: Coastlands
     Location: Rippletide
     NPC: Tony's Mother
@@ -1171,8 +911,6 @@
   }
   HdnPnt_Sea_TS_05:
   {
-    Item: ITM_MB_002
-    Name: Sleepweed
     Region: Coastlands
     Location: Rippletide
     NPC: Antique Dealer
@@ -1180,8 +918,6 @@
   }
   HdnPnt_Snow_F21_01:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Frostlands
     Location: ????????
     NPC: ?????????
@@ -1189,8 +925,6 @@
   }
   HdnPnt_Snow_TLA_01:
   {
-    Item: ITM_MB_003
-    Name: Addlewort
     Region: Frostlands
     Location: Flamesgrace
     NPC: Knight Ardante
@@ -1198,8 +932,6 @@
   }
   HdnPnt_Snow_TLA_02:
   {
-    Item: ITM_037
-    Name: Shadow Soulstone
     Region: Frostlands
     Location: Flamesgrace
     NPC: Townsperson
@@ -1207,8 +939,6 @@
   }
   HdnPnt_Snow_TLA_03:
   {
-    Item: ITM_MA_005
-    Name: Injurious Seed
     Region: Frostlands
     Location: Flamesgrace
     NPC: Townsperson
@@ -1216,8 +946,6 @@
   }
   HdnPnt_Snow_TLA_04:
   {
-    Item: ITM_087
-    Name: Inspiriting Plum (M)
     Region: Frostlands
     Location: Flamesgrace
     NPC: Townsperson
@@ -1225,8 +953,6 @@
   }
   HdnPnt_Snow_TLB_01:
   {
-    Item: ITM_030
-    Name: Ice Soulstone
     Region: Frostlands
     Location: Flamesgrace Cathedral Entrance
     NPC: Townsperson
@@ -1234,8 +960,6 @@
   }
   HdnPnt_Snow_TLB_02:
   {
-    Item: ITM_AC_046
-    Name: Empowering Earring
     Region: Frostlands
     Location: Flamesgrace Cathedral Entrance
     NPC: Knight Ardante
@@ -1243,8 +967,6 @@
   }
   HdnPnt_Snow_TLC_01:
   {
-    Item: ITM_056
-    Name: Fortifying Nut
     Region: Frostlands
     Location: Flamesgrace Cathedral
     NPC: Boy
@@ -1252,8 +974,6 @@
   }
   HdnPnt_Snow_TLC_02:
   {
-    Item: ITM_009
-    Name: Olive of Life
     Region: Frostlands
     Location: Flamesgrace Cathedral
     NPC: Cleric
@@ -1261,8 +981,6 @@
   }
   HdnPnt_Snow_TLC_03:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Frostlands
     Location: Flamesgrace Cathedral
     NPC: Mother
@@ -1270,8 +988,6 @@
   }
   HdnPnt_Snow_TLC_04:
   {
-    Item: ITM_WS_011
-    Name: Heavy Blade
     Region: Frostlands
     Location: Flamesgrace Cathedral
     NPC: Cleric
@@ -1279,8 +995,6 @@
   }
   HdnPnt_Snow_TMA_01:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Frostlands
     Location: Northreach
     NPC: Tavern Patron
@@ -1288,8 +1002,6 @@
   }
   HdnPnt_Snow_TMA_02:
   {
-    Item: ITM_082
-    Name: Copper-filled Pouch
     Region: Frostlands
     Location: Northreach
     NPC: Townsperson
@@ -1297,8 +1009,6 @@
   }
   HdnPnt_Snow_TMA_03:
   {
-    Item: ITM_010
-    Name: Olive of Life (M)
     Region: Frostlands
     Location: Northreach
     NPC: Traveler
@@ -1306,8 +1016,6 @@
   }
   HdnPnt_Snow_TMA_04:
   {
-    Item: ITM_AS_005
-    Name: Knight's Shield
     Region: Frostlands
     Location: Northreach
     NPC: Townsperson
@@ -1315,8 +1023,6 @@
   }
   HdnPnt_Snow_TMA_05:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Frostlands
     Location: Northreach
     NPC: Impoverish Man
@@ -1324,8 +1030,6 @@
   }
   HdnPnt_Snow_TS_01:
   {
-    Item: ITM_007
-    Name: Refreshing Jam
     Region: Frostlands
     Location: Stillsnow
     NPC: Boy
@@ -1333,8 +1037,6 @@
   }
   HdnPnt_Snow_TS_02:
   {
-    Item: ITM_031
-    Name: Ice Soulstone (M)
     Region: Frostlands
     Location: Stillsnow
     NPC: Girl
@@ -1342,8 +1044,6 @@
   }
   HdnPnt_Snow_TS_03:
   {
-    Item: ITM_WB_013
-    Name: Soul Bow
     Region: Frostlands
     Location: Stillsnow
     NPC: Townsperson
@@ -1351,8 +1051,6 @@
   }
   HdnPnt_Snow_TS_04:
   {
-    Item: ITM_020
-    Name: Silver-filled Pouch
     Region: Frostlands
     Location: Stillsnow
     NPC: Moneylender
@@ -1360,8 +1058,6 @@
   }
   HdnPnt_Snow_TS_05:
   {
-    Item: ITM_MB_007
-    Name: Olive Bloom
     Region: Frostlands
     Location: Stillsnow
     NPC: Frostlands Farmer

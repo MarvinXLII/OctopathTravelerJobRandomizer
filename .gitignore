@@ -2,6 +2,7 @@
 build
 dist
 stuff
-data/Octopath_Traveler
 *~
 seed_*
+Octopath_Traveler
+settings.json

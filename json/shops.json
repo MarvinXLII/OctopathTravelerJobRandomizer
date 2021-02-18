@@ -1,0 +1,9879 @@
+{
+  PlainD12_SHOP_FC_01_1:
+  {
+    NPC: Gustav, the Black Knight
+    Shuffle: true
+    Region: Flatlands
+    Location: Whistlewood
+  }
+  PlainD12_SHOP_FC_01_2:
+  {
+    NPC: Gustav, the Black Knight
+    Shuffle: true
+    Region: Flatlands
+    Location: Whistlewood
+  }
+  SeaD12_SHOP_FC_01_1:
+  {
+    NPC: Paul
+    Shuffle: true
+    Region: Coastlands
+    Location: Undertow Cove
+  }
+  SeaD12_SHOP_FC_01_2:
+  {
+    NPC: Paul
+    Shuffle: true
+    Region: Coastlands
+    Location: Undertow Cove
+  }
+  SeaD12_SHOP_FC_02_1:
+  {
+    NPC: Vanessa Hysel
+    Shuffle: true
+    Region: Coastlands
+    Location: Undertow Cove
+  }
+  SeaD12_SHOP_FC_02_2:
+  {
+    NPC: Vanessa Hysel
+    Shuffle: true
+    Region: Coastlands
+    Location: Undertow Cove
+  }
+  SeaD12_SHOP_FC_02_3:
+  {
+    NPC: Vanessa Hysel
+    Shuffle: true
+    Region: Coastlands
+    Location: Undertow Cove
+  }
+  ForestF12_SHOP_FC_01_1:
+  {
+    NPC: Nomadic Hunter
+    Shuffle: false
+    Region: Woodlands
+    Location: North S’warkii Trail
+  }
+  ForestF12_SHOP_FC_01_2:
+  {
+    NPC: Nomadic Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: North S’warkii Trail
+  }
+  RiverF12_SHOP_FC_01_1:
+  {
+    NPC: Garrulous Grandfather
+    Shuffle: true
+    Region: Riverlands
+    Location: South Clearbrook Traverse
+  }
+  RiverF12_SHOP_FC_01_2:
+  {
+    NPC: Garrulous Grandfather
+    Shuffle: true
+    Region: Riverlands
+    Location: South Clearbrook Traverse
+  }
+  RiverF13_SHOP_FC_01_1:
+  {
+    NPC: Fishmonger
+    Shuffle: true
+    Region: Riverlands
+    Location: West Clearbrook Traverse
+  }
+  RiverF13_SHOP_FC_01_2:
+  {
+    NPC: Fishmonger
+    Shuffle: true
+    Region: Riverlands
+    Location: West Clearbrook Traverse
+  }
+  RiverF13_SHOP_FC_01_3:
+  {
+    NPC: Fishmonger
+    Shuffle: true
+    Region: Riverlands
+    Location: West Clearbrook Traverse
+  }
+  SnowF11_SHOP_FC_01_1:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowF11_SHOP_FC_01_2:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowF11_SHOP_FC_02_1:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowF12_SHOP_FC_01_1:
+  {
+    NPC: Roving Naturalist
+    Shuffle: true
+    Region: Frostlands
+    Location: North S’warkii Trail
+  }
+  SnowF12_SHOP_FC_01_2:
+  {
+    NPC: Roving Naturalist
+    Shuffle: true
+    Region: Frostlands
+    Location: North S’warkii Trail
+  }
+  CliffL_SHOP_FC_01_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_02_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_02_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_02_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_02_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_03_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_03_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_03_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_04_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_04_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_04_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_05_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_05_2:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_05_3:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_05_4:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_06_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_24_1:
+  {
+    NPC: Gentle Graybeard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_24_2:
+  {
+    NPC: Gentle Graybeard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_26_1:
+  {
+    NPC: Stern Guardsman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_26_2:
+  {
+    NPC: Stern Guardsman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_28_1:
+  {
+    NPC: Enlightened Aristocrat
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_32_1:
+  {
+    NPC: Egg-seeking Girl
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_32_2:
+  {
+    NPC: Egg-seeking Girl
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_34_1:
+  {
+    NPC: Cliftlands Know-it-all
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_34_2:
+  {
+    NPC: Cliftlands Know-it-all
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_35_1:
+  {
+    NPC: Proud Collector
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_35_2:
+  {
+    NPC: Proud Collector
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_35_3:
+  {
+    NPC: Proud Collector
+    Shuffle: false
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_37_1:
+  {
+    NPC: Beastmaster
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_39_1:
+  {
+    NPC: Industrious Husband
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_39_2:
+  {
+    NPC: Industrious Husband
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_08_1:
+  {
+    NPC: Wealthy Merchant
+    Shuffle: false
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_10_1:
+  {
+    NPC: Pauper
+    Shuffle: false
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_11_1:
+  {
+    NPC: Pauper
+    Shuffle: false
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_12_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_12_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_22_1:
+  {
+    NPC: Veteran Brigand
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_22_2:
+  {
+    NPC: Veteran Brigand
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_29_1:
+  {
+    NPC: Pauper Revolutionary
+    Shuffle: false
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_40_1:
+  {
+    NPC: Wallace Wildsword
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_40_2:
+  {
+    NPC: Wallace Wildsword
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_41_1:
+  {
+    NPC: Morlock
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_41_2:
+  {
+    NPC: Morlock
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_41_3:
+  {
+    NPC: Morlock
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_42_1:
+  {
+    NPC: Omar
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_42_2:
+  {
+    NPC: Omar
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_13_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_13_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_13_3:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_14_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_14_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_15_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_15_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_16_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_16_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_17_1:
+  {
+    NPC: Guard Captain
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_18_1:
+  {
+    NPC: Guard Dog
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_19_1:
+  {
+    NPC: Guard Dog
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_20_1:
+  {
+    NPC: Guard Dog
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_21_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_21_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  CliffL_SHOP_FC_31_1:
+  {
+    NPC: Heathcote
+    Shuffle: true
+    Region: Cliftlands
+    Location: Bolderfall
+  }
+  DesertM_SHOP_FC_01_1:
+  {
+    NPC: Well-heeled Gentleman
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_01_2:
+  {
+    NPC: Well-heeled Gentleman
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_02_1:
+  {
+    NPC: Master's Lackey
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_03_1:
+  {
+    NPC: Master's Lackey
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_03_2:
+  {
+    NPC: Master's Lackey
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_03_3:
+  {
+    NPC: Master's Lackey
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_04_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_05_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_05_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_06_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_18_1:
+  {
+    NPC: Imposing Bouncer
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_19_1:
+  {
+    NPC: Blue Dancer
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_19_2:
+  {
+    NPC: Blue Dancer
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_21_1:
+  {
+    NPC: Star Dancer
+    Shuffle: false
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_22_1:
+  {
+    NPC: Sickly Girl
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_22_2:
+  {
+    NPC: Sickly Girl
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_23_1:
+  {
+    NPC: Pensive Mother
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_23_2:
+  {
+    NPC: Pensive Mother
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_23_3:
+  {
+    NPC: Pensive Mother
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_24_1:
+  {
+    NPC: ??????
+    Shuffle: false
+    Region: ""
+    Location: ""
+  }
+  DesertM_SHOP_FC_24_2:
+  {
+    NPC: ??????
+    Shuffle: false
+    Region: ""
+    Location: ""
+  }
+  DesertM_SHOP_FC_25_1:
+  {
+    NPC: Sand Man
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_26_1:
+  {
+    NPC: Wayfaring Girl
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_26_2:
+  {
+    NPC: Wayfaring Girl
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_27_1:
+  {
+    NPC: Ne'er-do-well
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_29_1:
+  {
+    NPC: Layla
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_29_2:
+  {
+    NPC: Layla
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_30_1:
+  {
+    NPC: Portly Merchant
+    Shuffle: false
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_31_1:
+  {
+    NPC: Industrious Housewife
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_31_2:
+  {
+    NPC: Industrious Housewife
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_31_3:
+  {
+    NPC: Industrious Housewife
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_31_4:
+  {
+    NPC: Industrious Housewife
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_32_1:
+  {
+    NPC: Helena
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_07_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_08_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_08_2:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_09_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_11_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_11_2:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_12_1:
+  {
+    NPC: Tavern Proprietor
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_12_2:
+  {
+    NPC: Tavern Proprietor
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_12_3:
+  {
+    NPC: Tavern Proprietor
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_14_1:
+  {
+    NPC: Tavern Wench
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_16_1:
+  {
+    NPC: Fledgling Bandit
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_17_1:
+  {
+    NPC: Hired Barkeep
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_17_2:
+  {
+    NPC: Hired Barkeep
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_17_3:
+  {
+    NPC: Hired Barkeep
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  DesertM_SHOP_FC_17_4:
+  {
+    NPC: Hired Barkeep
+    Shuffle: true
+    Region: Sunlands
+    Location: Sunshade
+  }
+  ForestL_SHOP_FC_62_1:
+  {
+    NPC: Bryan
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestL_SHOP_FC_62_2:
+  {
+    NPC: Bryan
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_01_1:
+  {
+    NPC: Village Headman
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_01_2:
+  {
+    NPC: Village Headman
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_02_1:
+  {
+    NPC: Fledgling Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_02_2:
+  {
+    NPC: Fledgling Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_03_1:
+  {
+    NPC: Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_03_2:
+  {
+    NPC: Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_03_3:
+  {
+    NPC: Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_04_1:
+  {
+    NPC: Fledgling Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_04_2:
+  {
+    NPC: Fledgling Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_04_3:
+  {
+    NPC: Fledgling Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_05_1:
+  {
+    NPC: Lord Ciaran's Herald
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_06_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_07_1:
+  {
+    NPC: Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_07_2:
+  {
+    NPC: Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_07_3:
+  {
+    NPC: Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_08_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_09_1:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_11_1:
+  {
+    NPC: Genteel Madam
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_11_2:
+  {
+    NPC: Genteel Madam
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_12_1:
+  {
+    NPC: Fledgling Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_12_2:
+  {
+    NPC: Fledgling Hunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_15_1:
+  {
+    NPC: Ashlan
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_16_1:
+  {
+    NPC: Old Storyteller
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_16_2:
+  {
+    NPC: Old Storyteller
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_17_1:
+  {
+    NPC: Scholar of Beasts
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_17_2:
+  {
+    NPC: Scholar of Beasts
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_18_1:
+  {
+    NPC: Bernhard the Beasthunter
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_19_1:
+  {
+    NPC: Z'aanta
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  ForestS_SHOP_FC_19_2:
+  {
+    NPC: Z'aanta
+    Shuffle: true
+    Region: Woodlands
+    Location: S’warkii
+  }
+  MountS_SHOP_FC_01_1:
+  {
+    NPC: Village Headman
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_02_1:
+  {
+    NPC: Philip's Mother
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_02_2:
+  {
+    NPC: Philip's Mother
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_03_1:
+  {
+    NPC: Philip
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_04_1:
+  {
+    NPC: Watchman
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_05_1:
+  {
+    NPC: Watchman
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_05_2:
+  {
+    NPC: Watchman
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_06_1:
+  {
+    NPC: Captain of the Watch
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_06_2:
+  {
+    NPC: Captain of the Watch
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_07_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_07_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_08_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_09_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_09_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_09_3:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_11_1:
+  {
+    NPC: Kindly Farmer
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_12_1:
+  {
+    NPC: Courageous Cowherd
+    Shuffle: false
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_12_2:
+  {
+    NPC: Courageous Cowherd
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_13_1:
+  {
+    NPC: Melancholy Youth
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_13_2:
+  {
+    NPC: Melancholy Youth
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_13_3:
+  {
+    NPC: Melancholy Youth
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_13_4:
+  {
+    NPC: Melancholy Youth
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_14_1:
+  {
+    NPC: Noelle
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_14_2:
+  {
+    NPC: Noelle
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_14_3:
+  {
+    NPC: Noelle
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_15_1:
+  {
+    NPC: Cheerful Storyteller
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_15_2:
+  {
+    NPC: Cheerful Storyteller
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_16_1:
+  {
+    NPC: Gaston
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  MountS_SHOP_FC_16_2:
+  {
+    NPC: Gaston
+    Shuffle: true
+    Region: Highlands
+    Location: Cobbleston
+  }
+  PlainL_SHOP_FC_02_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_03_1:
+  {
+    NPC: Townsperson
+    Shuffle: false
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_06_1:
+  {
+    NPC: Girl
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_06_2:
+  {
+    NPC: Girl
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_06_3:
+  {
+    NPC: Girl
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_06_4:
+  {
+    NPC: Girl
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_07_1:
+  {
+    NPC: Boy
+    Shuffle: false
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_09_1:
+  {
+    NPC: Apothecary
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_09_2:
+  {
+    NPC: Apothecary
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_09_3:
+  {
+    NPC: Apothecary
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_09_4:
+  {
+    NPC: Apothecary
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_11_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: false
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_12_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_12_2:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_12_3:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_27_1:
+  {
+    NPC: Capable Culinarian
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_27_2:
+  {
+    NPC: Capable Culinarian
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_32_1:
+  {
+    NPC: Theracio
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_33_1:
+  {
+    NPC: Shifty Moneylender
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_41_1:
+  {
+    NPC: Dan
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_41_2:
+  {
+    NPC: Dan
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_44_1:
+  {
+    NPC: Spirited Girl
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_45_1:
+  {
+    NPC: Erstwhile Retainer
+    Shuffle: false
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_46_1:
+  {
+    NPC: Calm Woman
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_48_1:
+  {
+    NPC: Youth's Mother
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_48_2:
+  {
+    NPC: Youth's Mother
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_50_1:
+  {
+    NPC: Obstinate Merchant
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_50_2:
+  {
+    NPC: Obstinate Merchant
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_50_3:
+  {
+    NPC: Obstinate Merchant
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_14_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_15_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_15_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_15_3:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_17_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_17_2:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_18_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_18_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_18_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_19_1:
+  {
+    NPC: Mercedes
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_19_2:
+  {
+    NPC: Mercedes
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_20_1:
+  {
+    NPC: Russell
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_20_2:
+  {
+    NPC: Russell
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_21_1:
+  {
+    NPC: Guardsman
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_21_2:
+  {
+    NPC: Guardsman
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_28_1:
+  {
+    NPC: Passionate Reader
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_38_1:
+  {
+    NPC: Mercedes
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_38_2:
+  {
+    NPC: Mercedes
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_38_3:
+  {
+    NPC: Mercedes
+    Shuffle: false
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_39_1:
+  {
+    NPC: Astute Official
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_39_2:
+  {
+    NPC: Astute Official
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_40_1:
+  {
+    NPC: Crest-bearing Drunk
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_40_2:
+  {
+    NPC: Crest-bearing Drunk
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_43_1:
+  {
+    NPC: Handsome Minstrel
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_47_1:
+  {
+    NPC: Proud Squire
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_49_1:
+  {
+    NPC: Know-it-all Milo
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_49_2:
+  {
+    NPC: Know-it-all Milo
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_51_1:
+  {
+    NPC: Therese
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_51_2:
+  {
+    NPC: Therese
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_05_1:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_05_2:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_05_3:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_05_4:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_22_1:
+  {
+    NPC: Headmaster Yvon
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_23_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_25_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_25_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_26_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_26_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  PlainL_SHOP_FC_29_1:
+  {
+    NPC: Art Lover
+    Shuffle: true
+    Region: Flatlands
+    Location: Atlasdam
+  }
+  RiverS_SHOP_FC_01_1:
+  {
+    NPC: Nina
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_01_2:
+  {
+    NPC: Nina
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_01_3:
+  {
+    NPC: Nina
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_01_4:
+  {
+    NPC: Nina
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_02_1:
+  {
+    NPC: Lily
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_02_2:
+  {
+    NPC: Lily
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_02_3:
+  {
+    NPC: Lily
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_03_1:
+  {
+    NPC: Zeph
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_03_2:
+  {
+    NPC: Zeph
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_03_3:
+  {
+    NPC: Zeph
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_03_4:
+  {
+    NPC: Zeph
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_04_1:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_04_2:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_05_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_05_2:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_06_1:
+  {
+    NPC: Granddaughter
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_06_2:
+  {
+    NPC: Granddaughter
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_07_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_08_1:
+  {
+    NPC: Scholar
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_08_2:
+  {
+    NPC: Scholar
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_09_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_12_1:
+  {
+    NPC: Happy Grandchild
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_12_2:
+  {
+    NPC: Happy Grandchild
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_12_3:
+  {
+    NPC: Happy Grandchild
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_13_1:
+  {
+    NPC: Angler
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_13_2:
+  {
+    NPC: Angler
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_15_1:
+  {
+    NPC: Magg the Cook
+    Shuffle: false
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_16_1:
+  {
+    NPC: Regular Patron
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_16_2:
+  {
+    NPC: Regular Patron
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_17_1:
+  {
+    NPC: Meryl
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_17_2:
+  {
+    NPC: Meryl
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_18_1:
+  {
+    NPC: Meryl's Father
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_18_2:
+  {
+    NPC: Meryl's Father
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_19_1:
+  {
+    NPC: Meryl's Mother
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_19_2:
+  {
+    NPC: Meryl's Mother
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_20_1:
+  {
+    NPC: Gertas
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_21_1:
+  {
+    NPC: Friendly Farmer
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_21_2:
+  {
+    NPC: Friendly Farmer
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_22_1:
+  {
+    NPC: Zeph
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_22_2:
+  {
+    NPC: Zeph
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_22_3:
+  {
+    NPC: Zeph
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_22_4:
+  {
+    NPC: Zeph
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_22_5:
+  {
+    NPC: Zeph
+    Shuffle: false
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_25_1:
+  {
+    NPC: Professor Bastete
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  RiverS_SHOP_FC_25_2:
+  {
+    NPC: Professor Bastete
+    Shuffle: true
+    Region: Riverlands
+    Location: Clearbrook
+  }
+  SeaS_SHOP_FC_02_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_02_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_02_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_03_1:
+  {
+    NPC: Merchant
+    Shuffle: false
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_03_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_04_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_04_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_04_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_04_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_05_1:
+  {
+    NPC: Beverage Vendor
+    Shuffle: false
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_06_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_06_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_07_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_07_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_08_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_08_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_08_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_08_4:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_09_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_09_2:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_09_3:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_10_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_10_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_10_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_15_1:
+  {
+    NPC: Tony
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_17_1:
+  {
+    NPC: Mathilda
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_19_1:
+  {
+    NPC: Tony's Mother
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_19_2:
+  {
+    NPC: Tony's Mother
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_20_1:
+  {
+    NPC: Princess Mary
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_24_1:
+  {
+    NPC: Le Mann
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_24_2:
+  {
+    NPC: Le Mann
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_24_3:
+  {
+    NPC: Le Mann
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_25_1:
+  {
+    NPC: Antique Dealer
+    Shuffle: false
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_26_1:
+  {
+    NPC: Exotic Grandma
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_26_2:
+  {
+    NPC: Exotic Grandma
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_26_3:
+  {
+    NPC: Exotic Grandma
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_26_4:
+  {
+    NPC: Exotic Grandma
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_27_1:
+  {
+    NPC: Astute Child
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_27_2:
+  {
+    NPC: Astute Child
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_28_1:
+  {
+    NPC: Caravan Member
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_28_2:
+  {
+    NPC: Caravan Member
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_28_3:
+  {
+    NPC: Caravan Member
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_29_1:
+  {
+    NPC: Inquisitive Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_29_2:
+  {
+    NPC: Inquisitive Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_29_3:
+  {
+    NPC: Inquisitive Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_30_1:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_31_1:
+  {
+    NPC: Harris
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_31_2:
+  {
+    NPC: Harris
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_33_1:
+  {
+    NPC: Alphas
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_33_2:
+  {
+    NPC: Alphas
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_33_3:
+  {
+    NPC: Alphas
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_36_1:
+  {
+    NPC: Victorino, the Buccaneer's Bane
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_36_2:
+  {
+    NPC: Victorino, the Buccaneer's Bane
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_37_1:
+  {
+    NPC: Captain Leon
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_34_1:
+  {
+    NPC: Olneo
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_34_2:
+  {
+    NPC: Olneo
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_34_3:
+  {
+    NPC: Olneo
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_35_1:
+  {
+    NPC: Marina
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_35_2:
+  {
+    NPC: Marina
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SeaS_SHOP_FC_35_3:
+  {
+    NPC: Marina
+    Shuffle: true
+    Region: Coastlands
+    Location: Rippletide
+  }
+  SnowL_SHOP_FC_01_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_01_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_02_1:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_02_2:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_04_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_04_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_05_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_05_2:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_06_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_06_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_06_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_07_1:
+  {
+    NPC: Sellsword
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_07_2:
+  {
+    NPC: Sellsword
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_07_3:
+  {
+    NPC: Sellsword
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_12_1:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_14_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_14_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_36_1:
+  {
+    NPC: Witness
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_36_2:
+  {
+    NPC: Witness
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_37_1:
+  {
+    NPC: Drunken Soldier
+    Shuffle: false
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_37_2:
+  {
+    NPC: Drunken Soldier
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_38_1:
+  {
+    NPC: Diligent Student
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_38_2:
+  {
+    NPC: Diligent Student
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_39_1:
+  {
+    NPC: Muttering Codger
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_39_2:
+  {
+    NPC: Muttering Codger
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_40_1:
+  {
+    NPC: Anxious Townswoman
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_40_2:
+  {
+    NPC: Anxious Townswoman
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_41_1:
+  {
+    NPC: Miles
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_15_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_15_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_19_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_19_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_21_1:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_21_2:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_34_1:
+  {
+    NPC: Accused Man
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_25_1:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_25_2:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_26_1:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_26_2:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_27_1:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_27_2:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_32_1:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_33_1:
+  {
+    NPC: Mother
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_33_2:
+  {
+    NPC: Mother
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_42_1:
+  {
+    NPC: Former Knight Ardante
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_42_2:
+  {
+    NPC: Former Knight Ardante
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_42_3:
+  {
+    NPC: Former Knight Ardante
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_46_1:
+  {
+    NPC: Lianna
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_44_1:
+  {
+    NPC: Shivering Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  SnowL_SHOP_FC_44_2:
+  {
+    NPC: Shivering Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Flamesgrace
+  }
+  ForestD22_SHOP_FC_01_1:
+  {
+    NPC: Ellie
+    Shuffle: true
+    Region: Woodlands
+    Location: Forest of No Return
+  }
+  ForestD22_SHOP_FC_01_2:
+  {
+    NPC: Ellie
+    Shuffle: true
+    Region: Woodlands
+    Location: Forest of No Return
+  }
+  ForestD22_SHOP_FC_02_1:
+  {
+    NPC: Bandit Leader
+    Shuffle: true
+    Region: Woodlands
+    Location: Forest of No Return
+  }
+  ForestD22_SHOP_FC_02_2:
+  {
+    NPC: Bandit Leader
+    Shuffle: true
+    Region: Woodlands
+    Location: Forest of No Return
+  }
+  MountD23_SHOP_FC_01_1:
+  {
+    NPC: Nameless Gravekeeper
+    Shuffle: true
+    Region: Highlands
+    Location: Tomb of Kings
+  }
+  MountD23_SHOP_FC_01_2:
+  {
+    NPC: Nameless Gravekeeper
+    Shuffle: true
+    Region: Highlands
+    Location: Tomb of Kings
+  }
+  PlainD23_SHOP_FC_01_1:
+  {
+    NPC: Awkward Boy
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Noblecourt Flats
+  }
+  PlainD23_SHOP_FC_01_2:
+  {
+    NPC: Awkward Boy
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Noblecourt Flats
+  }
+  RiverD23_SHOP_FC_01_1:
+  {
+    NPC: Unsavory Man
+    Shuffle: true
+    Region: Riverlands
+    Location: Farshore
+  }
+  RiverD23_SHOP_FC_01_2:
+  {
+    NPC: Unsavory Man
+    Shuffle: true
+    Region: Riverlands
+    Location: Farshore
+  }
+  RiverD23_SHOP_FC_01_3:
+  {
+    NPC: Unsavory Man
+    Shuffle: false
+    Region: Riverlands
+    Location: Farshore
+  }
+  DesertF22_SHOP_FC_01_1:
+  {
+    NPC: Aristocrat
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertF22_SHOP_FC_01_2:
+  {
+    NPC: Aristocrat
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertF22_SHOP_FC_02_1:
+  {
+    NPC: Aristocrat
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertF22_SHOP_FC_02_2:
+  {
+    NPC: Aristocrat
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertF22_SHOP_FC_02_3:
+  {
+    NPC: Aristocrat
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertF22_SHOP_FC_03_1:
+  {
+    NPC: Employee
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertF22_SHOP_FC_03_2:
+  {
+    NPC: Employee
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertF22_SHOP_FC_03_3:
+  {
+    NPC: Employee
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  PlainF21_SHOP_FC_01_1:
+  {
+    NPC: Impresario
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Noblecourt Flats
+  }
+  PlainF21_SHOP_FC_01_2:
+  {
+    NPC: Impresario
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Noblecourt Flats
+  }
+  PlainF21_SHOP_FC_01_3:
+  {
+    NPC: Impresario
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Noblecourt Flats
+  }
+  RiverF22_SHOP_FC_01_1:
+  {
+    NPC: Landscape Artist
+    Shuffle: true
+    Region: Riverlands
+    Location: East Saintsbridge Traverse
+  }
+  RiverF22_SHOP_FC_01_2:
+  {
+    NPC: Landscape Artist
+    Shuffle: true
+    Region: Riverlands
+    Location: East Saintsbridge Traverse
+  }
+  RiverF22_SHOP_FC_01_3:
+  {
+    NPC: Landscape Artist
+    Shuffle: false
+    Region: Riverlands
+    Location: East Saintsbridge Traverse
+  }
+  RiverF22_SHOP_FC_02_1:
+  {
+    NPC: Assiduous Scholar
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverF22_SHOP_FC_02_2:
+  {
+    NPC: Assiduous Scholar
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverF22_SHOP_FC_03_1:
+  {
+    NPC: Reformed Man
+    Shuffle: true
+    Region: ""
+    Location: ""
+  }
+  SeaF23_SHOP_FC_02_1:
+  {
+    NPC: Knowledgeable Traveler
+    Shuffle: true
+    Region: Coastlands
+    Location: West Goldshore Coast
+  }
+  SeaF23_SHOP_FC_02_2:
+  {
+    NPC: Knowledgeable Traveler
+    Shuffle: true
+    Region: Coastlands
+    Location: West Goldshore Coast
+  }
+  SeaF23_SHOP_FC_02_3:
+  {
+    NPC: Knowledgeable Traveler
+    Shuffle: true
+    Region: Coastlands
+    Location: West Goldshore Coast
+  }
+  SeaF23_SHOP_FC_01_1:
+  {
+    NPC: Unsavory Man
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaF23_SHOP_FC_01_2:
+  {
+    NPC: Unsavory Man
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SnowF21_SHOP_FC_01_1:
+  {
+    NPC: Traveler
+    Shuffle: false
+    Region: ""
+    Location: ""
+  }
+  SnowF21_SHOP_FC_01_2:
+  {
+    NPC: Traveler
+    Shuffle: false
+    Region: ""
+    Location: ""
+  }
+  SnowF21_SHOP_FC_01_3:
+  {
+    NPC: Traveler
+    Shuffle: false
+    Region: ""
+    Location: ""
+  }
+  CliffM_SHOP_FC_02_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_02_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_02_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_03_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_03_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_04_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_04_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_05_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_05_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_05_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_06_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_06_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_07_1:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_07_2:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_07_3:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_09_1:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_09_2:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_10_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_25_1:
+  {
+    NPC: Gendy
+    Shuffle: false
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_27_1:
+  {
+    NPC: Odette
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_27_2:
+  {
+    NPC: Odette
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_27_3:
+  {
+    NPC: Odette
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_30_1:
+  {
+    NPC: Kaia
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_30_2:
+  {
+    NPC: Kaia
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_30_3:
+  {
+    NPC: Kaia
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_30_4:
+  {
+    NPC: Kaia
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_31_1:
+  {
+    NPC: The Egg Man
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_31_2:
+  {
+    NPC: The Egg Man
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_11_1:
+  {
+    NPC: Laborer
+    Shuffle: false
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_11_2:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_11_3:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_12_1:
+  {
+    NPC: Laborer
+    Shuffle: false
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_12_2:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_12_3:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_13_1:
+  {
+    NPC: Laborer
+    Shuffle: false
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_13_2:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_13_3:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_14_1:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_14_2:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_14_3:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_15_1:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_15_2:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_15_3:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_16_1:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_16_2:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_16_3:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_17_1:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_17_2:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_17_3:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_20_1:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_21_1:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_21_2:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_21_3:
+  {
+    NPC: Laborer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_23_1:
+  {
+    NPC: Miner
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_23_2:
+  {
+    NPC: Miner
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_24_1:
+  {
+    NPC: Inquisitive Lady
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_28_1:
+  {
+    NPC: Tavern Proprietor
+    Shuffle: true
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  CliffM_SHOP_FC_32_1:
+  {
+    NPC: Migrant Worker
+    Shuffle: false
+    Region: Cliftlands
+    Location: Quarrycrest
+  }
+  DesertS_SHOP_FC_01_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_01_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_02_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_02_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_02_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_02_4:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_03_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_04_1:
+  {
+    NPC: Bale
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_04_2:
+  {
+    NPC: Bale
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_04_3:
+  {
+    NPC: Bale
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_05_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_06_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_07_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_07_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_09_1:
+  {
+    NPC: Pauper
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_10_1:
+  {
+    NPC: Tavern Keeper
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_11_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_11_2:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_12_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_12_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_12_3:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_13_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_14_1:
+  {
+    NPC: Merchant
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_15_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_16_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_16_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_17_1:
+  {
+    NPC: Sweet Tooth
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_17_2:
+  {
+    NPC: Sweet Tooth
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_17_3:
+  {
+    NPC: Sweet Tooth
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_18_1:
+  {
+    NPC: ??????
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_18_2:
+  {
+    NPC: ??????
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_18_3:
+  {
+    NPC: ??????
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_20_1:
+  {
+    NPC: Bale
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_20_2:
+  {
+    NPC: Bale
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_20_3:
+  {
+    NPC: Bale
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_20_4:
+  {
+    NPC: Bale
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_21_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_22_1:
+  {
+    NPC: Ria
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_22_2:
+  {
+    NPC: Ria
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_22_3:
+  {
+    NPC: Ria
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_23_1:
+  {
+    NPC: Traveling Merchant
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_25_1:
+  {
+    NPC: Satisfied Merchant
+    Shuffle: false
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_26_1:
+  {
+    NPC: Erhardt
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_26_2:
+  {
+    NPC: Erhardt
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_19_1:
+  {
+    NPC: Injured Scout
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  DesertS_SHOP_FC_19_2:
+  {
+    NPC: Injured Scout
+    Shuffle: true
+    Region: Sunlands
+    Location: Wellspring
+  }
+  ForestL_SHOP_FC_01_1:
+  {
+    NPC: Prideful Warrior
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_02_1:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_02_2:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_03_1:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_03_2:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_04_1:
+  {
+    NPC: Contemptuous Warrior
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_05_1:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_06_1:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_07_1:
+  {
+    NPC: Antique Dealer
+    Shuffle: false
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_08_1:
+  {
+    NPC: Captain Leon
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_08_2:
+  {
+    NPC: Captain Leon
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_09_1:
+  {
+    NPC: Mikk
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_09_2:
+  {
+    NPC: Mikk
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_10_1:
+  {
+    NPC: Makk
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_10_2:
+  {
+    NPC: Makk
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_13_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_13_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_18_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_18_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_18_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_19_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_19_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_43_1:
+  {
+    NPC: Laconic Father
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_43_2:
+  {
+    NPC: Laconic Father
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_46_1:
+  {
+    NPC: Resilient Gladiator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_46_2:
+  {
+    NPC: Resilient Gladiator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_47_1:
+  {
+    NPC: Starry-eyed Boy
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_47_2:
+  {
+    NPC: Starry-eyed Boy
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_50_1:
+  {
+    NPC: Doting Aunt
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_50_2:
+  {
+    NPC: Doting Aunt
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_51_1:
+  {
+    NPC: Alaic
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_52_1:
+  {
+    NPC: Hearty Merchant
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_52_2:
+  {
+    NPC: Hearty Merchant
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_53_1:
+  {
+    NPC: Ship Captain
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_53_2:
+  {
+    NPC: Ship Captain
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_53_3:
+  {
+    NPC: Ship Captain
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_54_1:
+  {
+    NPC: Flower-loving Widow
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_54_2:
+  {
+    NPC: Flower-loving Widow
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_54_3:
+  {
+    NPC: Flower-loving Widow
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_56_1:
+  {
+    NPC: Ashlan
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_56_2:
+  {
+    NPC: Ashlan
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_56_3:
+  {
+    NPC: Ashlan
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_57_1:
+  {
+    NPC: Monster Hunter
+    Shuffle: false
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_58_1:
+  {
+    NPC: Orphanage Matron
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_58_2:
+  {
+    NPC: Orphanage Matron
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_59_1:
+  {
+    NPC: Energetic Boy
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_59_2:
+  {
+    NPC: Energetic Boy
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_60_1:
+  {
+    NPC: Wide-eyed Girl
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_60_2:
+  {
+    NPC: Wide-eyed Girl
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_61_1:
+  {
+    NPC: Flower Girl
+    Shuffle: false
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_20_1:
+  {
+    NPC: Merchant
+    Shuffle: false
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_20_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_20_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_20_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_22_1:
+  {
+    NPC: Cecily
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_27_1:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_27_2:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_27_3:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_28_1:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_28_2:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_28_3:
+  {
+    NPC: Spectator
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_29_1:
+  {
+    NPC: Barker
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_29_2:
+  {
+    NPC: Barker
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_30_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_30_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_30_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_30_4:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_30_5:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_31_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_31_2:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_31_3:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_31_4:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_31_5:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_38_1:
+  {
+    NPC: Successful Gambler
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_38_2:
+  {
+    NPC: Successful Gambler
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_38_3:
+  {
+    NPC: Successful Gambler
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_39_1:
+  {
+    NPC: Estadas
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_41_1:
+  {
+    NPC: Mont d'Or
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_45_1:
+  {
+    NPC: Gossipy Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_45_2:
+  {
+    NPC: Gossipy Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_45_3:
+  {
+    NPC: Gossipy Townsperson
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_64_1:
+  {
+    NPC: Cecily
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_63_1:
+  {
+    NPC: Ned
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_63_2:
+  {
+    NPC: Ned
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_63_3:
+  {
+    NPC: Ned
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_33_1:
+  {
+    NPC: Joshua Frostblade
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_34_1:
+  {
+    NPC: Archibold the Crusher
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_35_1:
+  {
+    NPC: Gustav, the Black Knight
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_35_2:
+  {
+    NPC: Gustav, the Black Knight
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_35_3:
+  {
+    NPC: Gustav, the Black Knight
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_36_1:
+  {
+    NPC: Arena Attendant
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_36_2:
+  {
+    NPC: Arena Attendant
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  ForestL_SHOP_FC_36_3:
+  {
+    NPC: Arena Attendant
+    Shuffle: true
+    Region: Woodlands
+    Location: Victors Hollow
+  }
+  MountL_SHOP_FC_01_1:
+  {
+    NPC: Bindery Employee
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_01_2:
+  {
+    NPC: Bindery Employee
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_01_3:
+  {
+    NPC: Bindery Employee
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_02_1:
+  {
+    NPC: Neighborly Grandma
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_02_2:
+  {
+    NPC: Neighborly Grandma
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_02_3:
+  {
+    NPC: Neighborly Grandma
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_03_1:
+  {
+    NPC: Neighborly Grandpa
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_04_1:
+  {
+    NPC: Nathan
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_05_1:
+  {
+    NPC: Nathan's Bodyguard
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_05_2:
+  {
+    NPC: Nathan's Bodyguard
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_05_3:
+  {
+    NPC: Nathan's Bodyguard
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_08_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_08_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_09_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_10_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_10_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_10_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_25_1:
+  {
+    NPC: Bookbinder
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_25_2:
+  {
+    NPC: Bookbinder
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_28_1:
+  {
+    NPC: True Believer
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_28_2:
+  {
+    NPC: True Believer
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_34_1:
+  {
+    NPC: Dominic
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_34_2:
+  {
+    NPC: Dominic
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_37_1:
+  {
+    NPC: Wandering Minstrel
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_37_2:
+  {
+    NPC: Wandering Minstrel
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_11_1:
+  {
+    NPC: Hunter
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_11_2:
+  {
+    NPC: Hunter
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_12_1:
+  {
+    NPC: Eren
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_12_2:
+  {
+    NPC: Eren
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_12_3:
+  {
+    NPC: Eren
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_13_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_13_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_14_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_15_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_15_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_18_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_19_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_19_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_19_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_19_4:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_29_1:
+  {
+    NPC: Inquiring Youth
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_30_1:
+  {
+    NPC: Tobias
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_30_2:
+  {
+    NPC: Tobias
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_41_1:
+  {
+    NPC: Nathan
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_41_2:
+  {
+    NPC: Nathan
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_20_1:
+  {
+    NPC: Papermaker
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_21_1:
+  {
+    NPC: Apothecary
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_21_2:
+  {
+    NPC: Apothecary
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_21_3:
+  {
+    NPC: Apothecary
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_22_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_23_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_23_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_23_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_24_1:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_24_2:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_24_3:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_06_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_07_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_07_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_07_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_26_1:
+  {
+    NPC: Patrician Youth
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_27_1:
+  {
+    NPC: Rumormonger
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_27_2:
+  {
+    NPC: Rumormonger
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_33_1:
+  {
+    NPC: Elderly Shopowner
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_33_2:
+  {
+    NPC: Elderly Shopowner
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_33_3:
+  {
+    NPC: Elderly Shopowner
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_31_1:
+  {
+    NPC: Ruffian
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_31_2:
+  {
+    NPC: Ruffian
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_32_1:
+  {
+    NPC: Ruffian Lackey
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_38_1:
+  {
+    NPC: Erstwhile Bodyguard
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_38_2:
+  {
+    NPC: Erstwhile Bodyguard
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_39_1:
+  {
+    NPC: Honest Youth
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_39_2:
+  {
+    NPC: Honest Youth
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_40_1:
+  {
+    NPC: Natalia
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_42_1:
+  {
+    NPC: Archibold the Crusher
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  MountL_SHOP_FC_42_2:
+  {
+    NPC: Archibold the Crusher
+    Shuffle: true
+    Region: Highlands
+    Location: Stonegard
+  }
+  PlainM_SHOP_FC_01_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_01_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_02_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_02_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_02_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_03_1:
+  {
+    NPC: Gatekeeper
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_04_1:
+  {
+    NPC: Gatekeeper
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_05_1:
+  {
+    NPC: Barham
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_05_2:
+  {
+    NPC: Barham
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_06_1:
+  {
+    NPC: Sunlands Merchant
+    Shuffle: false
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_07_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_07_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_07_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_08_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_08_2:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_08_3:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_09_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_09_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_10_1:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_10_2:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_11_1:
+  {
+    NPC: Merchant
+    Shuffle: false
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_12_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_12_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_14_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_14_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_15_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_15_2:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_16_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_16_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_16_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_40_1:
+  {
+    NPC: Accomplished Graybeard
+    Shuffle: false
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_42_1:
+  {
+    NPC: Orlick
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_42_2:
+  {
+    NPC: Orlick
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_46_1:
+  {
+    NPC: Definitely Not Leon
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_46_2:
+  {
+    NPC: Definitely Not Leon
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_30_1:
+  {
+    NPC: Affable Antiquarian
+    Shuffle: false
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_17_1:
+  {
+    NPC: Merchant
+    Shuffle: false
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_20_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_21_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_22_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_22_2:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_22_3:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_23_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_24_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_24_2:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_24_3:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_25_1:
+  {
+    NPC: Revello
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_25_2:
+  {
+    NPC: Revello
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_26_1:
+  {
+    NPC: Anna
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_33_1:
+  {
+    NPC: Satisfied Man
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_33_2:
+  {
+    NPC: Satisfied Man
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_33_3:
+  {
+    NPC: Satisfied Man
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_37_1:
+  {
+    NPC: Old Gravekeeper
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_37_2:
+  {
+    NPC: Old Gravekeeper
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_37_3:
+  {
+    NPC: Old Gravekeeper
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_48_1:
+  {
+    NPC: Junk Collector
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_48_2:
+  {
+    NPC: Junk Collector
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_48_3:
+  {
+    NPC: Junk Collector
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_48_4:
+  {
+    NPC: Junk Collector
+    Shuffle: false
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_48_5:
+  {
+    NPC: Junk Collector
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_51_1:
+  {
+    NPC: Boy's Mother
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_51_2:
+  {
+    NPC: Boy's Mother
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_49_1:
+  {
+    NPC: Artistic Boy
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_49_2:
+  {
+    NPC: Artistic Boy
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_50_1:
+  {
+    NPC: Book-loving Girl
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_50_2:
+  {
+    NPC: Book-loving Girl
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_27_1:
+  {
+    NPC: Fashionable Traveler
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_27_2:
+  {
+    NPC: Fashionable Traveler
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_52_1:
+  {
+    NPC: Aspiring Actor
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_53_1:
+  {
+    NPC: Conrad the Impaler
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_54_1:
+  {
+    NPC: Jan
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  PlainM_SHOP_FC_54_2:
+  {
+    NPC: Jan
+    Shuffle: true
+    Region: Flatlands
+    Location: Noblecourt
+  }
+  RiverL_SHOP_FC_01_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_01_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_02_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_02_2:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_06_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_06_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_06_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_07_1:
+  {
+    NPC: Miguel
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_07_2:
+  {
+    NPC: Miguel
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_08_1:
+  {
+    NPC: Demure Grandma
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_08_2:
+  {
+    NPC: Demure Grandma
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_08_3:
+  {
+    NPC: Demure Grandma
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_28_1:
+  {
+    NPC: Worrywart
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_28_2:
+  {
+    NPC: Worrywart
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_28_3:
+  {
+    NPC: Worrywart
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_37_1:
+  {
+    NPC: Bully
+    Shuffle: false
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_38_1:
+  {
+    NPC: Artist's Brother
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_38_2:
+  {
+    NPC: Artist's Brother
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_42_1:
+  {
+    NPC: Erstwhile Sellsword
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_42_2:
+  {
+    NPC: Erstwhile Sellsword
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_42_3:
+  {
+    NPC: Erstwhile Sellsword
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_44_1:
+  {
+    NPC: Tim
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_44_2:
+  {
+    NPC: Tim
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_44_3:
+  {
+    NPC: Tim
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverF22_SHOP_FC_04_1:
+  {
+    NPC: River Dweller
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_09_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_09_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_10_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_10_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_10_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_11_1:
+  {
+    NPC: Emil
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_12_1:
+  {
+    NPC: Derryl
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_13_1:
+  {
+    NPC: Nate
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_14_1:
+  {
+    NPC: Stubborn Grandma
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_14_2:
+  {
+    NPC: Stubborn Grandma
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_14_3:
+  {
+    NPC: Stubborn Grandma
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_16_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_16_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_16_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_17_1:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_17_2:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_17_3:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_34_1:
+  {
+    NPC: Emil
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_34_2:
+  {
+    NPC: Emil
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_35_1:
+  {
+    NPC: Derryl
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_35_2:
+  {
+    NPC: Derryl
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_36_1:
+  {
+    NPC: Nate
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_36_2:
+  {
+    NPC: Nate
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_43_1:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_43_2:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_43_3:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_43_4:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_45_1:
+  {
+    NPC: Bishop Bartolo
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_45_2:
+  {
+    NPC: Bishop Bartolo
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_23_1:
+  {
+    NPC: Bishop Bartolo
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_24_1:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_24_2:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_27_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_27_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_29_1:
+  {
+    NPC: Kindly Cleric
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_29_2:
+  {
+    NPC: Kindly Cleric
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  RiverL_SHOP_FC_29_3:
+  {
+    NPC: Kindly Cleric
+    Shuffle: true
+    Region: Riverlands
+    Location: Saintsbridge
+  }
+  SeaM_SHOP_FC_01_1:
+  {
+    NPC: Ellen
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_01_2:
+  {
+    NPC: Ellen
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_01_3:
+  {
+    NPC: Ellen
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_06_1:
+  {
+    NPC: Flynn
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_06_2:
+  {
+    NPC: Flynn
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_09_1:
+  {
+    NPC: Marlene
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_09_2:
+  {
+    NPC: Marlene
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_09_3:
+  {
+    NPC: Marlene
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_10_1:
+  {
+    NPC: Coachman
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_10_2:
+  {
+    NPC: Coachman
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_10_3:
+  {
+    NPC: Coachman
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_11_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_12_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_12_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_12_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_13_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_13_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_14_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_17_1:
+  {
+    NPC: Sailor
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_17_2:
+  {
+    NPC: Sailor
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_19_1:
+  {
+    NPC: Troubled Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_19_2:
+  {
+    NPC: Troubled Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_19_3:
+  {
+    NPC: Troubled Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_15_1:
+  {
+    NPC: Crest-bearing Ruffian
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_15_2:
+  {
+    NPC: Crest-bearing Ruffian
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_15_3:
+  {
+    NPC: Crest-bearing Ruffian
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_52_1:
+  {
+    NPC: Fledgling Fisherman
+    Shuffle: false
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_52_2:
+  {
+    NPC: Fledgling Fisherman
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_52_3:
+  {
+    NPC: Fledgling Fisherman
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_24_1:
+  {
+    NPC: Fisherman's Sweetheart
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_24_2:
+  {
+    NPC: Fisherman's Sweetheart
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_24_3:
+  {
+    NPC: Fisherman's Sweetheart
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_22_1:
+  {
+    NPC: Leviathan Hunter
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_65_1:
+  {
+    NPC: Ellen
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_65_2:
+  {
+    NPC: Ellen
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_65_3:
+  {
+    NPC: Ellen
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_65_4:
+  {
+    NPC: Ellen
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_65_5:
+  {
+    NPC: Ellen
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_66_1:
+  {
+    NPC: Flynn
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_66_2:
+  {
+    NPC: Flynn
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_66_3:
+  {
+    NPC: Flynn
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_67_1:
+  {
+    NPC: Marlene
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_67_2:
+  {
+    NPC: Marlene
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_28_1:
+  {
+    NPC: Daniel
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_28_2:
+  {
+    NPC: Daniel
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_30_1:
+  {
+    NPC: Aristocrat
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_30_2:
+  {
+    NPC: Aristocrat
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_30_3:
+  {
+    NPC: Aristocrat
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_34_1:
+  {
+    NPC: Aristocrat
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_38_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_38_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_39_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_39_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_40_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_40_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_41_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_41_2:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_41_3:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_42_1:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_42_2:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_42_3:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_47_1:
+  {
+    NPC: Merchantry Master
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_47_2:
+  {
+    NPC: Merchantry Master
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_47_3:
+  {
+    NPC: Merchantry Master
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_45_1:
+  {
+    NPC: Drevon
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_45_2:
+  {
+    NPC: Drevon
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_43_1:
+  {
+    NPC: Stonemonger
+    Shuffle: false
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_55_1:
+  {
+    NPC: Erudite Graybeard
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_55_2:
+  {
+    NPC: Erudite Graybeard
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_64_1:
+  {
+    NPC: Lysa
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_64_2:
+  {
+    NPC: Lysa
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_64_3:
+  {
+    NPC: Lysa
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_56_1:
+  {
+    NPC: Bishop Donovan
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_62_1:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_62_2:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_63_1:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_63_2:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SeaM_SHOP_FC_63_3:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Coastlands
+    Location: Goldshore
+  }
+  SnowS_SHOP_FC_01_1:
+  {
+    NPC: Alaic
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_02_1:
+  {
+    NPC: Susanna
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_02_2:
+  {
+    NPC: Susanna
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_02_3:
+  {
+    NPC: Susanna
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_03_1:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_03_2:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_04_1:
+  {
+    NPC: Girl
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_04_2:
+  {
+    NPC: Girl
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_05_1:
+  {
+    NPC: Arianna
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_05_2:
+  {
+    NPC: Arianna
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_05_3:
+  {
+    NPC: Arianna
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_06_1:
+  {
+    NPC: Dancer
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_07_1:
+  {
+    NPC: Oren
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_07_2:
+  {
+    NPC: Oren
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_08_1:
+  {
+    NPC: Villager
+    Shuffle: false
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_09_1:
+  {
+    NPC: Villager
+    Shuffle: false
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_10_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_10_2:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_12_1:
+  {
+    NPC: Townsperson
+    Shuffle: false
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_12_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_12_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_13_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_13_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_13_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_14_1:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_14_2:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_17_1:
+  {
+    NPC: Ingenious Inventor
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_17_2:
+  {
+    NPC: Ingenious Inventor
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_23_1:
+  {
+    NPC: Budding Songstress
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_23_2:
+  {
+    NPC: Budding Songstress
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_21_1:
+  {
+    NPC: Moneylender
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_21_2:
+  {
+    NPC: Moneylender
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_21_3:
+  {
+    NPC: Moneylender
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_19_1:
+  {
+    NPC: Reformed Father
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_19_2:
+  {
+    NPC: Reformed Father
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_29_1:
+  {
+    NPC: Carefree Man
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_29_2:
+  {
+    NPC: Carefree Man
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_29_3:
+  {
+    NPC: Carefree Man
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_16_1:
+  {
+    NPC: Frostlands Know-it-all
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_16_2:
+  {
+    NPC: Frostlands Know-it-all
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_15_1:
+  {
+    NPC: Frostlands Farmer
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_15_2:
+  {
+    NPC: Frostlands Farmer
+    Shuffle: false
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  SnowS_SHOP_FC_27_1:
+  {
+    NPC: Veteran Mercenary
+    Shuffle: true
+    Region: Frostlands
+    Location: Stillsnow
+  }
+  CliffD32_SHOP_FC_01_1:
+  {
+    NPC: Curious Cleric
+    Shuffle: true
+    Region: Cliftlands
+    Location: Dragonsong Fane
+  }
+  CliffD32_SHOP_FC_01_2:
+  {
+    NPC: Curious Cleric
+    Shuffle: true
+    Region: Cliftlands
+    Location: Dragonsong Fane
+  }
+  ForestD32_SHOP_FC_01_1:
+  {
+    NPC: Grave Robber
+    Shuffle: true
+    Region: Woodlands
+    Location: Moldering Ruins
+  }
+  ForestD32_SHOP_FC_01_2:
+  {
+    NPC: Grave Robber
+    Shuffle: true
+    Region: Woodlands
+    Location: Moldering Ruins
+  }
+  ForestD32_SHOP_FC_02_1:
+  {
+    NPC: Ashlan's Father
+    Shuffle: true
+    Region: Woodlands
+    Location: Moldering Ruins
+  }
+  ForestD32_SHOP_FC_02_2:
+  {
+    NPC: Ashlan's Father
+    Shuffle: true
+    Region: Woodlands
+    Location: Moldering Ruins
+  }
+  CliffF32_SHOP_FC_01_1:
+  {
+    NPC: Cervantes
+    Shuffle: true
+    Region: Cliftlands
+    Location: South Orewell Pass
+  }
+  PlainF31_SHOP_FC_01_1:
+  {
+    NPC: Trembling Merchant
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Wispermill Flats
+  }
+  PlainF31_SHOP_FC_01_2:
+  {
+    NPC: Trembling Merchant
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Wispermill Flats
+  }
+  PlainF31_SHOP_FC_01_3:
+  {
+    NPC: Trembling Merchant
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Wispermill Flats
+  }
+  PlainF31_SHOP_FC_01_4:
+  {
+    NPC: Trembling Merchant
+    Shuffle: true
+    Region: Flatlands
+    Location: Western Wispermill Flats
+  }
+  SeaF31_SHOP_FC_01_1:
+  {
+    NPC: Brigand
+    Shuffle: false
+    Region: ""
+    Location: ""
+  }
+  SeaF31_SHOP_FC_01_2:
+  {
+    NPC: Brigand
+    Shuffle: false
+    Region: ""
+    Location: ""
+  }
+  SeaF31_SHOP_FC_01_3:
+  {
+    NPC: Brigand
+    Shuffle: false
+    Region: ""
+    Location: ""
+  }
+  SeaF31_SHOP_FC_02_1:
+  {
+    NPC: Best-selling Author
+    Shuffle: true
+    Region: Coastlands
+    Location: West Grandport Coast
+  }
+  SeaF31_SHOP_FC_03_1:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Coastlands
+    Location: Moonstruck Coast
+  }
+  SeaF31_SHOP_FC_03_2:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Coastlands
+    Location: Moonstruck Coast
+  }
+  SeaF31_SHOP_FC_03_3:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Coastlands
+    Location: Moonstruck Coast
+  }
+  CliffS_SHOP_FC_09_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_09_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_09_3:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_10_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_10_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_10_3:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_01_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_01_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_01_3:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_02_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_02_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_03_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_03_2:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_03_3:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_04_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_04_2:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_04_3:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_04_4:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_15_1:
+  {
+    NPC: Proud Mother
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_15_2:
+  {
+    NPC: Proud Mother
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_16_1:
+  {
+    NPC: Optimistic Merchant
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_16_2:
+  {
+    NPC: Optimistic Merchant
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_18_1:
+  {
+    NPC: Lazy Loafer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_18_2:
+  {
+    NPC: Lazy Loafer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_18_3:
+  {
+    NPC: Lazy Loafer
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_19_1:
+  {
+    NPC: Affable Merchant
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_19_2:
+  {
+    NPC: Affable Merchant
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_19_3:
+  {
+    NPC: Affable Merchant
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_20_1:
+  {
+    NPC: Oblivious Townsperson
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_21_1:
+  {
+    NPC: Kaia
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_21_2:
+  {
+    NPC: Kaia
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_21_3:
+  {
+    NPC: Kaia
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_21_4:
+  {
+    NPC: Kaia
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  CliffS_SHOP_FC_21_5:
+  {
+    NPC: Kaia
+    Shuffle: true
+    Region: Cliftlands
+    Location: Orewell
+  }
+  DesertL_SHOP_FC_01_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_01_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_02_1:
+  {
+    NPC: Eliza
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_03_1:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_03_2:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_04_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_04_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_04_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_05_1:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_05_2:
+  {
+    NPC: Knight Ardante
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_06_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_07_1:
+  {
+    NPC: Boy
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_08_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_08_2:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_08_3:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_10_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_11_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_11_2:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_11_3:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_34_1:
+  {
+    NPC: Grieg the Unbreakable
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_13_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_15_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_15_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_15_3:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_16_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_16_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_16_3:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_17_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_18_1:
+  {
+    NPC: Kevin
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_19_1:
+  {
+    NPC: Old Aristocrat
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_19_2:
+  {
+    NPC: Old Aristocrat
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_19_3:
+  {
+    NPC: Old Aristocrat
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_20_1:
+  {
+    NPC: Swordsman Yuri
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_20_2:
+  {
+    NPC: Swordsman Yuri
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_21_1:
+  {
+    NPC: Young Soldier
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_21_2:
+  {
+    NPC: Young Soldier
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_22_1:
+  {
+    NPC: King Khalim
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_24_1:
+  {
+    NPC: Minister
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_25_1:
+  {
+    NPC: Know-it-all's Father
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_25_2:
+  {
+    NPC: Know-it-all's Father
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_25_3:
+  {
+    NPC: Know-it-all's Father
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_26_1:
+  {
+    NPC: Scholarly Youth
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_26_2:
+  {
+    NPC: Scholarly Youth
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_27_1:
+  {
+    NPC: ??????
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_29_1:
+  {
+    NPC: Gloria
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_29_2:
+  {
+    NPC: Gloria
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_29_3:
+  {
+    NPC: Gloria
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_29_4:
+  {
+    NPC: Gloria
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_29_5:
+  {
+    NPC: Gloria
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_31_1:
+  {
+    NPC: Chieftain
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_32_1:
+  {
+    NPC: Kindly Knight
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_32_2:
+  {
+    NPC: Kindly Knight
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_33_1:
+  {
+    NPC: Knight's Wife
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_33_2:
+  {
+    NPC: Knight's Wife
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_33_3:
+  {
+    NPC: Knight's Wife
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_35_1:
+  {
+    NPC: General Lenaar
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_35_2:
+  {
+    NPC: General Lenaar
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_36_1:
+  {
+    NPC: Captain Raaf
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_36_2:
+  {
+    NPC: Captain Raaf
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  DesertL_SHOP_FC_36_3:
+  {
+    NPC: Captain Raaf
+    Shuffle: true
+    Region: Sunlands
+    Location: Marsalim
+  }
+  ForestM_SHOP_FC_01_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_01_2:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_04_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_04_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_04_3:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_05_1:
+  {
+    NPC: Village Headman
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_05_2:
+  {
+    NPC: Village Headman
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_05_3:
+  {
+    NPC: Village Headman
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_06_1:
+  {
+    NPC: Obliging Merchant
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_06_2:
+  {
+    NPC: Obliging Merchant
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_07_1:
+  {
+    NPC: Fearful Mother
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_07_2:
+  {
+    NPC: Fearful Mother
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_07_3:
+  {
+    NPC: Fearful Mother
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_08_1:
+  {
+    NPC: Animal-loving Child
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_08_2:
+  {
+    NPC: Animal-loving Child
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_08_3:
+  {
+    NPC: Animal-loving Child
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_10_1:
+  {
+    NPC: Crest-bearing Swindler
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_10_2:
+  {
+    NPC: Crest-bearing Swindler
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_10_3:
+  {
+    NPC: Crest-bearing Swindler
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_11_1:
+  {
+    NPC: Woodlands Know-it-all
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_11_2:
+  {
+    NPC: Woodlands Know-it-all
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_12_1:
+  {
+    NPC: Highbrow Historian
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_13_1:
+  {
+    NPC: Smirking Townsperson
+    Shuffle: false
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_14_1:
+  {
+    NPC: Ashlan
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_14_2:
+  {
+    NPC: Ashlan
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_14_3:
+  {
+    NPC: Ashlan
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_14_4:
+  {
+    NPC: Ashlan
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  ForestM_SHOP_FC_14_5:
+  {
+    NPC: Ashlan
+    Shuffle: true
+    Region: Woodlands
+    Location: Duskbarrow
+  }
+  MountM_SHOP_FC_01_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_01_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_01_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_02_1:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_02_2:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_02_3:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_05_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_05_2:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_06_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_06_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_06_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_07_1:
+  {
+    NPC: Girl
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_07_2:
+  {
+    NPC: Girl
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_09_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_10_1:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_10_2:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_10_3:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_11_1:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_11_2:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_11_3:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_12_1:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_12_2:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_12_3:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_13_1:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_13_2:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_13_3:
+  {
+    NPC: Usher
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_14_1:
+  {
+    NPC: Ardent Actor
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_14_2:
+  {
+    NPC: Ardent Actor
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_14_3:
+  {
+    NPC: Ardent Actor
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_15_1:
+  {
+    NPC: Impresario
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_15_2:
+  {
+    NPC: Impresario
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_15_3:
+  {
+    NPC: Impresario
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_16_1:
+  {
+    NPC: Theater Manager
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_16_2:
+  {
+    NPC: Theater Manager
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_16_3:
+  {
+    NPC: Theater Manager
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_17_1:
+  {
+    NPC: Noelle
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_17_2:
+  {
+    NPC: Noelle
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_17_3:
+  {
+    NPC: Noelle
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_17_4:
+  {
+    NPC: Noelle
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_17_5:
+  {
+    NPC: Noelle
+    Shuffle: true
+    Region: Highlands
+    Location: Everhold
+  }
+  MountM_SHOP_FC_18_1:
+  {
+    NPC: Stage Carpenter
+    Shuffle: false
+    Region: Highlands
+    Location: Everhold
+  }
+  PlainS_SHOP_FC_01_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_01_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_01_3:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_02_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_02_2:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_03_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_03_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_04_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_04_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_04_3:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_05_1:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_05_2:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_05_3:
+  {
+    NPC: Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_08_1:
+  {
+    NPC: Carefree Shepherd
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_08_2:
+  {
+    NPC: Carefree Shepherd
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_09_1:
+  {
+    NPC: Rumormonger
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_09_2:
+  {
+    NPC: Rumormonger
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_10_1:
+  {
+    NPC: Slender Farmer
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_10_2:
+  {
+    NPC: Slender Farmer
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_10_3:
+  {
+    NPC: Slender Farmer
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_11_1:
+  {
+    NPC: Troubled Villager
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_13_1:
+  {
+    NPC: Eliza
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_13_2:
+  {
+    NPC: Eliza
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_14_1:
+  {
+    NPC: Nighteye
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  PlainS_SHOP_FC_14_2:
+  {
+    NPC: Nighteye
+    Shuffle: true
+    Region: Flatlands
+    Location: Wispermill
+  }
+  RiverM_SHOP_FC_01_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_01_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_02_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_02_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_03_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_03_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_03_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_04_1:
+  {
+    NPC: Traveler
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_04_2:
+  {
+    NPC: Traveler
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_04_3:
+  {
+    NPC: Traveler
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_04_4:
+  {
+    NPC: Traveler
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_05_1:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_05_2:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_05_3:
+  {
+    NPC: Old Man
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_07_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_07_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_07_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_09_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_10_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_12_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_12_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_12_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_21_1:
+  {
+    NPC: Passionate Farmer
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_21_2:
+  {
+    NPC: Passionate Farmer
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_21_3:
+  {
+    NPC: Passionate Farmer
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_22_1:
+  {
+    NPC: Servant
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_26_1:
+  {
+    NPC: Successful Merchant
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_26_2:
+  {
+    NPC: Successful Merchant
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_13_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_13_2:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_14_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_14_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_14_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_15_1:
+  {
+    NPC: Soldier
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_15_2:
+  {
+    NPC: Soldier
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_15_3:
+  {
+    NPC: Soldier
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_17_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_17_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_17_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_17_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_18_1:
+  {
+    NPC: Girl
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_19_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_19_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_20_1:
+  {
+    NPC: Harald
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_20_2:
+  {
+    NPC: Harald
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_25_1:
+  {
+    NPC: Harald
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_28_1:
+  {
+    NPC: Sickly Woman
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_28_2:
+  {
+    NPC: Sickly Woman
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_29_1:
+  {
+    NPC: Kindly Neighbor
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  RiverM_SHOP_FC_29_2:
+  {
+    NPC: Kindly Neighbor
+    Shuffle: true
+    Region: Riverlands
+    Location: Riverford
+  }
+  SeaL_SHOP_FC_01_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_01_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_01_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_01_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_02_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_04_1:
+  {
+    NPC: Cleric
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_05_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_05_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_05_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_05_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_05_5:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_07_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_07_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_07_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_08_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_09_1:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_09_2:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_09_3:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_09_4:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_09_5:
+  {
+    NPC: Elderly Woman
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_10_1:
+  {
+    NPC: Tavern Wench
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_10_2:
+  {
+    NPC: Tavern Wench
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_12_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_12_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_12_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_12_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_12_5:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_13_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_13_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_13_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_13_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_13_5:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_51_1:
+  {
+    NPC: Bookworm Girl
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_52_1:
+  {
+    NPC: Passionate Peddler
+    Shuffle: false
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_53_1:
+  {
+    NPC: Traveling Merchant
+    Shuffle: false
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_14_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_14_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_15_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_15_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_15_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_15_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_16_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_17_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_17_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_17_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_17_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_18_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_18_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_18_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_18_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_18_5:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_20_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_20_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_20_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_20_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_21_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_21_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_21_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_21_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_21_5:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_22_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_22_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_22_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_22_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_22_5:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_23_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_23_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_23_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_23_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_23_5:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_24_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_24_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_24_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_24_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_25_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_25_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_25_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_25_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_25_5:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_26_1:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_26_2:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_26_3:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_26_4:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_26_5:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_27_1:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_27_2:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_27_3:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_27_4:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_27_5:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_29_1:
+  {
+    NPC: Good Dog
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_29_2:
+  {
+    NPC: Good Dog
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_30_1:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_30_2:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_30_3:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_31_1:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_32_1:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_33_1:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_33_2:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_33_3:
+  {
+    NPC: Bazaar Shopper
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_34_1:
+  {
+    NPC: Ship Captain
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_35_1:
+  {
+    NPC: Diarist
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_49_1:
+  {
+    NPC: Lara
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_50_1:
+  {
+    NPC: Girl
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_57_1:
+  {
+    NPC: Aston Wyndham
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_55_1:
+  {
+    NPC: Gill the Butler
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_55_2:
+  {
+    NPC: Gill the Butler
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_36_1:
+  {
+    NPC: Barker
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_37_1:
+  {
+    NPC: Aristocrat
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_37_2:
+  {
+    NPC: Aristocrat
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_38_1:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_38_2:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_38_3:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_38_4:
+  {
+    NPC: Merchant
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_39_1:
+  {
+    NPC: Ing the Diarist
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_39_2:
+  {
+    NPC: Ing the Diarist
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_40_1:
+  {
+    NPC: Woman from Quaragosa
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_40_2:
+  {
+    NPC: Woman from Quaragosa
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_56_1:
+  {
+    NPC: Cordelia
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_56_2:
+  {
+    NPC: Cordelia
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_56_3:
+  {
+    NPC: Cordelia
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_42_1:
+  {
+    NPC: Noa
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_43_1:
+  {
+    NPC: Merry Drunkard
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_44_1:
+  {
+    NPC: Master Jeweler
+    Shuffle: false
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_46_1:
+  {
+    NPC: Wharf Thug
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_46_2:
+  {
+    NPC: Wharf Thug
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_47_1:
+  {
+    NPC: Creepy Antiquarian
+    Shuffle: false
+    Region: Coastlands
+    Location: Grandport
+  }
+  SeaL_SHOP_FC_48_1:
+  {
+    NPC: Bombastic Boy
+    Shuffle: true
+    Region: Coastlands
+    Location: Grandport
+  }
+  SnowM_SHOP_FC_01_1:
+  {
+    NPC: Thief
+    Shuffle: false
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_01_2:
+  {
+    NPC: Thief
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_02_1:
+  {
+    NPC: Seasoned Thief
+    Shuffle: false
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_02_2:
+  {
+    NPC: Seasoned Thief
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_03_1:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_03_2:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_03_3:
+  {
+    NPC: Guard
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_06_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_06_2:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_06_3:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_09_1:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_09_2:
+  {
+    NPC: Tavern Patron
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_10_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_10_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_10_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_11_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_11_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_11_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_12_1:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_12_2:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_12_3:
+  {
+    NPC: Townsperson
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_13_1:
+  {
+    NPC: Traveler
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_14_1:
+  {
+    NPC: Angela
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_14_2:
+  {
+    NPC: Angela
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_14_3:
+  {
+    NPC: Angela
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_14_4:
+  {
+    NPC: Angela
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_16_1:
+  {
+    NPC: Traveling Author
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_17_1:
+  {
+    NPC: Byron the Commoner
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_17_2:
+  {
+    NPC: Byron the Commoner
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_19_1:
+  {
+    NPC: Impoverished Man
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_19_2:
+  {
+    NPC: Impoverished Man
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_19_3:
+  {
+    NPC: Impoverished Man
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_20_1:
+  {
+    NPC: Erudite Graybeard
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_20_2:
+  {
+    NPC: Erudite Graybeard
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_21_1:
+  {
+    NPC: Ogen
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_21_2:
+  {
+    NPC: Ogen
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_21_3:
+  {
+    NPC: Ogen
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_21_4:
+  {
+    NPC: Ogen
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_23_1:
+  {
+    NPC: Miles
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_23_2:
+  {
+    NPC: Miles
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_24_1:
+  {
+    NPC: Refined Merchant
+    Shuffle: false
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_24_2:
+  {
+    NPC: Refined Merchant
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_25_1:
+  {
+    NPC: Loyal Mercenary
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_26_1:
+  {
+    NPC: Joshua Frostblade
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_26_2:
+  {
+    NPC: Joshua Frostblade
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_26_3:
+  {
+    NPC: Joshua Frostblade
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_27_1:
+  {
+    NPC: Angela
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_27_2:
+  {
+    NPC: Angela
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_27_3:
+  {
+    NPC: Angela
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_27_4:
+  {
+    NPC: Angela
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+  SnowM_SHOP_FC_27_5:
+  {
+    NPC: Angela
+    Shuffle: true
+    Region: Frostlands
+    Location: Northreach
+  }
+}

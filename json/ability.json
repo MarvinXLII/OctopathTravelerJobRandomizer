@@ -1,0 +1,5378 @@
+{
+  BT_ABI_001:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 2
+    Ratio: 100
+    ModRatio: false
+    Name: Collect
+    Description: Collect money (⑳) from a single foe.
+  }
+  BT_ABI_002:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 2
+    Ratio: 100
+    ModRatio: false
+    Name: Collect
+    Description: Collect money (⑳) from a single foe.
+  }
+  BT_ABI_003:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 2
+    Ratio: 100
+    ModRatio: false
+    Name: Collect
+    Description: Collect money (⑳) from a single foe.
+  }
+  BT_ABI_004:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 2
+    Ratio: 100
+    ModRatio: false
+    Name: Collect
+    Description: Collect money (⑳) from a single foe.
+  }
+  BT_ABI_005:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 100
+    ModRatio: true
+    Name: Rest
+    Description: Restore one's own HP and SP, and cure status ailments.
+  }
+  BT_ABI_006:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 130
+    ModRatio: true
+    Name: Rest
+    Description: Restore one's own HP and SP, and cure status ailments.
+  }
+  BT_ABI_007:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 160
+    ModRatio: true
+    Name: Rest
+    Description: Restore one's own HP and SP, and cure status ailments.
+  }
+  BT_ABI_008:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 190
+    ModRatio: true
+    Name: Rest
+    Description: Restore one's own HP and SP, and cure status ailments.
+  }
+  BT_ABI_009:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Wind
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Name: Tradewinds
+    Description: Deal heavy wind damage to a single foe.
+  }
+  BT_ABI_010:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Wind
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Name: Tradewinds
+    Description: Deal heavy wind damage to a single foe.
+  }
+  BT_ABI_011:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Wind
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Name: Tradewinds
+    Description: Deal heavy wind damage to a single foe.
+  }
+  BT_ABI_012:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Wind
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Name: Tradewinds
+    Description: Deal heavy wind damage to a single foe.
+  }
+  BT_ABI_013:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Wind
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Name: Trade Tempest
+    Description: Deal wind damage to all foes.
+  }
+  BT_ABI_014:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Wind
+    SP: 10
+    Ratio: 190
+    ModRatio: true
+    Name: Trade Tempest
+    Description: Deal wind damage to all foes.
+  }
+  BT_ABI_015:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Wind
+    SP: 10
+    Ratio: 280
+    ModRatio: true
+    Name: Trade Tempest
+    Description: Deal wind damage to all foes.
+  }
+  BT_ABI_016:
+  {
+    Job: Merchant
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Wind
+    SP: 10
+    Ratio: 370
+    ModRatio: true
+    Name: Trade Tempest
+    Description: Deal wind damage to all foes.
+  }
+  BT_ABI_017:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 3
+    Ratio: 100
+    ModRatio: false
+    Name: Donate BP
+    Description: Grant 1 BP to an ally.
+  }
+  BT_ABI_018:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 3
+    Ratio: 100
+    ModRatio: false
+    Name: Donate BP
+    Description: Grant 2 BP to an ally.
+  }
+  BT_ABI_019:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 3
+    Ratio: 100
+    ModRatio: false
+    Name: Donate BP
+    Description: Grant 3 BP to an ally.
+  }
+  BT_ABI_020:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 3
+    Ratio: 100
+    ModRatio: false
+    Name: Donate BP
+    Description: Grant 4 BP to an ally.
+  }
+  BT_ABI_021:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: false
+    Name: Sidestep
+    Description: Dodge a single physical attack with a 100% success rate.
+  }
+  BT_ABI_022:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: false
+    Name: Sidestep
+    Description: Dodge 2 physical attacks with a 100% success rate.
+  }
+  BT_ABI_023:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: false
+    Name: Sidestep
+    Description: Dodge 3 physical attacks with a 100% success rate.
+  }
+  BT_ABI_024:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: false
+    Name: Sidestep
+    Description: Dodge 4 physical attacks with a 100% success rate.
+  }
+  BT_ABI_025:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 100
+    ModRatio: false
+    Name: Hired Help
+    Description: Pay money (⑳) to summon hired help to the battlefield.
+  }
+  BT_ABI_026:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 100
+    ModRatio: false
+    Name: Hired Help
+    Description: Pay money (⑳) to summon hired help to the battlefield.
+  }
+  BT_ABI_027:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 100
+    ModRatio: false
+    Name: Hired Help
+    Description: Pay money (⑳) to summon hired help to the battlefield.
+  }
+  BT_ABI_028:
+  {
+    Job: Merchant
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 100
+    ModRatio: false
+    Name: Hired Help
+    Description: Pay money (⑳) to summon hired help to the battlefield.
+  }
+  BT_ABI_029:
+  {
+    Job: Merchant
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Bifelgan's Bounty
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_030:
+  {
+    Job: Merchant
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Bifelgan's Bounty
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_031:
+  {
+    Job: Merchant
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Bifelgan's Bounty
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_032:
+  {
+    Job: Merchant
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 600
+    ModRatio: true
+    Name: Bifelgan's Bounty
+    Description: "[Divine Skill] Unleash a non-elemental attack on a single foe and receive ⑳ equivalent to the damage dealt."
+  }
+  BT_ABI_037:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 2
+    Ratio: 100
+    ModRatio: false
+    Name: Steal
+    Description: Steal an item from a single foe.
+  }
+  BT_ABI_038:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 2
+    Ratio: 100
+    ModRatio: false
+    Name: Steal
+    Description: Steal an item from a single foe.
+  }
+  BT_ABI_039:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 2
+    Ratio: 100
+    ModRatio: false
+    Name: Steal
+    Description: Steal an item from a single foe.
+  }
+  BT_ABI_040:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 2
+    Ratio: 100
+    ModRatio: false
+    Name: Steal
+    Description: Steal an item from a single foe.
+  }
+  BT_ABI_041:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Name: Wildfire
+    Description: Deal heavy fire damage to a single foe.
+  }
+  BT_ABI_042:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Name: Wildfire
+    Description: Deal heavy fire damage to a single foe.
+  }
+  BT_ABI_043:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Name: Wildfire
+    Description: Deal heavy fire damage to a single foe.
+  }
+  BT_ABI_044:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Name: Wildfire
+    Description: Deal heavy fire damage to a single foe.
+  }
+  BT_ABI_045:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Name: HP Thief
+    Description: Attack a single foe twice with a dagger, and steal HP equivalent to half of the damage dealt.
+  }
+  BT_ABI_046:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 6
+    Ratio: 180
+    ModRatio: true
+    Name: HP Thief
+    Description: Attack a single foe twice with a dagger, and steal HP equivalent to half of the damage dealt.
+  }
+  BT_ABI_047:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 6
+    Ratio: 260
+    ModRatio: true
+    Name: HP Thief
+    Description: Attack a single foe twice with a dagger, and steal HP equivalent to half of the damage dealt.
+  }
+  BT_ABI_048:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 6
+    Ratio: 340
+    ModRatio: true
+    Name: HP Thief
+    Description: Attack a single foe twice with a dagger, and steal HP equivalent to half of the damage dealt.
+  }
+  BT_ABI_049:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Shackle Foe
+    Description: Reduce a single foe's physical attack strength for 2 turns.
+  }
+  BT_ABI_050:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Shackle Foe
+    Description: Reduce a single foe's physical attack strength for 4 turns.
+  }
+  BT_ABI_051:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Shackle Foe
+    Description: Reduce a single foe's physical attack strength for 6 turns.
+  }
+  BT_ABI_052:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Shackle Foe
+    Description: Reduce a single foe's physical attack strength for 8 turns.
+  }
+  BT_ABI_053:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Armor Corrosive
+    Description: Reduce a single foe's physical defense for 2 turns.
+  }
+  BT_ABI_054:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Armor Corrosive
+    Description: Reduce a single foe's physical defense for 4 turns.
+  }
+  BT_ABI_055:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Armor Corrosive
+    Description: Reduce a single foe's physical defense for 6 turns.
+  }
+  BT_ABI_056:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Armor Corrosive
+    Description: Reduce a single foe's physical defense for 8 turns.
+  }
+  BT_ABI_057:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Name: Steal SP
+    Description: Attack a single foe twice with a dagger, and steal SP equivalent to 5% of damage dealt.
+  }
+  BT_ABI_058:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 6
+    Ratio: 180
+    ModRatio: true
+    Name: Steal SP
+    Description: Attack a single foe twice with a dagger, and steal SP equivalent to 5% of damage dealt.
+  }
+  BT_ABI_059:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 6
+    Ratio: 260
+    ModRatio: true
+    Name: Steal SP
+    Description: Attack a single foe twice with a dagger, and steal SP equivalent to 5% of damage dealt.
+  }
+  BT_ABI_060:
+  {
+    Job: Thief
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 6
+    Ratio: 340
+    ModRatio: true
+    Name: Steal SP
+    Description: Attack a single foe twice with a dagger, and steal SP equivalent to 5% of damage dealt.
+  }
+  BT_ABI_061:
+  {
+    Job: Thief
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 100
+    ModRatio: false
+    Name: Share SP
+    Description: Bestow SP equivalent to 50% of one's current SP to a single ally.
+  }
+  BT_ABI_062:
+  {
+    Job: Thief
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 100
+    ModRatio: false
+    Name: Share SP
+    Description: Bestow SP equivalent to 100% of one's current SP to a single ally.
+  }
+  BT_ABI_063:
+  {
+    Job: Thief
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 100
+    ModRatio: false
+    Name: Share SP
+    Description: Bestow SP equivalent to 150% of one's current SP to a single ally.
+  }
+  BT_ABI_064:
+  {
+    Job: Thief
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 0
+    Ratio: 100
+    ModRatio: false
+    Name: Share SP
+    Description: Bestow SP equivalent to 200% of one's current SP to a single ally.
+  }
+  BT_ABI_065:
+  {
+    Job: Thief
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Aeber's Reckoning
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_066:
+  {
+    Job: Thief
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Aeber's Reckoning
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_067:
+  {
+    Job: Thief
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Aeber's Reckoning
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_068:
+  {
+    Job: Thief
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: dagger
+    Element: null
+    SP: 30
+    Ratio: 500
+    ModRatio: true
+    Name: Aeber's Reckoning
+    Description: "[Divine Skill] Attack all foes with a dagger, dealing damage proportional to your speed."
+  }
+  BT_ABI_073:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 9
+    Ratio: 100
+    ModRatio: true
+    Name: Level Slash
+    Description: Attack all foes with a sword.
+  }
+  BT_ABI_074:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 9
+    Ratio: 190
+    ModRatio: true
+    Name: Level Slash
+    Description: Attack all foes with a sword.
+  }
+  BT_ABI_075:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 9
+    Ratio: 280
+    ModRatio: true
+    Name: Level Slash
+    Description: Attack all foes with a sword.
+  }
+  BT_ABI_076:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 9
+    Ratio: 370
+    ModRatio: true
+    Name: Level Slash
+    Description: Attack all foes with a sword.
+  }
+  BT_ABI_077:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Abide
+    Description: Increase the user's physical attack strength for 3 turns.
+  }
+  BT_ABI_078:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Abide
+    Description: Increase the user's physical attack strength for 5 turns.
+  }
+  BT_ABI_079:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Abide
+    Description: Increase the user's physical attack strength for 7 turns.
+  }
+  BT_ABI_080:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Abide
+    Description: Increase the user's physical attack strength for 9 turns.
+  }
+  BT_ABI_081:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: polearm
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Name: Spearhead
+    Description: Attack a single foe with a polearm, and act earlier on your next turn.
+  }
+  BT_ABI_082:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: polearm
+    Element: null
+    SP: 6
+    Ratio: 200
+    ModRatio: true
+    Name: Spearhead
+    Description: Attack a single foe with a polearm, and act earlier on your next turn.
+  }
+  BT_ABI_083:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: polearm
+    Element: null
+    SP: 6
+    Ratio: 300
+    ModRatio: true
+    Name: Spearhead
+    Description: Attack a single foe with a polearm, and act earlier on your next turn.
+  }
+  BT_ABI_084:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: polearm
+    Element: null
+    SP: 6
+    Ratio: 400
+    ModRatio: true
+    Name: Spearhead
+    Description: Attack a single foe with a polearm, and act earlier on your next turn.
+  }
+  BT_ABI_085:
+  {
+    Job: Warrior
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Incite
+    Description: Become more readily targeted by foes for 3 turns.
+  }
+  BT_ABI_086:
+  {
+    Job: Warrior
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Incite
+    Description: Become more readily targeted by foes for 5 turns.
+  }
+  BT_ABI_087:
+  {
+    Job: Warrior
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Incite
+    Description: Become more readily targeted by foes for 7 turns.
+  }
+  BT_ABI_088:
+  {
+    Job: Warrior
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Incite
+    Description: Become more readily targeted by foes for 9 turns.
+  }
+  BT_ABI_089:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 100
+    ModRatio: true
+    Name: Cross Strike
+    Description: Unleash a sword attack on a single foe.
+  }
+  BT_ABI_090:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 200
+    ModRatio: true
+    Name: Cross Strike
+    Description: Unleash a sword attack on a single foe.
+  }
+  BT_ABI_091:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 300
+    ModRatio: true
+    Name: Cross Strike
+    Description: Unleash a sword attack on a single foe.
+  }
+  BT_ABI_092:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 12
+    Ratio: 400
+    ModRatio: true
+    Name: Cross Strike
+    Description: Unleash a sword attack on a single foe.
+  }
+  BT_ABI_093:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Stout Wall
+    Description: Increase the user's physical defense for 3 turns.
+  }
+  BT_ABI_094:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Stout Wall
+    Description: Increase the user's physical defense for 5 turns.
+  }
+  BT_ABI_095:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Stout Wall
+    Description: Increase the user's physical defense for 7 turns.
+  }
+  BT_ABI_096:
+  {
+    Job: Warrior
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Stout Wall
+    Description: Increase the user's physical defense for 9 turns.
+  }
+  BT_ABI_097:
+  {
+    Job: Warrior
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: polearm
+    Element: null
+    SP: 20
+    Ratio: 80
+    ModRatio: true
+    Name: Thousand Spears
+    Description: Attack random foes with a polearm 5 to 10 times.
+  }
+  BT_ABI_098:
+  {
+    Job: Warrior
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: polearm
+    Element: null
+    SP: 20
+    Ratio: 110
+    ModRatio: true
+    Name: Thousand Spears
+    Description: Attack random foes with a polearm 5 to 10 times.
+  }
+  BT_ABI_099:
+  {
+    Job: Warrior
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: polearm
+    Element: null
+    SP: 20
+    Ratio: 140
+    ModRatio: true
+    Name: Thousand Spears
+    Description: Attack random foes with a polearm 5 to 10 times.
+  }
+  BT_ABI_100:
+  {
+    Job: Warrior
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: polearm
+    Element: null
+    SP: 20
+    Ratio: 170
+    ModRatio: true
+    Name: Thousand Spears
+    Description: Attack random foes with a polearm 5 to 10 times.
+  }
+  BT_ABI_101:
+  {
+    Job: Warrior
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Brand's Thunder
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_102:
+  {
+    Job: Warrior
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Brand's Thunder
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_103:
+  {
+    Job: Warrior
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Brand's Thunder
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_104:
+  {
+    Job: Warrior
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: sword
+    Element: null
+    SP: 30
+    Ratio: 600
+    ModRatio: true
+    Name: Brand's Thunder
+    Description: "[Divine Skill] Unleash a tremendously powerful sword attack on a single foe."
+  }
+  BT_ABI_109:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 8
+    Ratio: 80
+    ModRatio: true
+    Name: Rain of Arrows
+    Description: Attack random foes 5 to 8 times with a bow.
+  }
+  BT_ABI_110:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 8
+    Ratio: 110
+    ModRatio: true
+    Name: Rain of Arrows
+    Description: Attack random foes 5 to 8 times with a bow.
+  }
+  BT_ABI_111:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 8
+    Ratio: 140
+    ModRatio: true
+    Name: Rain of Arrows
+    Description: Attack random foes 5 to 8 times with a bow.
+  }
+  BT_ABI_112:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 8
+    Ratio: 170
+    ModRatio: true
+    Name: Rain of Arrows
+    Description: Attack random foes 5 to 8 times with a bow.
+  }
+  BT_ABI_113:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Name: True Strike
+    Description: Deal critical damage with a bow to a single foe.
+  }
+  BT_ABI_114:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 200
+    ModRatio: true
+    Name: True Strike
+    Description: Deal critical damage with a bow to a single foe.
+  }
+  BT_ABI_115:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 300
+    ModRatio: true
+    Name: True Strike
+    Description: Deal critical damage with a bow to a single foe.
+  }
+  BT_ABI_116:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 10
+    Ratio: 400
+    ModRatio: true
+    Name: True Strike
+    Description: Deal critical damage with a bow to a single foe.
+  }
+  BT_ABI_117:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Name: Thunderbird
+    Description: Deal heavy lightning damage to a single foe.
+  }
+  BT_ABI_118:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Name: Thunderbird
+    Description: Deal heavy lightning damage to a single foe.
+  }
+  BT_ABI_119:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Name: Thunderbird
+    Description: Deal heavy lightning damage to a single foe.
+  }
+  BT_ABI_120:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Name: Thunderbird
+    Description: Deal heavy lightning damage to a single foe.
+  }
+  BT_ABI_121:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Name: Leghold Trap
+    Description: Cause a single foe to act at the end of the turn for 2 turns.
+  }
+  BT_ABI_122:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Name: Leghold Trap
+    Description: Cause a single foe to act at the end of the turn for 4 turns.
+  }
+  BT_ABI_123:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Name: Leghold Trap
+    Description: Cause a single foe to act at the end of the turn for 6 turns.
+  }
+  BT_ABI_124:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Name: Leghold Trap
+    Description: Cause a single foe to act at the end of the turn for 8 turns.
+  }
+  BT_ABI_125:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: true
+    Name: Mercy Strike
+    Description: Attack a single foe with a bow. Otherwise lethal attacks will instead leave the target with 1 HP.
+  }
+  BT_ABI_126:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 4
+    Ratio: 200
+    ModRatio: true
+    Name: Mercy Strike
+    Description: Attack a single foe with a bow. Otherwise lethal attacks will instead leave the target with 1 HP.
+  }
+  BT_ABI_127:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 4
+    Ratio: 300
+    ModRatio: true
+    Name: Mercy Strike
+    Description: Attack a single foe with a bow. Otherwise lethal attacks will instead leave the target with 1 HP.
+  }
+  BT_ABI_128:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 4
+    Ratio: 400
+    ModRatio: true
+    Name: Mercy Strike
+    Description: Attack a single foe with a bow. Otherwise lethal attacks will instead leave the target with 1 HP.
+  }
+  BT_ABI_129:
+  {
+    Job: Hunter
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 24
+    Ratio: 75
+    ModRatio: true
+    Name: Arrowstorm
+    Description: Attack all foes 5 to 8 times with a bow.
+  }
+  BT_ABI_130:
+  {
+    Job: Hunter
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 24
+    Ratio: 105
+    ModRatio: true
+    Name: Arrowstorm
+    Description: Attack all foes 5 to 8 times with a bow.
+  }
+  BT_ABI_131:
+  {
+    Job: Hunter
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 24
+    Ratio: 135
+    ModRatio: true
+    Name: Arrowstorm
+    Description: Attack all foes 5 to 8 times with a bow.
+  }
+  BT_ABI_132:
+  {
+    Job: Hunter
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 24
+    Ratio: 165
+    ModRatio: true
+    Name: Arrowstorm
+    Description: Attack all foes 5 to 8 times with a bow.
+  }
+  BT_ABI_133:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Name: Take Aim
+    Description: Increase all allies' critical rate and accuracy for 2 turns.
+  }
+  BT_ABI_134:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Name: Take Aim
+    Description: Increase all allies' critical rate and accuracy for 4 turns.
+  }
+  BT_ABI_135:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Name: Take Aim
+    Description: Increase all allies' critical rate and accuracy for 6 turns.
+  }
+  BT_ABI_136:
+  {
+    Job: Hunter
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: false
+    Name: Take Aim
+    Description: Increase all allies' critical rate and accuracy for 8 turns.
+  }
+  BT_ABI_137:
+  {
+    Job: Hunter
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Draefendi's Rage
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_138:
+  {
+    Job: Hunter
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Draefendi's Rage
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_139:
+  {
+    Job: Hunter
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Draefendi's Rage
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_140:
+  {
+    Job: Hunter
+    Priority: 3
+    Divine: true
+    Advanced: false
+    Weapon: bow
+    Element: null
+    SP: 30
+    Ratio: 500
+    ModRatio: true
+    Name: Draefendi's Rage
+    Description: "[Divine Skill] Unleash a highly powerful bow attack on all foes."
+  }
+  BT_ABI_145:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 170
+    ModRatio: true
+    Name: Heal Wounds
+    Description: Restore HP to all allies.
+  }
+  BT_ABI_146:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 220
+    ModRatio: true
+    Name: Heal Wounds
+    Description: Restore HP to all allies.
+  }
+  BT_ABI_147:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 270
+    ModRatio: true
+    Name: Heal Wounds
+    Description: Restore HP to all allies.
+  }
+  BT_ABI_148:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 8
+    Ratio: 320
+    ModRatio: true
+    Name: Heal Wounds
+    Description: Restore HP to all allies.
+  }
+  BT_ABI_149:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Light
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Name: Holy Light
+    Description: Inflict light-based damage on a single foe.
+  }
+  BT_ABI_150:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Light
+    SP: 6
+    Ratio: 200
+    ModRatio: true
+    Name: Holy Light
+    Description: Inflict light-based damage on a single foe.
+  }
+  BT_ABI_151:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Light
+    SP: 6
+    Ratio: 300
+    ModRatio: true
+    Name: Holy Light
+    Description: Inflict light-based damage on a single foe.
+  }
+  BT_ABI_152:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Light
+    SP: 6
+    Ratio: 400
+    ModRatio: true
+    Name: Holy Light
+    Description: Inflict light-based damage on a single foe.
+  }
+  BT_ABI_153:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Name: Sheltering Veil
+    Description: Augment one ally's elemental defense for 2 turns.
+  }
+  BT_ABI_154:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Name: Sheltering Veil
+    Description: Augment one ally's elemental defense for 4 turns.
+  }
+  BT_ABI_155:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Name: Sheltering Veil
+    Description: Augment one ally's elemental defense for 6 turns.
+  }
+  BT_ABI_156:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: false
+    Name: Sheltering Veil
+    Description: Augment one ally's elemental defense for 8 turns.
+  }
+  BT_ABI_157:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Light
+    SP: 9
+    Ratio: 100
+    ModRatio: true
+    Name: Luminescence
+    Description: Deal light-based damage to all foes.
+  }
+  BT_ABI_158:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Light
+    SP: 9
+    Ratio: 190
+    ModRatio: true
+    Name: Luminescence
+    Description: Deal light-based damage to all foes.
+  }
+  BT_ABI_159:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Light
+    SP: 9
+    Ratio: 280
+    ModRatio: true
+    Name: Luminescence
+    Description: Deal light-based damage to all foes.
+  }
+  BT_ABI_160:
+  {
+    Job: Cleric
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Light
+    SP: 9
+    Ratio: 370
+    ModRatio: true
+    Name: Luminescence
+    Description: Deal light-based damage to all foes.
+  }
+  BT_ABI_161:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 150
+    ModRatio: true
+    Name: Heal More
+    Description: Restore a large amount of HP to all allies.
+  }
+  BT_ABI_162:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 200
+    ModRatio: true
+    Name: Heal More
+    Description: Restore a large amount of HP to all allies.
+  }
+  BT_ABI_163:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 250
+    ModRatio: true
+    Name: Heal More
+    Description: Restore a large amount of HP to all allies.
+  }
+  BT_ABI_164:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 300
+    ModRatio: true
+    Name: Heal More
+    Description: Restore a large amount of HP to all allies.
+  }
+  BT_ABI_165:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 22
+    Ratio: 100
+    ModRatio: false
+    Name: Reflective Veil
+    Description: Grant a single ally the ability to reflect one elemental attack.
+  }
+  BT_ABI_166:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 22
+    Ratio: 100
+    ModRatio: false
+    Name: Reflective Veil
+    Description: Grant a single ally the ability to reflect 2 elemental attacks.
+  }
+  BT_ABI_167:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 22
+    Ratio: 100
+    ModRatio: false
+    Name: Reflective Veil
+    Description: Grant a single ally the ability to reflect 3 elemental attacks.
+  }
+  BT_ABI_168:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 22
+    Ratio: 100
+    ModRatio: false
+    Name: Reflective Veil
+    Description: Grant a single ally the ability to reflect 4 elemental attacks.
+  }
+  BT_ABI_169:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: true
+    Name: Revive
+    Description: Revive all incapacitated allies.
+  }
+  BT_ABI_170:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 200
+    ModRatio: true
+    Name: Revive
+    Description: Revive all incapacitated allies.
+  }
+  BT_ABI_171:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 250
+    ModRatio: true
+    Name: Revive
+    Description: Revive all incapacitated allies.
+  }
+  BT_ABI_172:
+  {
+    Job: Cleric
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 300
+    ModRatio: true
+    Name: Revive
+    Description: Revive all incapacitated allies.
+  }
+  BT_ABI_173:
+  {
+    Job: Cleric
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Aelfric's Auspices
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_174:
+  {
+    Job: Cleric
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Aelfric's Auspices
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_175:
+  {
+    Job: Cleric
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Aelfric's Auspices
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_176:
+  {
+    Job: Cleric
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Aelfric's Auspices
+    Description: "[Divine Skill] For 3 turns, skills performed by a single chosen ally will trigger twice. (This will not affect other divine skills.)"
+  }
+  BT_ABI_181:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Lion Dance
+    Description: One ally's physical attacks become more powerful for 2 turns.
+  }
+  BT_ABI_182:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Lion Dance
+    Description: One ally's physical attacks become more powerful for 4 turns.
+  }
+  BT_ABI_183:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Lion Dance
+    Description: One ally's physical attacks become more powerful for 6 turns.
+  }
+  BT_ABI_184:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Lion Dance
+    Description: One ally's physical attacks become more powerful for 8 turns.
+  }
+  BT_ABI_185:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Dark
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Name: Moonlight Waltz
+    Description: Deal heavy dark damage to a single foe.
+  }
+  BT_ABI_186:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Dark
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Name: Moonlight Waltz
+    Description: Deal heavy dark damage to a single foe.
+  }
+  BT_ABI_187:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Dark
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Name: Moonlight Waltz
+    Description: Deal heavy dark damage to a single foe.
+  }
+  BT_ABI_188:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Dark
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Name: Moonlight Waltz
+    Description: Deal heavy dark damage to a single foe.
+  }
+  BT_ABI_189:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Peacock Strut
+    Description: Augment a single ally's elemental attacks for 2 turns.
+  }
+  BT_ABI_190:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Peacock Strut
+    Description: Augment a single ally's elemental attacks for 4 turns.
+  }
+  BT_ABI_191:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Peacock Strut
+    Description: Augment a single ally's elemental attacks for 6 turns.
+  }
+  BT_ABI_192:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Peacock Strut
+    Description: Augment a single ally's elemental attacks for 8 turns.
+  }
+  BT_ABI_193:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Mole Dance
+    Description: Augment a single ally's physical defense for 2 turns.
+  }
+  BT_ABI_194:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Mole Dance
+    Description: Augment a single ally's physical defense for 4 turns.
+  }
+  BT_ABI_195:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Mole Dance
+    Description: Augment a single ally's physical defense for 6 turns.
+  }
+  BT_ABI_196:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Mole Dance
+    Description: Augment a single ally's physical defense for 8 turns.
+  }
+  BT_ABI_197:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Dark
+    SP: 10
+    Ratio: 100
+    ModRatio: true
+    Name: Night Ode
+    Description: Deal dark damage to all foes.
+  }
+  BT_ABI_198:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Dark
+    SP: 10
+    Ratio: 190
+    ModRatio: true
+    Name: Night Ode
+    Description: Deal dark damage to all foes.
+  }
+  BT_ABI_199:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Dark
+    SP: 10
+    Ratio: 280
+    ModRatio: true
+    Name: Night Ode
+    Description: Deal dark damage to all foes.
+  }
+  BT_ABI_200:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Dark
+    SP: 10
+    Ratio: 370
+    ModRatio: true
+    Name: Night Ode
+    Description: Deal dark damage to all foes.
+  }
+  BT_ABI_201:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Panther Dance
+    Description: Increase a single ally's speed for 2 turns.
+  }
+  BT_ABI_202:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Panther Dance
+    Description: Increase a single ally's speed for 4 turns.
+  }
+  BT_ABI_203:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Panther Dance
+    Description: Increase a single ally's speed for 6 turns.
+  }
+  BT_ABI_204:
+  {
+    Job: Dancer
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 100
+    ModRatio: false
+    Name: Panther Dance
+    Description: Increase a single ally's speed for 8 turns.
+  }
+  BT_ABI_209:
+  {
+    Job: Dancer
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Sealticge's Seduction
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_210:
+  {
+    Job: Dancer
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Sealticge's Seduction
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_211:
+  {
+    Job: Dancer
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Sealticge's Seduction
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_212:
+  {
+    Job: Dancer
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Sealticge's Seduction
+    Description: "[Divine Skill] For 3 turns, skills performed by a single ally that usually target one foe will affect all foes instead. (This will not affect divine skills.)"
+  }
+  BT_ABI_217:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 8
+    Ratio: 100
+    ModRatio: true
+    Name: Fireball
+    Description: Deal fire damage to all foes.
+  }
+  BT_ABI_218:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 8
+    Ratio: 190
+    ModRatio: true
+    Name: Fireball
+    Description: Deal fire damage to all foes.
+  }
+  BT_ABI_219:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 8
+    Ratio: 280
+    ModRatio: true
+    Name: Fireball
+    Description: Deal fire damage to all foes.
+  }
+  BT_ABI_220:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 8
+    Ratio: 370
+    ModRatio: true
+    Name: Fireball
+    Description: Deal fire damage to all foes.
+  }
+  BT_ABI_221:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 8
+    Ratio: 100
+    ModRatio: true
+    Name: Icewind
+    Description: Deal ice damage to all foes.
+  }
+  BT_ABI_222:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 8
+    Ratio: 190
+    ModRatio: true
+    Name: Icewind
+    Description: Deal ice damage to all foes.
+  }
+  BT_ABI_223:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 8
+    Ratio: 280
+    ModRatio: true
+    Name: Icewind
+    Description: Deal ice damage to all foes.
+  }
+  BT_ABI_224:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 8
+    Ratio: 370
+    ModRatio: true
+    Name: Icewind
+    Description: Deal ice damage to all foes.
+  }
+  BT_ABI_225:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 8
+    Ratio: 100
+    ModRatio: true
+    Name: Lightning Bolt
+    Description: Deal lightning damage to all foes.
+  }
+  BT_ABI_226:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 8
+    Ratio: 190
+    ModRatio: true
+    Name: Lightning Bolt
+    Description: Deal lightning damage to all foes.
+  }
+  BT_ABI_227:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 8
+    Ratio: 280
+    ModRatio: true
+    Name: Lightning Bolt
+    Description: Deal lightning damage to all foes.
+  }
+  BT_ABI_228:
+  {
+    Job: Scholar
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 8
+    Ratio: 370
+    ModRatio: true
+    Name: Lightning Bolt
+    Description: Deal lightning damage to all foes.
+  }
+  BT_ABI_229:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 1
+    Ratio: 100
+    ModRatio: false
+    Name: Analyze
+    Description: Reveal the HP and one weakness of a single foe.
+  }
+  BT_ABI_230:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 1
+    Ratio: 100
+    ModRatio: false
+    Name: Analyze
+    Description: Reveal the HP and 2 weaknesses of a single foe.
+  }
+  BT_ABI_231:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 1
+    Ratio: 100
+    ModRatio: false
+    Name: Analyze
+    Description: Reveal the HP and 3 weaknesses of a single foe.
+  }
+  BT_ABI_232:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 1
+    Ratio: 100
+    ModRatio: false
+    Name: Analyze
+    Description: Reveal the HP and 4 weaknesses of a single foe.
+  }
+  BT_ABI_233:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 22
+    Ratio: 90
+    ModRatio: true
+    Name: Fire Storm
+    Description: Deal fire damage to all foes twice.
+  }
+  BT_ABI_234:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 22
+    Ratio: 171
+    ModRatio: true
+    Name: Fire Storm
+    Description: Deal fire damage to all foes twice.
+  }
+  BT_ABI_235:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 22
+    Ratio: 252
+    ModRatio: true
+    Name: Fire Storm
+    Description: Deal fire damage to all foes twice.
+  }
+  BT_ABI_236:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Fire
+    SP: 22
+    Ratio: 343
+    ModRatio: true
+    Name: Fire Storm
+    Description: Deal fire damage to all foes twice.
+  }
+  BT_ABI_237:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 22
+    Ratio: 90
+    ModRatio: true
+    Name: Blizzard
+    Description: Deal ice damage to all foes twice.
+  }
+  BT_ABI_238:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 22
+    Ratio: 171
+    ModRatio: true
+    Name: Blizzard
+    Description: Deal ice damage to all foes twice.
+  }
+  BT_ABI_239:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 22
+    Ratio: 252
+    ModRatio: true
+    Name: Blizzard
+    Description: Deal ice damage to all foes twice.
+  }
+  BT_ABI_240:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 22
+    Ratio: 343
+    ModRatio: true
+    Name: Blizzard
+    Description: Deal ice damage to all foes twice.
+  }
+  BT_ABI_241:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 22
+    Ratio: 90
+    ModRatio: true
+    Name: Lightning Blast
+    Description: Deal lightning damage to all foes twice.
+  }
+  BT_ABI_242:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 22
+    Ratio: 171
+    ModRatio: true
+    Name: Lightning Blast
+    Description: Deal lightning damage to all foes twice.
+  }
+  BT_ABI_243:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 22
+    Ratio: 252
+    ModRatio: true
+    Name: Lightning Blast
+    Description: Deal lightning damage to all foes twice.
+  }
+  BT_ABI_244:
+  {
+    Job: Scholar
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Thunder
+    SP: 22
+    Ratio: 343
+    ModRatio: true
+    Name: Lightning Blast
+    Description: Deal lightning damage to all foes twice.
+  }
+  BT_ABI_245:
+  {
+    Job: Scholar
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Alephan's Enlightenment
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_246:
+  {
+    Job: Scholar
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Alephan's Enlightenment
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_247:
+  {
+    Job: Scholar
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Alephan's Enlightenment
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_248:
+  {
+    Job: Scholar
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Alephan's Enlightenment
+    Description: "[Divine Skill] For 3 turns, spells cast by a single chosen ally that usually target all foes will instead be focused on a single foe at increased intensity."
+  }
+  BT_ABI_253:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 250
+    ModRatio: true
+    Name: First Aid
+    Description: Restore HP to a single ally.
+  }
+  BT_ABI_254:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 350
+    ModRatio: true
+    Name: First Aid
+    Description: Restore HP to a single ally.
+  }
+  BT_ABI_255:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 450
+    ModRatio: true
+    Name: First Aid
+    Description: Restore HP to a single ally.
+  }
+  BT_ABI_256:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 4
+    Ratio: 550
+    ModRatio: true
+    Name: First Aid
+    Description: Restore HP to a single ally.
+  }
+  BT_ABI_257:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 7
+    Ratio: 100
+    ModRatio: true
+    Name: Icicle
+    Description: Deal ice damage to a single foe.
+  }
+  BT_ABI_258:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 7
+    Ratio: 200
+    ModRatio: true
+    Name: Icicle
+    Description: Deal ice damage to a single foe.
+  }
+  BT_ABI_259:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 7
+    Ratio: 300
+    ModRatio: true
+    Name: Icicle
+    Description: Deal ice damage to a single foe.
+  }
+  BT_ABI_260:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: Ice
+    SP: 7
+    Ratio: 400
+    ModRatio: true
+    Name: Icicle
+    Description: Deal ice damage to a single foe.
+  }
+  BT_ABI_261:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: axe
+    Element: null
+    SP: 8
+    Ratio: 100
+    ModRatio: true
+    Name: Amputation
+    Description: Unleash an axe attack on a single foe.
+  }
+  BT_ABI_262:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: axe
+    Element: null
+    SP: 8
+    Ratio: 200
+    ModRatio: true
+    Name: Amputation
+    Description: Unleash an axe attack on a single foe.
+  }
+  BT_ABI_263:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: axe
+    Element: null
+    SP: 8
+    Ratio: 300
+    ModRatio: true
+    Name: Amputation
+    Description: Unleash an axe attack on a single foe.
+  }
+  BT_ABI_264:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: axe
+    Element: null
+    SP: 8
+    Ratio: 400
+    ModRatio: true
+    Name: Amputation
+    Description: Unleash an axe attack on a single foe.
+  }
+  BT_ABI_265:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: false
+    Name: Rehabilitate
+    Description: Cure a single ally of all status ailments, and render them immune to further ailments for 2 turns.
+  }
+  BT_ABI_266:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: false
+    Name: Rehabilitate
+    Description: Cure a single ally of all status ailments, and render them immune to further ailments for 4 turns.
+  }
+  BT_ABI_267:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: false
+    Name: Rehabilitate
+    Description: Cure a single ally of all status ailments, and render them immune to further ailments for 6 turns.
+  }
+  BT_ABI_268:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 10
+    Ratio: 100
+    ModRatio: false
+    Name: Rehabilitate
+    Description: Cure a single ally of all status ailments, and render them immune to further ailments for 8 turns.
+  }
+  BT_ABI_269:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 100
+    ModRatio: true
+    Name: Empoison
+    Description: Poison a single foe for 2 turns.
+  }
+  BT_ABI_270:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 200
+    ModRatio: true
+    Name: Empoison
+    Description: Poison a single foe for 4 turns.
+  }
+  BT_ABI_271:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 300
+    ModRatio: true
+    Name: Empoison
+    Description: Poison a single foe for 6 turns.
+  }
+  BT_ABI_272:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 6
+    Ratio: 400
+    ModRatio: true
+    Name: Empoison
+    Description: Poison a single foe for 8 turns.
+  }
+  BT_ABI_273:
+  {
+    Job: Apothecary
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 16
+    Ratio: 100
+    ModRatio: true
+    Name: Vivify
+    Description: Revive a single incapacitated ally.
+  }
+  BT_ABI_274:
+  {
+    Job: Apothecary
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 16
+    Ratio: 200
+    ModRatio: true
+    Name: Vivify
+    Description: Revive a single incapacitated ally.
+  }
+  BT_ABI_275:
+  {
+    Job: Apothecary
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 16
+    Ratio: 300
+    ModRatio: true
+    Name: Vivify
+    Description: Revive a single incapacitated ally.
+  }
+  BT_ABI_276:
+  {
+    Job: Apothecary
+    Priority: 2
+    Divine: false
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 16
+    Ratio: 400
+    ModRatio: true
+    Name: Vivify
+    Description: Revive a single incapacitated ally.
+  }
+  BT_ABI_277:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: axe
+    Element: null
+    SP: 16
+    Ratio: 100
+    ModRatio: true
+    Name: Last Stand
+    Description: Attack all foes with an axe, dealing damage inversely proportional to your current HP.
+  }
+  BT_ABI_278:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: axe
+    Element: null
+    SP: 16
+    Ratio: 200
+    ModRatio: true
+    Name: Last Stand
+    Description: Attack all foes with an axe, dealing damage inversely proportional to your current HP.
+  }
+  BT_ABI_279:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: axe
+    Element: null
+    SP: 16
+    Ratio: 300
+    ModRatio: true
+    Name: Last Stand
+    Description: Attack all foes with an axe, dealing damage inversely proportional to your current HP.
+  }
+  BT_ABI_280:
+  {
+    Job: Apothecary
+    Priority: 1
+    Divine: false
+    Advanced: false
+    Weapon: axe
+    Element: null
+    SP: 16
+    Ratio: 400
+    ModRatio: true
+    Name: Last Stand
+    Description: Attack all foes with an axe, dealing damage inversely proportional to your current HP.
+  }
+  BT_ABI_281:
+  {
+    Job: Apothecary
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Dohter's Charity
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_282:
+  {
+    Job: Apothecary
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Dohter's Charity
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_283:
+  {
+    Job: Apothecary
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Dohter's Charity
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_284:
+  {
+    Job: Apothecary
+    Priority: 4
+    Divine: true
+    Advanced: false
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Dohter's Charity
+    Description: "[Divine Skill] For 3 turns, items used by a single chosen ally will affect all."
+  }
+  BT_ABI_289:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: sword
+    Element: null
+    SP: 35
+    Ratio: 80
+    ModRatio: true
+    Name: Guardian Liondog
+    Description: Unleash 5 to 10 sword attacks against random foes.
+  }
+  BT_ABI_290:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: sword
+    Element: null
+    SP: 35
+    Ratio: 110
+    ModRatio: true
+    Name: Guardian Liondog
+    Description: Unleash 5 to 10 sword attacks against random foes.
+  }
+  BT_ABI_291:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: sword
+    Element: null
+    SP: 35
+    Ratio: 140
+    ModRatio: true
+    Name: Guardian Liondog
+    Description: Unleash 5 to 10 sword attacks against random foes.
+  }
+  BT_ABI_292:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: sword
+    Element: null
+    SP: 35
+    Ratio: 170
+    ModRatio: true
+    Name: Guardian Liondog
+    Description: Unleash 5 to 10 sword attacks against random foes.
+  }
+  BT_ABI_293:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: axe
+    Element: null
+    SP: 35
+    Ratio: 100
+    ModRatio: true
+    Name: Tiger Rage
+    Description: Unleash an axe attack on all foes.
+  }
+  BT_ABI_294:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: axe
+    Element: null
+    SP: 35
+    Ratio: 190
+    ModRatio: true
+    Name: Tiger Rage
+    Description: Unleash an axe attack on all foes.
+  }
+  BT_ABI_295:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: axe
+    Element: null
+    SP: 35
+    Ratio: 280
+    ModRatio: true
+    Name: Tiger Rage
+    Description: Unleash an axe attack on all foes.
+  }
+  BT_ABI_296:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: axe
+    Element: null
+    SP: 35
+    Ratio: 370
+    ModRatio: true
+    Name: Tiger Rage
+    Description: Unleash an axe attack on all foes.
+  }
+  BT_ABI_297:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: polearm
+    Element: null
+    SP: 35
+    Ratio: 110
+    ModRatio: true
+    Name: Qilin's Horn
+    Description: Unleash a polearm attack on a single foe.
+  }
+  BT_ABI_298:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: polearm
+    Element: null
+    SP: 35
+    Ratio: 220
+    ModRatio: true
+    Name: Qilin's Horn
+    Description: Unleash a polearm attack on a single foe.
+  }
+  BT_ABI_299:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: polearm
+    Element: null
+    SP: 35
+    Ratio: 330
+    ModRatio: true
+    Name: Qilin's Horn
+    Description: Unleash a polearm attack on a single foe.
+  }
+  BT_ABI_300:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: polearm
+    Element: null
+    SP: 35
+    Ratio: 440
+    ModRatio: true
+    Name: Qilin's Horn
+    Description: Unleash a polearm attack on a single foe.
+  }
+  BT_ABI_301:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: dagger
+    Element: null
+    SP: 35
+    Ratio: 100
+    ModRatio: true
+    Name: Yatagarasu
+    Description: Unleash a dagger attack on all foes.
+  }
+  BT_ABI_302:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: dagger
+    Element: null
+    SP: 35
+    Ratio: 190
+    ModRatio: true
+    Name: Yatagarasu
+    Description: Unleash a dagger attack on all foes.
+  }
+  BT_ABI_303:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: dagger
+    Element: null
+    SP: 35
+    Ratio: 280
+    ModRatio: true
+    Name: Yatagarasu
+    Description: Unleash a dagger attack on all foes.
+  }
+  BT_ABI_304:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: dagger
+    Element: null
+    SP: 35
+    Ratio: 370
+    ModRatio: true
+    Name: Yatagarasu
+    Description: Unleash a dagger attack on all foes.
+  }
+  BT_ABI_305:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: staff
+    Element: null
+    SP: 35
+    Ratio: 100
+    ModRatio: true
+    Name: Fox Spirit
+    Description: Unleash a staff attack on all foes.
+  }
+  BT_ABI_306:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: staff
+    Element: null
+    SP: 35
+    Ratio: 190
+    ModRatio: true
+    Name: Fox Spirit
+    Description: Unleash a staff attack on all foes.
+  }
+  BT_ABI_307:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: staff
+    Element: null
+    SP: 35
+    Ratio: 280
+    ModRatio: true
+    Name: Fox Spirit
+    Description: Unleash a staff attack on all foes.
+  }
+  BT_ABI_308:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: staff
+    Element: null
+    SP: 35
+    Ratio: 370
+    ModRatio: true
+    Name: Fox Spirit
+    Description: Unleash a staff attack on all foes.
+  }
+  BT_ABI_309:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: bow
+    Element: null
+    SP: 35
+    Ratio: 110
+    ModRatio: true
+    Name: Phoenix Storm
+    Description: Unleash a bow attack on a single foe.
+  }
+  BT_ABI_310:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: bow
+    Element: null
+    SP: 35
+    Ratio: 220
+    ModRatio: true
+    Name: Phoenix Storm
+    Description: Unleash a bow attack on a single foe.
+  }
+  BT_ABI_311:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: bow
+    Element: null
+    SP: 35
+    Ratio: 330
+    ModRatio: true
+    Name: Phoenix Storm
+    Description: Unleash a bow attack on a single foe.
+  }
+  BT_ABI_312:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: bow
+    Element: null
+    SP: 35
+    Ratio: 440
+    ModRatio: true
+    Name: Phoenix Storm
+    Description: Unleash a bow attack on a single foe.
+  }
+  BT_ABI_313:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 40
+    ModRatio: true
+    Name: Nightmare Chimera
+    Description: Unleash an attack on a single foe using a weapon of your choice. The weapon will be destroyed.
+  }
+  BT_ABI_314:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 34
+    ModRatio: true
+    Name: Nightmare Chimera
+    Description: Unleash an attack on a single foe using a weapon of your choice. The weapon will be destroyed.
+  }
+  BT_ABI_315:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 28
+    ModRatio: true
+    Name: Nightmare Chimera
+    Description: Unleash an attack on a single foe using a weapon of your choice. The weapon will be destroyed.
+  }
+  BT_ABI_316:
+  {
+    Job: Warmaster
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 24
+    ModRatio: true
+    Name: Nightmare Chimera
+    Description: Unleash an attack on a single foe using a weapon of your choice. The weapon will be destroyed.
+  }
+  BT_ABI_317:
+  {
+    Job: Warmaster
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Winnehild's Battle Cry
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_318:
+  {
+    Job: Warmaster
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Winnehild's Battle Cry
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_319:
+  {
+    Job: Warmaster
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Winnehild's Battle Cry
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_320:
+  {
+    Job: Warmaster
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 150
+    ModRatio: true
+    Name: Winnehild's Battle Cry
+    Description: "[Divine Skill] Wield six weapons to unleash six attacks on all foes."
+  }
+  BT_ABI_325:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Fire
+    SP: 36
+    Ratio: 80
+    ModRatio: true
+    Name: Ignis Ardere
+    Description: Deal fire damage to all foes 3 times.
+  }
+  BT_ABI_326:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Fire
+    SP: 36
+    Ratio: 152
+    ModRatio: true
+    Name: Ignis Ardere
+    Description: Deal fire damage to all foes 3 times.
+  }
+  BT_ABI_327:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Fire
+    SP: 36
+    Ratio: 226
+    ModRatio: true
+    Name: Ignis Ardere
+    Description: Deal fire damage to all foes 3 times.
+  }
+  BT_ABI_328:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Fire
+    SP: 36
+    Ratio: 298
+    ModRatio: true
+    Name: Ignis Ardere
+    Description: Deal fire damage to all foes 3 times.
+  }
+  BT_ABI_329:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Ice
+    SP: 36
+    Ratio: 80
+    ModRatio: true
+    Name: Glacies Claudere
+    Description: Deal ice damage to all foes 3 times.
+  }
+  BT_ABI_330:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Ice
+    SP: 36
+    Ratio: 152
+    ModRatio: true
+    Name: Glacies Claudere
+    Description: Deal ice damage to all foes 3 times.
+  }
+  BT_ABI_331:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Ice
+    SP: 36
+    Ratio: 226
+    ModRatio: true
+    Name: Glacies Claudere
+    Description: Deal ice damage to all foes 3 times.
+  }
+  BT_ABI_332:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Ice
+    SP: 36
+    Ratio: 298
+    ModRatio: true
+    Name: Glacies Claudere
+    Description: Deal ice damage to all foes 3 times.
+  }
+  BT_ABI_333:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Thunder
+    SP: 36
+    Ratio: 80
+    ModRatio: true
+    Name: Tonitrus Canere
+    Description: Deal lightning damage to all foes 3 times.
+  }
+  BT_ABI_334:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Thunder
+    SP: 36
+    Ratio: 152
+    ModRatio: true
+    Name: Tonitrus Canere
+    Description: Deal lightning damage to all foes 3 times.
+  }
+  BT_ABI_335:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Thunder
+    SP: 36
+    Ratio: 226
+    ModRatio: true
+    Name: Tonitrus Canere
+    Description: Deal lightning damage to all foes 3 times.
+  }
+  BT_ABI_336:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Thunder
+    SP: 36
+    Ratio: 298
+    ModRatio: true
+    Name: Tonitrus Canere
+    Description: Deal lightning damage to all foes 3 times.
+  }
+  BT_ABI_337:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Wind
+    SP: 36
+    Ratio: 80
+    ModRatio: true
+    Name: Ventus Saltare
+    Description: Deal wind damage to all foes 3 times.
+  }
+  BT_ABI_338:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Wind
+    SP: 36
+    Ratio: 152
+    ModRatio: true
+    Name: Ventus Saltare
+    Description: Deal wind damage to all foes 3 times.
+  }
+  BT_ABI_339:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Wind
+    SP: 36
+    Ratio: 226
+    ModRatio: true
+    Name: Ventus Saltare
+    Description: Deal wind damage to all foes 3 times.
+  }
+  BT_ABI_340:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Wind
+    SP: 36
+    Ratio: 298
+    ModRatio: true
+    Name: Ventus Saltare
+    Description: Deal wind damage to all foes 3 times.
+  }
+  BT_ABI_341:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Light
+    SP: 36
+    Ratio: 80
+    ModRatio: true
+    Name: Lux Congerere
+    Description: Deal light-based damage to all foes 3 times.
+  }
+  BT_ABI_342:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Light
+    SP: 36
+    Ratio: 152
+    ModRatio: true
+    Name: Lux Congerere
+    Description: Deal light-based damage to all foes 3 times.
+  }
+  BT_ABI_343:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Light
+    SP: 36
+    Ratio: 226
+    ModRatio: true
+    Name: Lux Congerere
+    Description: Deal light-based damage to all foes 3 times.
+  }
+  BT_ABI_344:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Light
+    SP: 36
+    Ratio: 298
+    ModRatio: true
+    Name: Lux Congerere
+    Description: Deal light-based damage to all foes 3 times.
+  }
+  BT_ABI_345:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Dark
+    SP: 36
+    Ratio: 80
+    ModRatio: true
+    Name: Tenebrae Operire
+    Description: Deal dark damage to all foes 3 times.
+  }
+  BT_ABI_346:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Dark
+    SP: 36
+    Ratio: 152
+    ModRatio: true
+    Name: Tenebrae Operire
+    Description: Deal dark damage to all foes 3 times.
+  }
+  BT_ABI_347:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Dark
+    SP: 36
+    Ratio: 226
+    ModRatio: true
+    Name: Tenebrae Operire
+    Description: Deal dark damage to all foes 3 times.
+  }
+  BT_ABI_348:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: Dark
+    SP: 36
+    Ratio: 298
+    ModRatio: true
+    Name: Tenebrae Operire
+    Description: Deal dark damage to all foes 3 times.
+  }
+  BT_ABI_349:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: staff
+    Element: null
+    SP: 20
+    Ratio: 100
+    ModRatio: true
+    Name: Elemental Break
+    Description: Unleash a powerful staff attack on a single foe that also reduces the target's elemental defense for 2 turns.
+  }
+  BT_ABI_350:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: staff
+    Element: null
+    SP: 20
+    Ratio: 200
+    ModRatio: true
+    Name: Elemental Break
+    Description: Unleash a powerful staff attack on a single foe that also reduces the target's elemental defense for 4 turns.
+  }
+  BT_ABI_351:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: staff
+    Element: null
+    SP: 20
+    Ratio: 300
+    ModRatio: true
+    Name: Elemental Break
+    Description: Unleash a powerful staff attack on a single foe that also reduces the target's elemental defense for 6 turns.
+  }
+  BT_ABI_352:
+  {
+    Job: Sorcerer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: staff
+    Element: null
+    SP: 20
+    Ratio: 400
+    ModRatio: true
+    Name: Elemental Break
+    Description: Unleash a powerful staff attack on a single foe that also reduces the target's elemental defense for 8 turns.
+  }
+  BT_ABI_353:
+  {
+    Job: Sorcerer
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Dreisang's Spell
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_354:
+  {
+    Job: Sorcerer
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Dreisang's Spell
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_355:
+  {
+    Job: Sorcerer
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Dreisang's Spell
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_356:
+  {
+    Job: Sorcerer
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Dreisang's Spell
+    Description: "[Divine Skill] For 3 turns, elemental attacks performed by a single chosen ally will hit for critical damage."
+  }
+  BT_ABI_361:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 80
+    ModRatio: true
+    Name: Shooting Stars
+    Description: Deal wind, light, and dark damage to all foes.
+  }
+  BT_ABI_362:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 152
+    ModRatio: true
+    Name: Shooting Stars
+    Description: Deal wind, light, and dark damage to all foes.
+  }
+  BT_ABI_363:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 226
+    ModRatio: true
+    Name: Shooting Stars
+    Description: Deal wind, light, and dark damage to all foes.
+  }
+  BT_ABI_364:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 35
+    Ratio: 298
+    ModRatio: true
+    Name: Shooting Stars
+    Description: Deal wind, light, and dark damage to all foes.
+  }
+  BT_ABI_365:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: BP Boost
+    Description: Allow a single ally to gain 2 BP per turn for 2 turns.
+  }
+  BT_ABI_366:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: BP Boost
+    Description: Allow a single ally to gain 2 BP per turn for 4 turns.
+  }
+  BT_ABI_367:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: BP Boost
+    Description: Allow a single ally to gain 2 BP per turn for 6 turns.
+  }
+  BT_ABI_368:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: BP Boost
+    Description: Allow a single ally to gain 2 BP per turn for 8 turns.
+  }
+  BT_ABI_369:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Divination
+    Description: Increase a single ally's critical hit rate for 2 turns.
+  }
+  BT_ABI_370:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Divination
+    Description: Increase a single ally's critical hit rate for 4 turns.
+  }
+  BT_ABI_371:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Divination
+    Description: Increase a single ally's critical hit rate for 6 turns.
+  }
+  BT_ABI_372:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Divination
+    Description: Increase a single ally's critical hit rate for 8 turns.
+  }
+  BT_ABI_377:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Celestial Intervention
+    Description: For 2 turns, render a single foe unable to receive attribute augmentations, or a single ally immune to attribute penalties.
+  }
+  BT_ABI_378:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Celestial Intervention
+    Description: For 4 turns, render a single foe unable to receive attribute augmentations, or a single ally immune to attribute penalties.
+  }
+  BT_ABI_379:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Celestial Intervention
+    Description: For 6 turns, render a single foe unable to receive attribute augmentations, or a single ally immune to attribute penalties.
+  }
+  BT_ABI_380:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Celestial Intervention
+    Description: For 8 turns, render a single foe unable to receive attribute augmentations, or a single ally immune to attribute penalties.
+  }
+  BT_ABI_381:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Ethereal Healing
+    Description: Grant HP regeneration to all allies for 2 turns.
+  }
+  BT_ABI_382:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Ethereal Healing
+    Description: Grant HP regeneration to all allies for 4 turns.
+  }
+  BT_ABI_383:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Ethereal Healing
+    Description: Grant HP regeneration to all allies for 6 turns.
+  }
+  BT_ABI_384:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Ethereal Healing
+    Description: Grant HP regeneration to all allies for 8 turns.
+  }
+  BT_ABI_385:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Moon's Reflection
+    Description: Grant a single ally the ability to counter physical damage one time.
+  }
+  BT_ABI_386:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Moon's Reflection
+    Description: Grant a single ally the ability to counter physical damage 2 times.
+  }
+  BT_ABI_387:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Moon's Reflection
+    Description: Grant a single ally the ability to counter physical damage 3 times.
+  }
+  BT_ABI_388:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 30
+    Ratio: 100
+    ModRatio: false
+    Name: Moon's Reflection
+    Description: Grant a single ally the ability to counter physical damage 4 times.
+  }
+  BT_ABI_389:
+  {
+    Job: Starseer
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Steorra's Prophecy
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_390:
+  {
+    Job: Starseer
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Steorra's Prophecy
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_391:
+  {
+    Job: Starseer
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Steorra's Prophecy
+    Description: Only usable at maximum boost.
+  }
+  BT_ABI_392:
+  {
+    Job: Starseer
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 200
+    ModRatio: true
+    Name: Steorra's Prophecy
+    Description: "[Divine Skill] Unleash an elemental attack on all foes that deals damage proportional to the party's current BP."
+  }
+  BT_ABI_397:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Fire Rune
+    Description: Weapons the user attacks with will deal additional fire damage for 3 turns.
+  }
+  BT_ABI_398:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Fire Rune
+    Description: Weapons the user attacks with will deal additional fire damage for 5 turns.
+  }
+  BT_ABI_399:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Fire Rune
+    Description: Weapons the user attacks with will deal additional fire damage for 7 turns.
+  }
+  BT_ABI_400:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Fire Rune
+    Description: Weapons the user attacks with will deal additional fire damage for 9 turns.
+  }
+  BT_ABI_401:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Ice Rune
+    Description: Weapons the user attacks with will deal additional ice damage for 3 turns.
+  }
+  BT_ABI_402:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Ice Rune
+    Description: Weapons the user attacks with will deal additional ice damage for 5 turns.
+  }
+  BT_ABI_403:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Ice Rune
+    Description: Weapons the user attacks with will deal additional ice damage for 7 turns.
+  }
+  BT_ABI_404:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Ice Rune
+    Description: Weapons the user attacks with will deal additional ice damage for 9 turns.
+  }
+  BT_ABI_405:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Thunder Rune
+    Description: Weapons the user attacks with will deal additional lightning damage for 3 turns.
+  }
+  BT_ABI_406:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Thunder Rune
+    Description: Weapons the user attacks with will deal additional lightning damage for 5 turns.
+  }
+  BT_ABI_407:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Thunder Rune
+    Description: Weapons the user attacks with will deal additional lightning damage for 7 turns.
+  }
+  BT_ABI_408:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Thunder Rune
+    Description: Weapons the user attacks with will deal additional lightning damage for 9 turns.
+  }
+  BT_ABI_409:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Wind Rune
+    Description: Weapons the user attacks with will deal additional wind damage for 3 turns.
+  }
+  BT_ABI_410:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Wind Rune
+    Description: Weapons the user attacks with will deal additional wind damage for 5 turns.
+  }
+  BT_ABI_411:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Wind Rune
+    Description: Weapons the user attacks with will deal additional wind damage for 7 turns.
+  }
+  BT_ABI_412:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Wind Rune
+    Description: Weapons the user attacks with will deal additional wind damage for 9 turns.
+  }
+  BT_ABI_413:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Dark Rune
+    Description: Weapons the user attacks with will deal additional dark damage for 3 turns.
+  }
+  BT_ABI_414:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Dark Rune
+    Description: Weapons the user attacks with will deal additional dark damage for 5 turns.
+  }
+  BT_ABI_415:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Dark Rune
+    Description: Weapons the user attacks with will deal additional dark damage for 7 turns.
+  }
+  BT_ABI_416:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Dark Rune
+    Description: Weapons the user attacks with will deal additional dark damage for 9 turns.
+  }
+  BT_ABI_417:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Light Rune
+    Description: Weapons the user attacks with will deal additional light-based damage for 3 turns.
+  }
+  BT_ABI_418:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Light Rune
+    Description: Weapons the user attacks with will deal additional light-based damage for 5 turns.
+  }
+  BT_ABI_419:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Light Rune
+    Description: Weapons the user attacks with will deal additional light-based damage for 7 turns.
+  }
+  BT_ABI_420:
+  {
+    Job: Runelord
+    Priority: 1
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 15
+    Ratio: 100
+    ModRatio: false
+    Name: Light Rune
+    Description: Weapons the user attacks with will deal additional light-based damage for 9 turns.
+  }
+  BT_ABI_421:
+  {
+    Job: Runelord
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Transfer Rune
+    Description: For 3 turns, skills that normally target yourself alone will target your allies as well.
+  }
+  BT_ABI_422:
+  {
+    Job: Runelord
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Transfer Rune
+    Description: For 5 turns, skills that normally target yourself alone will target your allies as well.
+  }
+  BT_ABI_423:
+  {
+    Job: Runelord
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Transfer Rune
+    Description: For 7 turns, skills that normally target yourself alone will target your allies as well.
+  }
+  BT_ABI_424:
+  {
+    Job: Runelord
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Transfer Rune
+    Description: For 9 turns, skills that normally target yourself alone will target your allies as well.
+  }
+  BT_ABI_425:
+  {
+    Job: Runelord
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Balogar's Blade
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_426:
+  {
+    Job: Runelord
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Balogar's Blade
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_427:
+  {
+    Job: Runelord
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 100
+    ModRatio: false
+    Name: Balogar's Blade
+    Description: Usable only at maximum boost.
+  }
+  BT_ABI_428:
+  {
+    Job: Runelord
+    Priority: 4
+    Divine: true
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 50
+    Ratio: 400
+    ModRatio: true
+    Name: Balogar's Blade
+    Description: "[Divine Skill] Deal damage from each of the six elements (fire, ice, lightning, wind, light, and darkness) to a single foe."
+  }
+  BT_ABI_450:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Starsong
+    Description: Augment a single ally's physical defense, elemental defense, speed, and evasion for 2 turns.
+  }
+  BT_ABI_451:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Starsong
+    Description: Augment a single ally's physical defense, elemental defense, speed, and evasion for 4 turns.
+  }
+  BT_ABI_452:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Starsong
+    Description: Augment a single ally's physical defense, elemental defense, speed, and evasion for 6 turns.
+  }
+  BT_ABI_453:
+  {
+    Job: Starseer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Starsong
+    Description: Augment a single ally's physical defense, elemental defense, speed, and evasion for 8 turns.
+  }
+  BT_ABI_205:
+  {
+    Job: Dancer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Bewildering Grace
+    Description: Cause a curious effect to occur one time.
+  }
+  BT_ABI_206:
+  {
+    Job: Dancer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Bewildering Grace
+    Description: Cause a curious effect to occur 2 times.
+  }
+  BT_ABI_207:
+  {
+    Job: Dancer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Bewildering Grace
+    Description: Cause a curious effect to occur 3 times.
+  }
+  BT_ABI_208:
+  {
+    Job: Dancer
+    Priority: 2
+    Divine: false
+    Advanced: true
+    Weapon: null
+    Element: null
+    SP: 25
+    Ratio: 100
+    ModRatio: false
+    Name: Bewildering Grace
+    Description: Cause a curious effect to occur 4 times.
+  }
+}

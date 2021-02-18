@@ -1,0 +1,98 @@
+{
+  Cleric: {
+    sword: false
+    polearm: false
+    dagger: false
+    axe: false
+    bow: false
+    staff: true
+  }
+  Dancer: {
+    sword: false
+    polearm: false
+    dagger: true
+    axe: false
+    bow: false
+    staff: false
+  }
+  Scholar: {
+    sword: false
+    polearm: false
+    dagger: false
+    axe: false
+    bow: false
+    staff: true
+  }
+  Apothecary: {
+    sword: false
+    polearm: false
+    dagger: false
+    axe: true
+    bow: false
+    staff: false
+  }
+  Merchant: {
+    sword: false
+    polearm: true
+    dagger: false
+    axe: false
+    bow: true
+    staff: false
+  }
+  Thief: {
+    sword: true
+    polearm: false
+    dagger: true
+    axe: false
+    bow: false
+    staff: false
+  }
+  Warrior: {
+    sword: true
+    polearm: true
+    dagger: false
+    axe: false
+    bow: false
+    staff: false
+  }
+  Hunter: {
+    sword: false
+    polearm: false
+    dagger: false
+    axe: true
+    bow: true
+    staff: false
+  }
+  Runelord: {
+    sword: true
+    polearm: false
+    dagger: false
+    axe: true
+    bow: false
+    staff: false
+  }
+  Sorcerer: {
+    sword: false
+    polearm: false
+    dagger: false
+    axe: false
+    bow: true
+    staff: true
+  }
+  Starseer: {
+    sword: false
+    polearm: true
+    dagger: true
+    axe: false
+    bow: false
+    staff: false
+  }
+  Warmaster: {
+    sword: true
+    polearm: true
+    dagger: true
+    axe: true
+    bow: true
+    staff: true
+  }
+}
