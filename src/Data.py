@@ -385,6 +385,10 @@ class GAMETEXT(DATA):
         return data[0x4b:-1].decode()
 
     def patchText(self, name, text):
+        # Fix apostrophe
+        if chr(8217) in text:
+            text = text.replace(chr(8217), chr(39))
+        # Patch text
         data = self.table[name]['Text']
         textArray = text.encode() + bytearray([0])
         data[0x47:0x4b] = len(textArray).to_bytes(4, byteorder='little')
