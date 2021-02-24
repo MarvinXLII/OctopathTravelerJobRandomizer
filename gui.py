@@ -223,8 +223,9 @@ class GuiApplication:
         if path == (): return
         if self.checkPath(path):
             self.settings['rom'].set(path)
+            fileName = os.path.join(path, 'Octopath_Traveler-WindowsNoEditor.pak')
             try:
-                self.rom = ROM(path)
+                self.rom = ROM(fileName)
             except:
                 self.bottomLabel('Your game is incompatible with this randomizer.','red',0)
                 self.bottomLabel('It has only been tested on Steam releases.','red',1)

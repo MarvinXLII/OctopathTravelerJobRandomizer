@@ -10,7 +10,8 @@ from gui import randomize
 
 def main(settings):
     # Load ROM
-    rom = ROM(settings['rom'])
+    fileName = os.path.join(settings['rom'], 'Octopath_Traveler-WindowsNoEditor.pak')
+    rom = ROM(fileName)
 
     # Randomize & dump pak
     randomize(rom, settings)

@@ -1,12 +1,10 @@
 import os
 import hashlib
-import time
 import sys
 import zlib
 
 class ROM:
-    def __init__(self, path):
-        fileName = os.path.join(path, 'Octopath_Traveler-WindowsNoEditor.pak')
+    def __init__(self, fileName):
         self.file = open(fileName, 'rb')
 
         # Load pointers to files
@@ -250,3 +248,23 @@ class ROM:
         pak = pakData + pakFile
         with open(output, 'wb') as file:
             file.write(pak)
+
+
+if __name__ == '__main__':
+    pak = sys.argv[1]
+    base = os.path.splitext(pak)[0]
+
+    if os.path.isdir(base):
+        print(f"Directory exists. Must manually remove the directory to unpak {pak}")
+        sys.exit()
+
+    # Extract all files of the pak and dump
+    rom = ROM(pak)
+    for file in rom.files:
+        data = rom.extractFile(file)
+        fileName = os.path.join(base, file)
+        dirName = os.path.dirname(fileName)
+        if not os.path.isdir(dirName):
+            os.makedirs(dirName)
+        with open(fileName, 'wb') as f:
+            f.write(data)
