@@ -346,18 +346,6 @@ class DATA:
         self.rom.patchFile(self.uasset.data, f"{self.fileName}.uasset")
         self.rom.patchFile(self.uexp.data, f"{self.fileName}.uexp")
 
-        # ## TEMPORARY STUFF JUST FOR CHECKING
-        # dir = os.path.dirname(self.rom.getFullPath(f"{self.fileName}.uasset"))
-        # baseUasset = os.path.basename(f"{self.fileName}.uasset")
-        # baseUexp = os.path.basename(f"{self.fileName}.uexp")
-        # if not os.path.isdir(dir):
-        #     os.makedirs(dir)
-        # with open(os.path.join(dir, baseUasset), 'wb') as file:
-        #     file.write(self.uasset.data)
-        # with open(os.path.join(dir, baseUexp), 'wb') as file:
-        #     file.write(self.uexp.data)
-
-
 
 class SHOPS(DATA):
     def __init__(self, rom):
@@ -391,6 +379,7 @@ class GAMETEXT(DATA):
         # Patch text
         data = self.table[name]['Text']
         textArray = text.encode() + bytearray([0])
+        data[0x10:0x18] = int(len(textArray) + 0x32).to_bytes(8, byteorder='little')
         data[0x47:0x4b] = len(textArray).to_bytes(4, byteorder='little')
         data[0x4b:] = textArray
 
