@@ -267,6 +267,10 @@ class ABILITIES:
         count = random.randrange(8, 17)
         while count:
             slot = keys.pop()
+            # Cannot overwrite Hired Help (abilities BT_ABI_025,.... seemed to be hard coded as calling HH rather than using the ability table)
+            if self.abilitySets.getAbilityNames(slot)[0] == 'BT_ABI_025':
+                continue
+            # Get and store suitable candidate
             candidate = self.getCompatibleCapture(slot, candidates)
             if candidate:
                 swaps[slot] = candidate
@@ -281,6 +285,7 @@ class ABILITIES:
             # Ability data
             slotAbil = self.abilitySets.getAbilityNames(slot)
             candAbil = self.abilitySets.getAbilityNames(candidate)
+            # Patch skills with capture skills
             for sa, ca in zip(slotAbil, candAbil):
                 # Overwrite ability
                 detailName = self.abilityData.getDetailName(sa) # Not all BT_ABI_DETAIL_4??? exist; use that of overwritten ability

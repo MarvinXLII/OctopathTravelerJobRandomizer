@@ -593,6 +593,13 @@ class ABILITYSETS(DATA):
             self.readName(key, 'BoostLv3_22_456F3637454862D5F56855AF92BD93CD'),
         ]
 
+    def patchAbilityNames(self, key, names):
+        assert len(names) == 4
+        self.patchName(key, 'NoBoost_9_5F3694D44FCF934172D38CA963CBDE00', names[0])
+        self.patchName(key, 'BoostLv1_20_6927B43443FB3CE47121F39DA2C15C22', names[1])
+        self.patchName(key, 'BoostLv2_21_3FE6D59245093E75F972BF9CA26404E7', names[2])
+        self.patchName(key, 'BoostLv3_22_456F3637454862D5F56855AF92BD93CD', names[3])
+
     def patchMenuIcon(self, key, icon):
         self.patchByte(key, 'MenuIconType_26_AB552CEC45AFB2EAEBA942AF66BD2DF0', self.menuIcon[icon])
 
