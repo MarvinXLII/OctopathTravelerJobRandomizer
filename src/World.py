@@ -36,6 +36,9 @@ class WORLD:
         self.abilities = ABILITIES(self.abilitySetData, self.abilityData, self.settings)
         self.jobs = JOBS(self.jobData, self.pcData, self.settings)
 
+        # ALWAYS MODIFY TITLE SCREEN
+        self.gameText.patchText('TITLE_START_BUTTON', 'RANDOMIZER')
+
     def failed(self):
         print(f'Randomizer failed! Removing directory {self.outPath}.')
         shutil.rmtree(self.outPath)
