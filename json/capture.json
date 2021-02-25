@@ -17,7 +17,7 @@
     Weapon: polearm
     Element: null
     SP: 6
-    Ratio: 105
+    Ratio: 110
     ModRatio: true
     Icon: Physical
     Name: Hya! Hya!
@@ -29,7 +29,7 @@
     Weapon: polearm
     Element: null
     SP: 6
-    Ratio: 115
+    Ratio: 130
     ModRatio: true
     Icon: Physical
     Name: Hya! Hya! Hya!
@@ -41,7 +41,7 @@
     Weapon: polearm
     Element: null
     SP: 6
-    Ratio: 130
+    Ratio: 160
     ModRatio: true
     Icon: Physical
     Name: Hya! Hya! Hya! Hya!
@@ -340,7 +340,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 8
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -352,7 +352,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 8
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -364,7 +364,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 8
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -376,7 +376,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 8
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -388,7 +388,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 5
+    SP: 4
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -400,7 +400,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 5
+    SP: 4
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -412,7 +412,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 5
+    SP: 4
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -424,7 +424,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 5
+    SP: 4
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -436,7 +436,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 5
+    SP: 4
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -448,7 +448,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 5
+    SP: 4
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -460,7 +460,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 5
+    SP: 4
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -472,7 +472,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 5
+    SP: 4
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -532,7 +532,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 8
+    SP: 7
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -544,7 +544,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 8
+    SP: 7
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -556,7 +556,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 8
+    SP: 7
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -568,7 +568,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 8
+    SP: 7
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -580,7 +580,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 8
+    SP: 7
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -592,7 +592,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 8
+    SP: 7
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -604,7 +604,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 8
+    SP: 7
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -616,7 +616,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 8
+    SP: 7
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -628,7 +628,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 11
+    SP: 9
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -640,7 +640,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 11
+    SP: 9
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -652,7 +652,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 11
+    SP: 9
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -664,7 +664,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 11
+    SP: 9
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -676,7 +676,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 14
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -688,7 +688,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 14
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -700,7 +700,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 14
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -712,7 +712,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 14
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -724,7 +724,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 14
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -736,7 +736,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 14
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -748,7 +748,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 14
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -760,7 +760,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 14
+    SP: 11
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -772,7 +772,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 23
+    SP: 13
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -784,7 +784,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 23
+    SP: 13
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -796,7 +796,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 23
+    SP: 13
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -808,7 +808,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 23
+    SP: 13
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -820,7 +820,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -832,7 +832,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -844,7 +844,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -856,7 +856,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -868,7 +868,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -880,7 +880,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -892,7 +892,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -904,7 +904,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -916,7 +916,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -928,7 +928,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -940,7 +940,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -952,7 +952,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -1060,7 +1060,7 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -1072,7 +1072,7 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -1084,7 +1084,7 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -1096,7 +1096,7 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -1108,7 +1108,7 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -1120,7 +1120,7 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -1132,7 +1132,7 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -1144,7 +1144,7 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -1169,7 +1169,7 @@
     Weapon: dagger
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Soporific Fang (All)
@@ -1181,7 +1181,7 @@
     Weapon: dagger
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Soporific Fang (All)
@@ -1193,7 +1193,7 @@
     Weapon: dagger
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Soporific Fang (All)
@@ -1217,7 +1217,7 @@
     Weapon: dagger
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Befuddling Fang (All)
@@ -1229,7 +1229,7 @@
     Weapon: dagger
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Befuddling Fang (All)
@@ -1241,7 +1241,7 @@
     Weapon: dagger
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Befuddling Fang (All)
@@ -1252,7 +1252,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -1264,7 +1264,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -1276,7 +1276,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -1288,7 +1288,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -1313,7 +1313,7 @@
     Weapon: polearm
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Soporific Strike (All)
@@ -1325,7 +1325,7 @@
     Weapon: polearm
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Soporific Strike (All)
@@ -1337,7 +1337,7 @@
     Weapon: polearm
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Soporific Strike (All)
@@ -1348,7 +1348,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -1360,7 +1360,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -1372,7 +1372,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -1384,7 +1384,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -1396,7 +1396,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -1408,7 +1408,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -1420,7 +1420,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -1432,7 +1432,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -1457,7 +1457,7 @@
     Weapon: bow
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Soporific Shot (All)
@@ -1469,7 +1469,7 @@
     Weapon: bow
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Soporific Shot (All)
@@ -1481,7 +1481,7 @@
     Weapon: bow
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Soporific Shot (All)
@@ -1505,7 +1505,7 @@
     Weapon: bow
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Blinding Shot (All)
@@ -1517,7 +1517,7 @@
     Weapon: bow
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Blinding Shot (All)
@@ -1529,7 +1529,7 @@
     Weapon: bow
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Blinding Shot (All)
@@ -1553,7 +1553,7 @@
     Weapon: bow
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Befuddling Shot (All)
@@ -1565,7 +1565,7 @@
     Weapon: bow
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Befuddling Shot (All)
@@ -1577,7 +1577,7 @@
     Weapon: bow
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Befuddling Shot (All)
@@ -1588,7 +1588,7 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -1600,8 +1600,8 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 5
-    Ratio: 190
+    SP: 6
+    Ratio: 200
     ModRatio: true
     Icon: Magic
     Name: Toxic Ice
@@ -1612,8 +1612,8 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 5
-    Ratio: 280
+    SP: 6
+    Ratio: 300
     ModRatio: true
     Icon: Magic
     Name: Toxic Ice
@@ -1624,8 +1624,8 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 5
-    Ratio: 370
+    SP: 6
+    Ratio: 400
     ModRatio: true
     Icon: Magic
     Name: Toxic Ice
@@ -1636,7 +1636,7 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -1648,8 +1648,8 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 5
-    Ratio: 190
+    SP: 6
+    Ratio: 200
     ModRatio: true
     Icon: Magic
     Name: Toxic Wind
@@ -1660,8 +1660,8 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 5
-    Ratio: 280
+    SP: 6
+    Ratio: 300
     ModRatio: true
     Icon: Magic
     Name: Toxic Wind
@@ -1672,8 +1672,8 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 5
-    Ratio: 370
+    SP: 6
+    Ratio: 400
     ModRatio: true
     Icon: Magic
     Name: Toxic Wind
@@ -1684,7 +1684,7 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -1696,8 +1696,8 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 5
-    Ratio: 190
+    SP: 6
+    Ratio: 200
     ModRatio: true
     Icon: Magic
     Name: Soporific Wind
@@ -1708,8 +1708,8 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 5
-    Ratio: 280
+    SP: 6
+    Ratio: 300
     ModRatio: true
     Icon: Magic
     Name: Soporific Wind
@@ -1720,8 +1720,8 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 5
-    Ratio: 370
+    SP: 6
+    Ratio: 400
     ModRatio: true
     Icon: Magic
     Name: Soporific Wind
@@ -1745,7 +1745,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Armor Break (All)
@@ -1757,7 +1757,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Armor Break (All)
@@ -1769,7 +1769,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Armor Break (All)
@@ -1793,7 +1793,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Enfettering Slash (All)
@@ -1805,7 +1805,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Enfettering Slash (All)
@@ -1817,7 +1817,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Enfettering Slash (All)
@@ -1841,7 +1841,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Sharp Scratch (All)
@@ -1853,7 +1853,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Sharp Scratch (All)
@@ -1865,7 +1865,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Sharp Scratch (All)
@@ -1876,7 +1876,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -1888,7 +1888,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -1900,7 +1900,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -1912,7 +1912,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -1924,7 +1924,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 7
+    SP: 8
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -1936,7 +1936,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 7
+    SP: 8
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -1948,7 +1948,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 7
+    SP: 8
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -1960,7 +1960,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 7
+    SP: 8
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -2212,7 +2212,7 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 11
+    SP: 12
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -2224,8 +2224,8 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 11
-    Ratio: 180
+    SP: 12
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Double Armor Crush
@@ -2236,8 +2236,8 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 11
-    Ratio: 260
+    SP: 12
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Double Armor Crush
@@ -2248,8 +2248,8 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 11
-    Ratio: 340
+    SP: 12
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Double Armor Crush
@@ -2260,7 +2260,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 11
+    SP: 12
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -2272,8 +2272,8 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 11
-    Ratio: 180
+    SP: 12
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
@@ -2284,8 +2284,8 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 11
-    Ratio: 260
+    SP: 12
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
@@ -2296,8 +2296,8 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 11
-    Ratio: 340
+    SP: 12
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
@@ -2308,7 +2308,7 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 11
+    SP: 12
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -2320,8 +2320,8 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 11
-    Ratio: 180
+    SP: 12
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Double Guard Break
@@ -2332,8 +2332,8 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 11
-    Ratio: 260
+    SP: 12
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Double Guard Break
@@ -2344,8 +2344,8 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 11
-    Ratio: 340
+    SP: 12
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Double Guard Break
@@ -2356,7 +2356,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 10
+    SP: 9
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -2368,8 +2368,8 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 10
-    Ratio: 180
+    SP: 9
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Endanger Life (All)
@@ -2380,8 +2380,8 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 10
-    Ratio: 260
+    SP: 9
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Endanger Life (All)
@@ -2392,8 +2392,8 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 10
-    Ratio: 340
+    SP: 9
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Endanger Life (All)
@@ -2404,7 +2404,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 11
+    SP: 12
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -2416,8 +2416,8 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 11
-    Ratio: 180
+    SP: 12
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Double Elemental Arrow Dance
@@ -2428,8 +2428,8 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 11
-    Ratio: 260
+    SP: 12
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Double Elemental Arrow Dance
@@ -2440,8 +2440,8 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 11
-    Ratio: 340
+    SP: 12
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Double Elemental Arrow Dance
@@ -2465,7 +2465,7 @@
     Weapon: dagger
     Element: null
     SP: 14
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Wreak Havoc (All)
@@ -2477,7 +2477,7 @@
     Weapon: dagger
     Element: null
     SP: 14
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Wreak Havoc (All)
@@ -2489,7 +2489,7 @@
     Weapon: dagger
     Element: null
     SP: 14
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Wreak Havoc (All)
@@ -2500,7 +2500,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 11
+    SP: 12
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -2512,8 +2512,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 11
-    Ratio: 180
+    SP: 12
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
@@ -2524,8 +2524,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 11
-    Ratio: 260
+    SP: 12
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
@@ -2536,8 +2536,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 11
-    Ratio: 340
+    SP: 12
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
@@ -2705,7 +2705,7 @@
     Weapon: null
     Element: Thunder
     SP: 6
-    Ratio: 180
+    Ratio: 200
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
@@ -2717,7 +2717,7 @@
     Weapon: null
     Element: Thunder
     SP: 6
-    Ratio: 260
+    Ratio: 300
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
@@ -2729,7 +2729,7 @@
     Weapon: null
     Element: Thunder
     SP: 6
-    Ratio: 340
+    Ratio: 400
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
@@ -2740,7 +2740,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -2752,7 +2752,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -2764,7 +2764,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -2776,7 +2776,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 5
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -2788,7 +2788,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 10
+    SP: 9
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -2800,8 +2800,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 10
-    Ratio: 180
+    SP: 9
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Sand Strike (All)
@@ -2812,8 +2812,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 10
-    Ratio: 260
+    SP: 9
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Sand Strike (All)
@@ -2824,8 +2824,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 10
-    Ratio: 340
+    SP: 9
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Sand Strike (All)
@@ -2932,7 +2932,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 14
+    SP: 13
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -2944,8 +2944,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 14
-    Ratio: 180
+    SP: 13
+    Ratio: 170
     ModRatio: true
     Icon: Physical
     Name: Enraged Bash (All)
@@ -2956,8 +2956,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 14
-    Ratio: 260
+    SP: 13
+    Ratio: 240
     ModRatio: true
     Icon: Physical
     Name: Enraged Bash (All)
@@ -2968,8 +2968,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 14
-    Ratio: 340
+    SP: 13
+    Ratio: 310
     ModRatio: true
     Icon: Physical
     Name: Enraged Bash (All)
@@ -2980,7 +2980,7 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 14
+    SP: 12
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -2992,8 +2992,8 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 14
-    Ratio: 200
+    SP: 12
+    Ratio: 180
     ModRatio: true
     Icon: Magic
     Name: Ice Floe
@@ -3004,8 +3004,8 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 14
-    Ratio: 300
+    SP: 12
+    Ratio: 260
     ModRatio: true
     Icon: Magic
     Name: Ice Floe
@@ -3016,8 +3016,8 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 14
-    Ratio: 400
+    SP: 12
+    Ratio: 340
     ModRatio: true
     Icon: Magic
     Name: Ice Floe
@@ -3028,7 +3028,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 6
+    SP: 3
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -3040,7 +3040,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 6
+    SP: 3
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -3052,7 +3052,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 6
+    SP: 3
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -3064,7 +3064,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 6
+    SP: 3
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -3089,7 +3089,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Great Sweep (All)
@@ -3101,7 +3101,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Great Sweep (All)
@@ -3113,7 +3113,7 @@
     Weapon: sword
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Great Sweep (All)
@@ -3137,7 +3137,7 @@
     Weapon: polearm
     Element: null
     SP: 10
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Hurricane Lunge (All)
@@ -3149,7 +3149,7 @@
     Weapon: polearm
     Element: null
     SP: 10
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Hurricane Lunge (All)
@@ -3161,7 +3161,7 @@
     Weapon: polearm
     Element: null
     SP: 10
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Hurricane Lunge (All)
@@ -3172,7 +3172,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 29
+    SP: 23
     Ratio: 100
     ModRatio: true
     Icon: Heal
@@ -3184,7 +3184,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 29
+    SP: 23
     Ratio: 100
     ModRatio: true
     Icon: Heal
@@ -3196,7 +3196,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 29
+    SP: 23
     Ratio: 100
     ModRatio: true
     Icon: Heal
@@ -3208,7 +3208,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 29
+    SP: 23
     Ratio: 100
     ModRatio: true
     Icon: Heal
@@ -3220,7 +3220,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 9
+    SP: 6
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -3232,7 +3232,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 9
+    SP: 6
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -3244,7 +3244,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 9
+    SP: 6
     Ratio: 300
     ModRatio: true
     Icon: Physical
@@ -3256,7 +3256,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 9
+    SP: 6
     Ratio: 400
     ModRatio: true
     Icon: Physical
@@ -3329,7 +3329,7 @@
     Weapon: staff
     Element: null
     SP: 12
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Double Body Press
@@ -3341,7 +3341,7 @@
     Weapon: staff
     Element: null
     SP: 12
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Double Body Press
@@ -3353,7 +3353,7 @@
     Weapon: staff
     Element: null
     SP: 12
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Double Body Press
@@ -3377,7 +3377,7 @@
     Weapon: sword
     Element: null
     SP: 12
-    Ratio: 180
+    Ratio: 190
     ModRatio: true
     Icon: Physical
     Name: Double Soporific Claw
@@ -3389,7 +3389,7 @@
     Weapon: sword
     Element: null
     SP: 12
-    Ratio: 260
+    Ratio: 280
     ModRatio: true
     Icon: Physical
     Name: Double Soporific Claw
@@ -3401,7 +3401,7 @@
     Weapon: sword
     Element: null
     SP: 12
-    Ratio: 340
+    Ratio: 370
     ModRatio: true
     Icon: Physical
     Name: Double Soporific Claw
@@ -3412,7 +3412,7 @@
     Priority: 1
     Weapon: null
     Element: Thunder
-    SP: 14
+    SP: 12
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -3424,8 +3424,8 @@
     Priority: 1
     Weapon: null
     Element: Thunder
-    SP: 14
-    Ratio: 200
+    SP: 12
+    Ratio: 180
     ModRatio: true
     Icon: Magic
     Name: Shock Stream
@@ -3436,8 +3436,8 @@
     Priority: 1
     Weapon: null
     Element: Thunder
-    SP: 14
-    Ratio: 300
+    SP: 12
+    Ratio: 260
     ModRatio: true
     Icon: Magic
     Name: Shock Stream
@@ -3448,8 +3448,8 @@
     Priority: 1
     Weapon: null
     Element: Thunder
-    SP: 14
-    Ratio: 400
+    SP: 12
+    Ratio: 340
     ModRatio: true
     Icon: Magic
     Name: Shock Stream
@@ -3460,7 +3460,7 @@
     Priority: 1
     Weapon: null
     Element: Dark
-    SP: 14
+    SP: 12
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -3472,8 +3472,8 @@
     Priority: 1
     Weapon: null
     Element: Dark
-    SP: 14
-    Ratio: 200
+    SP: 12
+    Ratio: 180
     ModRatio: true
     Icon: Magic
     Name: Shadow Stream
@@ -3484,8 +3484,8 @@
     Priority: 1
     Weapon: null
     Element: Dark
-    SP: 14
-    Ratio: 300
+    SP: 12
+    Ratio: 260
     ModRatio: true
     Icon: Magic
     Name: Shadow Stream
@@ -3496,8 +3496,8 @@
     Priority: 1
     Weapon: null
     Element: Dark
-    SP: 14
-    Ratio: 400
+    SP: 12
+    Ratio: 340
     ModRatio: true
     Icon: Magic
     Name: Shadow Stream
@@ -3508,7 +3508,7 @@
     Priority: 1
     Weapon: null
     Element: Light
-    SP: 14
+    SP: 12
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -3520,8 +3520,8 @@
     Priority: 1
     Weapon: null
     Element: Light
-    SP: 14
-    Ratio: 200
+    SP: 12
+    Ratio: 180
     ModRatio: true
     Icon: Magic
     Name: Light Stream
@@ -3532,8 +3532,8 @@
     Priority: 1
     Weapon: null
     Element: Light
-    SP: 14
-    Ratio: 300
+    SP: 12
+    Ratio: 260
     ModRatio: true
     Icon: Magic
     Name: Light Stream
@@ -3544,8 +3544,8 @@
     Priority: 1
     Weapon: null
     Element: Light
-    SP: 14
-    Ratio: 400
+    SP: 12
+    Ratio: 340
     ModRatio: true
     Icon: Magic
     Name: Light Stream
@@ -3652,7 +3652,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -3664,7 +3664,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 190
     ModRatio: true
     Icon: Physical
@@ -3676,7 +3676,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 280
     ModRatio: true
     Icon: Physical
@@ -3688,7 +3688,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 370
     ModRatio: true
     Icon: Physical
@@ -3700,7 +3700,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -3712,7 +3712,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 190
     ModRatio: true
     Icon: Physical
@@ -3724,7 +3724,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 280
     ModRatio: true
     Icon: Physical
@@ -3736,7 +3736,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 370
     ModRatio: true
     Icon: Physical
@@ -3748,7 +3748,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 24
+    SP: 16
     Ratio: 100
     ModRatio: false
     Icon: Enemy
@@ -3760,7 +3760,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 24
+    SP: 16
     Ratio: 150
     ModRatio: false
     Icon: Enemy
@@ -3772,7 +3772,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 24
+    SP: 16
     Ratio: 200
     ModRatio: false
     Icon: Enemy
@@ -3784,7 +3784,7 @@
     Priority: 2
     Weapon: null
     Element: null
-    SP: 24
+    SP: 16
     Ratio: 250
     ModRatio: false
     Icon: Enemy
@@ -3849,7 +3849,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Vorpal Claw (All)
-    Description: Occasionally kills all targets instantly.
+    Description: Occasionally kills targets instantly.
   }
   BT_ABI_4466:
   {
@@ -3861,7 +3861,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Vorpal Claw (All)
-    Description: Occasionally kills all targets instantly.
+    Description: Occasionally kills targets instantly.
   }
   BT_ABI_4467:
   {
@@ -3873,7 +3873,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Vorpal Claw (All)
-    Description: Occasionally kills all targets instantly.
+    Description: Occasionally kills targets instantly.
   }
   BT_ABI_4468:
   {
@@ -3885,14 +3885,14 @@
     ModRatio: false
     Icon: Enemy
     Name: Vorpal Claw (All)
-    Description: Occasionally kills all targets instantly.
+    Description: Occasionally kills targets instantly.
   }
   BT_ABI_4473:
   {
     Priority: 1
     Weapon: null
     Element: Fire
-    SP: 15
+    SP: 13
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -3904,8 +3904,8 @@
     Priority: 1
     Weapon: null
     Element: Fire
-    SP: 15
-    Ratio: 220
+    SP: 13
+    Ratio: 190
     ModRatio: true
     Icon: Magic
     Name: Inferno Clock (All)
@@ -3916,8 +3916,8 @@
     Priority: 1
     Weapon: null
     Element: Fire
-    SP: 15
-    Ratio: 340
+    SP: 13
+    Ratio: 280
     ModRatio: true
     Icon: Magic
     Name: Inferno Clock (All)
@@ -3928,8 +3928,8 @@
     Priority: 1
     Weapon: null
     Element: Fire
-    SP: 15
-    Ratio: 460
+    SP: 13
+    Ratio: 370
     ModRatio: true
     Icon: Magic
     Name: Inferno Clock (All)
@@ -3940,7 +3940,7 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 15
+    SP: 13
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -3952,7 +3952,7 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 15
+    SP: 13
     Ratio: 190
     ModRatio: true
     Icon: Magic
@@ -3964,7 +3964,7 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 15
+    SP: 13
     Ratio: 280
     ModRatio: true
     Icon: Magic
@@ -3976,7 +3976,7 @@
     Priority: 1
     Weapon: null
     Element: Ice
-    SP: 15
+    SP: 13
     Ratio: 370
     ModRatio: true
     Icon: Magic
@@ -3988,7 +3988,7 @@
     Priority: 1
     Weapon: null
     Element: Thunder
-    SP: 15
+    SP: 13
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -4000,7 +4000,7 @@
     Priority: 1
     Weapon: null
     Element: Thunder
-    SP: 15
+    SP: 13
     Ratio: 190
     ModRatio: true
     Icon: Magic
@@ -4012,7 +4012,7 @@
     Priority: 1
     Weapon: null
     Element: Thunder
-    SP: 15
+    SP: 13
     Ratio: 280
     ModRatio: true
     Icon: Magic
@@ -4024,7 +4024,7 @@
     Priority: 1
     Weapon: null
     Element: Thunder
-    SP: 15
+    SP: 13
     Ratio: 370
     ModRatio: true
     Icon: Magic
@@ -4036,7 +4036,7 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 15
+    SP: 13
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -4048,7 +4048,7 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 15
+    SP: 13
     Ratio: 190
     ModRatio: true
     Icon: Magic
@@ -4060,7 +4060,7 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 15
+    SP: 13
     Ratio: 280
     ModRatio: true
     Icon: Magic
@@ -4072,7 +4072,7 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 15
+    SP: 13
     Ratio: 370
     ModRatio: true
     Icon: Magic
@@ -4084,7 +4084,7 @@
     Priority: 1
     Weapon: null
     Element: Light
-    SP: 15
+    SP: 13
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -4096,7 +4096,7 @@
     Priority: 1
     Weapon: null
     Element: Light
-    SP: 15
+    SP: 13
     Ratio: 190
     ModRatio: true
     Icon: Magic
@@ -4108,7 +4108,7 @@
     Priority: 1
     Weapon: null
     Element: Light
-    SP: 15
+    SP: 13
     Ratio: 280
     ModRatio: true
     Icon: Magic
@@ -4120,7 +4120,7 @@
     Priority: 1
     Weapon: null
     Element: Light
-    SP: 15
+    SP: 13
     Ratio: 370
     ModRatio: true
     Icon: Magic
@@ -4132,7 +4132,7 @@
     Priority: 1
     Weapon: null
     Element: Dark
-    SP: 15
+    SP: 13
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -4144,7 +4144,7 @@
     Priority: 1
     Weapon: null
     Element: Dark
-    SP: 15
+    SP: 13
     Ratio: 190
     ModRatio: true
     Icon: Magic
@@ -4156,7 +4156,7 @@
     Priority: 1
     Weapon: null
     Element: Dark
-    SP: 15
+    SP: 13
     Ratio: 280
     ModRatio: true
     Icon: Magic
@@ -4168,7 +4168,7 @@
     Priority: 1
     Weapon: null
     Element: Dark
-    SP: 15
+    SP: 13
     Ratio: 370
     ModRatio: true
     Icon: Magic
@@ -4180,7 +4180,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -4192,7 +4192,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -4204,7 +4204,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -4216,7 +4216,7 @@
     Priority: 1
     Weapon: null
     Element: null
-    SP: 12
+    SP: 9
     Ratio: 100
     ModRatio: false
     Icon: Status
@@ -4228,7 +4228,7 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 12
+    SP: 13
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -4240,7 +4240,7 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 12
+    SP: 13
     Ratio: 190
     ModRatio: true
     Icon: Magic
@@ -4252,7 +4252,7 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 12
+    SP: 13
     Ratio: 280
     ModRatio: true
     Icon: Magic
@@ -4264,7 +4264,7 @@
     Priority: 1
     Weapon: null
     Element: Wind
-    SP: 12
+    SP: 13
     Ratio: 370
     ModRatio: true
     Icon: Magic
@@ -4276,7 +4276,7 @@
     Priority: 1
     Weapon: null
     Element: Fire
-    SP: 14
+    SP: 13
     Ratio: 100
     ModRatio: true
     Icon: Magic
@@ -4288,7 +4288,7 @@
     Priority: 1
     Weapon: null
     Element: Fire
-    SP: 14
+    SP: 13
     Ratio: 190
     ModRatio: true
     Icon: Magic
@@ -4300,7 +4300,7 @@
     Priority: 1
     Weapon: null
     Element: Fire
-    SP: 14
+    SP: 13
     Ratio: 280
     ModRatio: true
     Icon: Magic
@@ -4312,7 +4312,7 @@
     Priority: 1
     Weapon: null
     Element: Fire
-    SP: 14
+    SP: 13
     Ratio: 370
     ModRatio: true
     Icon: Magic
@@ -4420,7 +4420,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 17
+    SP: 9
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -4432,8 +4432,8 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 17
-    Ratio: 190
+    SP: 9
+    Ratio: 170
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4444,8 +4444,8 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 17
-    Ratio: 280
+    SP: 9
+    Ratio: 240
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4456,8 +4456,8 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 17
-    Ratio: 370
+    SP: 9
+    Ratio: 310
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4468,7 +4468,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 80
     ModRatio: true
     Icon: Physical
@@ -4480,7 +4480,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 140
     ModRatio: true
     Icon: Physical
@@ -4492,7 +4492,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -4504,7 +4504,7 @@
     Priority: 1
     Weapon: sword
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 260
     ModRatio: true
     Icon: Physical
@@ -4516,7 +4516,7 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 17
+    SP: 9
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -4528,8 +4528,8 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 17
-    Ratio: 190
+    SP: 9
+    Ratio: 170
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4540,8 +4540,8 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 17
-    Ratio: 280
+    SP: 9
+    Ratio: 240
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4552,8 +4552,8 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 17
-    Ratio: 370
+    SP: 9
+    Ratio: 310
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4564,7 +4564,7 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 80
     ModRatio: true
     Icon: Physical
@@ -4576,7 +4576,7 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 140
     ModRatio: true
     Icon: Physical
@@ -4588,7 +4588,7 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -4600,7 +4600,7 @@
     Priority: 1
     Weapon: axe
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 260
     ModRatio: true
     Icon: Physical
@@ -4612,8 +4612,8 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 14
-    Ratio: 100
+    SP: 10
+    Ratio: 90
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4624,8 +4624,8 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 14
-    Ratio: 180
+    SP: 10
+    Ratio: 160
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4636,8 +4636,8 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 14
-    Ratio: 260
+    SP: 10
+    Ratio: 230
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4648,8 +4648,8 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 14
-    Ratio: 340
+    SP: 10
+    Ratio: 300
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4660,7 +4660,7 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 17
+    SP: 9
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -4672,8 +4672,8 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 17
-    Ratio: 190
+    SP: 9
+    Ratio: 170
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4684,8 +4684,8 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 17
-    Ratio: 280
+    SP: 9
+    Ratio: 240
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4696,8 +4696,8 @@
     Priority: 1
     Weapon: dagger
     Element: null
-    SP: 17
-    Ratio: 370
+    SP: 9
+    Ratio: 310
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4708,8 +4708,8 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 14
-    Ratio: 100
+    SP: 10
+    Ratio: 90
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4720,8 +4720,8 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 14
-    Ratio: 180
+    SP: 10
+    Ratio: 160
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4732,8 +4732,8 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 14
-    Ratio: 260
+    SP: 10
+    Ratio: 230
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4744,8 +4744,8 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 14
-    Ratio: 340
+    SP: 10
+    Ratio: 300
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4769,7 +4769,7 @@
     Weapon: polearm
     Element: null
     SP: 9
-    Ratio: 180
+    Ratio: 170
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4781,7 +4781,7 @@
     Weapon: polearm
     Element: null
     SP: 9
-    Ratio: 260
+    Ratio: 240
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4793,7 +4793,7 @@
     Weapon: polearm
     Element: null
     SP: 9
-    Ratio: 340
+    Ratio: 310
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4804,7 +4804,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 80
     ModRatio: true
     Icon: Physical
@@ -4816,7 +4816,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 140
     ModRatio: true
     Icon: Physical
@@ -4828,7 +4828,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -4840,7 +4840,7 @@
     Priority: 1
     Weapon: polearm
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 260
     ModRatio: true
     Icon: Physical
@@ -4852,8 +4852,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 14
-    Ratio: 100
+    SP: 10
+    Ratio: 90
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4864,8 +4864,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 14
-    Ratio: 180
+    SP: 10
+    Ratio: 160
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4876,8 +4876,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 14
-    Ratio: 260
+    SP: 10
+    Ratio: 230
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4888,8 +4888,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 14
-    Ratio: 340
+    SP: 10
+    Ratio: 300
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4900,7 +4900,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 17
+    SP: 9
     Ratio: 100
     ModRatio: true
     Icon: Physical
@@ -4912,8 +4912,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 17
-    Ratio: 190
+    SP: 9
+    Ratio: 170
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4924,8 +4924,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 17
-    Ratio: 280
+    SP: 9
+    Ratio: 240
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4936,8 +4936,8 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 17
-    Ratio: 370
+    SP: 9
+    Ratio: 310
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -4948,8 +4948,8 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 14
-    Ratio: 100
+    SP: 10
+    Ratio: 90
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4960,8 +4960,8 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 14
-    Ratio: 180
+    SP: 10
+    Ratio: 160
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4972,8 +4972,8 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 14
-    Ratio: 260
+    SP: 10
+    Ratio: 230
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -4984,8 +4984,8 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 14
-    Ratio: 340
+    SP: 10
+    Ratio: 300
     ModRatio: true
     Icon: Physical
     Name: Double Attack All
@@ -5009,7 +5009,7 @@
     Weapon: bow
     Element: null
     SP: 9
-    Ratio: 180
+    Ratio: 170
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -5021,7 +5021,7 @@
     Weapon: bow
     Element: null
     SP: 9
-    Ratio: 260
+    Ratio: 240
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -5033,7 +5033,7 @@
     Weapon: bow
     Element: null
     SP: 9
-    Ratio: 340
+    Ratio: 310
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -5044,7 +5044,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 80
     ModRatio: true
     Icon: Physical
@@ -5056,7 +5056,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 140
     ModRatio: true
     Icon: Physical
@@ -5068,7 +5068,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -5080,7 +5080,7 @@
     Priority: 1
     Weapon: bow
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 260
     ModRatio: true
     Icon: Physical
@@ -5105,7 +5105,7 @@
     Weapon: staff
     Element: null
     SP: 9
-    Ratio: 180
+    Ratio: 170
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -5117,7 +5117,7 @@
     Weapon: staff
     Element: null
     SP: 9
-    Ratio: 260
+    Ratio: 240
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -5129,7 +5129,7 @@
     Weapon: staff
     Element: null
     SP: 9
-    Ratio: 340
+    Ratio: 310
     ModRatio: true
     Icon: Physical
     Name: Triple Attack
@@ -5140,7 +5140,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 80
     ModRatio: true
     Icon: Physical
@@ -5152,7 +5152,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 140
     ModRatio: true
     Icon: Physical
@@ -5164,7 +5164,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 200
     ModRatio: true
     Icon: Physical
@@ -5176,7 +5176,7 @@
     Priority: 1
     Weapon: staff
     Element: null
-    SP: 19
+    SP: 15
     Ratio: 260
     ModRatio: true
     Icon: Physical
