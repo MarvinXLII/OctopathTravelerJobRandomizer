@@ -85,6 +85,7 @@ class WORLD:
             random.seed(self.settings['seed'])
             self.abilities.shuffleJobAbilities()
             if self.settings['skills-capture']:
+                random.seed(self.settings['seed'])
                 self.abilities.randomCaptureSkills()
         if self.settings['skills-sp-costs']:
             random.seed(self.settings['seed'])
