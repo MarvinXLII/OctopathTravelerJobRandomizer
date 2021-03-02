@@ -352,9 +352,9 @@ class SHOPS(DATA):
         super().__init__(rom, 'PurchaseItemTable')
 
     def perfectKeyItemThievery(self):
-        self.patchInt('DesertS_SHOP_FC_01_1', 'ProperSteal', -15) # Aristocrat's Mask
-        self.patchInt('DesertS_SHOP_FC_02_1', 'ProperSteal', -15) # Aristocrat's Mask
-        self.patchInt('DesertS_SHOP_FC_03_1', 'ProperSteal', -15) # Aristocrat's Mask
+        self.patchInt('DesertF22_SHOP_FC_01_1', 'ProperSteal', -15) # Aristocrat's Mask
+        self.patchInt('DesertF22_SHOP_FC_02_1', 'ProperSteal', -15) # Aristocrat's Mask
+        self.patchInt('DesertF22_SHOP_FC_03_1', 'ProperSteal', -15) # Aristocrat's Mask
         self.patchInt('DesertS_SHOP_FC_10_1', 'ProperSteal', -15) # Black Market Inventory
         self.patchInt('DesertS_SHOP_FC_11_1', 'ProperSteal', -15) # Bottle of Wine
         self.patchInt('PlainM_SHOP_FC_06_1', 'ProperSteal', -15)  # Oasis Water
