@@ -1,9 +1,9 @@
-**ABOUT**
+## ABOUT
 
 This is a randomizer for Octopath Traveler (Steam and Switch versions). Check out 
 [mastermind1919's](https://github.com/mastermind1919/OctopathBossRandomizer/releases) for a compatible boss randomizer! (compatible with Steam only)
 
-**OPTIONS**
+## OPTIONS
 
 Several options are available:
 
@@ -19,14 +19,14 @@ Several options are available:
 
 - QOL: Miscellaneous options, including starting with the Spurning Ribbon and quickly learning Evasive Maneuvers.
 
-**USAGE**
+## USAGE
 
 Run the executable from the
 [Releases](https://github.com/MarvinXLII/OctopathTravelerJobRandomizer/releases)
 page.
 
 
-***Steam***
+#### Steam
 
 Load the `Paks` folder and randomize. When finished, copy the
 `*_P.pak` files from the new `seed_###` folder into the `Paks` folder
@@ -35,14 +35,14 @@ in your game, typically located at `C:\Program Files
 TRAVELER\Octopath_Traveler\Content\Paks`.  The executable also
 includes and option to copy this file automatically to this location.
 
-***Switch***
+#### Switch
 
 Load the `RomFS`. When finished, copy the `romfs` from the new
 `seed_###` folder onto your SD card (e.g. on the latest versions of
 atmosphere, `atmosphere/content/titleID/`).
 
 
-***Code***
+#### Code
 
 If you prefer to run the code, you'll have to install Python 3.6+ and
 `hjson` and `tkinter`.  Then, run `python gui.py`. You can build
@@ -50,7 +50,7 @@ the executable yourself by installing `pyinstaller` and running
 `pyinstaller gui.spec`.
 
 
-**COMPATIBILITY**
+## COMPATIBILITY
 
 Note that paks are not compatbile on both Steam and Switch
 releases. For any co-op gameplay or races including both systems,
