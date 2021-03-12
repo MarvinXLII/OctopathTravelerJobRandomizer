@@ -78,7 +78,7 @@ class GuiApplication:
         #####################
 
         labelfonts = ('Helvetica', 14, 'bold')
-        lf = tk.LabelFrame(self.master, text='Paks Folder', font=labelfonts)
+        lf = tk.LabelFrame(self.master, text='Folder', font=labelfonts)
         lf.grid(row=0, columnspan=2, sticky='nsew', padx=5, pady=5, ipadx=5, ipady=5)
 
         # Path to paks
@@ -88,7 +88,7 @@ class GuiApplication:
         pathToPak = tk.Entry(lf, textvariable=self.settings['rom'], width=65, state='readonly')
         pathToPak.grid(row=0, column=0, columnspan=2, padx=(10,0), pady=3)
 
-        pathLabel = tk.Label(lf, text='Path to "Paks" folder')
+        pathLabel = tk.Label(lf, text='Path to "Paks" or "RomFS" folder')
         pathLabel.grid(row=1, column=0, sticky='w', padx=5, pady=2)
 
         pathButton = tk.Button(lf, text='Browse ...', command=self.getPakPath, width=20) # needs command..
@@ -177,6 +177,8 @@ STEAM: Input the game folder that contains "Octopath_Traveler-WindowsNoEditor.pa
                                 button.grid(row=row, padx=30, sticky='w')
                                 self.buildToolTip(button, vk)
                                 buttons.append((self.settings[vk['name']], button))
+                                if 'toggle' in vk:
+                                    buttonDict[vk['toggle']].append((self.settings[vk['name']], button))
                                 row += 1
 
                     elif vj['type'] == 'spinbox':
@@ -240,10 +242,13 @@ STEAM: Input the game folder that contains "Octopath_Traveler-WindowsNoEditor.pa
         pakFiles = self.checkPath(path)
         if pakFiles:
             try:
+                self.bottomLabel('Loading Paks....','blue',0)
                 mainPak = pakFiles.pop()
                 self.rom = ROM(mainPak, patches=pakFiles)
                 self.settings['rom'].set(path)
+                self.bottomLabel('Done.','blue',1)
             except:
+                self.clearBottomLabels()
                 self.bottomLabel('Your game is incompatible with this randomizer.','red',0)
                 self.bottomLabel('It has only been tested on Steam and Switch releases.','red',1)
         else:
