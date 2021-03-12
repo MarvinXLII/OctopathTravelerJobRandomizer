@@ -6,10 +6,11 @@ import hjson
 import random
 import os
 import shutil
+import glob
 import sys
 sys.path.append('src')
 from Utilities import get_filename
-from World import WORLD
+from World import STEAM, SWITCH
 from ROM import ROM
 
 
@@ -66,6 +67,7 @@ class GuiApplication:
         self.togglers = []
         self.settings = {}
         self.settings['release'] = tk.StringVar()
+        self.settings['system'] = tk.StringVar()
         self.rom = None
 
         with open(get_filename('json/gui.json'), 'r') as file:
@@ -91,7 +93,13 @@ class GuiApplication:
 
         pathButton = tk.Button(lf, text='Browse ...', command=self.getPakPath, width=20) # needs command..
         pathButton.grid(row=1, column=1, sticky='e', padx=5, pady=2)
-        self.buildToolTip(pathButton, 'Input the game folder that contains "Octopath_Traveler-WindowsNoEditor.pak".\n\nIt is usally something like\n...\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks.\n\nIt might take a few seconds to load the Pak.', wraplength=500)
+        self.buildToolTip(pathButton,
+                          """
+This loads the pak files needed. It may take a few seconds.\n
+SWITCH: Input the game folder containing "Kingship" pak files. It is in \nRomFS\Kingship\Content\Paks.\n
+STEAM: Input the game folder that contains "Octopath_Traveler-WindowsNoEditor.pak". It is usally something like\n...\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks.
+                          """
+                          , wraplength=500)
 
         name = fields['ROM']['name']
         label = fields['ROM']['label']
@@ -205,35 +213,45 @@ class GuiApplication:
         self.canvas = tk.Canvas()
         self.canvas.grid(row=6, column=0, columnspan=20, pady=10)
 
+    # Ensures a correct path is selected.
+    # Contained files are important for checking, so it will return a sorted list of paks too!
     def checkPath(self, path):
-        if path.split('/')[-1] != 'Paks':
+        # Don't search unless the folder name is correct
+        if not path.split('/')[-1] in ['Paks', 'RomFS']:
             return False
-        try:
-            for file in os.listdir(path):
-                fileName = os.path.join(path, file)
-                if file == 'Octopath_Traveler-WindowsNoEditor.pak':
-                    return True
-        except:
-            pass
-        return False
+        # List of paks
+        fileNames = glob.glob(path + '/**/*.pak', recursive=True)
+        # Filter non-vanilla patches
+        steamFiles = list(filter(lambda x: 'Octopath_Traveler-WindowsNoEditor' in os.path.basename(x), fileNames))
+        switchFiles = list(filter(lambda x: 'Kingship' in os.path.basename(x), fileNames))
+        # Return files
+        if steamFiles:
+            self.settings['system'].set('Steam')
+            return sorted(steamFiles, reverse=True)
+        elif switchFiles:
+            self.settings['system'].set('Switch')
+            return sorted(switchFiles, reverse=True)
+
 
     def getPakPath(self):
         self.clearBottomLabels()
         path = filedialog.askdirectory()
         if path == (): return
-        if self.checkPath(path):
-            self.settings['rom'].set(path)
-            fileName = os.path.join(path, 'Octopath_Traveler-WindowsNoEditor.pak')
+        pakFiles = self.checkPath(path)
+        if pakFiles:
             try:
-                self.rom = ROM(fileName)
+                mainPak = pakFiles.pop()
+                self.rom = ROM(mainPak, patches=pakFiles)
+                self.settings['rom'].set(path)
             except:
                 self.bottomLabel('Your game is incompatible with this randomizer.','red',0)
-                self.bottomLabel('It has only been tested on Steam releases.','red',1)
+                self.bottomLabel('It has only been tested on Steam and Switch releases.','red',1)
         else:
             self.settings['rom'].set('')
-            self.bottomLabel('Selected path must lead to the Paks folder.', 'red', 0)
-            self.bottomLabel('e.g. ....\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks', 'red', 1) 
-            self.bottomLabel('Otherwise, check for Pak outputs in the new seed folder.', 'red', 2) 
+            self.bottomLabel('The folder selected is invalid or does not contained the required paks.', 'red', 0)
+            self.bottomLabel('STEAM: ...\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks', 'red', 1) 
+            self.bottomLabel('SWITCH: ...\RomFS', 'red', 2) 
+            # self.bottomLabel('Otherwise, check for Pak outputs in the new seed folder.', 'red', 2) 
 
     def toggler(self, lst, key):
         def f():
@@ -300,7 +318,7 @@ class GuiApplication:
         self.clearBottomLabels()
         self.bottomLabel('Randomizing....', 'blue', 0)
 
-        if randomize(self.rom, settings):
+        if randomize(self.rom, settings): # STEAM ONLY FOR NOW!!!!
             self.clearBottomLabels()
             self.bottomLabel('Randomizing...done! Good luck!', 'blue', 0)
         else:
@@ -309,12 +327,18 @@ class GuiApplication:
 
 
 def randomize(rom, settings):
-
+    
     try:
         # Start fresh with ROM
         rom.clean()
+        # Load data
+        if settings['system'] == 'Steam':
+            world = STEAM(rom, settings)
+        elif settings['system'] == 'Switch':
+            world = SWITCH(rom, settings)
+        else:
+            sys.exit(f"{settings['system']} not included in the randomizer!")
         # Modify data
-        world = WORLD(rom, settings)
         world.randomize()
         world.qualityOfLife()
         # Dump pak

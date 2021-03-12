@@ -2,26 +2,44 @@ import os
 import random
 import hjson
 import shutil
+import glob
 import sys
 sys.path.append('src')
 from ROM import ROM
 from World import WORLD
 from gui import randomize
 
-def main(settings):
+def main(settings, pak):
     # Load ROM
-    fileName = os.path.join(settings['rom'], 'Octopath_Traveler-WindowsNoEditor.pak')
-    rom = ROM(fileName)
+    rom = ROM(pak)
 
     # Randomize & dump pak
+    settings['system'] = 'Steam'
     randomize(rom, settings)
 
+def mainSwitch(settings, fileNames):
+    # Load ROM
+    fileNames.sort(reverse=True)
+    mainPak = fileNames.pop()
+    rom = ROM(mainPak, patches=fileNames)
+
+    # Randomize & dump pak
+    settings['system'] = 'Switch'
+    randomize(rom, settings)
+    
+    
 if __name__=='__main__':
     if len(sys.argv) != 2:
         sys.exit('Usage: python main.py settings.json')
     with open(sys.argv[1], 'r') as file:
         settings = hjson.load(file)
-    assert os.path.isdir(settings['rom']), "'rom' must lead to Octopath_Traveler-WindowsNoEditor.pak"
-    fileName = os.path.join(settings['rom'], 'Octopath_Traveler-WindowsNoEditor.pak')
-    assert os.path.isfile(fileName), 'Octopath_Traveler-WindowsNoEditor.pak does not exist'
-    main(settings)
+
+    fileNames = glob.glob(settings['rom'] + '/**/*.pak', recursive=True)
+    steamFiles = list(filter(lambda x: 'Octopath_Traveler-WindowsNoEditor' in os.path.basename(x), fileNames))
+    switchFiles = list(filter(lambda x: 'Kingship' in os.path.basename(x), fileNames))
+    
+    if steamFiles:
+        main(settings, steamFiles[0])
+
+    if switchFiles:
+        mainSwitch(settings, switchFiles)

@@ -4,7 +4,7 @@ import sys
 import zlib
 
 class ROM:
-    def __init__(self, fileName):
+    def __init__(self, fileName, patches=None):
         self.file = open(fileName, 'rb')
 
         # Load pointers to files
@@ -30,10 +30,18 @@ class ROM:
         self.data = {}
         self.isPatched = {}
 
+        # Patches
+        if patches:
+            self.patches = [ROM(patch) for patch in patches]
+        else:
+            self.patches = []
+
     def clean(self):
         self.data = {}
         self.isPatched = {}
-        
+        for patch in self.patches:
+            patch.clean()
+
     def patchFile(self, data, fileName):
         key = self.getFullPath(fileName)
         if self.data[key] != data:
@@ -48,22 +56,34 @@ class ROM:
                 return key
             if fileName in key:
                 return key
-        sys.exit(f"{key} does not exist in files!")
                     
     def extractFile(self, fileName):
         key = self.getFullPath(fileName)
-        f = self.files[key]
-        if f['isComp']:
-            pointers = f['pointers']
-            data = bytearray([])
-            for start, end in pointers:
-                self.file.seek(start)
-                size = end - start
-                tmp = self.readBytes(size)
-                data += zlib.decompress(tmp)
-        else:
-            pointer = f['base'] + 8*3 + 4 + 20 + 5
-            data = self.readBytes(pointer, f['size'])
+        if not key: return
+
+        # Check most recent patches first!
+        data = None
+        for patch in self.patches:
+            if key in patch.files:
+                data = patch.extractFile(fileName)
+                break
+
+        if not data:
+            f = self.files[key]
+            if f['isComp']:
+                pointers = f['pointers']
+                data = bytearray([])
+                for start, end in pointers:
+                    self.file.seek(start)
+                    size = end - start
+                    tmp = self.readBytes(size)
+                    data += zlib.decompress(tmp)
+            else:
+                pointer = f['base'] + 8*3 + 4 + 20 + 5
+                self.file.seek(pointer)
+                data = self.readBytes(f['size'])
+
+        
         self.data[key] = data
         self.isPatched[key] = False
         return self.data[key]

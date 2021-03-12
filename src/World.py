@@ -48,7 +48,7 @@ class WORLD:
             self.pcData.startWithSpurningRibbon()
 
         if self.settings['perfect-thievery']:
-            self.shopData.perfectKeyItemThievery()  # RUNS BUT NOT TESTED!!!
+            self.shopData.perfectKeyItemThievery()
 
         if self.settings['no-thief-chests']:
             self.objectData.noThiefChests()
@@ -112,14 +112,38 @@ class WORLD:
         self.abilitySetData.update()
         # Print spoiler logs
         self.spoilerLog()
-        # Dumps pak
-        outFile = os.path.join(self.outPath, 'rando_P.pak')
-        self.rom.buildPak(outFile)
-        if self.settings['copy-pak']:
-            srcFile = outFile
-            dstFile = os.path.join(self.settings['rom'], 'rando_P.pak')
-            shutil.copy(srcFile, dstFile)
         # Dump settings
         outFile = os.path.join(self.outPath, 'settings.json')
         with open(outFile, 'w') as file:
             hjson.dump(self.settings, file)
+
+
+class STEAM(WORLD):
+    def __init__(self, rom, settings):
+        super().__init__(rom, settings)
+
+    def dump(self):
+        super().dump()
+        # Dumps pak
+        pakName = 'rando_P.pak'
+        outFile = os.path.join(self.outPath, pakName)
+        self.rom.buildPak(outFile)
+        if self.settings['copy-pak']:
+            srcFile = outFile
+            dstFile = os.path.join(self.settings['rom'], pakName)
+            shutil.copy(srcFile, dstFile)
+
+
+
+class SWITCH(WORLD):
+    def __init__(self, rom, settings):
+        super().__init__(rom, settings)
+        self.settings['copy-pak'] = False
+
+    def dump(self):
+        super().dump()
+        # Dumps pak
+        dirName = os.path.join(self.outPath, 'romfs', 'Kingship', 'Content', 'Paks')
+        os.makedirs(dirName)
+        outFile = os.path.join(dirName, 'Kingship-Switch_8_P.pak')
+        self.rom.buildPak(outFile)

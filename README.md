@@ -1,7 +1,7 @@
 **ABOUT**
 
-This is the beginnings of a randomizer for Octopath Traveler (Steam version). Check out 
-[mastermind1919's](https://github.com/mastermind1919/OctopathBossRandomizer/releases) for a compatible boss randomizer!
+This is a randomizer for Octopath Traveler (Steam and Switch versions). Check out 
+[mastermind1919's](https://github.com/mastermind1919/OctopathBossRandomizer/releases) for a compatible boss randomizer! (compatible with Steam only)
 
 **OPTIONS**
 
@@ -23,16 +23,40 @@ Several options are available:
 
 Run the executable from the
 [Releases](https://github.com/MarvinXLII/OctopathTravelerJobRandomizer/releases)
-page.  When finished, copy the `*_P.pak` files from the new `seed_###`
-folder into the `Paks` folder in your game, typically located at
-`C:\Program Files (x86)\Steam\steamapps\common\OCTOPATH
-TRAVELER\Octopath_Traveler\Content\Paks`.  The executable also allows
-you to enter this folder manually, which will automatically copy the
-file to its destination.
+page.
+
+
+***Steam***
+
+Load the `Paks` folder and randomize. When finished, copy the
+`*_P.pak` files from the new `seed_###` folder into the `Paks` folder
+in your game, typically located at `C:\Program Files
+(x86)\Steam\steamapps\common\OCTOPATH
+TRAVELER\Octopath_Traveler\Content\Paks`.  The executable also
+includes and option to copy this file automatically to this location.
+
+***Switch***
+
+Load the `RomFS`. When finished, copy the `romfs` from the new
+`seed_###` folder onto your SD card (e.g. on the latest versions of
+atmosphere, `atmosphere/content/titleID/`).
+
+
+***Code***
 
 If you prefer to run the code, you'll have to install Python 3.6+ and
-`hjson`.  Settings can be set in the `main.py` file, and the
-randomizer can be run with `python main.py`.  If you would prefer to
-use the gui, install `tkinter` and run `python gui.py`. You can build
+`hjson` and `tkinter`.  Then, run `python gui.py`. You can build
 the executable yourself by installing `pyinstaller` and running
 `pyinstaller gui.spec`.
+
+
+**COMPATIBILITY**
+
+Note that paks are not compatbile on both Steam and Switch
+releases. For any co-op gameplay or races including both systems,
+players will need to generate their own patches.
+
+The simplest way to do this is for one player to share their
+`settings.json` file in the `seed_###`. This file includes all
+selected settings and can be loaded by clicking the file and dragging
+it onto the executable.
