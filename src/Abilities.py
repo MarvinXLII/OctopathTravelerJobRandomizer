@@ -327,10 +327,13 @@ class ABILITIES:
                 self.ratioPercentChange[key] = sign * int(100*value)
             else:
                 self.ratioPercentChange[key] = None
+            # DO AND PATCH RUNES SEPARATELY!
             if abilities[0] in self.runeToAbility:
                 ability = self.runeToAbility[abilities[0]]
                 updateRatio(ability, value, sign)
+                self.ratioPercentChange[key] = sign * int(100*value)
             else:
+                # Patch the rest
                 for ability in abilities:
                     if self.modRatio[ability]:
                         updateRatio(ability, value, sign)
