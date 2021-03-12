@@ -1,7 +1,7 @@
 {
   "ROM": {
     name: copy-pak
-    label: STEAM ONLY: Output the randomize pak here too!
+    label: STEAM ONLY: Copy the randomized pak here too!
     type: checkbutton
     help: "The pak will always be output in the 'seed' folder along with spoiler logs.\n\nThis option will additionally copy the pak to the game's Pak folder for convenience."
   }

@@ -6,7 +6,6 @@ a = Analysis(
     [
         'gui.py',
         'src/Abilities.py',
-        'src/Classes.py',
         'src/Data.py',
         'src/Jobs.py',
         'src/ROM.py',
