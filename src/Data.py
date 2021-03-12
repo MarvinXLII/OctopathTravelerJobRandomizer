@@ -550,10 +550,10 @@ class JOBDATA(STATS):
         self.talkData.patchText(f"TX_OBN_{textKey}_0020", ', '.join(names[:2]))
         self.talkData.patchText(f"TX_OBN_{textKey}_0030", ', '.join(names[2:]))
 
-    def readSupportCosts(self, key):
+    def readJPCosts(self, key):
         return self.readArray(key, 'JPCost_41_39D417E148D407A63AC22FA2F9F2FA9A')
 
-    def patchSupportCosts(self, key, costs):
+    def patchJPCosts(self, key, costs):
         self.patchArray(key, 'JPCost_41_39D417E148D407A63AC22FA2F9F2FA9A', costs)
 
     def readStats(self, key):

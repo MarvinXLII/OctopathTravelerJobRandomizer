@@ -73,9 +73,9 @@ class WORLD:
         if self.settings['support']:
             random.seed(self.settings['seed'])
             self.jobs.shuffleSupportAbilities()
-        if self.settings['skills-jp-costs']:
+        if self.settings['skills-jp-costs'] or self.settings['skills-jp-costs-adv']:
             random.seed(self.settings['seed'])
-            self.jobs.randomSupportCosts()
+            self.jobs.randomSkillCosts()
         if self.settings['stats']:
             random.seed(self.settings['seed'])
             self.jobs.shuffleStats()

@@ -13,7 +13,7 @@ class JOBS:
         self.emFirst = settings['support-EM']
         self.shuffleStatsData = settings['stats']
         self.statsFairly = settings['stats-fairly']
-        self.randomSuppCosts = settings['skills-jp-costs']
+        self.randomJPCosts = settings['skills-jp-costs']
         self.baseCostsForAdv = settings['skills-jp-costs-adv']
 
         self.statsJOB = {} # Stats from job orbs
@@ -45,7 +45,7 @@ class JOBS:
         for key, job in self.jobName.items():
             self.jobData.supportNameQOL(key, job)
 
-    def randomSupportCosts(self):
+    def randomSkillCosts(self):
         def baseCosts():
             return [
                 0,
@@ -59,7 +59,7 @@ class JOBS:
             ]
 
         def advCosts():
-            return [
+            return sorted([
                 0,
                 random.randint(160, 240) * 10, # 1600 - 2400
                 random.randint(160, 240) * 10, # 1600 - 2400
@@ -68,23 +68,23 @@ class JOBS:
                 random.randint(160, 240) * 10, # 1600 - 2400
                 random.randint(160, 240) * 10, # 1600 - 2400
                 random.randint(400, 600) * 10, # 4000 - 6000
-            ]
+            ])
 
         jobKeys = list(self.jobData.table.keys())
-        if self.randomSuppCosts:
+        if self.randomJPCosts:
             for key in jobKeys[:8]:
-                self.jobData.patchSupportCosts(key, baseCosts())
+                self.jobData.patchJPCosts(key, baseCosts())
             if self.baseCostsForAdv:
                 for key in jobKeys[8:]:
-                    self.jobData.patchSupportCosts(key, baseCosts())
+                    self.jobData.patchJPCosts(key, baseCosts())
             else:
                 for key in jobKeys[8:]:
-                    self.jobData.patchSupportCosts(key, advCosts())
+                    self.jobData.patchJPCosts(key, advCosts())
         else:
             if self.baseCostsForAdv:
                 costs = [0, 0, 30, 100, 500, 1000, 3000, 5000]
                 for key in jobKeys[8:]:
-                    self.jobData.patchSupportCosts(key, costs)
+                    self.jobData.patchJPCosts(key, costs)
 
 
     def shuffleSupportAbilities(self):
@@ -120,9 +120,9 @@ class JOBS:
         self.jobData.patchSupportArray(self.keyWithEM, support, params=[3, 5, 6, 7])
 
         # Cost 1 JP for the third skill
-        costs = self.jobData.readSupportCosts(self.keyWithEM)
+        costs = self.jobData.readJPCosts(self.keyWithEM)
         costs[2] = 1
-        self.jobData.patchSupportCosts(self.keyWithEM, costs)
+        self.jobData.patchJPCosts(self.keyWithEM, costs)
 
     def shuffleStats(self):
 
@@ -210,15 +210,15 @@ class JOBS:
                 values = values[:2] + values[4:] # Remove "SP" and BP
                 print('   ', job.ljust(14, ' '), *values)
 
-        fileName = os.path.join(path, 'spoiler_job_sp_costs.log')
+        fileName = os.path.join(path, 'spoiler_job_jp_costs.log')
         with open(fileName, 'w') as sys.stdout:
             print('==========')
-            print(' SP Costs ')
+            print(' JP Costs ')
             print('==========')
             print('')
             print('')
             for key, job in self.jobName.items():
-                values = [f"{c}".rjust(6, ' ') for c in self.jobData.readSupportCosts(key)]
+                values = [f"{c}".rjust(6, ' ') for c in self.jobData.readJPCosts(key)]
                 print(job.ljust(14, ' '), *values)
 
         sys.stdout = sys.__stdout__
