@@ -172,7 +172,7 @@ class ROM:
     def getBaseDir(self):
         fileNames = list(filter(lambda key: self.isPatched[key], self.data.keys()))
         comDir = os.path.dirname(os.path.commonprefix(fileNames))
-        return os.path.join(self.baseDir, comDir + '/'), comDir
+        return self.baseDir+comDir+'/', comDir+'/'
     
     def buildPak(self, output):
         pakFile = bytearray([]) # This points to pakData entries
@@ -191,7 +191,7 @@ class ROM:
                 continue
             base = len(pakData)
             # Filename (relative to the new base directory)
-            tmpDir = os.path.relpath(key, comDir)
+            tmpDir = key.split(comDir)[-1]
             fileName = self.pakString(tmpDir)
             size = len(fileName)
             pakFile += self.pakInt(size)
