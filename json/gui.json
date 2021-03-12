@@ -17,7 +17,7 @@
 	    name: skills-one-divine
             label: Separately shuffle divine skills
 	    type: checkbutton
-	    help: "This ensures each job will only get one Divine Skill, each remaining in the eight slot."
+	    help: "This ensures each job will only get one Divine Skill."
 	  }
 	  {
 	    name: skills-separate
@@ -163,16 +163,19 @@
 	indent: [
 	  {
 	    name: items-separate-chests
+	    toggle: items
 	    label: Chests
 	    type: checkbutton
 	  }
 	  {
 	    name: items-separate-hidden
+	    toggle: items
 	    label: Hidden items
 	    type: checkbutton
 	  }
 	  {
 	    name: items-separate-npc
+	    toggle: items
 	    label: NPC items
 	    type: checkbutton
 	  }
