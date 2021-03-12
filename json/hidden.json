@@ -617,147 +617,147 @@
   }
   HdnPnt_River_F13_01:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: West Clearbrook Traverse
     NPC: Farmer
     Shuffle: false
   }
   HdnPnt_River_TLA_01:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Saintsbridge
     NPC: Townsperson
     Shuffle: true
   }
   HdnPnt_River_TLA_02:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Saintsbridge
     NPC: River Dweller
     Shuffle: true
   }
   HdnPnt_River_TLB_01:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Saintsbridge Upstream
     NPC: Townsperson
     Shuffle: true
   }
   HdnPnt_River_TLB_02:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Saintsbridge Upstream
     NPC: Kndly Cleric
     Shuffle: true
   }
   HdnPnt_River_TLC_01:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Saintsbridge
     NPC: Worrywart
     Shuffle: true
   }
   HdnPnt_River_TLC_02:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Saintsbridge Cathedral
     NPC: Townsperson
     Shuffle: true
   }
   HdnPnt_River_TLC_03:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Saintsbridge Cathedral
     NPC: Cleric
     Shuffle: true
   }
   HdnPnt_River_TLC_04:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Saintsbridge Cathedral
     NPC: Erstwhile Sellsword
     Shuffle: true
   }
   HdnPnt_River_TMA_01:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Riverford
     NPC: Guard
     Shuffle: true
   }
   HdnPnt_River_TMA_02:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Riverford
     NPC: Old Man
     Shuffle: true
   }
   HdnPnt_River_TMA_03:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Lower Riverford
     NPC: Merchant
     Shuffle: true
   }
   HdnPnt_River_TMB_01:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Lower Riverford
     NPC: Guard
     Shuffle: true
   }
   HdnPnt_River_TMB_02:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Lower Riverford
     NPC: Townsperson
     Shuffle: true
   }
   HdnPnt_River_TS_01:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Clearbrook
     NPC: Zeph
     Shuffle: true
   }
   HdnPnt_River_TS_02:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Clearbrook
     NPC: Granddaughter
     Shuffle: true
   }
   HdnPnt_River_TS_03:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Clearbrook
     NPC: Elderly Woman
     Shuffle: true
   }
   HdnPnt_River_TS_04:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Clearbrook
     NPC: Angler
     Shuffle: true
   }
   HdnPnt_River_TS_05:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Clearbrook
     NPC: Meryl
     Shuffle: true
   }
   HdnPnt_River_TS_07:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Clearbrook
     NPC: Meryl's Mother
     Shuffle: true
   }
   HdnPnt_River_TS_08:
   {
-    Region: Riverland
+    Region: Riverlands
     Location: Clearbrook
     NPC: Gertas
     Shuffle: true
