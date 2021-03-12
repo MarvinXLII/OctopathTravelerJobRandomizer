@@ -39,7 +39,7 @@ includes and option to copy this file automatically to this location.
 
 Load the `RomFS`. When finished, copy the `romfs` from the new
 `seed_###` folder onto your SD card (e.g. on the latest versions of
-atmosphere, `atmosphere/content/titleID/`).
+atmosphere, `atmosphere\content\titleID\`).
 
 
 #### Code
