@@ -1,7 +1,7 @@
 ## ABOUT
 
 This is a randomizer for Octopath Traveler (Steam and Switch versions). Check out 
-[mastermind1919's](https://github.com/mastermind1919/OctopathBossRandomizer/releases) for a compatible boss randomizer! (compatible with Steam only)
+[mastermind1919](https://github.com/mastermind1919/OctopathBossRandomizer/releases) for a compatible boss randomizer! (compatible with Steam only)
 
 ## OPTIONS
 
