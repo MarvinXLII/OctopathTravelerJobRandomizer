@@ -110,8 +110,16 @@ class JOBS:
         for jobKey in self.jobData.table:
             support = self.jobData.readSupportArray(jobKey)
             if emName in support:
-                self.keyWithEM = jobKey
                 break
+
+        # Ensure EM belongs to a base job 
+        swapKey = random.sample(list(self.jobData.table.keys())[:8], 1)[0]
+        if swapKey != jobKey:
+            swapSupport = self.jobData.readSupportArray(swapKey)
+            self.jobData.patchSupportArray(jobKey, swapSupport, params=[4, 5, 6, 7])
+            self.keyWithEM = swapKey
+        else:
+            self.keyWithEM = jobKey
 
         # Make EM the first support skill
         idx = support.index(emName)
