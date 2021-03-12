@@ -172,7 +172,7 @@ class ROM:
     def getBaseDir(self):
         fileNames = list(filter(lambda key: self.isPatched[key], self.data.keys()))
         comDir = os.path.dirname(os.path.commonprefix(fileNames))
-        return os.path.join(self.baseDir, comDir + os.path.sep), comDir
+        return os.path.join(self.baseDir, comDir + '/'), comDir
     
     def buildPak(self, output):
         pakFile = bytearray([]) # This points to pakData entries
@@ -183,7 +183,7 @@ class ROM:
         pakFile += self.pakInt(size)
         pakFile += baseDirBytes
         # Number of files
-        pakFile += self.pakInt(len(self.data))
+        pakFile += self.pakInt(sum(self.isPatched.values()))
         # Loop over files
         for key, data in self.data.items():
             # Only include modified files
@@ -270,21 +270,21 @@ class ROM:
             file.write(pak)
 
 
-if __name__ == '__main__':
-    pak = sys.argv[1]
-    base = os.path.splitext(pak)[0]
+# if __name__ == '__main__':
+#     pak = sys.argv[1]
+#     base = os.path.splitext(pak)[0]
 
-    if os.path.isdir(base):
-        print(f"Directory exists. Must manually remove the directory to unpak {pak}")
-        sys.exit()
+#     if os.path.isdir(base):
+#         print(f"Directory exists. Must manually remove the directory to unpak {pak}")
+#         sys.exit()
 
-    # Extract all files of the pak and dump
-    rom = ROM(pak)
-    for file in rom.files:
-        data = rom.extractFile(file)
-        fileName = os.path.join(base, file)
-        dirName = os.path.dirname(fileName)
-        if not os.path.isdir(dirName):
-            os.makedirs(dirName)
-        with open(fileName, 'wb') as f:
-            f.write(data)
+#     # Extract all files of the pak and dump
+#     rom = ROM(pak)
+#     for file in rom.files:
+#         data = rom.extractFile(file)
+#         fileName = os.path.join(base, file)
+#         dirName = os.path.dirname(fileName)
+#         if not os.path.isdir(dirName):
+#             os.makedirs(dirName)
+#         with open(fileName, 'wb') as f:
+#             f.write(data)

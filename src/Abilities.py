@@ -269,7 +269,7 @@ class ABILITIES:
             slot = keys.pop()
             # Cannot overwrite Hired Help or Nightmare Chimera due to UI
             abilityName = self.abilitySets.getAbilityNames(slot)[0]
-            if abilityName == 'BT_ABI_025' or ability == 'BT_ABI_313':
+            if abilityName == 'BT_ABI_025' or abilityName == 'BT_ABI_313':
                 continue
             # Get and store suitable candidate
             candidate = self.getCompatibleCapture(slot, candidates)
