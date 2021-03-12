@@ -267,8 +267,9 @@ class ABILITIES:
         count = random.randrange(8, 17)
         while count:
             slot = keys.pop()
-            # Cannot overwrite Hired Help (abilities BT_ABI_025,.... seemed to be hard coded as calling HH rather than using the ability table)
-            if self.abilitySets.getAbilityNames(slot)[0] == 'BT_ABI_025':
+            # Cannot overwrite Hired Help or Nightmare Chimera due to UI
+            abilityName = self.abilitySets.getAbilityNames(slot)[0]
+            if abilityName == 'BT_ABI_025' or ability == 'BT_ABI_313':
                 continue
             # Get and store suitable candidate
             candidate = self.getCompatibleCapture(slot, candidates)
