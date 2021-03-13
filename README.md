@@ -30,17 +30,18 @@ page.
 
 Load the `Paks` folder and randomize. When finished, copy the
 `*_P.pak` files from the new `seed_###` folder into the `Paks` folder
-in your game, typically located at `C:\Program Files
+in your game. This folder is located at `C:\Program Files
 (x86)\Steam\steamapps\common\OCTOPATH
 TRAVELER\Octopath_Traveler\Content\Paks`.  The executable also
-includes and option to copy this file automatically to this location.
+includes and option to copy the output pak file automatically to this
+location.
 
 #### Switch
 
-Load the `RomFS`. When finished, copy the `romfs` from the new
-`seed_###` folder onto your SD card (e.g. on the latest versions of
-atmosphere, `atmosphere\content\titleID\`).
-
+Load the `Paks` folder found in `RomFS\Octopath Traveler
+v262144....`. When the randomizer is finished, copy the `romfs` from
+the new `seed_###` folder onto your SD card (e.g. on the latest
+versions of atmosphere, `atmosphere\content\titleID\`).
 
 #### Code
 

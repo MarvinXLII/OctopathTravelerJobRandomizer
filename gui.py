@@ -88,7 +88,7 @@ class GuiApplication:
         pathToPak = tk.Entry(lf, textvariable=self.settings['rom'], width=65, state='readonly')
         pathToPak.grid(row=0, column=0, columnspan=2, padx=(10,0), pady=3)
 
-        pathLabel = tk.Label(lf, text='Path to "Paks" or "RomFS" folder')
+        pathLabel = tk.Label(lf, text='Path to "Paks" folder')
         pathLabel.grid(row=1, column=0, sticky='w', padx=5, pady=2)
 
         pathButton = tk.Button(lf, text='Browse ...', command=self.getPakPath, width=20) # needs command..
@@ -96,7 +96,7 @@ class GuiApplication:
         self.buildToolTip(pathButton,
                           """
 This loads the pak files needed. It may take a few seconds.\n
-SWITCH: Input the game folder containing "Kingship" pak files. It is in \nRomFS\Kingship\Content\Paks.\n
+SWITCH: Input the game folder containing "Kingship" pak files. It is in \nRomFS\Octopath Traveler v262144....\Kingship\Content\Paks.\n
 STEAM: Input the game folder that contains "Octopath_Traveler-WindowsNoEditor.pak". It is usally something like\n...\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks.
                           """
                           , wraplength=500)
@@ -219,18 +219,23 @@ STEAM: Input the game folder that contains "Octopath_Traveler-WindowsNoEditor.pa
     # Contained files are important for checking, so it will return a sorted list of paks too!
     def checkPath(self, path):
         # Don't search unless the folder name is correct
-        if not path.split('/')[-1] in ['Paks', 'RomFS']:
+        if not path.split('/')[-1] == 'Paks':
             return False
-        # List of paks
+
+        # List of paks then filter (just on the off chance a user has other paks in the same directory)
         fileNames = glob.glob(path + '/**/*.pak', recursive=True)
-        # Filter non-vanilla patches
-        steamFiles = list(filter(lambda x: 'Octopath_Traveler-WindowsNoEditor' in os.path.basename(x), fileNames))
-        switchFiles = list(filter(lambda x: 'Kingship' in os.path.basename(x), fileNames))
-        # Return files
+
+        # Check if steam version
+        steamFiles = list(filter(lambda x: os.path.basename(x) == 'Octopath_Traveler-WindowsNoEditor.pak', fileNames))
         if steamFiles:
             self.settings['system'].set('Steam')
             return sorted(steamFiles, reverse=True)
-        elif switchFiles:
+
+        # Check if switch version
+        switchFiles = list(filter(lambda x: os.path.basename(x) == 'Kingship-Switch.pak', fileNames))
+        switchFiles += list(filter(lambda x: os.path.basename(x) == 'Kingship-Switch_0_P.pak', fileNames))
+        # Return files
+        if switchFiles:
             self.settings['system'].set('Switch')
             return sorted(switchFiles, reverse=True)
 
@@ -255,7 +260,7 @@ STEAM: Input the game folder that contains "Octopath_Traveler-WindowsNoEditor.pa
             self.settings['rom'].set('')
             self.bottomLabel('The folder selected is invalid or does not contained the required paks.', 'red', 0)
             self.bottomLabel('STEAM: ...\OCTOPATH_TRAVELER\Octopath_Traveler\Content\Paks', 'red', 1) 
-            self.bottomLabel('SWITCH: ...\RomFS', 'red', 2) 
+            self.bottomLabel('SWITCH: ...\RomFS\OCTOPATH TRAVELER v262144...\Kingship\Content\Paks', 'red', 2) 
             # self.bottomLabel('Otherwise, check for Pak outputs in the new seed folder.', 'red', 2) 
 
     def toggler(self, lst, key):

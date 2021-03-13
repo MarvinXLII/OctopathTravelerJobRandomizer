@@ -35,8 +35,9 @@ if __name__=='__main__':
         settings = hjson.load(file)
 
     fileNames = glob.glob(settings['rom'] + '/**/*.pak', recursive=True)
-    steamFiles = list(filter(lambda x: 'Octopath_Traveler-WindowsNoEditor' in os.path.basename(x), fileNames))
-    switchFiles = list(filter(lambda x: 'Kingship' in os.path.basename(x), fileNames))
+    steamFiles = list(filter(lambda x: os.path.basename(x) == 'Octopath_Traveler-WindowsNoEditor.pak', fileNames))
+    switchFiles = list(filter(lambda x: os.path.basename(x) == 'Kingship-Switch.pak', fileNames))
+    switchFiles += list(filter(lambda x: os.path.basename(x) == 'Kingship-Switch_0_P.pak', fileNames))
     
     if steamFiles:
         main(settings, steamFiles[0])

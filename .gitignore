@@ -6,5 +6,6 @@ stuff
 seed_*
 Octopath_Traveler
 Octopath_Traveler_Switch
-settings.json
+settings*.json
 TODO.txt
+paks
