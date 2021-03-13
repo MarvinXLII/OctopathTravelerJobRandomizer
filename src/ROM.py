@@ -132,7 +132,7 @@ class ROM:
         self.files[fileName] = f
 
         address = self.file.tell()
-        assert self.checkSHA(f['pointers'][0][0], f['size'], f['sha1'])
+        # assert self.checkSHA(f['pointers'][0][0], f['size'], f['sha1'])
         self.file.seek(address)
 
     def readString(self, size):
