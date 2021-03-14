@@ -201,7 +201,7 @@
     ModRatio: false
     Icon: Status
     Name: Physical Boost
-    Description: Augment a single, random ally's physical attack and physical defense for 2 turns.
+    Description: Augment a single ally's physical attack and physical defense for 2 turns.
   }
   BT_ABI_4150:
   {
@@ -213,7 +213,7 @@
     ModRatio: false
     Icon: Status
     Name: Physical Boost
-    Description: Augment a single, random ally's physical attack and physical defense for 3 turns.
+    Description: Augment a single ally's physical attack and physical defense for 3 turns.
   }
   BT_ABI_4151:
   {
@@ -225,7 +225,7 @@
     ModRatio: false
     Icon: Status
     Name: Physical Boost
-    Description: Augment a single, random ally's physical attack and physical defense for 4 turns.
+    Description: Augment a single ally's physical attack and physical defense for 4 turns.
   }
   BT_ABI_4152:
   {
@@ -237,7 +237,7 @@
     ModRatio: false
     Icon: Status
     Name: Physical Boost
-    Description: Augment a single, random ally's physical attack and physical defense for 5 turns.
+    Description: Augment a single ally's physical attack and physical defense for 5 turns.
   }
   BT_ABI_4153:
   {
@@ -249,7 +249,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost
-    Description: Augment a single, random ally's elemental attack and elemental defense for 2 turns.
+    Description: Augment a single ally's elemental attack and elemental defense for 2 turns.
   }
   BT_ABI_4154:
   {
@@ -261,7 +261,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost
-    Description: Augment a single, random ally's elemental attack and elemental defense for 3 turns.
+    Description: Augment a single ally's elemental attack and elemental defense for 3 turns.
   }
   BT_ABI_4155:
   {
@@ -273,7 +273,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost
-    Description: Augment a single, random ally's elemental attack and elemental defense for 4 turns.
+    Description: Augment a single ally's elemental attack and elemental defense for 4 turns.
   }
   BT_ABI_4156:
   {
@@ -285,7 +285,7 @@
     ModRatio: false
     Icon: Status
     Name: Mental Boost
-    Description: Augment a single, random ally's elemental attack and elemental defense for 5 turns.
+    Description: Augment a single ally's elemental attack and elemental defense for 5 turns.
   }
   BT_ABI_4157:
   {
@@ -1929,7 +1929,7 @@
     ModRatio: true
     Icon: Physical
     Name: Invincible Cleave
-    Description: Grants a single, random ally invincibility for 2 turns.
+    Description: Grants a single ally invincibility for 2 turns.
   }
   BT_ABI_4294:
   {
@@ -1941,7 +1941,7 @@
     ModRatio: true
     Icon: Physical
     Name: Invincible Cleave
-    Description: Grants a single, random ally invincibility for 2 turns.
+    Description: Grants a single ally invincibility for 2 turns.
   }
   BT_ABI_4295:
   {
@@ -1953,7 +1953,7 @@
     ModRatio: true
     Icon: Physical
     Name: Invincible Cleave
-    Description: Grants a single, random ally invincibility for 2 turns.
+    Description: Grants a single ally invincibility for 2 turns.
   }
   BT_ABI_4296:
   {
@@ -1965,7 +1965,7 @@
     ModRatio: true
     Icon: Physical
     Name: Invincible Cleave
-    Description: Grants a single, random ally invincibility for 2 turns.
+    Description: Grants a single ally invincibility for 2 turns.
   }
   BT_ABI_4297:
   {
@@ -1977,7 +1977,7 @@
     ModRatio: true
     Icon: Physical
     Name: Striking Sword Dance
-    Description: Augment a single, random ally's physical attack for 2 turns.
+    Description: Augment a single ally's physical attack for 2 turns.
   }
   BT_ABI_4298:
   {
@@ -1989,7 +1989,7 @@
     ModRatio: true
     Icon: Physical
     Name: Striking Sword Dance
-    Description: Augment a single, random ally's physical attack for 2 turns.
+    Description: Augment a single ally's physical attack for 2 turns.
   }
   BT_ABI_4299:
   {
@@ -2001,7 +2001,7 @@
     ModRatio: true
     Icon: Physical
     Name: Striking Sword Dance
-    Description: Augment a single, random ally's physical attack for 2 turns.
+    Description: Augment a single ally's physical attack for 2 turns.
   }
   BT_ABI_4300:
   {
@@ -2013,7 +2013,7 @@
     ModRatio: true
     Icon: Physical
     Name: Striking Sword Dance
-    Description: Augment a single, random ally's physical attack for 2 turns.
+    Description: Augment a single ally's physical attack for 2 turns.
   }
   BT_ABI_4301:
   {
@@ -2025,7 +2025,7 @@
     ModRatio: true
     Icon: Physical
     Name: Swordwall Dance
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4302:
   {
@@ -2037,7 +2037,7 @@
     ModRatio: true
     Icon: Physical
     Name: Swordwall Dance
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4303:
   {
@@ -2049,7 +2049,7 @@
     ModRatio: true
     Icon: Physical
     Name: Swordwall Dance
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4304:
   {
@@ -2061,7 +2061,7 @@
     ModRatio: true
     Icon: Physical
     Name: Swordwall Dance
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4305:
   {
@@ -2073,7 +2073,7 @@
     ModRatio: true
     Icon: Physical
     Name: Bulwark Axe
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4306:
   {
@@ -2085,7 +2085,7 @@
     ModRatio: true
     Icon: Physical
     Name: Bulwark Axe
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4307:
   {
@@ -2097,7 +2097,7 @@
     ModRatio: true
     Icon: Physical
     Name: Bulwark Axe
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4308:
   {
@@ -2109,7 +2109,7 @@
     ModRatio: true
     Icon: Physical
     Name: Bulwark Axe
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4309:
   {
@@ -2121,7 +2121,7 @@
     ModRatio: true
     Icon: Physical
     Name: Guardian Axe
-    Description: Augment a single, random ally's elemental defense for 2 turns.
+    Description: Augment a single ally's elemental defense for 2 turns.
   }
   BT_ABI_4310:
   {
@@ -2133,7 +2133,7 @@
     ModRatio: true
     Icon: Physical
     Name: Guardian Axe
-    Description: Augment a single, random ally's elemental defense for 2 turns.
+    Description: Augment a single ally's elemental defense for 2 turns.
   }
   BT_ABI_4311:
   {
@@ -2145,7 +2145,7 @@
     ModRatio: true
     Icon: Physical
     Name: Guardian Axe
-    Description: Augment a single, random ally's elemental defense for 2 turns.
+    Description: Augment a single ally's elemental defense for 2 turns.
   }
   BT_ABI_4312:
   {
@@ -2157,7 +2157,7 @@
     ModRatio: true
     Icon: Physical
     Name: Guardian Axe
-    Description: Augment a single, random ally's elemental defense for 2 turns.
+    Description: Augment a single ally's elemental defense for 2 turns.
   }
   BT_ABI_4313:
   {
@@ -2169,7 +2169,7 @@
     ModRatio: true
     Icon: Physical
     Name: Retaliative Axe
-    Description: Grants a single, random ally the ability to counter physical damage 2 times.
+    Description: Grants a single ally the ability to counter physical damage 2 times.
   }
   BT_ABI_4314:
   {
@@ -2181,7 +2181,7 @@
     ModRatio: true
     Icon: Physical
     Name: Retaliative Axe
-    Description: Grants a single, random ally the ability to counter physical damage 3 times.
+    Description: Grants a single ally the ability to counter physical damage 3 times.
   }
   BT_ABI_4315:
   {
@@ -2193,7 +2193,7 @@
     ModRatio: true
     Icon: Physical
     Name: Retaliative Axe
-    Description: Grants a single, random ally the ability to counter physical damage 4 times.
+    Description: Grants a single ally the ability to counter physical damage 4 times.
   }
   BT_ABI_4316:
   {
@@ -2205,7 +2205,7 @@
     ModRatio: true
     Icon: Physical
     Name: Retaliative Axe
-    Description: Grants a single, random ally the ability to counter physical damage 5 times.
+    Description: Grants a single ally the ability to counter physical damage 5 times.
   }
   BT_ABI_4317:
   {
@@ -2265,7 +2265,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
-    Description: Augment a single, random ally's elemental defense for 2 turns.
+    Description: Augment a single ally's elemental defense for 2 turns.
   }
   BT_ABI_4322:
   {
@@ -2277,7 +2277,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
-    Description: Augment a single, random ally's elemental defense for 2 turns.
+    Description: Augment a single ally's elemental defense for 2 turns.
   }
   BT_ABI_4323:
   {
@@ -2289,7 +2289,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
-    Description: Augment a single, random ally's elemental defense for 2 turns.
+    Description: Augment a single ally's elemental defense for 2 turns.
   }
   BT_ABI_4324:
   {
@@ -2301,7 +2301,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
-    Description: Augment a single, random ally's elemental defense for 2 turns.
+    Description: Augment a single ally's elemental defense for 2 turns.
   }
   BT_ABI_4325:
   {
@@ -2409,7 +2409,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Elemental Arrow Dance
-    Description: Augment a single, random ally's elemental attack for 2 turns.
+    Description: Augment a single ally's elemental attack for 2 turns.
   }
   BT_ABI_4334:
   {
@@ -2421,7 +2421,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Elemental Arrow Dance
-    Description: Augment a single, random ally's elemental attack for 2 turns.
+    Description: Augment a single ally's elemental attack for 2 turns.
   }
   BT_ABI_4335:
   {
@@ -2433,7 +2433,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Elemental Arrow Dance
-    Description: Augment a single, random ally's elemental attack for 2 turns.
+    Description: Augment a single ally's elemental attack for 2 turns.
   }
   BT_ABI_4336:
   {
@@ -2445,7 +2445,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Elemental Arrow Dance
-    Description: Augment a single, random ally's elemental attack for 2 turns.
+    Description: Augment a single ally's elemental attack for 2 turns.
   }
   BT_ABI_4337:
   {
@@ -2505,7 +2505,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
-    Description: Augment a single, random ally's speed for 2 turns.
+    Description: Augment a single ally's speed for 2 turns.
   }
   BT_ABI_4342:
   {
@@ -2517,7 +2517,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
-    Description: Augment a single, random ally's speed for 2 turns.
+    Description: Augment a single ally's speed for 2 turns.
   }
   BT_ABI_4343:
   {
@@ -2529,7 +2529,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
-    Description: Augment a single, random ally's speed for 2 turns.
+    Description: Augment a single ally's speed for 2 turns.
   }
   BT_ABI_4344:
   {
@@ -2541,7 +2541,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
-    Description: Augment a single, random ally's speed for 2 turns.
+    Description: Augment a single ally's speed for 2 turns.
   }
   BT_ABI_4345:
   {
@@ -2697,7 +2697,7 @@
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4358:
   {
@@ -2709,7 +2709,7 @@
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4359:
   {
@@ -2721,7 +2721,7 @@
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4360:
   {
@@ -2733,7 +2733,7 @@
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
-    Description: Augment a single, random ally's physical defense for 2 turns.
+    Description: Augment a single ally's physical defense for 2 turns.
   }
   BT_ABI_4365:
   {
@@ -3033,7 +3033,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally's Physical Defense for 2 turns and grants 1 Counter buff.
+    Description: Augments a single ally's Physical Defense for 2 turns and grants 1 Counter buff.
   }
   BT_ABI_4394:
   {
@@ -3045,7 +3045,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally's Physical Defense for 2 turns and grants 2 Counter buffs.
+    Description: Augments a single ally's Physical Defense for 2 turns and grants 2 Counter buffs.
   }
   BT_ABI_4395:
   {
@@ -3057,7 +3057,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally's Physical Defense for 2 turns and grants 3 Counter buffs.
+    Description: Augments a single ally's Physical Defense for 2 turns and grants 3 Counter buffs.
   }
   BT_ABI_4396:
   {
@@ -3069,7 +3069,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally's Physical Defense for 2 turns and grants 4 Counter buffs.
+    Description: Augments a single ally's Physical Defense for 2 turns and grants 4 Counter buffs.
   }
   BT_ABI_4397:
   {
@@ -3225,7 +3225,7 @@
     ModRatio: true
     Icon: Physical
     Name: Convincing Blow
-    Description: Augment a single, random ally's critical rate for 2 turns
+    Description: Augment a single ally's critical rate for 2 turns
   }
   BT_ABI_4414:
   {
@@ -3237,7 +3237,7 @@
     ModRatio: true
     Icon: Physical
     Name: Convincing Blow
-    Description: Augment a single, random ally's critical rate for 2 turns
+    Description: Augment a single ally's critical rate for 2 turns
   }
   BT_ABI_4415:
   {
@@ -3249,7 +3249,7 @@
     ModRatio: true
     Icon: Physical
     Name: Convincing Blow
-    Description: Augment a single, random ally's critical rate for 2 turns
+    Description: Augment a single ally's critical rate for 2 turns
   }
   BT_ABI_4416:
   {
@@ -3261,7 +3261,7 @@
     ModRatio: true
     Icon: Physical
     Name: Convincing Blow
-    Description: Augment a single, random ally's critical rate for 2 turns
+    Description: Augment a single ally's critical rate for 2 turns
   }
   BT_ABI_4417:
   {
@@ -4185,7 +4185,7 @@
     ModRatio: false
     Icon: Status
     Name: Impact Clock
-    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single, random ally for 2 turns.
+    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single ally for 2 turns.
   }
   BT_ABI_4498:
   {
@@ -4197,7 +4197,7 @@
     ModRatio: false
     Icon: Status
     Name: Impact Clock
-    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single, random ally for 3 turns.
+    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single ally for 3 turns.
   }
   BT_ABI_4499:
   {
@@ -4209,7 +4209,7 @@
     ModRatio: false
     Icon: Status
     Name: Impact Clock
-    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single, random ally for 4 turns.
+    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single ally for 4 turns.
   }
   BT_ABI_4500:
   {
@@ -4221,7 +4221,7 @@
     ModRatio: false
     Icon: Status
     Name: Impact Clock
-    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single, random ally for 5 turns.
+    Description: Augment the speed, physical attack, physical defense, elemental attack, and elemental defense of a single ally for 5 turns.
   }
   BT_ABI_4501:
   {
