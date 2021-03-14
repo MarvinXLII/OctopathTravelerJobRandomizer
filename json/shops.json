@@ -53,14 +53,14 @@
     NPC: Nomadic Hunter
     Shuffle: false
     Region: Woodlands
-    Location: North S’warkii Trail
+    Location: North S'warkii Trail
   }
   ForestF12_SHOP_FC_01_2:
   {
     NPC: Nomadic Hunter
     Shuffle: true
     Region: Woodlands
-    Location: North S’warkii Trail
+    Location: North S'warkii Trail
   }
   RiverF12_SHOP_FC_01_1:
   {
@@ -123,14 +123,14 @@
     NPC: Roving Naturalist
     Shuffle: true
     Region: Frostlands
-    Location: North S’warkii Trail
+    Location: North S'warkii Trail
   }
   SnowF12_SHOP_FC_01_2:
   {
     NPC: Roving Naturalist
     Shuffle: true
     Region: Frostlands
-    Location: North S’warkii Trail
+    Location: North S'warkii Trail
   }
   CliffL_SHOP_FC_01_1:
   {
@@ -907,217 +907,217 @@
     NPC: Bryan
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestL_SHOP_FC_62_2:
   {
     NPC: Bryan
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_01_1:
   {
     NPC: Village Headman
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_01_2:
   {
     NPC: Village Headman
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_02_1:
   {
     NPC: Fledgling Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_02_2:
   {
     NPC: Fledgling Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_03_1:
   {
     NPC: Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_03_2:
   {
     NPC: Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_03_3:
   {
     NPC: Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_04_1:
   {
     NPC: Fledgling Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_04_2:
   {
     NPC: Fledgling Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_04_3:
   {
     NPC: Fledgling Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_05_1:
   {
     NPC: Lord Ciaran's Herald
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_06_1:
   {
     NPC: Villager
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_07_1:
   {
     NPC: Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_07_2:
   {
     NPC: Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_07_3:
   {
     NPC: Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_08_1:
   {
     NPC: Villager
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_09_1:
   {
     NPC: Boy
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_11_1:
   {
     NPC: Genteel Madam
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_11_2:
   {
     NPC: Genteel Madam
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_12_1:
   {
     NPC: Fledgling Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_12_2:
   {
     NPC: Fledgling Hunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_15_1:
   {
     NPC: Ashlan
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_16_1:
   {
     NPC: Old Storyteller
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_16_2:
   {
     NPC: Old Storyteller
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_17_1:
   {
     NPC: Scholar of Beasts
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_17_2:
   {
     NPC: Scholar of Beasts
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_18_1:
   {
     NPC: Bernhard the Beasthunter
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_19_1:
   {
     NPC: Z'aanta
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   ForestS_SHOP_FC_19_2:
   {
     NPC: Z'aanta
     Shuffle: true
     Region: Woodlands
-    Location: S’warkii
+    Location: S'warkii
   }
   MountS_SHOP_FC_01_1:
   {

@@ -393,7 +393,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Black Bile
-    Description: Occasionally decreases the target’s physical attack and/or physical defense for 4 turns.
+    Description: Occasionally decreases the target's physical attack and/or physical defense for 4 turns.
   }
   BT_ABI_4166:
   {
@@ -405,7 +405,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Black Bile
-    Description: Occasionally decreases the target’s physical attack and/or physical defense for 4 turns.
+    Description: Occasionally decreases the target's physical attack and/or physical defense for 4 turns.
   }
   BT_ABI_4167:
   {
@@ -417,7 +417,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Black Bile
-    Description: Occasionally decreases the target’s physical attack and/or physical defense for 4 turns.
+    Description: Occasionally decreases the target's physical attack and/or physical defense for 4 turns.
   }
   BT_ABI_4168:
   {
@@ -429,7 +429,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Black Bile
-    Description: Occasionally decreases the target’s physical attack and/or physical defense for 4 turns.
+    Description: Occasionally decreases the target's physical attack and/or physical defense for 4 turns.
   }
   BT_ABI_4169:
   {
@@ -441,7 +441,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Red Bile
-    Description: Occasionally decreases the target’s elemental attack and/or elemental defense for 4 turns.
+    Description: Occasionally decreases the target's elemental attack and/or elemental defense for 4 turns.
   }
   BT_ABI_4170:
   {
@@ -453,7 +453,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Red Bile
-    Description: Occasionally decreases the target’s elemental attack and/or elemental defense for 4 turns.
+    Description: Occasionally decreases the target's elemental attack and/or elemental defense for 4 turns.
   }
   BT_ABI_4171:
   {
@@ -465,7 +465,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Red Bile
-    Description: Occasionally decreases the target’s elemental attack and/or elemental defense for 4 turns.
+    Description: Occasionally decreases the target's elemental attack and/or elemental defense for 4 turns.
   }
   BT_ABI_4172:
   {
@@ -477,7 +477,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Red Bile
-    Description: Occasionally decreases the target’s elemental attack and/or elemental defense for 4 turns.
+    Description: Occasionally decreases the target's elemental attack and/or elemental defense for 4 turns.
   }
   BT_ABI_4173:
   {
@@ -489,7 +489,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Viscous Bile
-    Description: Occasionally decreases the target’s elemental attack, elemental defense, and/or speed for 6 turns.
+    Description: Occasionally decreases the target's elemental attack, elemental defense, and/or speed for 6 turns.
   }
   BT_ABI_4174:
   {
@@ -501,7 +501,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Viscous Bile
-    Description: Occasionally decreases the target’s elemental attack, elemental defense, and/or speed for 6 turns.
+    Description: Occasionally decreases the target's elemental attack, elemental defense, and/or speed for 6 turns.
   }
   BT_ABI_4175:
   {
@@ -513,7 +513,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Viscous Bile
-    Description: Occasionally decreases the target’s elemental attack, elemental defense, and/or speed for 6 turns.
+    Description: Occasionally decreases the target's elemental attack, elemental defense, and/or speed for 6 turns.
   }
   BT_ABI_4176:
   {
@@ -525,7 +525,7 @@
     ModRatio: false
     Icon: Enemy
     Name: Viscous Bile
-    Description: Occasionally decreases the target’s elemental attack, elemental defense, and/or speed for 6 turns.
+    Description: Occasionally decreases the target's elemental attack, elemental defense, and/or speed for 6 turns.
   }
   BT_ABI_4177:
   {
@@ -1977,7 +1977,7 @@
     ModRatio: true
     Icon: Physical
     Name: Striking Sword Dance
-    Description: Augment a single, random ally’s physical attack for 2 turns.
+    Description: Augment a single, random ally's physical attack for 2 turns.
   }
   BT_ABI_4298:
   {
@@ -1989,7 +1989,7 @@
     ModRatio: true
     Icon: Physical
     Name: Striking Sword Dance
-    Description: Augment a single, random ally’s physical attack for 2 turns.
+    Description: Augment a single, random ally's physical attack for 2 turns.
   }
   BT_ABI_4299:
   {
@@ -2001,7 +2001,7 @@
     ModRatio: true
     Icon: Physical
     Name: Striking Sword Dance
-    Description: Augment a single, random ally’s physical attack for 2 turns.
+    Description: Augment a single, random ally's physical attack for 2 turns.
   }
   BT_ABI_4300:
   {
@@ -2013,7 +2013,7 @@
     ModRatio: true
     Icon: Physical
     Name: Striking Sword Dance
-    Description: Augment a single, random ally’s physical attack for 2 turns.
+    Description: Augment a single, random ally's physical attack for 2 turns.
   }
   BT_ABI_4301:
   {
@@ -2025,7 +2025,7 @@
     ModRatio: true
     Icon: Physical
     Name: Swordwall Dance
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4302:
   {
@@ -2037,7 +2037,7 @@
     ModRatio: true
     Icon: Physical
     Name: Swordwall Dance
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4303:
   {
@@ -2049,7 +2049,7 @@
     ModRatio: true
     Icon: Physical
     Name: Swordwall Dance
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4304:
   {
@@ -2061,7 +2061,7 @@
     ModRatio: true
     Icon: Physical
     Name: Swordwall Dance
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4305:
   {
@@ -2073,7 +2073,7 @@
     ModRatio: true
     Icon: Physical
     Name: Bulwark Axe
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4306:
   {
@@ -2085,7 +2085,7 @@
     ModRatio: true
     Icon: Physical
     Name: Bulwark Axe
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4307:
   {
@@ -2097,7 +2097,7 @@
     ModRatio: true
     Icon: Physical
     Name: Bulwark Axe
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4308:
   {
@@ -2109,7 +2109,7 @@
     ModRatio: true
     Icon: Physical
     Name: Bulwark Axe
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4309:
   {
@@ -2265,7 +2265,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
-    Description: Augment a single, random ally’s elemental defense for 2 turns.
+    Description: Augment a single, random ally's elemental defense for 2 turns.
   }
   BT_ABI_4322:
   {
@@ -2277,7 +2277,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
-    Description: Augment a single, random ally’s elemental defense for 2 turns.
+    Description: Augment a single, random ally's elemental defense for 2 turns.
   }
   BT_ABI_4323:
   {
@@ -2289,7 +2289,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
-    Description: Augment a single, random ally’s elemental defense for 2 turns.
+    Description: Augment a single, random ally's elemental defense for 2 turns.
   }
   BT_ABI_4324:
   {
@@ -2301,7 +2301,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Blessed Spear
-    Description: Augment a single, random ally’s elemental defense for 2 turns.
+    Description: Augment a single, random ally's elemental defense for 2 turns.
   }
   BT_ABI_4325:
   {
@@ -2505,7 +2505,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
-    Description: Augment a single, random ally’s speed for 2 turns.
+    Description: Augment a single, random ally's speed for 2 turns.
   }
   BT_ABI_4342:
   {
@@ -2517,7 +2517,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
-    Description: Augment a single, random ally’s speed for 2 turns.
+    Description: Augment a single, random ally's speed for 2 turns.
   }
   BT_ABI_4343:
   {
@@ -2529,7 +2529,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
-    Description: Augment a single, random ally’s speed for 2 turns.
+    Description: Augment a single, random ally's speed for 2 turns.
   }
   BT_ABI_4344:
   {
@@ -2541,7 +2541,7 @@
     ModRatio: true
     Icon: Physical
     Name: Double Rapid Staff Dance
-    Description: Augment a single, random ally’s speed for 2 turns.
+    Description: Augment a single, random ally's speed for 2 turns.
   }
   BT_ABI_4345:
   {
@@ -2697,7 +2697,7 @@
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4358:
   {
@@ -2709,7 +2709,7 @@
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4359:
   {
@@ -2721,7 +2721,7 @@
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4360:
   {
@@ -2733,7 +2733,7 @@
     ModRatio: true
     Icon: Magic
     Name: Warding Thunder
-    Description: Augment a single, random ally’s physical defense for 2 turns.
+    Description: Augment a single, random ally's physical defense for 2 turns.
   }
   BT_ABI_4365:
   {
@@ -3033,7 +3033,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally’s Physical Defense for 2 turns and grants 1 Counter buff.
+    Description: Augments a single, random ally's Physical Defense for 2 turns and grants 1 Counter buff.
   }
   BT_ABI_4394:
   {
@@ -3045,7 +3045,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally’s Physical Defense for 2 turns and grants 2 Counter buffs.
+    Description: Augments a single, random ally's Physical Defense for 2 turns and grants 2 Counter buffs.
   }
   BT_ABI_4395:
   {
@@ -3057,7 +3057,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally’s Physical Defense for 2 turns and grants 3 Counter buffs.
+    Description: Augments a single, random ally's Physical Defense for 2 turns and grants 3 Counter buffs.
   }
   BT_ABI_4396:
   {
@@ -3069,7 +3069,7 @@
     ModRatio: false
     Icon: Status
     Name: Retaliative Posture
-    Description: Augments a single, random ally’s Physical Defense for 2 turns and grants 4 Counter buffs.
+    Description: Augments a single, random ally's Physical Defense for 2 turns and grants 4 Counter buffs.
   }
   BT_ABI_4397:
   {
@@ -3177,7 +3177,7 @@
     ModRatio: true
     Icon: Heal
     Name: Millennial Frond
-    Description: Restores a large amount of HP to a single ally and augments that ally’s physical attack and elemental attack for 2 turns.
+    Description: Restores a large amount of HP to a single ally and augments that ally's physical attack and elemental attack for 2 turns.
   }
   BT_ABI_4410:
   {
@@ -3189,7 +3189,7 @@
     ModRatio: true
     Icon: Heal
     Name: Millennial Frond
-    Description: Restores a large amount of HP to a single ally and augments that ally’s physical attack and elemental attack for 2 turns.
+    Description: Restores a large amount of HP to a single ally and augments that ally's physical attack and elemental attack for 2 turns.
   }
   BT_ABI_4411:
   {
@@ -3201,7 +3201,7 @@
     ModRatio: true
     Icon: Heal
     Name: Millennial Frond
-    Description: Restores a large amount of HP to a single ally and augments that ally’s physical attack and elemental attack for 2 turns.
+    Description: Restores a large amount of HP to a single ally and augments that ally's physical attack and elemental attack for 2 turns.
   }
   BT_ABI_4412:
   {
@@ -3213,7 +3213,7 @@
     ModRatio: true
     Icon: Heal
     Name: Millennial Frond
-    Description: Restores a large amount of HP to a single ally and augments that ally’s physical attack and elemental attack for 2 turns.
+    Description: Restores a large amount of HP to a single ally and augments that ally's physical attack and elemental attack for 2 turns.
   }
   BT_ABI_4413:
   {
@@ -3225,7 +3225,7 @@
     ModRatio: true
     Icon: Physical
     Name: Convincing Blow
-    Description: Augment a single, random ally’s critical rate for 2 turns
+    Description: Augment a single, random ally's critical rate for 2 turns
   }
   BT_ABI_4414:
   {
@@ -3237,7 +3237,7 @@
     ModRatio: true
     Icon: Physical
     Name: Convincing Blow
-    Description: Augment a single, random ally’s critical rate for 2 turns
+    Description: Augment a single, random ally's critical rate for 2 turns
   }
   BT_ABI_4415:
   {
@@ -3249,7 +3249,7 @@
     ModRatio: true
     Icon: Physical
     Name: Convincing Blow
-    Description: Augment a single, random ally’s critical rate for 2 turns
+    Description: Augment a single, random ally's critical rate for 2 turns
   }
   BT_ABI_4416:
   {
@@ -3261,7 +3261,7 @@
     ModRatio: true
     Icon: Physical
     Name: Convincing Blow
-    Description: Augment a single, random ally’s critical rate for 2 turns
+    Description: Augment a single, random ally's critical rate for 2 turns
   }
   BT_ABI_4417:
   {
