@@ -234,7 +234,9 @@ class ABILITIES:
             break
 
         # SHUFFLE SETS SO DIVINE SKILLS CAN END UP ANYWHERE
-        for i in range(8):
+        slots = ["JOB00_ABI_02"] + [f'JOB00_ABI_0{j}' for j in range(4, 9)] # MERCHANT FIRST, 2-8 skipping 3
+        self.shuffleWithinJob(slots)
+        for i in range(1,8):
             slots = [f'JOB0{i}_ABI_0{j}' for j in range(3, 9)]
             self.shuffleWithinJob(slots)
         for i in range(8, 12):
@@ -254,6 +256,7 @@ class ABILITIES:
                     self.abilityData.patchWeapon(ability, setData['Swap']['Weapon'])
                     self.abilityData.patchPhysicalDetail(ability, oldWeapon, newWeapon)
 
+
     def getCompatibleCapture(self, slot, candidates):
         weights = []
         weapon = self.sets[slot]['Weapon']
@@ -262,6 +265,8 @@ class ABILITIES:
             candWeap = self.capture[candidate]['Weapon']
             candElem = self.capture[candidate]['Element']
             boolVal = weapon == candWeap and element == candElem
+            if candidate in ['INVADE_ABI_129', 'INVADE_ABI_130', 'INVADE_ABI_131']:
+                boolVal *= random.random() < 0.03
             weights.append(boolVal)
         if any(weights):
             return random.choices(candidates, weights)[0]
@@ -269,10 +274,28 @@ class ABILITIES:
             return None
                     
     def randomCaptureSkills(self):
+        # Generate list of available slots. Don't allow some of them.
+        dontAllow = [
+            'BT_ABI_025', # Hired Help
+            'BT_ABI_313', # Nightmare Chimera
+            'BT_ABI_021', # Sidestep
+            'BT_ABI_121', # Leghold Trap
+            'BT_ABI_421', # Transfer Rune
+            ## Divines
+            'BT_ABI_029','BT_ABI_065','BT_ABI_101','BT_ABI_137',
+            'BT_ABI_173','BT_ABI_209','BT_ABI_245','BT_ABI_281',
+            'BT_ABI_317','BT_ABI_353','BT_ABI_389','BT_ABI_425',
+        ]
+        keys = []
+        for key in self.sets:
+            name = self.abilitySets.getAbilityNames(key)[0]
+            if name in dontAllow:
+                continue
+            keys.append(key)
+        random.shuffle(keys)
+        
         # Loop over all keys rather than sample a set of keys.
         # It **might** be possible to have no candidates for a slot.
-        keys = list(self.sets.keys())
-        random.shuffle(keys)
         candidates = list(self.capture.keys())
         swaps = {}
         count = random.randrange(8, 17)
@@ -280,8 +303,6 @@ class ABILITIES:
             slot = keys.pop()
             # Cannot overwrite Hired Help or Nightmare Chimera due to UI
             abilityName = self.abilitySets.getAbilityNames(slot)[0]
-            if abilityName == 'BT_ABI_025' or abilityName == 'BT_ABI_313':
-                continue
             # Get and store suitable candidate
             candidate = self.getCompatibleCapture(slot, candidates)
             if candidate:
@@ -289,6 +310,24 @@ class ABILITIES:
                 candidates.remove(candidate)
                 count -= 1
 
+            ## CAIT KEYS -- only allow 1
+            # INVADE_ABI_129: Luck
+            # INVADE_ABI_130: Deluxe
+            # INVADE_ABI_131: Supreme
+            if candidate == "INVADE_ABI_129":
+                candidates.remove("INVADE_ABI_130")
+                candidates.remove("INVADE_ABI_131")
+            if candidate == "INVADE_ABI_130":
+                candidates.remove("INVADE_ABI_129")
+                candidates.remove("INVADE_ABI_131")
+            if candidate == "INVADE_ABI_131":
+                candidates.remove("INVADE_ABI_129")
+                candidates.remove("INVADE_ABI_130")
+
+            # Stop if no keys are left
+            if not keys:
+                break
+            
         # Update ability data rather than set to preserve skills from H'aanit's Capture
         for slot, candidate in swaps.items():
             # Menu Icons
