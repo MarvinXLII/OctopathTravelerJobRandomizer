@@ -148,8 +148,19 @@ class ABILITIES:
 
     def shuffleJobAbilities(self):
         # Build lists of set keys
-        initSets = [f"JOB0{i}_ABI_0{j}" for i in range(8) for j in range(1,3)]
-        baseSets = [f"JOB0{i}_ABI_0{j}" for i in range(8) for j in range(3,9)]
+        initSets = [
+            "JOB00_ABI_01","JOB00_ABI_03", # Merchant (*01 and *03!)
+            "JOB01_ABI_01","JOB01_ABI_02", # Thief
+            "JOB02_ABI_01","JOB02_ABI_02", # Warrior
+            "JOB03_ABI_01","JOB03_ABI_02", # Hunter
+            "JOB04_ABI_01","JOB04_ABI_02", # Cleric
+            "JOB05_ABI_01","JOB05_ABI_02", # Dancer
+            "JOB06_ABI_01","JOB06_ABI_02", # Scholar
+            "JOB07_ABI_01","JOB07_ABI_02", # Apothecary
+        ]
+        # initSets = [f"JOB0{i}_ABI_0{j}" for i in range(8) for j in range(1,3)]
+        baseSets = [f"JOB0{i}_ABI_0{j}" for i in range(8) for j in range(1,9)]
+        baseSets = sorted(set(baseSets).difference(initSets))
         divineBaseSets = [f"JOB0{i}_ABI_08" for i in range(8)]
         advancedSets = []
         divineAdvancedSets = []
@@ -359,6 +370,8 @@ class ABILITIES:
                 
                 x = str(i).rjust(2,'0')
                 keys = [f"JOB{x}_ABI_0{j}" for j in range(1,9)]
+                if i == 0: # Merchant (ensure first to skills listed are the initial skills!) 
+                    keys[1], keys[2] = keys[2], keys[1]
                 for key in keys:
                     ability = self.abilitySets.getAbilityNames(key)[0]
                     name = self.abilityData.getDisplay(ability)
