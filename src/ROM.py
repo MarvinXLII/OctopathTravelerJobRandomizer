@@ -184,7 +184,11 @@ class ROM:
     def getBaseDir(self):
         fileNames = list(filter(lambda key: self.isPatched[key], self.data.keys()))
         comDir = os.path.dirname(os.path.commonprefix(fileNames))
-        return self.baseDir+comDir+'/', comDir+'/'
+        if not comDir:
+            return self.baseDir, comDir
+        if comDir[-1] != '/':
+            comDir += '/'
+        return self.baseDir+comDir, comDir
     
     def buildPak(self, output):
         pakFile = bytearray([]) # This points to data entries
@@ -203,7 +207,10 @@ class ROM:
                 continue
             base = len(pakData)
             # Filename (relative to the new base directory)
-            tmpDir = key.split(comDir)[-1]
+            if comDir:
+                tmpDir = key.split(comDir)[-1]
+            else:
+                tmpDir = key
             fileName = self.pakString(tmpDir)
             size = len(fileName)
             pakFile += self.pakInt(size)
@@ -271,9 +278,3 @@ class ROM:
 #         with open(fileName, 'wb') as f:
 #             f.write(data)
 
-#     rom = ROM(pak)
-#     fileName = 'Kingship/DevelopmentAssetRegistry.bin'
-#     # fileName = 'Engine/Config/Base.ini'
-#     data = rom.extractFile(fileName)
-#     rom.isPatched[fileName] = True
-#     rom.buildPak('TEST.pak')
