@@ -1,7 +1,7 @@
 ## ABOUT
 
-This is a randomizer for Octopath Traveler (Steam and Switch versions). If playing on Steam, be sure to check out 
-mastermind1919's [Boss Randomizer](https://github.com/mastermind1919/OctopathBossRandomizer/releases)! (not compatible with Switch)
+This is a randomizer for Octopath Traveler (Steam and Switch versions). Be sure to check out 
+mastermind1919's [Boss Randomizer](https://github.com/mastermind1919/OctopathBossRandomizer/releases) (Steam only) and my forked [Boss Randomizer](https://github.com/MarvinXLII/OctopathBossRandomizer/releases) (compatible with Swtich!) while you're at it!
 
 ## OPTIONS
 
