@@ -41,7 +41,7 @@ location.
 Load the `Paks` folder found in `RomFS\Octopath Traveler
 v262144....`. When the randomizer is finished, copy the `romfs` from
 the new `seed_###` folder onto your SD card (e.g. on the latest
-versions of atmosphere, `atmosphere\content\titleID\`).
+versions of atmosphere, `atmosphere\contents\titleID\`).
 
 #### Code
 
